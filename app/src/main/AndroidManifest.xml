@@ -53,7 +53,8 @@
             android:name=".AcercaDeActivity"
             android:label="Acerca de ..."
             android:theme="@style/Theme.AppCompat.Light.Dialog"/>
-
+        <activity android:name=".LogOutActivity"
+            android:label="Cerrar sesión"/>
 
     </application>
 
