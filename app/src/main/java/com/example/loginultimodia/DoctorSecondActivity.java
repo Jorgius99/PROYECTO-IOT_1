@@ -13,7 +13,7 @@ import androidx.viewpager.widget.ViewPager;
 import com.example.loginultimodia.ControladorDoctor.PagerControler;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
-
+//blaaaaa
 public class DoctorSecondActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager viewPager;
