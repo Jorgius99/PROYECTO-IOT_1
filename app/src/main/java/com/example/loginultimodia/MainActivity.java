@@ -22,22 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
     private Button bAcercaDe;
 
-    Button btnLogOut;
+    //MenuItem btnLogOut;
     FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        btnLogOut = findViewById(R.id.btnLogout);
-        mAuth = FirebaseAuth.getInstance();
-
-        btnLogOut.setOnClickListener(view ->{
-            mAuth.signOut();
-            startActivity(new Intent(MainActivity.this, LoginActivity.class));
-        });
-
     }
 
 
@@ -60,12 +51,28 @@ public class MainActivity extends AppCompatActivity {
             lanzarAcercaDe(null);
             return true;
         }
+        if (id == R.id.btnLogout){
+            lanzarLogOut(null);
+            return true;
 
+        }
+
+       /* btnLogOut = R.id.btnLogout;
+        mAuth = FirebaseAuth.getInstance();
+
+        R.id.btnLogout.setOnClickListener(view ->{
+            mAuth.signOut();
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        });*/
 
         return super.onOptionsItemSelected(item);
     }
     public void lanzarAcercaDe(View view){
         Intent i = new Intent(this, AcercaDeActivity.class);
+        startActivity(i);
+    }
+    public void lanzarLogOut(View view){
+        Intent i = new Intent(this, LogOutActivity.class);
         startActivity(i);
     }
 

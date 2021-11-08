@@ -80,6 +80,10 @@ public class SecondActivity extends AppCompatActivity {
             lanzarAcercaDe(null);
             return true;
         }
+        if (id == R.id.btnLogout){
+            lanzarLogOut(null);
+            return true;
+        }
 
 
         return super.onOptionsItemSelected(item);
@@ -88,5 +92,8 @@ public class SecondActivity extends AppCompatActivity {
         Intent i = new Intent(this, AcercaDeActivity.class);
         startActivity(i);
     }
-
+    public void lanzarLogOut(View view) {
+        Intent i = new Intent(this, LogOutActivity.class);
+        startActivity(i);
+    }
 }
