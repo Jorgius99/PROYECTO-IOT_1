@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -19,12 +20,15 @@ public class SecondActivity extends AppCompatActivity {
     ViewPager viewPager;
     TabItem tab1, tab2, tab3;
     PagerControler pagerAdapter;
+    //Button tvRegisterHere;
+    //Button tvRegisterHere;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabmain);
         tabLayout = findViewById(R.id.tablayout);
         viewPager = findViewById(R.id.viewpager);
+        //tvRegisterHere = findViewById(R.id.tvRegisterHeress);//aquiiiiiiiiiiiiiiiiiiii
 
         tab1 = findViewById(R.id.tabavisos);
         tab2 = findViewById(R.id.tabhabitacion);
@@ -59,6 +63,13 @@ public class SecondActivity extends AppCompatActivity {
                 }
             });
             viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+
+        // tvRegisterHere.setOnClickListener(view -> {
+        //   startActivity(new Intent(SecondActivity.this, RegisterActivity.class));
+        //  });
+
+
+
     }
 
     @Override

@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.firebase.auth.ActionCodeSettings;
@@ -21,14 +22,23 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
     private Button bAcercaDe;
+    //TextView tvRegisterHere;//aquiiiiiiiiiiiiiiiiiiii
 
     //MenuItem btnLogOut;
     FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //tvRegisterHere = findViewById(R.id.textView16);//aquiiiiiiiiiiiiiiiiiiii
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+/*
+        tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+        });
+        */
+
     }
 
 
