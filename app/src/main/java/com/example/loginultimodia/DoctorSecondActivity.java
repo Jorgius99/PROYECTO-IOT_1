@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -13,11 +16,15 @@ import androidx.viewpager.widget.ViewPager;
 import com.example.loginultimodia.ControladorDoctor.PagerControler;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
-//blaaaaa
+//holaaaaaaaaaaaaaaaaaaaaaaaaa
 public class DoctorSecondActivity extends AppCompatActivity {
+    //Button tvRegisterHere;//aquiiiiiiiiiiiiiiiiiiii
+    //TextView tvRegisterHere;//aquiiiiiiiiiiiiiiiiiiii
     TabLayout tabLayout;
     ViewPager viewPager;
     TabItem tab1, tab2, tab3;
+    //Button  nuevooo;
+
     PagerControler pagerAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +32,8 @@ public class DoctorSecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tabmain);
         tabLayout = findViewById(R.id.tablayout);
         viewPager = findViewById(R.id.viewpager);
+        //tvRegisterHere = findViewById(R.id.tvRegisterHeress);//aquiiiiiiiiiiiiiiiiiiii
+        //nuevooo = findViewById(R.id.tvRegisterHeress);
 
         tab1 = findViewById(R.id.tabavisos);
         tab2 = findViewById(R.id.tabhabitacion);
@@ -59,7 +68,27 @@ public class DoctorSecondActivity extends AppCompatActivity {
                 }
             });
             viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+
+
+
+
+
+
+
+
+/*
+        nuevooo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DoctorSecondActivity.this, RegisterActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+*/
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

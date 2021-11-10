@@ -1,14 +1,20 @@
 package com.example.loginultimodia.ControladorDoctor;
 
+import static com.firebase.ui.auth.AuthUI.getApplicationContext;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.loginultimodia.DoctorSecondActivity;
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.RegisterActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -57,7 +63,18 @@ public class Habitaciones extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_doctor_habitaciones, container, false);
+        View v = inflater.inflate(R.layout.fragment_doctor_habitaciones, container, false);
+         Button tvRegisterHere = v.findViewById(R.id.tvRegisterHeress);
+
+        tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), RegisterActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+
+        });
+        return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
+
     }
+
 }

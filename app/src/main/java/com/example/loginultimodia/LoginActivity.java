@@ -4,7 +4,6 @@ package com.example.loginultimodia;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,7 +25,8 @@ public class LoginActivity extends AppCompatActivity {
 
     TextInputEditText etLoginEmail;
     TextInputEditText etLoginPassword;
-    TextView tvRegisterHere, olvidasteContrasena;
+    //TextView tvRegisterHere;//aquiiiiiiiiiiiiiiiiiiii
+    Button  olvidasteContrasena;
     Button btnLogin;
 
     FirebaseAuth mAuth;
@@ -38,17 +38,21 @@ public class LoginActivity extends AppCompatActivity {
         olvidasteContrasena = findViewById(R.id.olvidasteContra);
         etLoginEmail = findViewById(R.id.etLoginEmail);
         etLoginPassword = findViewById(R.id.etLoginPass);
-        tvRegisterHere = findViewById(R.id.tvRegisterHere);
+        //tvRegisterHere = findViewById(R.id.texttt);//aquiiiiiiiiiiiiiiiiiiii
         btnLogin = findViewById(R.id.btnLogin);
+
 
         mAuth = FirebaseAuth.getInstance();
 
         btnLogin.setOnClickListener(view -> {
             loginUser();
         });
-        tvRegisterHere.setOnClickListener(view -> {
+/*
+   tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
         });
+*/
+
 
 
         olvidasteContrasena.setOnClickListener(new View.OnClickListener() {
