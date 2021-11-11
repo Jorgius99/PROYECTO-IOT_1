@@ -72,7 +72,7 @@ public class Dosis extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
-        Button g=v.findViewById(R.id.button2);
+        Button g = v.findViewById(R.id.button2);
 
         g.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), HabitacionesActivity.class));
