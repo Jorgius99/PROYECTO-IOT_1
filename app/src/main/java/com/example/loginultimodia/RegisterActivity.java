@@ -46,7 +46,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
         tvLoginHere.setOnClickListener(view ->{
-            startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+            startActivity(new Intent(RegisterActivity.this, DoctorSecondActivity.class));
         });
     }
 
