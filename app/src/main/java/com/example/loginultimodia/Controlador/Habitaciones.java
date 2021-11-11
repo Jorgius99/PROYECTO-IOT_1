@@ -1,12 +1,15 @@
 package com.example.loginultimodia.Controlador;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.loginultimodia.HabitacionesActivity;
 import com.example.loginultimodia.R;
 
 /**
@@ -62,4 +65,6 @@ public class Habitaciones extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_habitaciones, container, false);
     }
+
+
 }

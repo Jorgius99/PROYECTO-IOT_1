@@ -1,12 +1,15 @@
 package com.example.loginultimodia.ControladorDoctor;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.loginultimodia.HabitacionesActivity;
 import com.example.loginultimodia.R;
 
 /**
@@ -55,11 +58,36 @@ public class Dosis extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
+/*
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
     }
+    */
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+        Button g=v.findViewById(R.id.button2);
+
+        g.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), HabitacionesActivity.class));
+          //  t.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+             //   startActivity(new Intent(getContext(), HabitacionesActivity.class));
+
+        });
+        return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
+
+    }
+
+
+
+
+
+
+
 }
