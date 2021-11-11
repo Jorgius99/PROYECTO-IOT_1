@@ -18,12 +18,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:textColor="@color/teal_700"
+            android:layout_marginVertical="16dp"
             android:gravity="center_horizontal"
-            android:layout_marginVertical="16dp"/>
+            android:text="Crear Paciente"
+            android:textColor="@color/teal_700"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
 
         <com.google.android.material.textfield.TextInputLayout
@@ -85,7 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Register" />
+            android:text="Enviar" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -95,20 +95,14 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Already registered"
-                android:textSize="16sp"/>
-
-            <TextView
                 android:id="@+id/tvLoginHere"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:text="Login here"
+                android:text="Volver"
                 android:textColor="@color/teal_700"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

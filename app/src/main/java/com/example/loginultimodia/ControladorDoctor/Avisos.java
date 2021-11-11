@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.loginultimodia.AvisosActivity;
 import com.example.loginultimodia.R;
 import com.example.loginultimodia.RegisterActivity;
 
@@ -67,15 +68,15 @@ public class Avisos extends Fragment {
                              Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_doctor_avisos, container, false);
-        ImageButton tvRegisterHere = v.findViewById(R.id.imageButton);
+        View h = inflater.inflate(R.layout.fragment_doctor_avisos, container, false);
+        ImageButton tvRegisterHere = h.findViewById(R.id.imageButton);
 
         tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), RegisterActivity.class));
+            startActivity(new Intent(getContext(), AvisosActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
 
         });
-        return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
+        return h;//------------------------------------------------------- ud 2 ultimo punto getContext()
 
     }
 
