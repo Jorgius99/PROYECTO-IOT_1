@@ -3,11 +3,13 @@ package com.example.loginultimodia.ControladorDoctor;
 import static com.firebase.ui.auth.AuthUI.getApplicationContext;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
@@ -66,7 +68,7 @@ public class Habitaciones extends Fragment {
 
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_doctor_habitaciones, container, false);
-         Button tvRegisterHere = v.findViewById(R.id.tvRegisterHeress);
+         ImageButton tvRegisterHere = v.findViewById(R.id.imageView5);
 
         tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), RegisterActivity.class));
