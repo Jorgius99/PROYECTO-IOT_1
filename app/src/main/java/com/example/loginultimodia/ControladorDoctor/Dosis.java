@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.loginultimodia.AvisosActivity;
 import com.example.loginultimodia.HabitacionesActivity;
 import com.example.loginultimodia.R;
 
@@ -72,13 +73,30 @@ public class Dosis extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
-        Button g = v.findViewById(R.id.button2);
 
-        g.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), HabitacionesActivity.class));
-          //  t.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-             //   startActivity(new Intent(getContext(), HabitacionesActivity.class));
 
+        View botonHab1 = v.findViewById(R.id.dosis1);
+        botonHab1.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), AvisosActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+        });
+
+        View botonHab2 = v.findViewById(R.id.dosis2);
+        botonHab2.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), AvisosActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+        });
+
+        View botonHab3 = v.findViewById(R.id.dosis3);
+        botonHab3.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), AvisosActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+        });
+
+        View botonHab4 = v.findViewById(R.id.dosis4);
+        botonHab4.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), AvisosActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
         return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
 
@@ -88,6 +106,4 @@ public class Dosis extends Fragment {
 
 
 
-
-
-}
+    }

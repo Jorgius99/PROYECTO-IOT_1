@@ -1,20 +1,14 @@
 package com.example.loginultimodia.ControladorDoctor;
 
-import static com.firebase.ui.auth.AuthUI.getApplicationContext;
-
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.loginultimodia.DoctorSecondActivity;
 import com.example.loginultimodia.HabitacionesActivity;
 import com.example.loginultimodia.R;
 import com.example.loginultimodia.RegisterActivity;
@@ -76,25 +70,25 @@ public class Habitaciones extends Fragment {
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
 
-        View botonHab1 = v.findViewById(R.id.botonHab);
+        View botonHab1 = v.findViewById(R.id.dosis1);
         botonHab1.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), HabitacionesActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
 
-        View botonHab2 = v.findViewById(R.id.bloque3);
+        View botonHab2 = v.findViewById(R.id.dosis2);
         botonHab2.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), HabitacionesActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
 
-        View botonHab3 = v.findViewById(R.id.bloque2);
+        View botonHab3 = v.findViewById(R.id.dosis3);
         botonHab3.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), HabitacionesActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
 
-        View botonHab4 = v.findViewById(R.id.bloque1);
+        View botonHab4 = v.findViewById(R.id.dosis4);
         botonHab4.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), HabitacionesActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();

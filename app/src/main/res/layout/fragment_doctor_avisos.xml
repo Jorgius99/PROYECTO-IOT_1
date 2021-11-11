@@ -33,7 +33,7 @@
             android:layout_height="match_parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/bloque2"
+                android:id="@+id/dosis3"
                 android:layout_width="399dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="30dp"
@@ -71,7 +71,7 @@
             android:layout_height="match_parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/bloque3"
+                android:id="@+id/dosis2"
                 android:layout_width="399dp"
                 android:layout_height="54dp"
                 android:layout_marginTop="30dp"
@@ -151,7 +151,7 @@
             android:layout_height="match_parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/bloque1"
+                android:id="@+id/dosis4"
                 android:layout_width="369dp"
                 android:layout_height="58dp"
                 android:layout_marginTop="30dp"

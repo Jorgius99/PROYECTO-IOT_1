@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/bloque3"
+            android:id="@+id/dosis2"
             android:layout_width="175dp"
             android:layout_height="125dp"
             android:background="#0C3688"
@@ -78,7 +78,7 @@
                 app:layout_constraintVertical_bias="0.959" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/bloque2"
+            android:id="@+id/dosis3"
             android:layout_width="172dp"
             android:layout_height="124dp"
             android:background="#0C3688"
@@ -112,7 +112,7 @@
                 app:layout_constraintVertical_bias="1.0" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/botonHab"
+            android:id="@+id/dosis1"
             android:layout_width="175dp"
             android:layout_height="125dp"
             android:background="#0C3688"
@@ -148,7 +148,7 @@
                 app:layout_constraintVertical_bias="1.0" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/bloque1"
+            android:id="@+id/dosis4"
             android:layout_width="175dp"
             android:layout_height="125dp"
             android:background="#0C3688"
