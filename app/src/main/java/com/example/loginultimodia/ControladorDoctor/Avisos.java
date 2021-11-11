@@ -1,13 +1,16 @@
 package com.example.loginultimodia.ControladorDoctor;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import androidx.fragment.app.Fragment;
 
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.RegisterActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -56,10 +59,24 @@ public class Avisos extends Fragment {
         }
     }
 
+
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_doctor_avisos, container, false);
+        View v = inflater.inflate(R.layout.fragment_doctor_avisos, container, false);
+        ImageButton tvRegisterHere = v.findViewById(R.id.imageButton);
+
+        tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), RegisterActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+
+        });
+        return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
+
     }
+
 }
