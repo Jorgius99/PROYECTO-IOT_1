@@ -116,7 +116,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/bloque5"
+            android:id="@+id/botonHab"
             android:layout_width="175dp"
             android:layout_height="125dp"
             android:background="#0C3688"
