@@ -26,9 +26,15 @@
         <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/activity_tabmain.xml" value="0.161231884057971" />
         <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/cuestionario_habs.xml" value="0.161231884057971" />
         <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/cuestionario_pastillas.xml" value="0.176" />
+        <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/elemento_notificacion.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/elemento_reciclar.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/fragment_avisos.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/fragment_doctor_avisos.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/fragment_doctor_dosis.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/fragment_doctor_habitaciones.xml" value="0.161231884057971" />
         <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/fragment_dosis.xml" value="0.161231884057971" />
         <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/fragment_habitaciones.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/layout/recycled_view.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Usuario/OneDrive - UPV/SEGUNDO/PROYECTO-IOT/PROYECTOIOT/PROYECTO-IOT_1/PROYECTO-IOT_1/app/src/main/res/menu/menu_main.xml" value="0.27447916666666666" />
       </map>
     </option>

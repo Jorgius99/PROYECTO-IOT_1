@@ -1,12 +1,19 @@
 package com.example.loginultimodia;
 
+import java.util.Date;
+
 public class Aviso {
 
     private String motivo;
-    private String fechaHora;
+    private Date fechaHora;
     private String prioridad;
 
-    public Aviso(String motiv, String fecha, String prior){
+    public Aviso (){
+        this.motivo="Jorge es bobo";
+        this.fechaHora= new Date();
+        this.prioridad="";
+    }
+    public Aviso(String motiv, Date fecha, String prior){
         this.motivo=motiv;
         this.fechaHora=fecha;
         this.prioridad=prior;
@@ -21,12 +28,12 @@ public class Aviso {
         return prioridad;
     }
 
-    public String getFechaHora() {
+    public Date getFechaHora() {
         return fechaHora;
     }
 
     //-------------------------SETTERS---------------------------------
-    public void setFechaHora(String fechaHora) {
+    public void setFechaHora(Date fechaHora) {
         this.fechaHora = fechaHora;
     }
 

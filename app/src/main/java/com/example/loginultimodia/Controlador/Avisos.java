@@ -6,8 +6,15 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.loginultimodia.AdaptadorAvisos;
+import com.example.loginultimodia.Aviso;
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.databinding.FragmentAvisosBinding;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -15,7 +22,8 @@ import com.example.loginultimodia.R;
  * create an instance of this fragment.
  */
 public class Avisos extends Fragment {
-
+    private FragmentAvisosBinding binding; //si no está
+    public static AdaptadorAvisos adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -59,7 +67,29 @@ public class Avisos extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        binding = FragmentAvisosBinding.inflate(getLayoutInflater());
+        Query query = FirebaseFirestore.getInstance()
+                .collection("avisos")
+                .limit(50);
+        FirestoreRecyclerOptions<Aviso> opciones = new FirestoreRecyclerOptions
+                .Builder<Aviso>().setQuery(query, Aviso.class).build();
+        adaptador = new AdaptadorAvisos(opciones, getContext());
+        System.out.println(getContext());
+        binding.recyclerView.setAdapter(adaptador);
+        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_avisos, container, false);
+           return binding.getRoot();
     }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        adaptador.startListening();
+    }
+    @Override
+    public void onStop() {
+        super.onStop();
+        adaptador.stopListening();
+    }
+
 }
