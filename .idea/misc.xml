@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AllProyectos/PROYECTO-IOT_1/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/AllProyectos/PROYECTO-IOT_1/app/src/main/res/layout/cuestionario_avisos.xml" value="0.22" />
         <entry key="..\:/AllProyectos/PROYECTO-IOT_1/app/src/main/res/layout/cuestionario_habs.xml" value="0.14583333333333334" />
-        <entry key="..\:/AllProyectos/PROYECTO-IOT_1/app/src/main/res/layout/cuestionario_pastillas.xml" value="0.5" />
+        <entry key="..\:/AllProyectos/PROYECTO-IOT_1/app/src/main/res/layout/cuestionario_pastillas.xml" value="0.16666666666666666" />
         <entry key="..\:/AllProyectos/PROYECTO-IOT_1/app/src/main/res/layout/elemento_aviso.xml" value="0.14583333333333334" />
         <entry key="..\:/AllProyectos/PROYECTO-IOT_1/app/src/main/res/layout/fragment_avisos.xml" value="0.14583333333333334" />
         <entry key="..\:/AllProyectos/PROYECTO-IOT_1/app/src/main/res/layout/fragment_doctor_avisos.xml" value="0.16666666666666666" />

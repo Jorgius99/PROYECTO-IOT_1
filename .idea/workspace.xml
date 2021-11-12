@@ -10,21 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5565b54-c542-4573-b0c9-7753155b9cb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/DosisActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/MasDosisActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/AvisosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/AvisosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/ControladorDoctor/Avisos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/ControladorDoctor/Avisos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/ControladorDoctor/Dosis.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/ControladorDoctor/Dosis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/ControladorDoctor/Habitaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia/ControladorDoctor/Habitaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cuestionario_avisos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cuestionario_avisos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cuestionario_habs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cuestionario_pastillas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cuestionario_pastillas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_doctor_avisos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_doctor_avisos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_doctor_dosis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_doctor_dosis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_doctor_habitaciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_doctor_habitaciones.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/elemento_aviso.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/elemento_aviso.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
