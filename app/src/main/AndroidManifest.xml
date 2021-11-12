@@ -62,6 +62,19 @@
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".DosisActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".MasDosisActivity"
+
+            android:exported="true">
+
+        </activity>
 
 
         <activity

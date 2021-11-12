@@ -69,7 +69,7 @@ public class Avisos extends Fragment {
 
         // Inflate the layout for this fragment
         View h = inflater.inflate(R.layout.fragment_doctor_avisos, container, false);
-        ImageButton tvRegisterHere = h.findViewById(R.id.imageButton);
+        View tvRegisterHere = h.findViewById(R.id.imageButton);
 
         tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), AvisosActivity.class));

@@ -64,7 +64,7 @@ public class Habitaciones extends Fragment {
         View v = inflater.inflate(R.layout.fragment_doctor_habitaciones, container, false);
 
 
-        ImageButton tvRegisterHere = v.findViewById(R.id.imageView5);
+        View tvRegisterHere = v.findViewById(R.id.imageView8);
         tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), RegisterActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
