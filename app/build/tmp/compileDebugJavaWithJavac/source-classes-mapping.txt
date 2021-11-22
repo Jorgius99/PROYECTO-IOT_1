@@ -1,0 +1,88 @@
+com/example/loginultimodia/ControladorDoctor/PagerControler.java
+ com.example.loginultimodia.ControladorDoctor.PagerControler
+com/example/loginultimodia/databinding/AcercadeBinding.java
+ com.example.loginultimodia.databinding.AcercadeBinding
+com/example/loginultimodia/Usuario.java
+ com.example.loginultimodia.Usuario
+com/example/loginultimodia/LoginActivity.java
+ com.example.loginultimodia.LoginActivity
+ com.example.loginultimodia.LoginActivity$1
+ com.example.loginultimodia.LoginActivity$2
+com/example/loginultimodia/databinding/ActivityForgotPasswordBinding.java
+ com.example.loginultimodia.databinding.ActivityForgotPasswordBinding
+com/example/loginultimodia/databinding/FragmentHabitacionesBinding.java
+ com.example.loginultimodia.databinding.FragmentHabitacionesBinding
+com/example/loginultimodia/databinding/CuestionarioAvisosBinding.java
+ com.example.loginultimodia.databinding.CuestionarioAvisosBinding
+com/example/loginultimodia/RegisterActivity.java
+ com.example.loginultimodia.RegisterActivity
+ com.example.loginultimodia.RegisterActivity$1
+com/example/loginultimodia/databinding/FragmentDosisBinding.java
+ com.example.loginultimodia.databinding.FragmentDosisBinding
+com/example/loginultimodia/HabitacionesActivity.java
+ com.example.loginultimodia.HabitacionesActivity
+com/example/loginultimodia/Controlador/Avisos.java
+ com.example.loginultimodia.Controlador.Avisos
+com/example/loginultimodia/AcercaDeActivity.java
+ com.example.loginultimodia.AcercaDeActivity
+com/example/loginultimodia/ControladorDoctor/Avisos.java
+ com.example.loginultimodia.ControladorDoctor.Avisos
+com/example/loginultimodia/Controlador/Habitaciones.java
+ com.example.loginultimodia.Controlador.Habitaciones
+com/example/loginultimodia/AdaptadorAvisos.java
+ com.example.loginultimodia.AdaptadorAvisos
+ com.example.loginultimodia.AdaptadorAvisos$ViewHolder
+com/example/loginultimodia/Habitacion.java
+ com.example.loginultimodia.Habitacion
+com/example/loginultimodia/MainActivity.java
+ com.example.loginultimodia.MainActivity
+com/example/loginultimodia/databinding/RecycledViewBinding.java
+ com.example.loginultimodia.databinding.RecycledViewBinding
+com/example/loginultimodia/Controlador/Dosis.java
+ com.example.loginultimodia.Controlador.Dosis
+com/example/loginultimodia/AvisosActivity.java
+ com.example.loginultimodia.AvisosActivity
+com/example/loginultimodia/SecondActivity.java
+ com.example.loginultimodia.SecondActivity
+ com.example.loginultimodia.SecondActivity$1
+com/example/loginultimodia/databinding/ActivityTabmainBinding.java
+ com.example.loginultimodia.databinding.ActivityTabmainBinding
+com/example/loginultimodia/DoctorSecondActivity.java
+ com.example.loginultimodia.DoctorSecondActivity
+ com.example.loginultimodia.DoctorSecondActivity$1
+com/example/loginultimodia/BuildConfig.java
+ com.example.loginultimodia.BuildConfig
+com/example/loginultimodia/LogOutActivity.java
+ com.example.loginultimodia.LogOutActivity
+com/example/loginultimodia/ControladorDoctor/Dosis.java
+ com.example.loginultimodia.ControladorDoctor.Dosis
+com/example/loginultimodia/Controlador/PagerControler.java
+ com.example.loginultimodia.Controlador.PagerControler
+com/example/loginultimodia/databinding/ElementoAvisoBinding.java
+ com.example.loginultimodia.databinding.ElementoAvisoBinding
+com/example/loginultimodia/databinding/ActivityLoginBinding.java
+ com.example.loginultimodia.databinding.ActivityLoginBinding
+com/example/loginultimodia/databinding/FragmentDoctorAvisosBinding.java
+ com.example.loginultimodia.databinding.FragmentDoctorAvisosBinding
+com/example/loginultimodia/ForgotPassword.java
+ com.example.loginultimodia.ForgotPassword
+ com.example.loginultimodia.ForgotPassword$1
+ com.example.loginultimodia.ForgotPassword$2
+com/example/loginultimodia/databinding/CuestionarioHabsBinding.java
+ com.example.loginultimodia.databinding.CuestionarioHabsBinding
+com/example/loginultimodia/ControladorDoctor/Habitaciones.java
+ com.example.loginultimodia.ControladorDoctor.Habitaciones
+com/example/loginultimodia/databinding/FragmentAvisosBinding.java
+ com.example.loginultimodia.databinding.FragmentAvisosBinding
+com/example/loginultimodia/Aviso.java
+ com.example.loginultimodia.Aviso
+com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
+ com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
+com/example/loginultimodia/databinding/CuestionarioPastillasBinding.java
+ com.example.loginultimodia.databinding.CuestionarioPastillasBinding
+com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
+ com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
+com/example/loginultimodia/databinding/ActivityMainBinding.java
+ com.example.loginultimodia.databinding.ActivityMainBinding
+com/example/loginultimodia/databinding/ActivitySignUpBinding.java
+ com.example.loginultimodia.databinding.ActivitySignUpBinding
