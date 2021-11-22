@@ -70,7 +70,7 @@ public class Avisos extends Fragment {
         binding = FragmentAvisosBinding.inflate(getLayoutInflater());
         Query query = FirebaseFirestore.getInstance()
                 .collection("avisos")
-                .limit(50);
+                .whereEqualTo("DniPaciente", "44896786g");
         FirestoreRecyclerOptions<Aviso> opciones = new FirestoreRecyclerOptions
                 .Builder<Aviso>().setQuery(query, Aviso.class).build();
         adaptador = new AdaptadorAvisos(opciones, getContext());

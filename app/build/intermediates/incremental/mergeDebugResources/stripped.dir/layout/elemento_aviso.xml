@@ -5,6 +5,7 @@
     android:id="@+id/dosis4"
     android:layout_width="wrap_content"
     android:layout_height="159dp"
+    android:layout_marginLeft="100dp"
     android:layout_marginTop="20dp"
     android:background="#0C3688"
     app:layout_constraintBottom_toBottomOf="parent"

@@ -4,7 +4,7 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -37,7 +37,7 @@ public final class FragmentDoctorAvisosBinding implements ViewBinding {
   public final TextView habs;
 
   @NonNull
-  public final ImageButton imageButton;
+  public final ImageView imageButton;
 
   @NonNull
   public final TableLayout tableLayout;
@@ -69,7 +69,7 @@ public final class FragmentDoctorAvisosBinding implements ViewBinding {
   private FragmentDoctorAvisosBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout bloque4, @NonNull ConstraintLayout dosis2,
       @NonNull ConstraintLayout dosis3, @NonNull ConstraintLayout dosis4, @NonNull TextView habs,
-      @NonNull ImageButton imageButton, @NonNull TableLayout tableLayout,
+      @NonNull ImageView imageButton, @NonNull TableLayout tableLayout,
       @NonNull TextView textoAviso, @NonNull TextView textoAviso1, @NonNull TextView textoAviso2,
       @NonNull TextView textoAviso3, @NonNull TextView txtUsername, @NonNull TextView txtUsername1,
       @NonNull TextView txtUsername2, @NonNull TextView txtUsername3) {
@@ -149,7 +149,7 @@ public final class FragmentDoctorAvisosBinding implements ViewBinding {
       }
 
       id = R.id.imageButton;
-      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
+      ImageView imageButton = ViewBindings.findChildViewById(rootView, id);
       if (imageButton == null) {
         break missingId;
       }

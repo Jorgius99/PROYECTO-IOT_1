@@ -4,7 +4,6 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -70,13 +69,13 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
   public final ImageView imageView4;
 
   @NonNull
-  public final ImageButton imageView5;
-
-  @NonNull
   public final ImageView imageView6;
 
   @NonNull
   public final ImageView imageView7;
+
+  @NonNull
+  public final ImageView imageView8;
 
   private FragmentDoctorHabitacionesBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView Medicamento1, @NonNull TextView Medicamento2,
@@ -85,8 +84,8 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
       @NonNull ConstraintLayout constraintLayout, @NonNull ConstraintLayout dosis1,
       @NonNull ConstraintLayout dosis2, @NonNull ConstraintLayout dosis3,
       @NonNull ConstraintLayout dosis4, @NonNull TextView habs, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView4, @NonNull ImageButton imageView5, @NonNull ImageView imageView6,
-      @NonNull ImageView imageView7) {
+      @NonNull ImageView imageView4, @NonNull ImageView imageView6, @NonNull ImageView imageView7,
+      @NonNull ImageView imageView8) {
     this.rootView = rootView;
     this.Medicamento1 = Medicamento1;
     this.Medicamento2 = Medicamento2;
@@ -104,9 +103,9 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
     this.habs = habs;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
-    this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.imageView7 = imageView7;
+    this.imageView8 = imageView8;
   }
 
   @Override
@@ -232,12 +231,6 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView5;
-      ImageButton imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView6;
       ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
       if (imageView6 == null) {
@@ -250,10 +243,16 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView8;
+      ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView8 == null) {
+        break missingId;
+      }
+
       return new FragmentDoctorHabitacionesBinding((ConstraintLayout) rootView, Medicamento1,
           Medicamento2, Medicamento3, Medicamento4, Nombre1, Nombre2, Nombre3, Nombre4,
           constraintLayout, dosis1, dosis2, dosis3, dosis4, habs, imageView3, imageView4,
-          imageView5, imageView6, imageView7);
+          imageView6, imageView7, imageView8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

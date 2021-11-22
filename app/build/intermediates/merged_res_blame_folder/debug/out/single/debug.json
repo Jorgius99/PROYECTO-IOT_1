@@ -72,10 +72,6 @@
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\med_photoroom__1_.png"
     },
     {
-        "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_cuestionario_habs.xml.flat",
-        "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_habs.xml"
-    },
-    {
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_doctor_dosis.xml.flat",
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_doctor_dosis.xml"
     },
@@ -114,6 +110,10 @@
     {
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_med.jpeg.flat",
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\med.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_background.jpg.flat",
+        "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\background.jpg"
     },
     {
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",

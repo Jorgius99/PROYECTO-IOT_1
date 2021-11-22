@@ -18,6 +18,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -38,6 +39,8 @@ public class AdaptadorAvisos extends
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView motivo, fecha;
+        private Task<DocumentSnapshot> aviso123;
+
         public ViewHolder(ElementoAvisoBinding itemView) {
             super(itemView.getRoot());
             motivo = itemView.motivo;
@@ -48,9 +51,7 @@ public class AdaptadorAvisos extends
 
             FirebaseFirestore db = FirebaseFirestore.getInstance();
             avisos = db.collection("avisos");
-            avisos.document("1").get();
-
-
+            avisos.document().get();
             motivo.setText(aviso.getMotivo());
             Date date = aviso.getFechaHora();
             DateFormat df = new SimpleDateFormat("dd/MM/yy");

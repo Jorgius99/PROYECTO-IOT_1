@@ -33,9 +33,6 @@ public final class CuestionarioPastillasBinding implements ViewBinding {
   public final TextView textView;
 
   @NonNull
-  public final TextView textView2;
-
-  @NonNull
   public final TextView textView3;
 
   @NonNull
@@ -50,14 +47,13 @@ public final class CuestionarioPastillasBinding implements ViewBinding {
   private CuestionarioPastillasBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextInputLayout textInputLayout, @NonNull TextInputLayout textInputLayout2,
       @NonNull TextInputLayout textInputLayout3, @NonNull TextView textView,
-      @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textView4,
-      @NonNull TextView textView5, @NonNull TextView textView6) {
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull TextView textView6) {
     this.rootView = rootView;
     this.textInputLayout = textInputLayout;
     this.textInputLayout2 = textInputLayout2;
     this.textInputLayout3 = textInputLayout3;
     this.textView = textView;
-    this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView4 = textView4;
     this.textView5 = textView5;
@@ -115,12 +111,6 @@ public final class CuestionarioPastillasBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
-        break missingId;
-      }
-
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
@@ -146,8 +136,7 @@ public final class CuestionarioPastillasBinding implements ViewBinding {
       }
 
       return new CuestionarioPastillasBinding((ConstraintLayout) rootView, textInputLayout,
-          textInputLayout2, textInputLayout3, textView, textView2, textView3, textView4, textView5,
-          textView6);
+          textInputLayout2, textInputLayout3, textView, textView3, textView4, textView5, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

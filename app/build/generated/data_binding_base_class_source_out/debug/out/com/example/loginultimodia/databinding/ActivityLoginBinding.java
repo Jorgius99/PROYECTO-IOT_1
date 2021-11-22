@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,15 +32,19 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextInputEditText etLoginPass;
 
   @NonNull
+  public final ImageView imageView;
+
+  @NonNull
   public final Button olvidasteContra;
 
   private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull MaterialButton btnLogin,
       @NonNull TextInputEditText etLoginEmail, @NonNull TextInputEditText etLoginPass,
-      @NonNull Button olvidasteContra) {
+      @NonNull ImageView imageView, @NonNull Button olvidasteContra) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.etLoginEmail = etLoginEmail;
     this.etLoginPass = etLoginPass;
+    this.imageView = imageView;
     this.olvidasteContra = olvidasteContra;
   }
 
@@ -88,6 +93,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
       id = R.id.olvidasteContra;
       Button olvidasteContra = ViewBindings.findChildViewById(rootView, id);
       if (olvidasteContra == null) {
@@ -95,7 +106,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((LinearLayout) rootView, btnLogin, etLoginEmail, etLoginPass,
-          olvidasteContra);
+          imageView, olvidasteContra);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

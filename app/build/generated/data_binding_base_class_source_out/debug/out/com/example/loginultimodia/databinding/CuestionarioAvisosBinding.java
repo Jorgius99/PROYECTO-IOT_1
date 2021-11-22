@@ -11,6 +11,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.loginultimodia.R;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,16 +21,29 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextInputLayout textInputLayout4;
+
+  @NonNull
+  public final TextInputLayout textInputLayout5;
+
+  @NonNull
+  public final TextView textView10;
+
+  @NonNull
   public final TextView textView16;
 
   @NonNull
-  public final TextView textView17;
+  public final TextView textView9;
 
   private CuestionarioAvisosBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textView16, @NonNull TextView textView17) {
+      @NonNull TextInputLayout textInputLayout4, @NonNull TextInputLayout textInputLayout5,
+      @NonNull TextView textView10, @NonNull TextView textView16, @NonNull TextView textView9) {
     this.rootView = rootView;
+    this.textInputLayout4 = textInputLayout4;
+    this.textInputLayout5 = textInputLayout5;
+    this.textView10 = textView10;
     this.textView16 = textView16;
-    this.textView17 = textView17;
+    this.textView9 = textView9;
   }
 
   @Override
@@ -59,19 +73,38 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.textInputLayout4;
+      TextInputLayout textInputLayout4 = ViewBindings.findChildViewById(rootView, id);
+      if (textInputLayout4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textInputLayout5;
+      TextInputLayout textInputLayout5 = ViewBindings.findChildViewById(rootView, id);
+      if (textInputLayout5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView10;
+      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
+      if (textView10 == null) {
+        break missingId;
+      }
+
       id = R.id.textView16;
       TextView textView16 = ViewBindings.findChildViewById(rootView, id);
       if (textView16 == null) {
         break missingId;
       }
 
-      id = R.id.textView17;
-      TextView textView17 = ViewBindings.findChildViewById(rootView, id);
-      if (textView17 == null) {
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
         break missingId;
       }
 
-      return new CuestionarioAvisosBinding((ConstraintLayout) rootView, textView16, textView17);
+      return new CuestionarioAvisosBinding((ConstraintLayout) rootView, textInputLayout4,
+          textInputLayout5, textView10, textView16, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
