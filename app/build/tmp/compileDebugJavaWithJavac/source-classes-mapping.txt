@@ -1,5 +1,5 @@
-com/example/loginultimodia/ControladorDoctor/PagerControler.java
- com.example.loginultimodia.ControladorDoctor.PagerControler
+com/example/loginultimodia/databinding/ActivitySignUpBinding.java
+ com.example.loginultimodia.databinding.ActivitySignUpBinding
 com/example/loginultimodia/databinding/AcercadeBinding.java
  com.example.loginultimodia.databinding.AcercadeBinding
 com/example/loginultimodia/Usuario.java
@@ -21,26 +21,25 @@ com/example/loginultimodia/databinding/FragmentDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDosisBinding
 com/example/loginultimodia/HabitacionesActivity.java
  com.example.loginultimodia.HabitacionesActivity
-com/example/loginultimodia/databinding/ActivityMainBinding.java
- com.example.loginultimodia.databinding.ActivityMainBinding
+com/example/loginultimodia/Controlador/Avisos.java
+ com.example.loginultimodia.Controlador.Avisos
 com/example/loginultimodia/DosisActivity.java
  com.example.loginultimodia.DosisActivity
 com/example/loginultimodia/AcercaDeActivity.java
  com.example.loginultimodia.AcercaDeActivity
-com/example/loginultimodia/ControladorDoctor/Avisos.java
- com.example.loginultimodia.ControladorDoctor.Avisos
+com/example/loginultimodia/databinding/ActivityMainBinding.java
+ com.example.loginultimodia.databinding.ActivityMainBinding
 com/example/loginultimodia/MasDosisActivity.java
  com.example.loginultimodia.MasDosisActivity
 com/example/loginultimodia/Controlador/Habitaciones.java
  com.example.loginultimodia.Controlador.Habitaciones
-com/example/loginultimodia/databinding/ActivitySignUpBinding.java
- com.example.loginultimodia.databinding.ActivitySignUpBinding
+com/example/loginultimodia/AdaptadorAvisos.java
+ com.example.loginultimodia.AdaptadorAvisos
+ com.example.loginultimodia.AdaptadorAvisos$ViewHolder
 com/example/loginultimodia/Habitacion.java
  com.example.loginultimodia.Habitacion
 com/example/loginultimodia/MainActivity.java
  com.example.loginultimodia.MainActivity
-com/example/loginultimodia/databinding/RecycledViewBinding.java
- com.example.loginultimodia.databinding.RecycledViewBinding
 com/example/loginultimodia/Controlador/Dosis.java
  com.example.loginultimodia.Controlador.Dosis
 com/example/loginultimodia/AvisosActivity.java
@@ -83,8 +82,7 @@ com/example/loginultimodia/databinding/CuestionarioPastillasBinding.java
  com.example.loginultimodia.databinding.CuestionarioPastillasBinding
 com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
-com/example/loginultimodia/AdaptadorAvisos.java
- com.example.loginultimodia.AdaptadorAvisos
- com.example.loginultimodia.AdaptadorAvisos$ViewHolder
-com/example/loginultimodia/Controlador/Avisos.java
- com.example.loginultimodia.Controlador.Avisos
+com/example/loginultimodia/ControladorDoctor/PagerControler.java
+ com.example.loginultimodia.ControladorDoctor.PagerControler
+com/example/loginultimodia/ControladorDoctor/Avisos.java
+ com.example.loginultimodia.ControladorDoctor.Avisos

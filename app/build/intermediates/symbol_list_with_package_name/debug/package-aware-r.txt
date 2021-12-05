@@ -2064,7 +2064,6 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
-id bloque4
 id bottom
 id bounce
 id bounceBoth
@@ -2462,7 +2461,6 @@ id tabavisos
 id tabdosis
 id tabhabitacion
 id tablayout
-id tableLayout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2512,10 +2510,6 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textoAviso
-id textoAviso1
-id textoAviso2
-id textoAviso3
 id ticker
 id time
 id title
@@ -2541,7 +2535,6 @@ id tvLoginHere
 id txtUsername
 id txtUsername1
 id txtUsername2
-id txtUsername3
 id unchecked
 id uniform
 id unlabeled
@@ -2757,7 +2750,6 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout recycled_view
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
