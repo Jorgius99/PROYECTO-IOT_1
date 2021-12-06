@@ -16,10 +16,6 @@
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\menu_administrador.xml"
     },
     {
-        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cuestionario_avisoss.xml",
-        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_avisoss.xml"
-    },
-    {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acercade.xml",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\acercade.xml"
     },
@@ -30,10 +26,6 @@
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dosis.xml",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_dosis.xml"
-    },
-    {
-        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_upp.xml",
-        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_sign_upp.xml"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
