@@ -20,12 +20,11 @@ public final class FragmentDoctorAvisosBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView tusHabs;
+  public final TextView habs;
 
-  private FragmentDoctorAvisosBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView tusHabs) {
+  private FragmentDoctorAvisosBinding(@NonNull ConstraintLayout rootView, @NonNull TextView habs) {
     this.rootView = rootView;
-    this.tusHabs = tusHabs;
+    this.habs = habs;
   }
 
   @Override
@@ -55,13 +54,13 @@ public final class FragmentDoctorAvisosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.tus_habs;
-      TextView tusHabs = ViewBindings.findChildViewById(rootView, id);
-      if (tusHabs == null) {
+      id = R.id.habs;
+      TextView habs = ViewBindings.findChildViewById(rootView, id);
+      if (habs == null) {
         break missingId;
       }
 
-      return new FragmentDoctorAvisosBinding((ConstraintLayout) rootView, tusHabs);
+      return new FragmentDoctorAvisosBinding((ConstraintLayout) rootView, habs);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
