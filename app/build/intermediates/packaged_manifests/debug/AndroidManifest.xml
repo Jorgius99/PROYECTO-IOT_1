@@ -66,6 +66,10 @@
             android:exported="true" >
         </activity>
         <activity
+            android:name="com.example.loginultimodia.MasDosisActivity"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.example.loginultimodia.AcercaDeActivity"
             android:label="Acerca de ..." />
         <activity
@@ -250,10 +254,16 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.example.loginultimodia.lifecycle-process"
-            android:exported="false"
-            android:multiprocess="true" />
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.loginultimodia.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
     </application>
 
 </manifest>
