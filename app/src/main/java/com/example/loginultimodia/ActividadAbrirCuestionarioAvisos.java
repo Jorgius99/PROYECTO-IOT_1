@@ -8,7 +8,7 @@ public class ActividadAbrirCuestionarioAvisos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cuestionario_avisoss);
+        setContentView(R.layout.cuestionario_avisos);
 
 
     }

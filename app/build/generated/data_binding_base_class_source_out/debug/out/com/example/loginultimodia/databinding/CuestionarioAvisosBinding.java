@@ -4,51 +4,57 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.loginultimodia.R;
-import com.google.android.material.textfield.TextInputLayout;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class CuestionarioAvisosBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final TextInputLayout textInputLayout4;
+  public final TextInputEditText emailEditText;
 
   @NonNull
-  public final TextInputLayout textInputLayout5;
+  public final TextInputEditText etRegDni;
 
   @NonNull
-  public final TextView textView10;
+  public final TextInputEditText etRegNombreApellido;
 
   @NonNull
-  public final TextView textView16;
+  public final TextInputEditText etRegPass;
 
   @NonNull
-  public final TextView textView9;
+  public final MaterialButton recuperarBoton;
 
-  private CuestionarioAvisosBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextInputLayout textInputLayout4, @NonNull TextInputLayout textInputLayout5,
-      @NonNull TextView textView10, @NonNull TextView textView16, @NonNull TextView textView9) {
+  @NonNull
+  public final TextView tvLoginHere;
+
+  private CuestionarioAvisosBinding(@NonNull LinearLayout rootView,
+      @NonNull TextInputEditText emailEditText, @NonNull TextInputEditText etRegDni,
+      @NonNull TextInputEditText etRegNombreApellido, @NonNull TextInputEditText etRegPass,
+      @NonNull MaterialButton recuperarBoton, @NonNull TextView tvLoginHere) {
     this.rootView = rootView;
-    this.textInputLayout4 = textInputLayout4;
-    this.textInputLayout5 = textInputLayout5;
-    this.textView10 = textView10;
-    this.textView16 = textView16;
-    this.textView9 = textView9;
+    this.emailEditText = emailEditText;
+    this.etRegDni = etRegDni;
+    this.etRegNombreApellido = etRegNombreApellido;
+    this.etRegPass = etRegPass;
+    this.recuperarBoton = recuperarBoton;
+    this.tvLoginHere = tvLoginHere;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -73,38 +79,44 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textInputLayout4;
-      TextInputLayout textInputLayout4 = ViewBindings.findChildViewById(rootView, id);
-      if (textInputLayout4 == null) {
+      id = R.id.emailEditText;
+      TextInputEditText emailEditText = ViewBindings.findChildViewById(rootView, id);
+      if (emailEditText == null) {
         break missingId;
       }
 
-      id = R.id.textInputLayout5;
-      TextInputLayout textInputLayout5 = ViewBindings.findChildViewById(rootView, id);
-      if (textInputLayout5 == null) {
+      id = R.id.etRegDni;
+      TextInputEditText etRegDni = ViewBindings.findChildViewById(rootView, id);
+      if (etRegDni == null) {
         break missingId;
       }
 
-      id = R.id.textView10;
-      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
-      if (textView10 == null) {
+      id = R.id.etRegNombreApellido;
+      TextInputEditText etRegNombreApellido = ViewBindings.findChildViewById(rootView, id);
+      if (etRegNombreApellido == null) {
         break missingId;
       }
 
-      id = R.id.textView16;
-      TextView textView16 = ViewBindings.findChildViewById(rootView, id);
-      if (textView16 == null) {
+      id = R.id.etRegPass;
+      TextInputEditText etRegPass = ViewBindings.findChildViewById(rootView, id);
+      if (etRegPass == null) {
         break missingId;
       }
 
-      id = R.id.textView9;
-      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
-      if (textView9 == null) {
+      id = R.id.recuperarBoton;
+      MaterialButton recuperarBoton = ViewBindings.findChildViewById(rootView, id);
+      if (recuperarBoton == null) {
         break missingId;
       }
 
-      return new CuestionarioAvisosBinding((ConstraintLayout) rootView, textInputLayout4,
-          textInputLayout5, textView10, textView16, textView9);
+      id = R.id.tvLoginHere;
+      TextView tvLoginHere = ViewBindings.findChildViewById(rootView, id);
+      if (tvLoginHere == null) {
+        break missingId;
+      }
+
+      return new CuestionarioAvisosBinding((LinearLayout) rootView, emailEditText, etRegDni,
+          etRegNombreApellido, etRegPass, recuperarBoton, tvLoginHere);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
