@@ -24,9 +24,6 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
   public final TextView Medicamento1;
 
   @NonNull
-  public final TextView Medicamento2;
-
-  @NonNull
   public final TextView Medicamento3;
 
   @NonNull
@@ -57,28 +54,30 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
   public final ConstraintLayout dosis4;
 
   @NonNull
-  public final TextView habs;
-
-  @NonNull
   public final ConstraintLayout habs1;
 
   @NonNull
   public final ImageView imageView01;
 
   @NonNull
+  public final TextView numHab;
+
+  @NonNull
   public final TextView textView8;
 
+  @NonNull
+  public final TextView tusHabs;
+
   private FragmentDoctorDosisBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView Medicamento1, @NonNull TextView Medicamento2,
-      @NonNull TextView Medicamento3, @NonNull TextView Medicamento4, @NonNull TextView Nombre1,
-      @NonNull TextView Nombre2, @NonNull TextView Nombre3, @NonNull TextView Nombre4,
-      @NonNull ConstraintLayout dosis1, @NonNull ConstraintLayout dosis2,
-      @NonNull ConstraintLayout dosis3, @NonNull ConstraintLayout dosis4, @NonNull TextView habs,
-      @NonNull ConstraintLayout habs1, @NonNull ImageView imageView01,
-      @NonNull TextView textView8) {
+      @NonNull TextView Medicamento1, @NonNull TextView Medicamento3,
+      @NonNull TextView Medicamento4, @NonNull TextView Nombre1, @NonNull TextView Nombre2,
+      @NonNull TextView Nombre3, @NonNull TextView Nombre4, @NonNull ConstraintLayout dosis1,
+      @NonNull ConstraintLayout dosis2, @NonNull ConstraintLayout dosis3,
+      @NonNull ConstraintLayout dosis4, @NonNull ConstraintLayout habs1,
+      @NonNull ImageView imageView01, @NonNull TextView numHab, @NonNull TextView textView8,
+      @NonNull TextView tusHabs) {
     this.rootView = rootView;
     this.Medicamento1 = Medicamento1;
-    this.Medicamento2 = Medicamento2;
     this.Medicamento3 = Medicamento3;
     this.Medicamento4 = Medicamento4;
     this.Nombre1 = Nombre1;
@@ -89,10 +88,11 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
     this.dosis2 = dosis2;
     this.dosis3 = dosis3;
     this.dosis4 = dosis4;
-    this.habs = habs;
     this.habs1 = habs1;
     this.imageView01 = imageView01;
+    this.numHab = numHab;
     this.textView8 = textView8;
+    this.tusHabs = tusHabs;
   }
 
   @Override
@@ -125,12 +125,6 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
       id = R.id.Medicamento1;
       TextView Medicamento1 = ViewBindings.findChildViewById(rootView, id);
       if (Medicamento1 == null) {
-        break missingId;
-      }
-
-      id = R.id.Medicamento2;
-      TextView Medicamento2 = ViewBindings.findChildViewById(rootView, id);
-      if (Medicamento2 == null) {
         break missingId;
       }
 
@@ -194,12 +188,6 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.habs;
-      TextView habs = ViewBindings.findChildViewById(rootView, id);
-      if (habs == null) {
-        break missingId;
-      }
-
       id = R.id.habs1;
       ConstraintLayout habs1 = ViewBindings.findChildViewById(rootView, id);
       if (habs1 == null) {
@@ -212,15 +200,27 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.num_hab;
+      TextView numHab = ViewBindings.findChildViewById(rootView, id);
+      if (numHab == null) {
+        break missingId;
+      }
+
       id = R.id.textView8;
       TextView textView8 = ViewBindings.findChildViewById(rootView, id);
       if (textView8 == null) {
         break missingId;
       }
 
-      return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, Medicamento1, Medicamento2,
-          Medicamento3, Medicamento4, Nombre1, Nombre2, Nombre3, Nombre4, dosis1, dosis2, dosis3,
-          dosis4, habs, habs1, imageView01, textView8);
+      id = R.id.tus_habs;
+      TextView tusHabs = ViewBindings.findChildViewById(rootView, id);
+      if (tusHabs == null) {
+        break missingId;
+      }
+
+      return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, Medicamento1, Medicamento3,
+          Medicamento4, Nombre1, Nombre2, Nombre3, Nombre4, dosis1, dosis2, dosis3, dosis4, habs1,
+          imageView01, numHab, textView8, tusHabs);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
