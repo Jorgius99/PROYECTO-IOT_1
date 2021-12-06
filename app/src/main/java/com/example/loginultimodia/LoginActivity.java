@@ -85,7 +85,11 @@ public class LoginActivity extends AppCompatActivity {
 
                         if (usuario.getEmail().equals("admin@gmail.com")) {
                             startActivity(new Intent(LoginActivity.this, DoctorSecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-                        } else {
+                        }
+
+                        if (usuario.getEmail().equals("admins@gmail.com")) {
+                            startActivity(new Intent(LoginActivity.this, SuperAdminSecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                        }                        else {
                             startActivity(new Intent(LoginActivity.this, SecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
                         }
                     } else {

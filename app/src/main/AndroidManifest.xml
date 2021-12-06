@@ -76,7 +76,24 @@
 
         </activity>
 
+        <activity
+            android:name=".SuperAdminSecondActivity"
 
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ActividadAbrirCuestionarioAvisos"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ActividadAbrirCuestionarioPaciente"
+
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".AcercaDeActivity"
             android:label="Acerca de ..."/>

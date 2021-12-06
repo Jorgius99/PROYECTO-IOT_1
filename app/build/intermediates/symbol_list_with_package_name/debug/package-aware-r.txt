@@ -1847,6 +1847,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable btn_redondeado_white
 drawable calor
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -2075,6 +2076,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btAvisos
+id btPacientes
 id btnLogin
 id btnLogout
 id btn_holder
@@ -2487,22 +2490,17 @@ id textEnd
 id textInputLayout
 id textInputLayout2
 id textInputLayout3
-id textInputLayout4
-id textInputLayout5
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView10
 id textView15
-id textView16
 id textView3
 id textView4
 id textView5
 id textView6
 id textView8
-id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2649,6 +2647,7 @@ layout activity_tabmain
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout cuestionario_avisos
+layout cuestionario_avisoss
 layout cuestionario_pastillas
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2713,6 +2712,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout menu_administrador
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2757,7 +2757,6 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout recycled_view
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
