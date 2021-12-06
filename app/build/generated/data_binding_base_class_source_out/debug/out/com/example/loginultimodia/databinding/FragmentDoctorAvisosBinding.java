@@ -4,6 +4,7 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,12 +21,16 @@ public final class FragmentDoctorAvisosBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView tusHabs;
+  public final TextView habs;
 
-  private FragmentDoctorAvisosBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView tusHabs) {
+  @NonNull
+  public final ImageView imageButton;
+
+  private FragmentDoctorAvisosBinding(@NonNull ConstraintLayout rootView, @NonNull TextView habs,
+      @NonNull ImageView imageButton) {
     this.rootView = rootView;
-    this.tusHabs = tusHabs;
+    this.habs = habs;
+    this.imageButton = imageButton;
   }
 
   @Override
@@ -55,13 +60,19 @@ public final class FragmentDoctorAvisosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.tus_habs;
-      TextView tusHabs = ViewBindings.findChildViewById(rootView, id);
-      if (tusHabs == null) {
+      id = R.id.habs;
+      TextView habs = ViewBindings.findChildViewById(rootView, id);
+      if (habs == null) {
         break missingId;
       }
 
-      return new FragmentDoctorAvisosBinding((ConstraintLayout) rootView, tusHabs);
+      id = R.id.imageButton;
+      ImageView imageButton = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton == null) {
+        break missingId;
+      }
+
+      return new FragmentDoctorAvisosBinding((ConstraintLayout) rootView, habs, imageButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
