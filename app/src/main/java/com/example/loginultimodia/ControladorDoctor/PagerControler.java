@@ -20,7 +20,8 @@ public class PagerControler extends FragmentPagerAdapter {
             case 0:
                 return new Avisos();
             case 1:
-                return new HabitacionesDoc();
+                return new Habitaciones();
+
             case 2:
                 return new Dosis();
 

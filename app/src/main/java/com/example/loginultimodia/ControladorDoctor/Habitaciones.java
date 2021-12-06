@@ -1,29 +1,25 @@
 package com.example.loginultimodia.ControladorDoctor;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.example.loginultimodia.AdaptadorHabsDoctor;
-import com.example.loginultimodia.Habitacion;
-import com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding;
-import com.example.loginultimodia.databinding.FragmentHabitacionesBinding;
-import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.Query;
+import com.example.loginultimodia.HabitacionesActivity;
+import com.example.loginultimodia.R;
+import com.example.loginultimodia.RegisterActivity;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link HabitacionesDoc#newInstance} factory method to
+ * Use the {@link Habitaciones#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HabitacionesDoc extends Fragment {
-    private FragmentDoctorHabitacionesBinding binding; //si no está
-    public static AdaptadorHabsDoctor adaptador;
+public class Habitaciones extends Fragment {
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -33,15 +29,13 @@ public class HabitacionesDoc extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public HabitacionesDoc() {
+    public Habitaciones() {
         // Required empty public constructor
     }
 
 
-
-
-    public static HabitacionesDoc newInstance(String param1, String param2) {
-        HabitacionesDoc fragment = new HabitacionesDoc();
+    public static Habitaciones newInstance(String param1, String param2) {
+        Habitaciones fragment = new Habitaciones();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -62,7 +56,7 @@ public class HabitacionesDoc extends Fragment {
 
         //boton = (Button) findViewById(R.id.buttonRegistrar);
     }
-/*
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -102,32 +96,5 @@ public class HabitacionesDoc extends Fragment {
         return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
 
     }
-*/
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        binding = FragmentDoctorHabitacionesBinding.inflate(getLayoutInflater());
-        Query query = FirebaseFirestore.getInstance()
-                .collection("habitaciones")
-                .whereEqualTo("numHab", "1");
-        FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
-                .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
-        adaptador = new AdaptadorHabsDoctor(opciones, getContext());
-        System.out.println(getContext());
-        binding.recyclerView.setAdapter(adaptador);
-        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        // Inflate the layout for this fragment
-        return binding.getRoot();
-    }
-    @Override
-    public void onStart() {
-        super.onStart();
-        adaptador.startListening();
-    }
-    @Override
-    public void onStop() {
-        super.onStop();
-        adaptador.stopListening();
-    }
 }
