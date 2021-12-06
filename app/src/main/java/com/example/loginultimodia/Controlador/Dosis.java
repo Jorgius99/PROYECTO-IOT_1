@@ -78,8 +78,8 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
                          Bundle savedInstanceState) {
     binding = FragmentDosisBinding.inflate(getLayoutInflater());
     Query query = FirebaseFirestore.getInstance()
-            .collection("dosis");
-            //.whereEqualTo("dni", "44896786g");
+            .collection("dosis")
+            .whereEqualTo("dni", "44896786g");
     FirestoreRecyclerOptions<objetoDosis> opciones = new FirestoreRecyclerOptions
             .Builder<objetoDosis>().setQuery(query, objetoDosis.class).build();
     adaptador = new AdaptadorDosis(opciones, getContext());
