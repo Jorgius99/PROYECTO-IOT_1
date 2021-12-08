@@ -19,9 +19,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="16dp"
+            android:fontFamily="sans-serif-condensed"
             android:gravity="center_horizontal"
             android:text="Crear Paciente"
-            android:textColor="@color/teal_700"
+            android:textColor="@color/gris"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -112,7 +113,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Enviar" />
+            android:background="@drawable/btn_redondeado_blue"
+            android:text="Enviar"
+            app:backgroundTint="@color/blue" />
 
         <LinearLayout
             android:layout_width="match_parent"
