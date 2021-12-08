@@ -4,7 +4,6 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
@@ -32,19 +31,19 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextInputEditText etLoginPass;
 
   @NonNull
-  public final ImageView imageView;
+  public final ImageView imageView11;
 
   @NonNull
-  public final Button olvidasteContra;
+  public final MaterialButton olvidasteContra;
 
   private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull MaterialButton btnLogin,
       @NonNull TextInputEditText etLoginEmail, @NonNull TextInputEditText etLoginPass,
-      @NonNull ImageView imageView, @NonNull Button olvidasteContra) {
+      @NonNull ImageView imageView11, @NonNull MaterialButton olvidasteContra) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.etLoginEmail = etLoginEmail;
     this.etLoginPass = etLoginPass;
-    this.imageView = imageView;
+    this.imageView11 = imageView11;
     this.olvidasteContra = olvidasteContra;
   }
 
@@ -93,20 +92,20 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
-      if (imageView == null) {
+      id = R.id.imageView11;
+      ImageView imageView11 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView11 == null) {
         break missingId;
       }
 
       id = R.id.olvidasteContra;
-      Button olvidasteContra = ViewBindings.findChildViewById(rootView, id);
+      MaterialButton olvidasteContra = ViewBindings.findChildViewById(rootView, id);
       if (olvidasteContra == null) {
         break missingId;
       }
 
       return new ActivityLoginBinding((LinearLayout) rootView, btnLogin, etLoginEmail, etLoginPass,
-          imageView, olvidasteContra);
+          imageView11, olvidasteContra);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

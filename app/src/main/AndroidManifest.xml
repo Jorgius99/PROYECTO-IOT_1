@@ -75,14 +75,24 @@
             android:exported="true">
 
         </activity>
-
         <activity
-            android:name=".MasDosisActivity"
+            android:name=".SuperAdminSecondActivity"
 
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".ActividadAbrirCuestionarioAvisos"
 
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ActividadAbrirCuestionarioPaciente"
+
+            android:exported="true">
+
+        </activity>
 
         <activity
             android:name=".AcercaDeActivity"

@@ -59,6 +59,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -78,11 +79,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/loginultimodia" />
+    <property name="android-custom-viewC:/sdkAndroid/sources/android-31/android/widget/LinearLayout.java_LinearLayout_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/sdkAndroid/sources/android-31/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.21182796" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AllProyectos\PROYECTO-IOT_1\app\src\main\res\drawable-v24" />
+      <recent name="C:\AllProyectos\PROYECTO-IOT_1\app\src\main\res\layout" />
       <recent name="C:\AllProyectos\PROYECTO-IOT_1\app\src\main\java\com\example\loginultimodia" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.loginultimodia" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
