@@ -8,12 +8,19 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.loginultimodia.AdaptadorHabsDoctor;
 import com.example.loginultimodia.AvisosActivity;
 import com.example.loginultimodia.DosisActivity;
+import com.example.loginultimodia.Habitacion;
 import com.example.loginultimodia.HabitacionesActivity;
 import com.example.loginultimodia.MasDosisActivity;
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -21,7 +28,8 @@ import com.example.loginultimodia.R;
  * create an instance of this fragment.
  */
 public class Dosis extends Fragment {
-
+    private FragmentDoctorHabitacionesBinding binding; //si no está
+    public static AdaptadorHabsDoctor adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -70,7 +78,6 @@ public class Dosis extends Fragment {
     }
     */
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -81,37 +88,27 @@ public class Dosis extends Fragment {
             startActivity(new Intent(getContext(), MasDosisActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
-
-
-        View botonHab1 = v.findViewById(R.id.dosis1);
-        botonHab1.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), DosisActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-
-        View botonHab2 = v.findViewById(R.id.dosis2);
-        botonHab2.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), DosisActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-
-        View botonHab3 = v.findViewById(R.id.dosis3);
-        botonHab3.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), DosisActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-
-        View botonHab4 = v.findViewById(R.id.dosis4);
-        botonHab4.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), DosisActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-        return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
-
+        binding = FragmentDoctorHabitacionesBinding.inflate(getLayoutInflater());
+        Query query = FirebaseFirestore.getInstance()
+                .collection("habitaciones")
+                .whereEqualTo("numHab", "1");
+        FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
+                .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
+        adaptador = new AdaptadorHabsDoctor(opciones, getContext());
+        System.out.println(getContext());
+        binding.recyclerView.setAdapter(adaptador);
+        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        // Inflate the layout for this fragment
+        return binding.getRoot();
     }
-
-
-
-
-
+    @Override
+    public void onStart() {
+        super.onStart();
+        adaptador.startListening();
     }
+    @Override
+    public void onStop() {
+        super.onStop();
+        adaptador.stopListening();
+    }
+}

@@ -4,8 +4,10 @@ com/example/loginultimodia/databinding/AcercadeBinding.java
  com.example.loginultimodia.databinding.AcercadeBinding
 com/example/loginultimodia/Usuario.java
  com.example.loginultimodia.Usuario
-com/example/loginultimodia/databinding/ActivitySignUpBinding.java
- com.example.loginultimodia.databinding.ActivitySignUpBinding
+com/example/loginultimodia/LoginActivity.java
+ com.example.loginultimodia.LoginActivity
+ com.example.loginultimodia.LoginActivity$1
+ com.example.loginultimodia.LoginActivity$2
 com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
  com.example.loginultimodia.ControladorDoctor.HabitacionesDoc
 com/example/loginultimodia/databinding/ActivityForgotPasswordBinding.java
@@ -14,8 +16,9 @@ com/example/loginultimodia/databinding/FragmentHabitacionesBinding.java
  com.example.loginultimodia.databinding.FragmentHabitacionesBinding
 com/example/loginultimodia/databinding/CuestionarioAvisosBinding.java
  com.example.loginultimodia.databinding.CuestionarioAvisosBinding
-com/example/loginultimodia/databinding/ActivityMainBinding.java
- com.example.loginultimodia.databinding.ActivityMainBinding
+com/example/loginultimodia/RegisterActivity.java
+ com.example.loginultimodia.RegisterActivity
+ com.example.loginultimodia.RegisterActivity$1
 com/example/loginultimodia/databinding/FragmentDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDosisBinding
 com/example/loginultimodia/HabitacionesActivity.java
@@ -47,9 +50,8 @@ com/example/loginultimodia/Habitacion.java
  com.example.loginultimodia.Habitacion
 com/example/loginultimodia/MainActivity.java
  com.example.loginultimodia.MainActivity
-com/example/loginultimodia/RegisterActivity.java
- com.example.loginultimodia.RegisterActivity
- com.example.loginultimodia.RegisterActivity$1
+com/example/loginultimodia/Controlador/Dosis.java
+ com.example.loginultimodia.Controlador.Dosis
 com/example/loginultimodia/AvisosActivity.java
  com.example.loginultimodia.AvisosActivity
 com/example/loginultimodia/SecondActivity.java
@@ -78,9 +80,10 @@ com/example/loginultimodia/databinding/ActivityLoginBinding.java
  com.example.loginultimodia.databinding.ActivityLoginBinding
 com/example/loginultimodia/databinding/FragmentDoctorAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorAvisosBinding
-com/example/loginultimodia/AdaptadorHabsDoctor.java
- com.example.loginultimodia.AdaptadorHabsDoctor
- com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+com/example/loginultimodia/ForgotPassword.java
+ com.example.loginultimodia.ForgotPassword
+ com.example.loginultimodia.ForgotPassword$1
+ com.example.loginultimodia.ForgotPassword$2
 com/example/loginultimodia/databinding/FragmentAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentAvisosBinding
 com/example/loginultimodia/databinding/ElementoDosisBinding.java
@@ -93,18 +96,15 @@ com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
 com/example/loginultimodia/ActividadAbrirCuestionarioPaciente.java
  com.example.loginultimodia.ActividadAbrirCuestionarioPaciente
-com/example/loginultimodia/LoginActivity.java
- com.example.loginultimodia.LoginActivity
- com.example.loginultimodia.LoginActivity$1
- com.example.loginultimodia.LoginActivity$2
-com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
- com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
-com/example/loginultimodia/ForgotPassword.java
- com.example.loginultimodia.ForgotPassword
- com.example.loginultimodia.ForgotPassword$1
- com.example.loginultimodia.ForgotPassword$2
-com/example/loginultimodia/Controlador/Dosis.java
- com.example.loginultimodia.Controlador.Dosis
 com/example/loginultimodia/AdaptadorDosis.java
  com.example.loginultimodia.AdaptadorDosis
  com.example.loginultimodia.AdaptadorDosis$ViewHolder
+com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
+ com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
+com/example/loginultimodia/databinding/ActivityMainBinding.java
+ com.example.loginultimodia.databinding.ActivityMainBinding
+com/example/loginultimodia/databinding/ActivitySignUpBinding.java
+ com.example.loginultimodia.databinding.ActivitySignUpBinding
+com/example/loginultimodia/AdaptadorHabsDoctor.java
+ com.example.loginultimodia.AdaptadorHabsDoctor
+ com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
