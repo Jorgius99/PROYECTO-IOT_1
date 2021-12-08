@@ -36,6 +36,7 @@ public class AdaptadorDosis extends
         this.context = context;
 
     }
+    //xd
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView pastilla, fecha;
