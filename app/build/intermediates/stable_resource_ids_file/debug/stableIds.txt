@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com.example.loginultimodia:drawable/formarecycler = 0x7f0700c5
 com.example.loginultimodia:style/TextAppearance.MaterialComponents.Button = 0x7f1001ad
 com.example.loginultimodia:style/Widget.AppCompat.SeekBar.Discrete = 0x7f10027d
@@ -250,6 +251,373 @@ com.example.loginultimodia:id/included = 0x7f08011b
 com.example.loginultimodia:id/bounce = 0x7f08006d
 com.example.loginultimodia:style/Widget.AppCompat.Spinner = 0x7f10027e
 com.example.loginultimodia:styleable/Chip = 0x7f11001d
+=======
+com.example.loginultimodia:style/TextAppearance.MaterialComponents.Button = 0x7f1001ad
+com.example.loginultimodia:style/FirebaseUI.Text.T11 = 0x7f100109
+com.example.loginultimodia:id/fragment_container_view_tag = 0x7f0800f7
+com.example.loginultimodia:style/TestThemeWithLineHeightDisabled = 0x7f100164
+com.example.loginultimodia:styleable/ActivityChooserView = 0x7f110005
+com.example.loginultimodia:style/Widget.AppCompat.Spinner.DropDown.ActionBar = 0x7f100280
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Display2 = 0x7f100019
+com.example.loginultimodia:styleable/include = 0x7f110095
+com.example.loginultimodia:id/accessibility_custom_action_13 = 0x7f080020
+com.example.loginultimodia:style/TextAppearance.AppCompat.Title.Inverse = 0x7f100180
+com.example.loginultimodia:string/mtrl_picker_invalid_format = 0x7f0f00d3
+com.example.loginultimodia:style/Widget.Compat.NotificationActionText = 0x7f100287
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.OutlinedButton.Icon = 0x7f1002aa
+com.example.loginultimodia:styleable/KeyFrame = 0x7f110040
+com.example.loginultimodia:style/TextAppearance.AppCompat.Light.SearchResult.Subtitle = 0x7f100172
+com.example.loginultimodia:attr/flow_lastHorizontalBias = 0x7f03017e
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date = 0x7f10022c
+com.example.loginultimodia:style/Theme.MaterialComponents.CompactMenu = 0x7f1001de
+com.example.loginultimodia:style/FirebaseUI.Text.T06 = 0x7f100105
+com.example.loginultimodia:drawable/abc_text_select_handle_right_mtrl = 0x7f07004f
+com.example.loginultimodia:style/Widget.AppCompat.ActionBar.Solid = 0x7f10023e
+com.example.loginultimodia:style/Base.V23.Theme.AppCompat = 0x7f10008d
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.Button.Colored = 0x7f10018d
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f100183
+com.example.loginultimodia:style/TextAppearance.MaterialComponents.Headline2 = 0x7f1001b1
+com.example.loginultimodia:styleable/Slider = 0x7f110078
+com.example.loginultimodia:id/selection_type = 0x7f0801c6
+com.example.loginultimodia:id/center_horizontal = 0x7f080088
+com.example.loginultimodia:styleable/MotionTelltales = 0x7f110065
+com.example.loginultimodia:style/Theme.MaterialComponents.Dialog = 0x7f1001ef
+com.example.loginultimodia:styleable/KeyFramesAcceleration = 0x7f110041
+com.example.loginultimodia:style/TextAppearance.Compat.Notification.Media = 0x7f10019a
+com.example.loginultimodia:styleable/SupportVectorDrawablesButton = 0x7f110081
+com.example.loginultimodia:attr/layout_constraintWidth_percent = 0x7f030222
+com.example.loginultimodia:id/btnLogin = 0x7f080078
+com.example.loginultimodia:layout/abc_cascading_menu_item_layout = 0x7f0b000b
+com.example.loginultimodia:style/Widget.AppCompat.ActionBar = 0x7f10023d
+com.example.loginultimodia:styleable/FlowLayout = 0x7f110034
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialCalendar = 0x7f100231
+com.example.loginultimodia:id/accessibility_custom_action_20 = 0x7f080028
+com.example.loginultimodia:layout/mtrl_picker_text_input_date_range = 0x7f0b0084
+com.example.loginultimodia:style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f100070
+com.example.loginultimodia:styleable/SpacedEditText = 0x7f11007b
+com.example.loginultimodia:integer/design_tab_indicator_anim_duration_ms = 0x7f090007
+com.example.loginultimodia:style/Widget.AppCompat.ActionBar.TabView = 0x7f100241
+com.example.loginultimodia:style/TextAppearance.AppCompat.Medium.Inverse = 0x7f100177
+com.example.loginultimodia:styleable/AppBarLayout_Layout = 0x7f11000c
+com.example.loginultimodia:styleable/BaseProgressIndicator = 0x7f110014
+com.example.loginultimodia:style/TextAppearance.MaterialComponents.Headline5 = 0x7f1001b4
+com.example.loginultimodia:styleable/RangeSlider = 0x7f11006f
+com.example.loginultimodia:style/Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f10024b
+com.example.loginultimodia:styleable/MaterialCardView = 0x7f110053
+com.example.loginultimodia:styleable/MaterialCalendar = 0x7f110051
+com.example.loginultimodia:style/Widget.MaterialComponents.NavigationRailView.PrimarySurface = 0x7f1002e2
+com.example.loginultimodia:style/Base.Widget.AppCompat.Toolbar.Button.Navigation = 0x7f1000d5
+com.example.loginultimodia:style/Base.Widget.AppCompat.RatingBar.Indicator = 0x7f1000ca
+com.example.loginultimodia:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f1002f4
+com.example.loginultimodia:style/Base.Widget.AppCompat.ActionBar = 0x7f10009c
+com.example.loginultimodia:id/all = 0x7f080058
+com.example.loginultimodia:style/Base.Animation.AppCompat.Tooltip = 0x7f10000c
+com.example.loginultimodia:style/Widget.AppCompat.Light.ActionBar.TabText = 0x7f10025c
+com.example.loginultimodia:style/Widget.AppCompat.RatingBar.Small = 0x7f100279
+com.example.loginultimodia:attr/errorTextColor = 0x7f03015a
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense = 0x7f10021e
+com.example.loginultimodia:style/FirebaseUI.Button.AccountChooser.TwitterButton = 0x7f1000f7
+com.example.loginultimodia:color/primary_dark_material_dark = 0x7f0500d4
+com.example.loginultimodia:style/Widget.AppCompat.Light.SearchView = 0x7f10026b
+com.example.loginultimodia:styleable/MotionLayout = 0x7f110063
+com.example.loginultimodia:style/ShapeAppearanceOverlay.DifferentCornerSize = 0x7f10014f
+com.example.loginultimodia:style/Widget.AppCompat.ListMenuView = 0x7f10026d
+com.example.loginultimodia:styleable/TextAppearance = 0x7f110086
+com.example.loginultimodia:dimen/abc_text_size_title_material = 0x7f06004f
+com.example.loginultimodia:styleable/AppCompatTextView = 0x7f110011
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.YearNavigationButton = 0x7f1002dd
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.HeaderCancelButton = 0x7f1002cf
+com.example.loginultimodia:style/TextAppearance.Design.Placeholder = 0x7f1001a5
+com.example.loginultimodia:style/Widget.MaterialComponents.FloatingActionButton = 0x7f1002c4
+com.example.loginultimodia:styleable/FragmentContainerView = 0x7f110039
+com.example.loginultimodia:id/row_index_key = 0x7f0801af
+com.example.loginultimodia:attr/yearTodayStyle = 0x7f0303ed
+com.example.loginultimodia:style/Widget.MaterialComponents.NavigationRailView.Colored = 0x7f1002df
+com.example.loginultimodia:styleable/CompoundButton = 0x7f110025
+com.example.loginultimodia:string/abc_searchview_description_query = 0x7f0f0018
+com.example.loginultimodia:style/Widget.MaterialComponents.Chip.Action = 0x7f1002b5
+com.example.loginultimodia:id/tag_screen_reader_focusable = 0x7f0801fd
+com.example.loginultimodia:style/TextAppearance.AppCompat.Body1 = 0x7f100166
+com.example.loginultimodia:attr/customIntegerValue = 0x7f03011b
+com.example.loginultimodia:styleable/ActionMenuItemView = 0x7f110002
+com.example.loginultimodia:style/EmptyTheme = 0x7f1000e7
+com.example.loginultimodia:styleable/SnackbarLayout = 0x7f11007a
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.UnelevatedButton = 0x7f1002b1
+com.example.loginultimodia:style/Base.Widget.AppCompat.ButtonBar = 0x7f1000ad
+com.example.loginultimodia:layout/activity_main = 0x7f0b001f
+com.example.loginultimodia:id/chip = 0x7f08008e
+com.example.loginultimodia:style/TextAppearance.Design.CollapsingToolbar.Expanded = 0x7f10019f
+com.example.loginultimodia:style/Widget.MaterialComponents.Snackbar = 0x7f1002eb
+com.example.loginultimodia:string/fui_idp_name_github = 0x7f0f006d
+com.example.loginultimodia:string/mtrl_picker_invalid_range = 0x7f0f00d6
+com.example.loginultimodia:layout/abc_action_mode_close_item_material = 0x7f0b0005
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Inverse = 0x7f10001d
+com.example.loginultimodia:style/Widget.AppCompat.ProgressBar.Horizontal = 0x7f100276
+com.example.loginultimodia:styleable/FontFamily = 0x7f110035
+com.example.loginultimodia:attr/minHideDelay = 0x7f030275
+com.example.loginultimodia:string/fui_title_confirm_recover_password = 0x7f0f0095
+com.example.loginultimodia:style/Widget.MaterialComponents.TimePicker.Clock = 0x7f100300
+com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Text = 0x7f100141
+com.example.loginultimodia:style/Base.V21.Theme.AppCompat.Light = 0x7f100083
+com.example.loginultimodia:string/fui_sign_in_with_yahoo = 0x7f0f0091
+com.example.loginultimodia:styleable/CoordinatorLayout_Layout = 0x7f11002d
+com.example.loginultimodia:style/Platform.ThemeOverlay.AppCompat.Dark = 0x7f10012d
+com.example.loginultimodia:style/Widget.AppCompat.Light.ActionBar.TabBar.Inverse = 0x7f10025b
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Display1 = 0x7f100018
+com.example.loginultimodia:attr/tickColor = 0x7f03039b
+com.example.loginultimodia:style/TextAppearance.Design.Snackbar.Message = 0x7f1001a7
+com.example.loginultimodia:attr/titleTextColor = 0x7f0303af
+com.example.loginultimodia:attr/suffixText = 0x7f03033d
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialButtonToggleGroup = 0x7f1002c7
+com.example.loginultimodia:style/Widget.AppCompat.SearchView.ActionBar = 0x7f10027b
+com.example.loginultimodia:color/design_fab_stroke_top_inner_color = 0x7f050062
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton.Dialog.Icon = 0x7f1002ae
+com.example.loginultimodia:id/inward = 0x7f08011f
+com.example.loginultimodia:style/Widget.Design.ScrimInsetsFrameLayout = 0x7f10028e
+com.example.loginultimodia:id/txtUsername1 = 0x7f080239
+com.example.loginultimodia:styleable/TabItem = 0x7f110084
+com.example.loginultimodia:styleable/ClockFaceView = 0x7f110020
+com.example.loginultimodia:dimen/abc_action_button_min_width_material = 0x7f06000e
+com.example.loginultimodia:style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense = 0x7f1002f6
+com.example.loginultimodia:id/center = 0x7f080087
+com.example.loginultimodia:style/Widget.MaterialComponents.TimePicker.ImageButton = 0x7f100303
+com.example.loginultimodia:string/fui_sign_in_with_twitter = 0x7f0f0090
+com.example.loginultimodia:layout/fui_idp_button_github = 0x7f0b004c
+com.example.loginultimodia:string/path_password_eye = 0x7f0f00ec
+com.example.loginultimodia:style/Widget.AppCompat.SeekBar.Discrete = 0x7f10027d
+com.example.loginultimodia:layout/select_dialog_item_material = 0x7f0b0094
+com.example.loginultimodia:style/Theme.AppCompat.Empty = 0x7f1001cb
+com.example.loginultimodia:color/abc_btn_colored_text_material = 0x7f050003
+com.example.loginultimodia:style/Widget.AppCompat.Light.ActionButton.CloseMode = 0x7f100261
+com.example.loginultimodia:string/common_google_play_services_enable_button = 0x7f0f002b
+com.example.loginultimodia:style/TextAppearance.Design.Error = 0x7f1001a2
+com.example.loginultimodia:styleable/AnimatedStateListDrawableCompat = 0x7f110007
+com.example.loginultimodia:styleable/CardView = 0x7f11001a
+com.example.loginultimodia:styleable/ConstraintLayout_placeholder = 0x7f110029
+com.example.loginultimodia:styleable/RadialViewGroup = 0x7f11006e
+com.example.loginultimodia:styleable/CollapsingToolbarLayout = 0x7f110022
+com.example.loginultimodia:string/copy_toast_msg = 0x7f0f003d
+com.example.loginultimodia:style/ShapeAppearance.MaterialComponents.Test = 0x7f100149
+com.example.loginultimodia:dimen/mtrl_btn_text_btn_icon_padding = 0x7f0600f4
+com.example.loginultimodia:style/Widget.AppCompat.ActionMode = 0x7f100245
+com.example.loginultimodia:style/Widget.MaterialComponents.TabLayout.PrimarySurface = 0x7f1002f0
+com.example.loginultimodia:style/Widget.MaterialComponents.PopupMenu.Overflow = 0x7f1002e7
+com.example.loginultimodia:id/jumpToStart = 0x7f080127
+com.example.loginultimodia:style/Widget.MaterialComponents.ShapeableImageView = 0x7f1002e9
+com.example.loginultimodia:dimen/mtrl_navigation_item_horizontal_padding = 0x7f060151
+com.example.loginultimodia:style/TextAppearance.MaterialComponents.Body1 = 0x7f1001ab
+com.example.loginultimodia:id/item1 = 0x7f080121
+com.example.loginultimodia:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f100243
+com.example.loginultimodia:string/mtrl_picker_announce_current_selection = 0x7f0f00cc
+com.example.loginultimodia:style/Widget.AppCompat.ActionBar.TabText = 0x7f100240
+com.example.loginultimodia:attr/textAppearanceListItem = 0x7f030371
+com.example.loginultimodia:style/ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox = 0x7f100157
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox = 0x7f100236
+com.example.loginultimodia:styleable/CoordinatorLayout = 0x7f11002c
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f10022a
+com.example.loginultimodia:style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar = 0x7f10026c
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f100226
+com.example.loginultimodia:string/mtrl_picker_toggle_to_text_input_mode = 0x7f0f00e7
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog = 0x7f100224
+com.example.loginultimodia:dimen/mtrl_calendar_day_corner = 0x7f0600fe
+com.example.loginultimodia:id/ghost_view = 0x7f0800fb
+com.example.loginultimodia:id/spread = 0x7f0801dd
+com.example.loginultimodia:style/Widget.MaterialComponents.BottomSheet.Modal = 0x7f1002a6
+com.example.loginultimodia:style/Widget.AppCompat.Light.ActionBar.TabView = 0x7f10025e
+com.example.loginultimodia:style/Theme.AppCompat.DayNight.Dialog.MinWidth = 0x7f1001c4
+com.example.loginultimodia:style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert.Framework = 0x7f100071
+com.example.loginultimodia:dimen/mtrl_btn_max_width = 0x7f0600ec
+com.example.loginultimodia:string/fui_sign_in_with_apple = 0x7f0f0088
+com.example.loginultimodia:attr/reactiveGuide_applyToAllConstraintSets = 0x7f0302e5
+com.example.loginultimodia:id/horizontal_only = 0x7f08010e
+com.example.loginultimodia:style/Widget.MaterialComponents.TabLayout.Colored = 0x7f1002ef
+com.example.loginultimodia:drawable/icono_temperatura_background = 0x7f07009a
+com.example.loginultimodia:style/TextAppearance.AppCompat.Display1 = 0x7f10016a
+com.example.loginultimodia:style/Widget.AppCompat.Light.ActionBar.Solid = 0x7f100258
+com.example.loginultimodia:attr/placeholderTextAppearance = 0x7f0302ca
+com.example.loginultimodia:style/MaterialAlertDialog.MaterialComponents.Picker.Date.Spinner = 0x7f10011f
+com.example.loginultimodia:anim/btn_checkbox_to_checked_box_inner_merged_animation = 0x7f01000c
+com.example.loginultimodia:styleable/ViewPager2 = 0x7f110092
+com.example.loginultimodia:bool/abc_config_actionMenuItemAllCaps = 0x7f040001
+com.example.loginultimodia:id/accessibility_custom_action_30 = 0x7f080033
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse = 0x7f100188
+com.example.loginultimodia:drawable/design_password_eye = 0x7f07007b
+com.example.loginultimodia:string/abc_action_bar_up_description = 0x7f0f0005
+com.example.loginultimodia:style/Base.Widget.AppCompat.DropDownItem.Spinner = 0x7f1000b4
+com.example.loginultimodia:drawable/mtrl_ic_arrow_drop_down = 0x7f0700aa
+com.example.loginultimodia:styleable/MockView = 0x7f11005e
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f10021b
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.DayTextView = 0x7f1002cd
+com.example.loginultimodia:style/ThemeOverlay.AppCompat = 0x7f10020c
+com.example.loginultimodia:style/Widget.AppCompat.ListView = 0x7f10026f
+com.example.loginultimodia:string/mtrl_picker_range_header_unselected = 0x7f0f00dd
+com.example.loginultimodia:dimen/fui_auth_method_button_drawablePadding = 0x7f060095
+com.example.loginultimodia:id/etRegPass = 0x7f0800e7
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Item = 0x7f1002d7
+com.example.loginultimodia:style/Base.Widget.AppCompat.ActionButton.Overflow = 0x7f1000a3
+com.example.loginultimodia:id/unchecked = 0x7f08023a
+com.example.loginultimodia:layout/mtrl_picker_header_title_text = 0x7f0b0081
+com.example.loginultimodia:style/TextAppearance.MaterialComponents.TimePicker.Title = 0x7f1001b9
+com.example.loginultimodia:style/Widget.AppCompat.PopupMenu.Overflow = 0x7f100273
+com.example.loginultimodia:string/fui_error_email_does_not_exist = 0x7f0f0065
+com.example.loginultimodia:style/Base.Widget.MaterialComponents.AutoCompleteTextView = 0x7f1000d7
+com.example.loginultimodia:style/FirebaseUI.Button.AccountChooser.YahooButton = 0x7f1000f8
+com.example.loginultimodia:style/ThemeOverlay.AppCompat.Dialog.Alert = 0x7f100213
+com.example.loginultimodia:string/fui_verifying = 0x7f0f00a0
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Large.Inverse = 0x7f10001f
+com.example.loginultimodia:string/fui_email_link_confirm_email_message = 0x7f0f0056
+com.example.loginultimodia:style/Theme.MaterialComponents.Light.NoActionBar = 0x7f100208
+com.example.loginultimodia:drawable/avd_hide_password = 0x7f070057
+com.example.loginultimodia:style/ThemeOverlay.AppCompat.DayNight.ActionBar = 0x7f100211
+com.example.loginultimodia:style/CardView = 0x7f1000e4
+com.example.loginultimodia:attr/editTextStyle = 0x7f030145
+com.example.loginultimodia:dimen/abc_star_medium = 0x7f06003c
+com.example.loginultimodia:id/material_timepicker_view = 0x7f080149
+com.example.loginultimodia:attr/scopeUris = 0x7f0302f4
+com.example.loginultimodia:style/Theme.Design.BottomSheetDialog = 0x7f1001d5
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.ActionBar.Surface = 0x7f100219
+com.example.loginultimodia:style/MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked = 0x7f100121
+com.example.loginultimodia:style/Widget.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f100302
+com.example.loginultimodia:style/Widget.Support.CoordinatorLayout = 0x7f10030a
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.DropDownItem = 0x7f10018f
+com.example.loginultimodia:style/Theme.MaterialComponents.BottomSheetDialog = 0x7f1001dc
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Fullscreen = 0x7f1002ce
+com.example.loginultimodia:id/leftToRight = 0x7f08012b
+com.example.loginultimodia:id/textStart = 0x7f080210
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.NoActionBar = 0x7f1001ed
+com.example.loginultimodia:styleable/SwitchMaterial = 0x7f110083
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle = 0x7f1002d5
+com.example.loginultimodia:color/abc_tint_switch_track = 0x7f050018
+com.example.loginultimodia:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year = 0x7f100156
+com.example.loginultimodia:layout/mtrl_picker_dialog = 0x7f0b007c
+com.example.loginultimodia:style/Base.Theme.MaterialComponents.Light.Dialog = 0x7f100062
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.Dialog = 0x7f1001e4
+com.example.loginultimodia:style/Base.V21.Theme.MaterialComponents.Dialog = 0x7f100086
+com.example.loginultimodia:id/action0 = 0x7f08003c
+com.example.loginultimodia:id/stretch = 0x7f0801ed
+com.example.loginultimodia:style/ShapeAppearanceOverlay.TopRightDifferentCornerSize = 0x7f100159
+com.example.loginultimodia:attr/materialCalendarHeaderSelection = 0x7f030259
+com.example.loginultimodia:style/FirebaseUI.AuthMethodPicker.ButtonHolder = 0x7f1000ea
+com.example.loginultimodia:string/fui_welcome_back_password_prompt_body = 0x7f0f00a6
+com.example.loginultimodia:style/ThemeOverlayColorAccentRed = 0x7f10023c
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f100221
+com.example.loginultimodia:string/fui_sms_terms_of_service_and_privacy_policy_extended = 0x7f0f0093
+com.example.loginultimodia:integer/mtrl_badge_max_character_count = 0x7f090012
+com.example.loginultimodia:dimen/mtrl_switch_thumb_elevation = 0x7f060180
+com.example.loginultimodia:attr/multiChoiceItemLayout = 0x7f03029c
+com.example.loginultimodia:styleable/Toolbar = 0x7f11008b
+com.example.loginultimodia:dimen/compat_button_padding_vertical_material = 0x7f06005c
+com.example.loginultimodia:attr/extendMotionSpec = 0x7f030165
+com.example.loginultimodia:attr/height = 0x7f03019e
+com.example.loginultimodia:attr/subtitleTextAppearance = 0x7f03033a
+com.example.loginultimodia:styleable/RecycleListView = 0x7f110070
+com.example.loginultimodia:layout/fui_idp_button_facebook = 0x7f0b004b
+com.example.loginultimodia:layout/support_simple_spinner_dropdown_item = 0x7f0b0097
+com.example.loginultimodia:string/character_counter_overflowed_content_description = 0x7f0f0027
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.Dialog = 0x7f100225
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.Dialog.FixedSize = 0x7f1001e8
+com.example.loginultimodia:attr/textAppearanceLargePopupMenu = 0x7f03036f
+com.example.loginultimodia:drawable/test_level_drawable = 0x7f0700c1
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.BottomSheetDialog = 0x7f1001e0
+com.example.loginultimodia:style/Theme.LoginUltimoDia = 0x7f1001da
+com.example.loginultimodia:attr/actionBarTabTextStyle = 0x7f03000a
+com.example.loginultimodia:string/mtrl_picker_invalid_format_example = 0x7f0f00d4
+com.example.loginultimodia:style/Theme.Design.Light = 0x7f1001d6
+com.example.loginultimodia:style/Theme.AppCompat.Light.DialogWhenLarge = 0x7f1001d1
+com.example.loginultimodia:drawable/common_full_open_on_phone = 0x7f070065
+com.example.loginultimodia:attr/materialCalendarHeaderCancelButton = 0x7f030255
+com.example.loginultimodia:string/fui_missing_email_address = 0x7f0f0074
+com.example.loginultimodia:attr/recyclerViewStyle = 0x7f0302e8
+com.example.loginultimodia:color/material_on_surface_disabled = 0x7f05008f
+com.example.loginultimodia:dimen/mtrl_bottomappbar_height = 0x7f0600e0
+com.example.loginultimodia:attr/textBackgroundZoom = 0x7f03037f
+com.example.loginultimodia:style/Base.Widget.AppCompat.SearchView = 0x7f1000cc
+com.example.loginultimodia:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f100174
+com.example.loginultimodia:style/Base.Widget.AppCompat.ActionBar.TabView = 0x7f1000a0
+com.example.loginultimodia:drawable/abc_list_selector_background_transition_holo_dark = 0x7f070031
+com.example.loginultimodia:style/Widget.MaterialComponents.Light.ActionBar.Solid = 0x7f1002c5
+com.example.loginultimodia:string/path_password_eye_mask_strike_through = 0x7f0f00ed
+com.example.loginultimodia:attr/tabIndicatorGravity = 0x7f03034f
+com.example.loginultimodia:style/Theme.MaterialComponents.Light.Dialog.MinWidth.Bridge = 0x7f100205
+com.example.loginultimodia:attr/chipIconSize = 0x7f0300a6
+com.example.loginultimodia:style/Theme.AppCompat.DayNight.DialogWhenLarge = 0x7f1001c5
+com.example.loginultimodia:color/abc_tint_btn_checkable = 0x7f050013
+com.example.loginultimodia:style/Theme.AppCompat.DayNight.DarkActionBar = 0x7f1001c1
+com.example.loginultimodia:style/Widget.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f1002f2
+com.example.loginultimodia:styleable/ScrollingViewBehavior_Layout = 0x7f110073
+com.example.loginultimodia:style/TextAppearance.MaterialComponents.Headline4 = 0x7f1001b3
+com.example.loginultimodia:id/anticipate = 0x7f08005e
+com.example.loginultimodia:styleable/KeyAttribute = 0x7f11003e
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge = 0x7f1001e9
+com.example.loginultimodia:drawable/abc_spinner_textfield_background_material = 0x7f070045
+com.example.loginultimodia:id/chronometer = 0x7f080093
+com.example.loginultimodia:id/edit_query = 0x7f0800d6
+com.example.loginultimodia:style/RtlOverlay.DialogWindowTitle.AppCompat = 0x7f100134
+com.example.loginultimodia:style/Widget.AppCompat.ActivityChooserView = 0x7f100246
+com.example.loginultimodia:layout/mtrl_picker_text_input_date = 0x7f0b0083
+com.example.loginultimodia:style/TextAppearance.Design.Tab = 0x7f1001a9
+com.example.loginultimodia:style/Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day = 0x7f10015a
+com.example.loginultimodia:string/mtrl_picker_date_header_title = 0x7f0f00d0
+com.example.loginultimodia:id/end = 0x7f0800de
+com.example.loginultimodia:attr/indeterminateProgressStyle = 0x7f0301c2
+com.example.loginultimodia:styleable/Variant = 0x7f11008f
+com.example.loginultimodia:id/accessibility_custom_action_4 = 0x7f080035
+com.example.loginultimodia:style/Base.TextAppearance.MaterialComponents.Badge = 0x7f100040
+com.example.loginultimodia:layout/notification_template_icon_group = 0x7f0b008e
+com.example.loginultimodia:styleable/AnimatedStateListDrawableTransition = 0x7f110009
+com.example.loginultimodia:drawable/material_ic_menu_arrow_up_black_24dp = 0x7f0700a5
+com.example.loginultimodia:id/media_actions = 0x7f08014b
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Day.Selected = 0x7f1002cb
+com.example.loginultimodia:color/material_slider_halo_color = 0x7f050095
+com.example.loginultimodia:id/wide = 0x7f08024d
+com.example.loginultimodia:attr/tabIndicatorColor = 0x7f03034d
+com.example.loginultimodia:id/special_effects_controller_view_tag = 0x7f0801da
+com.example.loginultimodia:drawable/abc_ic_clear_material = 0x7f07001e
+com.example.loginultimodia:dimen/material_textinput_min_width = 0x7f0600ca
+com.example.loginultimodia:style/TextAppearance.MaterialComponents.Body2 = 0x7f1001ac
+com.example.loginultimodia:style/FirebaseUI.TopProgressBar = 0x7f100118
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.ActionBar.Primary = 0x7f100218
+com.example.loginultimodia:attr/commitIcon = 0x7f0300e7
+com.example.loginultimodia:id/graph = 0x7f0800ff
+com.example.loginultimodia:color/radiobutton_themeable_attribute_color = 0x7f0500df
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.Button = 0x7f10018b
+com.example.loginultimodia:style/Theme.MaterialComponents.Light = 0x7f1001f8
+com.example.loginultimodia:styleable/ActionMode = 0x7f110004
+com.example.loginultimodia:integer/show_password_duration = 0x7f09001c
+com.example.loginultimodia:id/split_action_bar = 0x7f0801dc
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f100189
+com.example.loginultimodia:attr/liftOnScroll = 0x7f030234
+com.example.loginultimodia:style/TextAppearance.AppCompat.Subhead = 0x7f10017d
+com.example.loginultimodia:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f10029c
+com.example.loginultimodia:style/Widget.AppCompat.ImageButton = 0x7f100256
+com.example.loginultimodia:style/Theme.MaterialComponents.Dialog.FixedSize.Bridge = 0x7f1001f4
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f100187
+com.example.loginultimodia:style/Base.V14.Theme.MaterialComponents.Dialog = 0x7f100076
+com.example.loginultimodia:attr/customBoolean = 0x7f030116
+com.example.loginultimodia:id/material_minute_text_input = 0x7f080141
+com.example.loginultimodia:color/mtrl_navigation_item_background_color = 0x7f0500bd
+com.example.loginultimodia:layout/mtrl_alert_dialog_title = 0x7f0b006a
+com.example.loginultimodia:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small = 0x7f100175
+com.example.loginultimodia:styleable/CollapsingToolbarLayout_Layout = 0x7f110023
+com.example.loginultimodia:color/common_google_signin_btn_text_light_pressed = 0x7f05003e
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Headline = 0x7f10001c
+com.example.loginultimodia:layout/material_radial_view_group = 0x7f0b0060
+com.example.loginultimodia:style/TextAppearance.AppCompat.Button = 0x7f100168
+com.example.loginultimodia:plurals/mtrl_badge_content_description = 0x7f0e0001
+com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f100137
+com.example.loginultimodia:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f100046
+com.example.loginultimodia:id/resend_barrier = 0x7f0801a6
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.Switch = 0x7f100193
+com.example.loginultimodia:style/Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f1002e5
+com.example.loginultimodia:styleable/ImageFilterView = 0x7f11003c
+com.example.loginultimodia:style/TextAppearance.AppCompat.Headline = 0x7f10016e
+com.example.loginultimodia:style/Widget.MaterialComponents.AppBarLayout.Primary = 0x7f100297
+com.example.loginultimodia:attr/trackColorActive = 0x7f0303bd
+com.example.loginultimodia:styleable/Chip = 0x7f11001d
+com.example.loginultimodia:id/included = 0x7f08011b
+com.example.loginultimodia:style/Widget.AppCompat.Spinner = 0x7f10027e
+com.example.loginultimodia:id/bounce = 0x7f08006d
+>>>>>>> develop
 com.example.loginultimodia:styleable/Capability = 0x7f110019
 com.example.loginultimodia:drawable/abc_list_focused_holo = 0x7f07002d
 com.example.loginultimodia:style/ShapeAppearanceOverlay.MaterialComponents.BottomSheet = 0x7f100150
@@ -259,6 +627,7 @@ com.example.loginultimodia:attr/tabRippleColor = 0x7f03035a
 com.example.loginultimodia:styleable/KeyTimeCycle = 0x7f110044
 com.example.loginultimodia:attr/fontProviderPackage = 0x7f03018f
 com.example.loginultimodia:style/FirebaseUI.Button.AccountChooser.AnonymousButton = 0x7f1000ee
+<<<<<<< HEAD
 com.example.loginultimodia:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f10029c
 com.example.loginultimodia:style/Widget.AppCompat.ImageButton = 0x7f100256
 com.example.loginultimodia:style/Theme.MaterialComponents.Dialog.FixedSize.Bridge = 0x7f1001f4
@@ -392,13 +761,90 @@ com.example.loginultimodia:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f1
 com.example.loginultimodia:id/item1 = 0x7f080121
 com.example.loginultimodia:style/FirebaseUI.WrapperStyle = 0x7f10011b
 com.example.loginultimodia:string/common_signin_button_text = 0x7f0f003b
+=======
+com.example.loginultimodia:id/fill_vertical = 0x7f0800f0
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f10022b
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.Dark = 0x7f100222
+com.example.loginultimodia:string/material_timepicker_text_input_mode_description = 0x7f0f00c3
+com.example.loginultimodia:id/tag_window_insets_animation_callback = 0x7f080202
+com.example.loginultimodia:styleable/LoadingImageView = 0x7f11004b
+com.example.loginultimodia:dimen/compat_control_corner_material = 0x7f06005d
+com.example.loginultimodia:attr/bottomAppBarStyle = 0x7f030062
+com.example.loginultimodia:integer/abc_config_activityDefaultDur = 0x7f090000
+com.example.loginultimodia:dimen/design_navigation_item_icon_padding = 0x7f06007c
+com.example.loginultimodia:style/FirebaseUI.TextInputEditText.PasswordField = 0x7f10010f
+com.example.loginultimodia:integer/mtrl_btn_anim_duration_ms = 0x7f090014
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f100030
+com.example.loginultimodia:style/Platform.V21.AppCompat.Light = 0x7f100130
+com.example.loginultimodia:layout/fui_provider_button_anonymous = 0x7f0b0052
+com.example.loginultimodia:attr/titleTextAppearance = 0x7f0303ae
+com.example.loginultimodia:style/Theme.AppCompat.Dialog.Alert = 0x7f1001c8
+com.example.loginultimodia:layout/mtrl_alert_select_dialog_item = 0x7f0b006b
+com.example.loginultimodia:id/btn_holder = 0x7f08007a
+com.example.loginultimodia:attr/titleMarginBottom = 0x7f0303a9
+com.example.loginultimodia:id/filled = 0x7f0800f1
+com.example.loginultimodia:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f100283
+com.example.loginultimodia:styleable/ExtendedFloatingActionButton_Behavior_Layout = 0x7f110031
+com.example.loginultimodia:dimen/tooltip_margin = 0x7f0601b2
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.Bridge = 0x7f1001e1
+com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut = 0x7f100139
+com.example.loginultimodia:styleable/CheckedTextView = 0x7f11001c
+com.example.loginultimodia:style/Platform.AppCompat = 0x7f100126
+com.example.loginultimodia:style/Base.Theme.AppCompat.Light.DarkActionBar = 0x7f10004f
+com.example.loginultimodia:style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon = 0x7f1002c3
+com.example.loginultimodia:attr/layout_constraintEnd_toStartOf = 0x7f030203
+com.example.loginultimodia:id/scroll = 0x7f0801b5
+com.example.loginultimodia:attr/fontFamily = 0x7f03018a
+com.example.loginultimodia:style/Platform.Widget.AppCompat.Spinner = 0x7f100133
+com.example.loginultimodia:style/Base.Widget.AppCompat.ActivityChooserView = 0x7f1000a5
+com.example.loginultimodia:attr/headerLayout = 0x7f03019d
+com.example.loginultimodia:style/TextAppearance.AppCompat.Large = 0x7f100170
+com.example.loginultimodia:style/Platform.V21.AppCompat = 0x7f10012f
+com.example.loginultimodia:style/Widget.Design.BottomNavigationView = 0x7f100289
+com.example.loginultimodia:style/ThemeOverlay.AppCompat.Dialog = 0x7f100212
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Day.Invalid = 0x7f1002ca
+com.example.loginultimodia:id/material_label = 0x7f080140
+com.example.loginultimodia:style/MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar = 0x7f10011e
+com.example.loginultimodia:drawable/common_google_signin_btn_text_dark = 0x7f07006f
+com.example.loginultimodia:attr/colorOnSecondary = 0x7f0300dc
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox = 0x7f100234
+com.example.loginultimodia:id/easeIn = 0x7f0800d1
+com.example.loginultimodia:style/FirebaseUI.TextInputLayout.EmailField = 0x7f100113
+com.example.loginultimodia:styleable/AppCompatSeekBar = 0x7f11000f
+com.example.loginultimodia:id/outline = 0x7f080188
+com.example.loginultimodia:style/FirebaseUI.TextInputEditText.NameField = 0x7f10010e
+com.example.loginultimodia:dimen/abc_dialog_min_width_major = 0x7f060022
+com.example.loginultimodia:style/TextAppearance.AppCompat.Caption = 0x7f100169
+com.example.loginultimodia:style/Base.V7.ThemeOverlay.AppCompat.Dialog = 0x7f100098
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Small.Inverse = 0x7f100029
+com.example.loginultimodia:attr/snackbarStyle = 0x7f030316
+com.example.loginultimodia:color/notification_icon_bg_color = 0x7f0500d2
+com.example.loginultimodia:style/ShapeAppearanceOverlay = 0x7f10014b
+com.example.loginultimodia:style/FirebaseUI.Text.T07 = 0x7f100106
+com.example.loginultimodia:string/google_app_id = 0x7f0f00a9
+com.example.loginultimodia:attr/suggestionRowLayout = 0x7f030340
+com.example.loginultimodia:style/Widget.AppCompat.Toolbar = 0x7f100284
+com.example.loginultimodia:style/TextAppearance.AppCompat.Large.Inverse = 0x7f100171
+com.example.loginultimodia:id/cut = 0x7f0800ae
+com.example.loginultimodia:style/Widget.MaterialComponents.Toolbar.PrimarySurface = 0x7f100307
+>>>>>>> develop
 com.example.loginultimodia:style/FirebaseUI.Text.T02 = 0x7f100101
+com.example.loginultimodia:string/common_signin_button_text = 0x7f0f003b
+com.example.loginultimodia:style/FirebaseUI.WrapperStyle = 0x7f10011b
 com.example.loginultimodia:style/FirebaseUI.Text.Heading = 0x7f1000fe
 com.example.loginultimodia:style/Platform.MaterialComponents.Dialog = 0x7f100129
 com.example.loginultimodia:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu = 0x7f1002fb
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.V14.Theme.MaterialComponents.Light.Dialog = 0x7f10007b
 com.example.loginultimodia:style/FirebaseUI.CountrySpinner = 0x7f1000f9
 com.example.loginultimodia:styleable/GradientColor = 0x7f11003a
+=======
+com.example.loginultimodia:style/FirebaseUI.DefaultMaterialTheme = 0x7f1000fa
+com.example.loginultimodia:layout/fui_welcome_back_email_link_prompt_layout = 0x7f0b0056
+com.example.loginultimodia:style/FirebaseUI.CountrySpinner = 0x7f1000f9
+com.example.loginultimodia:styleable/GradientColor = 0x7f11003a
+com.example.loginultimodia:style/Base.V14.Theme.MaterialComponents.Light.Dialog = 0x7f10007b
+>>>>>>> develop
 com.example.loginultimodia:style/FirebaseUI.Button.AccountChooser.GoogleButton = 0x7f1000f4
 com.example.loginultimodia:style/FirebaseUI.Button.AccountChooser.GitHubButton = 0x7f1000f3
 com.example.loginultimodia:style/Widget.AppCompat.Light.ActionBar.Solid.Inverse = 0x7f100259
@@ -406,13 +852,22 @@ com.example.loginultimodia:string/fui_resend_code_in = 0x7f0f0085
 com.example.loginultimodia:id/action_bar_container = 0x7f080042
 com.example.loginultimodia:layout/abc_screen_content_include = 0x7f0b0014
 com.example.loginultimodia:style/FirebaseUI.AuthMethodPicker = 0x7f1000e9
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.Widget.AppCompat.DrawerArrowToggle = 0x7f1000b2
 com.example.loginultimodia:id/button_next = 0x7f08007f
+=======
+com.example.loginultimodia:dimen/abc_seekbar_track_background_height_material = 0x7f060038
+com.example.loginultimodia:styleable/ColorStateListItem = 0x7f110024
+com.example.loginultimodia:id/snackbar_text = 0x7f0801d5
+com.example.loginultimodia:dimen/design_snackbar_padding_horizontal = 0x7f060087
+com.example.loginultimodia:id/material_clock_period_toggle = 0x7f08013d
+>>>>>>> develop
 com.example.loginultimodia:style/Base.Widget.MaterialComponents.TextInputEditText = 0x7f1000e1
 com.example.loginultimodia:styleable/MaterialTextView = 0x7f110058
 com.example.loginultimodia:layout/fragment_dosis = 0x7f0b003d
 com.example.loginultimodia:attr/subMenuArrow = 0x7f030336
 com.example.loginultimodia:style/Widget.AppCompat.EditText = 0x7f100255
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.Theme.AppCompat.Dialog.MinWidth = 0x7f10004c
 com.example.loginultimodia:style/ShapeAppearance.MaterialComponents.LargeComponent = 0x7f100146
 com.example.loginultimodia:style/FirebaseUI.VerifyPhoneButton = 0x7f10011a
@@ -420,21 +875,46 @@ com.example.loginultimodia:style/Widget.AppCompat.Light.ActivityChooserView = 0x
 com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.MonthTextView = 0x7f1002d9
 com.example.loginultimodia:style/Theme.AppCompat.DayNight.DarkActionBar = 0x7f1001c1
 com.example.loginultimodia:style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f1000dd
+=======
+com.example.loginultimodia:style/FirebaseUI.VerifyPhoneButton = 0x7f10011a
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.MonthTextView = 0x7f1002d9
+com.example.loginultimodia:style/Widget.AppCompat.Light.ActivityChooserView = 0x7f100264
+com.example.loginultimodia:style/Base.Theme.AppCompat.Dialog.MinWidth = 0x7f10004c
+com.example.loginultimodia:style/ShapeAppearance.MaterialComponents.LargeComponent = 0x7f100146
+com.example.loginultimodia:style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f1000dd
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge = 0x7f1001ee
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.DialogWhenLarge = 0x7f1001ec
+com.example.loginultimodia:attr/values = 0x7f0303d1
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.Button.Inverse = 0x7f10018e
+com.example.loginultimodia:anim/btn_radio_to_on_mtrl_ring_outer_animation = 0x7f010016
+com.example.loginultimodia:attr/materialCalendarMonthNavigationButton = 0x7f03025d
+com.example.loginultimodia:style/ShapeAppearance.MaterialComponents.SmallComponent = 0x7f100148
+com.example.loginultimodia:id/standard = 0x7f0801e4
+com.example.loginultimodia:color/material_on_surface_emphasis_high_type = 0x7f050090
+>>>>>>> develop
 com.example.loginultimodia:style/Base.Widget.Design.TabLayout = 0x7f1000d6
 com.example.loginultimodia:style/Widget.MaterialComponents.ActionBar.Surface = 0x7f100296
 com.example.loginultimodia:style/TestStyleWithLineHeightAppearance = 0x7f100160
 com.example.loginultimodia:string/Humedad = 0x7f0f0002
+<<<<<<< HEAD
 com.example.loginultimodia:style/TextAppearance.Compat.Notification.Info.Media = 0x7f100197
 com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon = 0x7f100142
 com.example.loginultimodia:dimen/test_mtrl_calendar_day_cornerSize = 0x7f0601a4
 com.example.loginultimodia:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f10017a
 com.example.loginultimodia:attr/subtitleTextStyle = 0x7f03033c
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.Dialog = 0x7f100225
+=======
+com.example.loginultimodia:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f10017a
+com.example.loginultimodia:attr/subtitleTextStyle = 0x7f03033c
+com.example.loginultimodia:dimen/test_mtrl_calendar_day_cornerSize = 0x7f0601a4
+com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon = 0x7f100142
+>>>>>>> develop
 com.example.loginultimodia:style/Base.Widget.AppCompat.SeekBar = 0x7f1000ce
 com.example.loginultimodia:style/TextAppearance.Design.Suffix = 0x7f1001a8
 com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f100190
 com.example.loginultimodia:attr/shapeAppearanceLargeComponent = 0x7f030302
 com.example.loginultimodia:layout/design_menu_item_action_area = 0x7f0b002d
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.Widget.MaterialComponents.Slider = 0x7f1000df
 com.example.loginultimodia:dimen/abc_action_bar_default_height_material = 0x7f060002
 com.example.loginultimodia:layout/acercade = 0x7f0b001c
@@ -464,10 +944,33 @@ com.example.loginultimodia:style/Base.Theme.MaterialComponents.Dialog.Bridge = 0
 com.example.loginultimodia:attr/editTextStyle = 0x7f030145
 com.example.loginultimodia:attr/headerLayout = 0x7f03019d
 com.example.loginultimodia:style/Base.Widget.AppCompat.ActivityChooserView = 0x7f1000a5
+=======
+com.example.loginultimodia:dimen/abc_action_bar_default_height_material = 0x7f060002
+com.example.loginultimodia:layout/acercade = 0x7f0b001c
+com.example.loginultimodia:style/Base.Widget.MaterialComponents.Slider = 0x7f1000df
+com.example.loginultimodia:style/Base.Widget.AppCompat.ProgressBar = 0x7f1000c7
+com.example.loginultimodia:drawable/abc_textfield_search_activated_mtrl_alpha = 0x7f070052
+com.example.loginultimodia:style/TextAppearance.AppCompat.Title = 0x7f10017f
+com.example.loginultimodia:xml/standalone_badge_offset = 0x7f120005
+com.example.loginultimodia:id/right_side = 0x7f0801ac
+com.example.loginultimodia:style/Base.Widget.AppCompat.DrawerArrowToggle = 0x7f1000b2
+com.example.loginultimodia:id/button_next = 0x7f08007f
+com.example.loginultimodia:style/Base.Widget.AppCompat.CompoundButton.Switch = 0x7f1000b1
+com.example.loginultimodia:dimen/abc_action_bar_subtitle_top_margin_material = 0x7f06000c
+com.example.loginultimodia:style/Widget.MaterialComponents.CardView = 0x7f1002b3
+com.example.loginultimodia:style/Platform.MaterialComponents.Light.Dialog = 0x7f10012b
+com.example.loginultimodia:layout/notification_action = 0x7f0b0085
+com.example.loginultimodia:style/Base.Theme.MaterialComponents.Dialog.Bridge = 0x7f10005a
+com.example.loginultimodia:id/search_edit_frame = 0x7f0801be
+com.example.loginultimodia:style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1000aa
+com.example.loginultimodia:color/error_color_material_dark = 0x7f05006a
+com.example.loginultimodia:layout/material_textinput_timepicker = 0x7f0b0061
+>>>>>>> develop
 com.example.loginultimodia:style/Base.Widget.AppCompat.ActionMode = 0x7f1000a4
 com.example.loginultimodia:attr/gestureInsetBottomIgnored = 0x7f030199
 com.example.loginultimodia:styleable/AnimatedStateListDrawableItem = 0x7f110008
 com.example.loginultimodia:style/TextAppearance.Compat.Notification.Line2 = 0x7f100198
+<<<<<<< HEAD
 com.example.loginultimodia:layout/material_textinput_timepicker = 0x7f0b0061
 com.example.loginultimodia:attr/fontFamily = 0x7f03018a
 com.example.loginultimodia:id/header_text = 0x7f080107
@@ -492,17 +995,41 @@ com.example.loginultimodia:string/common_google_play_services_install_button = 0
 com.example.loginultimodia:style/Theme.MaterialComponents.Light.Bridge = 0x7f1001fb
 com.example.loginultimodia:style/Test.Theme.MaterialComponents.MaterialCalendar = 0x7f10015b
 com.example.loginultimodia:style/Widget.AppCompat.Light.ListPopupWindow = 0x7f100267
+=======
+com.example.loginultimodia:id/header_text = 0x7f080107
+com.example.loginultimodia:style/Base.V26.Widget.AppCompat.Toolbar = 0x7f100091
+com.example.loginultimodia:string/abc_menu_alt_shortcut_label = 0x7f0f000c
+com.example.loginultimodia:styleable/AppCompatEmojiHelper = 0x7f11000d
+com.example.loginultimodia:style/Widget.MaterialComponents.Chip.Filter = 0x7f1002b8
+com.example.loginultimodia:string/fui_welcome_back_email_link_header = 0x7f0f00a2
+com.example.loginultimodia:string/material_timepicker_am = 0x7f0f00bd
+com.example.loginultimodia:attr/customColorValue = 0x7f030118
+com.example.loginultimodia:style/MaterialAlertDialog.MaterialComponents.Body.Text = 0x7f10011d
+com.example.loginultimodia:dimen/mtrl_calendar_title_baseline_to_top_fullscreen = 0x7f06011d
+com.example.loginultimodia:style/Base.V21.Theme.MaterialComponents.Light.Dialog = 0x7f100088
+com.example.loginultimodia:attr/drawableTint = 0x7f03013c
+com.example.loginultimodia:id/startHorizontal = 0x7f0801e6
+com.example.loginultimodia:style/Widget.MaterialComponents.TimePicker.Button = 0x7f1002ff
+com.example.loginultimodia:id/notification_main_column = 0x7f080181
+com.example.loginultimodia:string/common_google_play_services_install_button = 0x7f0f002e
+>>>>>>> develop
 com.example.loginultimodia:style/FirebaseUI.TextInputEditText = 0x7f10010c
 com.example.loginultimodia:styleable/Carousel = 0x7f11001b
 com.example.loginultimodia:attr/layout_insetEdge = 0x7f03022d
 com.example.loginultimodia:color/fui_transparent = 0x7f050078
 com.example.loginultimodia:style/Widget.AppCompat.RatingBar = 0x7f100277
 com.example.loginultimodia:attr/layout_scrollFlags = 0x7f030231
+<<<<<<< HEAD
 com.example.loginultimodia:style/ShapeAppearanceOverlay = 0x7f10014b
 com.example.loginultimodia:attr/snackbarStyle = 0x7f030316
 com.example.loginultimodia:color/notification_icon_bg_color = 0x7f0500d2
 com.example.loginultimodia:dimen/design_navigation_item_icon_padding = 0x7f06007c
 com.example.loginultimodia:id/tag_window_insets_animation_callback = 0x7f080202
+=======
+com.example.loginultimodia:style/Theme.MaterialComponents.Light.Bridge = 0x7f1001fb
+com.example.loginultimodia:style/Test.Theme.MaterialComponents.MaterialCalendar = 0x7f10015b
+com.example.loginultimodia:style/Widget.AppCompat.Light.ListPopupWindow = 0x7f100267
+>>>>>>> develop
 com.example.loginultimodia:style/Base.V14.ThemeOverlay.MaterialComponents.Dialog = 0x7f10007e
 com.example.loginultimodia:styleable/TextEffects = 0x7f110087
 com.example.loginultimodia:style/Theme.AppCompat.Light = 0x7f1001cc
@@ -510,6 +1037,7 @@ com.example.loginultimodia:style/Base.V14.Theme.MaterialComponents = 0x7f100074
 com.example.loginultimodia:color/design_box_stroke_color = 0x7f050041
 com.example.loginultimodia:layout/mtrl_navigation_rail_item = 0x7f0b007a
 com.example.loginultimodia:attr/waveVariesBy = 0x7f0303e0
+<<<<<<< HEAD
 com.example.loginultimodia:attr/minWidth = 0x7f030278
 com.example.loginultimodia:styleable/ColorStateListItem = 0x7f110024
 com.example.loginultimodia:dimen/abc_seekbar_track_background_height_material = 0x7f060038
@@ -528,10 +1056,15 @@ com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.DialogWhenLar
 com.example.loginultimodia:attr/values = 0x7f0303d1
 com.example.loginultimodia:string/material_clock_display_divider = 0x7f0f00b0
 com.example.loginultimodia:drawable/common_google_signin_btn_icon_dark_focused = 0x7f070067
+=======
+com.example.loginultimodia:string/material_clock_display_divider = 0x7f0f00b0
+com.example.loginultimodia:attr/minWidth = 0x7f030278
+>>>>>>> develop
 com.example.loginultimodia:style/Widget.MaterialComponents.ActionBar.Solid = 0x7f100295
 com.example.loginultimodia:dimen/design_tab_text_size_2line = 0x7f06008e
 com.example.loginultimodia:id/search_plate = 0x7f0801c1
 com.example.loginultimodia:style/Base.Widget.AppCompat.Light.ActionBar.TabView = 0x7f1000bc
+<<<<<<< HEAD
 com.example.loginultimodia:id/TOP_START = 0x7f080017
 com.example.loginultimodia:string/abc_menu_alt_shortcut_label = 0x7f0f000c
 com.example.loginultimodia:styleable/AppCompatEmojiHelper = 0x7f11000d
@@ -542,6 +1075,17 @@ com.example.loginultimodia:style/TextAppearance.AppCompat.Subhead.Inverse = 0x7f
 com.example.loginultimodia:attr/setsTag = 0x7f030300
 com.example.loginultimodia:style/Base.ThemeOverlay.AppCompat = 0x7f100068
 com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Day = 0x7f1002c9
+=======
+com.example.loginultimodia:drawable/common_google_signin_btn_icon_dark_focused = 0x7f070067
+com.example.loginultimodia:style/Base.V22.Theme.AppCompat.Light = 0x7f10008c
+com.example.loginultimodia:id/TOP_START = 0x7f080017
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Day = 0x7f1002c9
+com.example.loginultimodia:style/TextAppearance.AppCompat.Subhead.Inverse = 0x7f10017e
+com.example.loginultimodia:style/Base.ThemeOverlay.AppCompat = 0x7f100068
+com.example.loginultimodia:attr/setsTag = 0x7f030300
+com.example.loginultimodia:string/mtrl_picker_range_header_only_start_selected = 0x7f0f00da
+com.example.loginultimodia:drawable/abc_cab_background_top_mtrl_alpha = 0x7f070018
+>>>>>>> develop
 com.example.loginultimodia:integer/mtrl_calendar_header_orientation = 0x7f090015
 com.example.loginultimodia:dimen/mtrl_card_corner_radius = 0x7f060125
 com.example.loginultimodia:style/Base.Theme.MaterialComponents.Light.DarkActionBar = 0x7f100060
@@ -549,6 +1093,7 @@ com.example.loginultimodia:attr/triggerSlack = 0x7f0303cc
 com.example.loginultimodia:style/Base.Theme.MaterialComponents.Light.Bridge = 0x7f10005f
 com.example.loginultimodia:attr/boxStrokeWidth = 0x7f03006f
 com.example.loginultimodia:id/clockwise = 0x7f080098
+<<<<<<< HEAD
 com.example.loginultimodia:style/ShapeAppearanceOverlay.TopLeftCut = 0x7f100158
 com.example.loginultimodia:style/Base.Theme.AppCompat.Light.Dialog.Alert = 0x7f100051
 com.example.loginultimodia:drawable/common_google_signin_btn_text_dark_focused = 0x7f070070
@@ -570,10 +1115,31 @@ com.example.loginultimodia:drawable/mtrl_tabs_default_indicator = 0x7f0700b1
 com.example.loginultimodia:color/mtrl_filled_background_color = 0x7f0500b5
 com.example.loginultimodia:layout/abc_list_menu_item_icon = 0x7f0b000f
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f10003f
+=======
+com.example.loginultimodia:style/Base.Theme.AppCompat.Light.Dialog.Alert = 0x7f100051
+com.example.loginultimodia:drawable/common_google_signin_btn_text_dark_focused = 0x7f070070
+com.example.loginultimodia:style/ShapeAppearanceOverlay.TopLeftCut = 0x7f100158
+com.example.loginultimodia:styleable/MaterialToolbar = 0x7f11005a
+com.example.loginultimodia:style/Theme.Design.Light.BottomSheetDialog = 0x7f1001d7
+com.example.loginultimodia:string/mtrl_picker_day_of_week_column_header = 0x7f0f00d2
+com.example.loginultimodia:id/dragClockwise = 0x7f0800c9
+com.example.loginultimodia:styleable/Snackbar = 0x7f110079
+com.example.loginultimodia:style/Theme.AppCompat.Light.NoActionBar = 0x7f1001d2
+com.example.loginultimodia:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox = 0x7f1002f3
+com.example.loginultimodia:style/Theme.MaterialComponents.Light.Dialog.FixedSize = 0x7f100202
+com.example.loginultimodia:id/textView5 = 0x7f080216
+com.example.loginultimodia:style/Base.Theme.MaterialComponents.Dialog.Alert = 0x7f100059
+com.example.loginultimodia:style/Base.Theme.AppCompat = 0x7f100047
+com.example.loginultimodia:layout/abc_list_menu_item_icon = 0x7f0b000f
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f10003f
+com.example.loginultimodia:color/mtrl_filled_background_color = 0x7f0500b5
+com.example.loginultimodia:drawable/mtrl_tabs_default_indicator = 0x7f0700b1
+>>>>>>> develop
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large = 0x7f10003c
 com.example.loginultimodia:color/design_dark_default_color_error = 0x7f050043
 com.example.loginultimodia:color/design_default_color_secondary = 0x7f050059
 com.example.loginultimodia:style/Widget.MaterialComponents.CollapsingToolbar = 0x7f1002be
+<<<<<<< HEAD
 com.example.loginultimodia:id/ticker = 0x7f080222
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.Button.Inverse = 0x7f100039
 com.example.loginultimodia:attr/textAppearanceCaption = 0x7f030368
@@ -582,10 +1148,24 @@ com.example.loginultimodia:styleable/PropertySet = 0x7f11006d
 com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush = 0x7f1002ad
 com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored = 0x7f10018c
 com.example.loginultimodia:style/Widget.Design.Snackbar = 0x7f10028f
+=======
+com.example.loginultimodia:attr/trackCornerRadius = 0x7f0303bf
+com.example.loginultimodia:style/Widget.Design.Snackbar = 0x7f10028f
+com.example.loginultimodia:styleable/PropertySet = 0x7f11006d
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush = 0x7f1002ad
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored = 0x7f10018c
+com.example.loginultimodia:id/ticker = 0x7f080222
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.Button.Inverse = 0x7f100039
+com.example.loginultimodia:attr/textAppearanceCaption = 0x7f030368
+>>>>>>> develop
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title = 0x7f100032
 com.example.loginultimodia:attr/checkedIcon = 0x7f030099
 com.example.loginultimodia:string/common_google_play_services_notification_channel_name = 0x7f0f0031
 com.example.loginultimodia:style/Widget.Design.NavigationView = 0x7f10028d
+<<<<<<< HEAD
+=======
+com.example.loginultimodia:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense = 0x7f1002fa
+>>>>>>> develop
 com.example.loginultimodia:styleable/StateListDrawableItem = 0x7f11007f
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Title.Inverse = 0x7f10002d
 com.example.loginultimodia:id/tabhabitacion = 0x7f0801f4
@@ -593,6 +1173,7 @@ com.example.loginultimodia:style/Theme.AppCompat.Light.Dialog.MinWidth = 0x7f100
 com.example.loginultimodia:styleable/ForegroundLinearLayout = 0x7f110037
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.Dark.ActionBar = 0x7f100223
 com.example.loginultimodia:style/Theme.MaterialComponents.Dialog.Alert = 0x7f1001f0
+<<<<<<< HEAD
 com.example.loginultimodia:style/Widget.MaterialComponents.NavigationRailView = 0x7f1002de
 com.example.loginultimodia:attr/circularProgressIndicatorStyle = 0x7f0300b6
 com.example.loginultimodia:attr/materialCalendarDay = 0x7f030253
@@ -609,20 +1190,51 @@ com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Day.
 com.example.loginultimodia:style/Base.MaterialAlertDialog.MaterialComponents.Title.Icon = 0x7f100010
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Medium = 0x7f100022
 com.example.loginultimodia:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense = 0x7f1002fa
+=======
+com.example.loginultimodia:id/src_over = 0x7f0801e3
+com.example.loginultimodia:string/abc_menu_meta_shortcut_label = 0x7f0f0011
+com.example.loginultimodia:style/Widget.MaterialComponents.NavigationRailView = 0x7f1002de
+com.example.loginultimodia:attr/circularProgressIndicatorStyle = 0x7f0300b6
+com.example.loginultimodia:attr/materialCalendarDay = 0x7f030253
+com.example.loginultimodia:string/mtrl_exceed_max_badge_number_content_description = 0x7f0f00c8
+com.example.loginultimodia:string/fui_missing_first_and_last_name = 0x7f0f0075
+com.example.loginultimodia:id/chip3 = 0x7f080091
+com.example.loginultimodia:string/fui_verify_phone_number = 0x7f0f009d
+com.example.loginultimodia:style/Platform.ThemeOverlay.AppCompat = 0x7f10012c
+com.example.loginultimodia:style/Platform.V25.AppCompat.Light = 0x7f100132
+com.example.loginultimodia:color/dim_foreground_material_light = 0x7f050069
+com.example.loginultimodia:attr/expandedTitleGravity = 0x7f03015e
+com.example.loginultimodia:layout/mtrl_picker_header_selection_text = 0x7f0b0080
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Body1 = 0x7f100014
+com.example.loginultimodia:style/Base.MaterialAlertDialog.MaterialComponents.Title.Icon = 0x7f100010
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Medium = 0x7f100022
+com.example.loginultimodia:string/project_id = 0x7f0f00f0
+>>>>>>> develop
 com.example.loginultimodia:id/line1 = 0x7f08012e
 com.example.loginultimodia:dimen/abc_action_bar_content_inset_material = 0x7f060000
 com.example.loginultimodia:style/Widget.Design.TabLayout = 0x7f100290
 com.example.loginultimodia:string/common_google_play_services_enable_text = 0x7f0f002c
+<<<<<<< HEAD
 com.example.loginultimodia:string/project_id = 0x7f0f00f0
 com.example.loginultimodia:id/textEnd = 0x7f08020a
+=======
+>>>>>>> develop
 com.example.loginultimodia:id/fecha = 0x7f0800ec
 com.example.loginultimodia:style/ThemeOverlay.Design.TextInputEditText = 0x7f100215
 com.example.loginultimodia:dimen/highlight_alpha_material_colored = 0x7f0600a1
 com.example.loginultimodia:dimen/abc_text_size_medium_material = 0x7f060049
+<<<<<<< HEAD
 com.example.loginultimodia:style/Widget.MaterialComponents.Toolbar.Surface = 0x7f100308
 com.example.loginultimodia:style/Widget.MaterialComponents.NavigationRailView.Colored.Compact = 0x7f1002e0
 com.example.loginultimodia:color/foreground_material_dark = 0x7f05006c
 com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton = 0x7f1002ab
+=======
+com.example.loginultimodia:color/foreground_material_dark = 0x7f05006c
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton = 0x7f1002ab
+com.example.loginultimodia:style/Widget.MaterialComponents.NavigationRailView.Colored.Compact = 0x7f1002e0
+com.example.loginultimodia:id/textEnd = 0x7f08020a
+com.example.loginultimodia:style/Widget.MaterialComponents.Toolbar.Surface = 0x7f100308
+>>>>>>> develop
 com.example.loginultimodia:string/fui_continue = 0x7f0f004f
 com.example.loginultimodia:dimen/mtrl_calendar_year_height = 0x7f06011f
 com.example.loginultimodia:style/Widget.MaterialComponents.TextInputEditText.FilledBox = 0x7f1002f1
@@ -632,17 +1244,26 @@ com.example.loginultimodia:dimen/design_bottom_navigation_active_item_max_width 
 com.example.loginultimodia:style/Base.V7.Theme.AppCompat = 0x7f100094
 com.example.loginultimodia:dimen/mtrl_snackbar_padding_horizontal = 0x7f06017f
 com.example.loginultimodia:style/Widget.MaterialComponents.Badge = 0x7f10029e
+<<<<<<< HEAD
 com.example.loginultimodia:styleable/SignInButton = 0x7f110077
 com.example.loginultimodia:styleable/MotionLabel = 0x7f110062
 com.example.loginultimodia:string/abc_menu_space_shortcut_label = 0x7f0f0013
 com.example.loginultimodia:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f10006b
 com.example.loginultimodia:color/material_deep_teal_200 = 0x7f050080
+=======
+com.example.loginultimodia:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f10006b
+com.example.loginultimodia:color/material_deep_teal_200 = 0x7f050080
+com.example.loginultimodia:styleable/SignInButton = 0x7f110077
+com.example.loginultimodia:string/abc_menu_space_shortcut_label = 0x7f0f0013
+com.example.loginultimodia:styleable/MotionLabel = 0x7f110062
+>>>>>>> develop
 com.example.loginultimodia:style/Base.AlertDialog.AppCompat = 0x7f100008
 com.example.loginultimodia:attr/layout_constraintTop_toBottomOf = 0x7f030219
 com.example.loginultimodia:style/AndroidThemeColorAccentYellow = 0x7f100002
 com.example.loginultimodia:layout/mtrl_picker_header_fullscreen = 0x7f0b007f
 com.example.loginultimodia:id/Humedad = 0x7f080007
 com.example.loginultimodia:string/txtUsername = 0x7f0f00fa
+<<<<<<< HEAD
 com.example.loginultimodia:style/TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f1001bd
 com.example.loginultimodia:layout/material_clock_display_divider = 0x7f0b005b
 com.example.loginultimodia:id/ifRoom = 0x7f080112
@@ -657,6 +1278,25 @@ com.example.loginultimodia:string/txtPassword = 0x7f0f00f9
 com.example.loginultimodia:dimen/tooltip_y_offset_non_touch = 0x7f0601b6
 com.example.loginultimodia:string/textoAviso = 0x7f0f00f7
 com.example.loginultimodia:dimen/material_emphasis_disabled = 0x7f0600b9
+=======
+com.example.loginultimodia:style/Base.Widget.AppCompat.CompoundButton.CheckBox = 0x7f1000af
+com.example.loginultimodia:styleable/MaterialRadioButton = 0x7f110055
+com.example.loginultimodia:id/ifRoom = 0x7f080112
+com.example.loginultimodia:style/Base.V14.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f10007a
+com.example.loginultimodia:style/TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f1001bd
+com.example.loginultimodia:layout/material_clock_display_divider = 0x7f0b005b
+com.example.loginultimodia:style/FirebaseUI.Transparent = 0x7f100119
+com.example.loginultimodia:string/txtPassword = 0x7f0f00f9
+com.example.loginultimodia:dimen/tooltip_y_offset_non_touch = 0x7f0601b6
+com.example.loginultimodia:dimen/design_fab_image_size = 0x7f060073
+com.example.loginultimodia:styleable/AppBarLayoutStates = 0x7f11000b
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton.Dialog = 0x7f1002ac
+com.example.loginultimodia:attr/titleMarginTop = 0x7f0303ac
+com.example.loginultimodia:string/textoDoctor = 0x7f0f00f8
+com.example.loginultimodia:string/textoAviso = 0x7f0f00f7
+com.example.loginultimodia:dimen/material_emphasis_disabled = 0x7f0600b9
+com.example.loginultimodia:style/TextAppearance.Compat.Notification.Info.Media = 0x7f100197
+>>>>>>> develop
 com.example.loginultimodia:dimen/abc_select_dialog_padding_start_material = 0x7f06003a
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Small = 0x7f100028
 com.example.loginultimodia:style/TextAppearance.Compat.Notification.Time = 0x7f10019b
@@ -666,6 +1306,7 @@ com.example.loginultimodia:string/tabhabitacion = 0x7f0f00f5
 com.example.loginultimodia:style/MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f100122
 com.example.loginultimodia:string/mtrl_picker_range_header_only_end_selected = 0x7f0f00d9
 com.example.loginultimodia:string/mtrl_picker_out_of_range = 0x7f0f00d8
+<<<<<<< HEAD
 com.example.loginultimodia:string/mtrl_picker_announce_current_selection = 0x7f0f00cc
 com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge = 0x7f1001e9
 com.example.loginultimodia:drawable/abc_spinner_textfield_background_material = 0x7f070045
@@ -675,6 +1316,10 @@ com.example.loginultimodia:id/special_effects_controller_view_tag = 0x7f0801da
 com.example.loginultimodia:attr/tabIndicatorColor = 0x7f03034d
 com.example.loginultimodia:style/Widget.AppCompat.Light.ActionBar = 0x7f100257
 com.example.loginultimodia:layout/mtrl_calendar_day = 0x7f0b006e
+=======
+com.example.loginultimodia:layout/mtrl_calendar_day = 0x7f0b006e
+com.example.loginultimodia:style/Widget.AppCompat.Light.ActionBar = 0x7f100257
+>>>>>>> develop
 com.example.loginultimodia:style/Widget.MaterialComponents.AppBarLayout.PrimarySurface = 0x7f100298
 com.example.loginultimodia:style/TextAppearance.AppCompat.Small.Inverse = 0x7f10017c
 com.example.loginultimodia:styleable/ListPopupWindow = 0x7f11004a
@@ -683,6 +1328,7 @@ com.example.loginultimodia:string/mtrl_picker_date_header_selected = 0x7f0f00cf
 com.example.loginultimodia:style/Widget.AppCompat.Light.PopupMenu.Overflow = 0x7f10026a
 com.example.loginultimodia:style/Base.V14.Theme.MaterialComponents.Bridge = 0x7f100075
 com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2 = 0x7f10013f
+<<<<<<< HEAD
 com.example.loginultimodia:string/fui_email_account_creation_error = 0x7f0f0052
 com.example.loginultimodia:styleable/Motion = 0x7f11005f
 com.example.loginultimodia:attr/tooltipFrameBackground = 0x7f0303b5
@@ -698,30 +1344,64 @@ com.example.loginultimodia:dimen/abc_text_size_display_3_material = 0x7f060045
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse = 0x7f100031
 com.example.loginultimodia:dimen/mtrl_progress_circular_inset_medium = 0x7f060161
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Calendar = 0x7f10022d
+=======
+com.example.loginultimodia:styleable/Motion = 0x7f11005f
+com.example.loginultimodia:string/fui_email_account_creation_error = 0x7f0f0052
+com.example.loginultimodia:style/Base.Widget.MaterialComponents.Chip = 0x7f1000d9
+com.example.loginultimodia:color/browser_actions_bg_grey = 0x7f05002a
+com.example.loginultimodia:dimen/mtrl_progress_circular_inset_medium = 0x7f060161
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse = 0x7f100031
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Calendar = 0x7f10022d
+com.example.loginultimodia:id/month_navigation_next = 0x7f080152
+com.example.loginultimodia:styleable/MaterialAutoCompleteTextView = 0x7f11004e
+com.example.loginultimodia:style/Base.V28.Theme.AppCompat = 0x7f100092
+com.example.loginultimodia:attr/onNegativeCross = 0x7f0302aa
+com.example.loginultimodia:dimen/abc_text_size_display_3_material = 0x7f060045
+com.example.loginultimodia:attr/tooltipFrameBackground = 0x7f0303b5
+com.example.loginultimodia:style/TextAppearance.Compat.Notification.Time.Media = 0x7f10019c
+>>>>>>> develop
 com.example.loginultimodia:string/mtrl_picker_cancel = 0x7f0f00cd
 com.example.loginultimodia:drawable/abc_scrubber_primary_mtrl_alpha = 0x7f07003f
 com.example.loginultimodia:id/submit_area = 0x7f0801ef
 com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge = 0x7f1001e6
 com.example.loginultimodia:style/Widget.MaterialComponents.TextInputLayout.FilledBox = 0x7f1002f5
 com.example.loginultimodia:string/material_timepicker_select_time = 0x7f0f00c2
+<<<<<<< HEAD
 com.example.loginultimodia:attr/layout_constraintTop_creator = 0x7f030218
 com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f1002cc
 com.example.loginultimodia:attr/reactiveGuide_animateChange = 0x7f0302e4
 com.example.loginultimodia:layout/notification_template_lines_media = 0x7f0b008f
+=======
+com.example.loginultimodia:attr/reactiveGuide_animateChange = 0x7f0302e4
+com.example.loginultimodia:layout/notification_template_lines_media = 0x7f0b008f
+com.example.loginultimodia:attr/layout_constraintTop_creator = 0x7f030218
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f1002cc
+>>>>>>> develop
 com.example.loginultimodia:style/Base.MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f100011
 com.example.loginultimodia:id/accessibility_custom_action_29 = 0x7f080031
 com.example.loginultimodia:string/material_timepicker_hour = 0x7f0f00bf
 com.example.loginultimodia:string/motivo = 0x7f0f00c5
 com.example.loginultimodia:style/TextAppearance.MaterialComponents.Caption = 0x7f1001ae
+<<<<<<< HEAD
 com.example.loginultimodia:id/email_layout = 0x7f0800dc
 com.example.loginultimodia:attr/indicatorDirectionCircular = 0x7f0301c4
+=======
+com.example.loginultimodia:style/ShapeAppearance.MaterialComponents.Tooltip = 0x7f10014a
+com.example.loginultimodia:dimen/design_bottom_navigation_active_text_size = 0x7f060064
+com.example.loginultimodia:color/switch_thumb_material_dark = 0x7f0500e8
+com.example.loginultimodia:attr/indicatorDirectionCircular = 0x7f0301c4
+com.example.loginultimodia:id/email_layout = 0x7f0800dc
+>>>>>>> develop
 com.example.loginultimodia:style/Widget.Design.FloatingActionButton = 0x7f10028c
 com.example.loginultimodia:anim/btn_checkbox_to_checked_box_outer_merged_animation = 0x7f01000d
 com.example.loginultimodia:id/button_sign_in = 0x7f080081
 com.example.loginultimodia:id/search_go_btn = 0x7f0801bf
+<<<<<<< HEAD
 com.example.loginultimodia:color/switch_thumb_material_dark = 0x7f0500e8
 com.example.loginultimodia:style/ShapeAppearance.MaterialComponents.Tooltip = 0x7f10014a
 com.example.loginultimodia:dimen/design_bottom_navigation_active_text_size = 0x7f060064
+=======
+>>>>>>> develop
 com.example.loginultimodia:string/item_view_role_description = 0x7f0f00af
 com.example.loginultimodia:layout/fui_welcome_back_password_prompt_layout = 0x7f0b0058
 com.example.loginultimodia:style/Widget.AppCompat.CompoundButton.RadioButton = 0x7f100251
@@ -738,6 +1418,7 @@ com.example.loginultimodia:style/Base.TextAppearance.MaterialComponents.Subtitle
 com.example.loginultimodia:string/search_menu_title = 0x7f0f00f1
 com.example.loginultimodia:string/gcm_defaultSenderId = 0x7f0f00a7
 com.example.loginultimodia:string/common_google_play_services_update_text = 0x7f0f0036
+<<<<<<< HEAD
 com.example.loginultimodia:dimen/subtitle_outline_width = 0x7f0601a1
 com.example.loginultimodia:styleable/KeyFramesVelocity = 0x7f110042
 com.example.loginultimodia:styleable/SearchView = 0x7f110074
@@ -753,10 +1434,20 @@ com.example.loginultimodia:styleable/LoadingImageView = 0x7f11004b
 com.example.loginultimodia:dimen/compat_control_corner_material = 0x7f06005d
 com.example.loginultimodia:id/fill_vertical = 0x7f0800f0
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f10022b
+=======
+com.example.loginultimodia:drawable/abc_popup_background_mtrl_mult = 0x7f070038
+com.example.loginultimodia:dimen/subtitle_outline_width = 0x7f0601a1
+com.example.loginultimodia:styleable/KeyFramesVelocity = 0x7f110042
+com.example.loginultimodia:id/checked = 0x7f08008d
+com.example.loginultimodia:string/mtrl_picker_navigate_to_year_description = 0x7f0f00d7
+com.example.loginultimodia:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0 = 0x7f0a0004
+com.example.loginultimodia:styleable/SearchView = 0x7f110074
+>>>>>>> develop
 com.example.loginultimodia:string/fui_title_register_email = 0x7f0f0097
 com.example.loginultimodia:string/fui_title_recover_password_activity = 0x7f0f0096
 com.example.loginultimodia:id/mtrl_picker_text_input_range_start = 0x7f08016b
 com.example.loginultimodia:string/fui_sign_in_with_phone_number = 0x7f0f008f
+<<<<<<< HEAD
 com.example.loginultimodia:style/RtlUnderlay.Widget.AppCompat.ActionButton.Overflow = 0x7f100144
 com.example.loginultimodia:style/Widget.AppCompat.ButtonBar = 0x7f10024e
 com.example.loginultimodia:style/Platform.MaterialComponents.Light = 0x7f10012a
@@ -768,10 +1459,24 @@ com.example.loginultimodia:style/Theme.MaterialComponents.Light.Dialog = 0x7f100
 com.example.loginultimodia:styleable/ActionBar = 0x7f110000
 com.example.loginultimodia:id/selected = 0x7f0801c5
 com.example.loginultimodia:attr/clockIcon = 0x7f0300c0
+=======
+com.example.loginultimodia:style/Widget.AppCompat.ButtonBar = 0x7f10024e
+com.example.loginultimodia:style/RtlUnderlay.Widget.AppCompat.ActionButton.Overflow = 0x7f100144
+com.example.loginultimodia:attr/clockIcon = 0x7f0300c0
+com.example.loginultimodia:style/Platform.MaterialComponents.Light = 0x7f10012a
+com.example.loginultimodia:styleable/ButtonBarLayout = 0x7f110018
+com.example.loginultimodia:id/mtrl_internal_children_alpha_tag = 0x7f080162
+com.example.loginultimodia:dimen/design_bottom_navigation_active_item_min_width = 0x7f060063
+com.example.loginultimodia:dimen/mtrl_calendar_day_horizontal_padding = 0x7f060100
+com.example.loginultimodia:style/Theme.MaterialComponents.Light.Dialog = 0x7f1001fe
+com.example.loginultimodia:styleable/ActionBar = 0x7f110000
+com.example.loginultimodia:id/selected = 0x7f0801c5
+>>>>>>> develop
 com.example.loginultimodia:id/phone_button = 0x7f080199
 com.example.loginultimodia:string/fui_password_recovery_body = 0x7f0f007b
 com.example.loginultimodia:style/FirebaseUI.TextInputLayout.NewPasswordField = 0x7f100115
 com.example.loginultimodia:string/fui_sign_in_with_github = 0x7f0f008b
+<<<<<<< HEAD
 com.example.loginultimodia:color/mtrl_text_btn_text_color_selector = 0x7f0500cb
 com.example.loginultimodia:string/fui_required_field = 0x7f0f0083
 com.example.loginultimodia:attr/scaleFromTextSize = 0x7f0302f3
@@ -804,6 +1509,33 @@ com.example.loginultimodia:id/password_layout = 0x7f080192
 com.example.loginultimodia:id/rightToLeft = 0x7f0801aa
 com.example.loginultimodia:attr/touchRegionId = 0x7f0303ba
 com.example.loginultimodia:style/Widget.AppCompat.ListView.Menu = 0x7f100271
+=======
+com.example.loginultimodia:string/fui_sign_in_with_facebook = 0x7f0f008a
+com.example.loginultimodia:color/mtrl_text_btn_text_color_selector = 0x7f0500cb
+com.example.loginultimodia:string/fui_required_field = 0x7f0f0083
+com.example.loginultimodia:style/Base.ThemeOverlay.AppCompat.Dialog = 0x7f10006c
+com.example.loginultimodia:attr/scaleFromTextSize = 0x7f0302f3
+com.example.loginultimodia:string/fui_progress_dialog_signing_up = 0x7f0f0082
+com.example.loginultimodia:style/TextAppearance.Design.Counter = 0x7f1001a0
+com.example.loginultimodia:id/action_mode_close_button = 0x7f08004f
+com.example.loginultimodia:color/design_default_color_surface = 0x7f05005b
+com.example.loginultimodia:string/fui_next_default = 0x7f0f0078
+com.example.loginultimodia:string/fui_incorrect_code_dialog_body = 0x7f0f0071
+com.example.loginultimodia:id/italic = 0x7f080120
+com.example.loginultimodia:style/TextAppearance.AppCompat.Small = 0x7f10017b
+com.example.loginultimodia:style/ShapeAppearanceOverlay.Cut = 0x7f10014e
+com.example.loginultimodia:style/ShapeAppearanceOverlay.BottomLeftDifferentCornerSize = 0x7f10014c
+com.example.loginultimodia:styleable/FloatingActionButton_Behavior_Layout = 0x7f110033
+com.example.loginultimodia:string/tabavisos = 0x7f0f00f3
+com.example.loginultimodia:style/TextAppearance.AppCompat.SearchResult.Subtitle = 0x7f100179
+com.example.loginultimodia:attr/passwordToggleContentDescription = 0x7f0302bc
+com.example.loginultimodia:integer/app_bar_elevation_anim_duration = 0x7f090002
+com.example.loginultimodia:style/Widget.AppCompat.Spinner.Underlined = 0x7f100281
+com.example.loginultimodia:attr/touchRegionId = 0x7f0303ba
+com.example.loginultimodia:style/Widget.AppCompat.ListView.Menu = 0x7f100271
+com.example.loginultimodia:id/password_layout = 0x7f080192
+com.example.loginultimodia:id/rightToLeft = 0x7f0801aa
+>>>>>>> develop
 com.example.loginultimodia:id/BOTTOM_END = 0x7f080001
 com.example.loginultimodia:color/accent_material_dark = 0x7f050019
 com.example.loginultimodia:string/fui_idp_name_phone = 0x7f0f006f
@@ -831,8 +1563,13 @@ com.example.loginultimodia:attr/titleEnabled = 0x7f0303a7
 com.example.loginultimodia:id/material_minute_tv = 0x7f080142
 com.example.loginultimodia:styleable/MaterialShape = 0x7f110056
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Subhead.Inverse = 0x7f10002b
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.Widget.AppCompat.Spinner = 0x7f1000d0
 com.example.loginultimodia:style/Widget.AppCompat.Light.DropDownItem.Spinner = 0x7f100266
+=======
+com.example.loginultimodia:style/Widget.AppCompat.Light.DropDownItem.Spinner = 0x7f100266
+com.example.loginultimodia:style/Base.Widget.AppCompat.Spinner = 0x7f1000d0
+>>>>>>> develop
 com.example.loginultimodia:anim/abc_slide_out_bottom = 0x7f010008
 com.example.loginultimodia:style/Base.Widget.AppCompat.AutoCompleteTextView = 0x7f1000a6
 com.example.loginultimodia:string/fallback_menu_item_open_in_browser = 0x7f0f0047
@@ -843,9 +1580,15 @@ com.example.loginultimodia:style/FirebaseUI.Text.T12 = 0x7f10010a
 com.example.loginultimodia:styleable/MaterialTextAppearance = 0x7f110057
 com.example.loginultimodia:id/test_radiobutton_app_button_tint = 0x7f080207
 com.example.loginultimodia:styleable/MaterialTimePicker = 0x7f110059
+<<<<<<< HEAD
 com.example.loginultimodia:id/button_resend_email = 0x7f080080
 com.example.loginultimodia:string/fab_transformation_scrim_behavior = 0x7f0f0042
 com.example.loginultimodia:string/error_icon_content_description = 0x7f0f0040
+=======
+com.example.loginultimodia:string/error_icon_content_description = 0x7f0f0040
+com.example.loginultimodia:id/button_resend_email = 0x7f080080
+com.example.loginultimodia:string/fab_transformation_scrim_behavior = 0x7f0f0042
+>>>>>>> develop
 com.example.loginultimodia:string/common_open_on_phone = 0x7f0f003a
 com.example.loginultimodia:attr/materialCalendarFullscreenTheme = 0x7f030254
 com.example.loginultimodia:style/Base.Widget.MaterialComponents.CheckedTextView = 0x7f1000d8
@@ -864,9 +1607,12 @@ com.example.loginultimodia:id/transitionToEnd = 0x7f08022d
 com.example.loginultimodia:string/common_google_play_services_update_button = 0x7f0f0035
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.ActionBar = 0x7f100217
 com.example.loginultimodia:layout/text_view_without_line_height = 0x7f0b00a6
+<<<<<<< HEAD
 com.example.loginultimodia:id/ghost_view = 0x7f0800fb
 com.example.loginultimodia:id/spread = 0x7f0801dd
 com.example.loginultimodia:dimen/mtrl_calendar_day_corner = 0x7f0600fe
+=======
+>>>>>>> develop
 com.example.loginultimodia:id/mtrl_picker_text_input_range_end = 0x7f08016a
 com.example.loginultimodia:id/floating = 0x7f0800f5
 com.example.loginultimodia:attr/materialCalendarStyle = 0x7f03025e
@@ -895,9 +1641,15 @@ com.example.loginultimodia:dimen/mtrl_high_ripple_pressed_alpha = 0x7f060147
 com.example.loginultimodia:attr/waveShape = 0x7f0303df
 com.example.loginultimodia:style/Widget.Design.TextInputLayout = 0x7f100292
 com.example.loginultimodia:styleable/AppCompatTextHelper = 0x7f110010
+<<<<<<< HEAD
 com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f100194
 com.example.loginultimodia:styleable/MaterialCheckBox = 0x7f110054
 com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection.Fullscreen = 0x7f1002d4
+=======
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection.Fullscreen = 0x7f1002d4
+com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f100194
+com.example.loginultimodia:styleable/MaterialCheckBox = 0x7f110054
+>>>>>>> develop
 com.example.loginultimodia:string/abc_searchview_description_clear = 0x7f0f0017
 com.example.loginultimodia:attr/autoCompleteMode = 0x7f030038
 com.example.loginultimodia:style/Widget.MaterialComponents.BottomNavigationView = 0x7f1002a2
@@ -916,8 +1668,13 @@ com.example.loginultimodia:string/abc_menu_function_shortcut_label = 0x7f0f0010
 com.example.loginultimodia:id/pin = 0x7f08019c
 com.example.loginultimodia:drawable/abc_text_cursor_material = 0x7f07004c
 com.example.loginultimodia:id/Nombre2 = 0x7f08000e
+<<<<<<< HEAD
 com.example.loginultimodia:string/abc_capital_on = 0x7f0f000b
 com.example.loginultimodia:styleable/PopupWindowBackgroundState = 0x7f11006c
+=======
+com.example.loginultimodia:styleable/PopupWindowBackgroundState = 0x7f11006c
+com.example.loginultimodia:string/abc_capital_on = 0x7f0f000b
+>>>>>>> develop
 com.example.loginultimodia:style/TextAppearance.MaterialComponents.Subtitle1 = 0x7f1001b7
 com.example.loginultimodia:layout/mtrl_calendar_year = 0x7f0b0077
 com.example.loginultimodia:id/btnLogout = 0x7f080079
@@ -931,15 +1688,24 @@ com.example.loginultimodia:dimen/compat_button_inset_horizontal_material = 0x7f0
 com.example.loginultimodia:attr/materialButtonStyle = 0x7f030251
 com.example.loginultimodia:id/x_left = 0x7f080253
 com.example.loginultimodia:style/Widget.MaterialComponents.LinearProgressIndicator = 0x7f1002c6
+<<<<<<< HEAD
 com.example.loginultimodia:string/abc_activity_chooser_view_see_all = 0x7f0f0008
 com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton.Snackbar = 0x7f1002b0
 com.example.loginultimodia:drawable/mtrl_ic_cancel = 0x7f0700ac
 com.example.loginultimodia:string/Nombre1 = 0x7f0f0003
 com.example.loginultimodia:string/fui_phone_hint = 0x7f0f007c
+=======
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton.Snackbar = 0x7f1002b0
+com.example.loginultimodia:string/abc_activity_chooser_view_see_all = 0x7f0f0008
+com.example.loginultimodia:drawable/mtrl_ic_cancel = 0x7f0700ac
+com.example.loginultimodia:string/fui_phone_hint = 0x7f0f007c
+com.example.loginultimodia:string/Nombre1 = 0x7f0f0003
+>>>>>>> develop
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f10021c
 com.example.loginultimodia:styleable/ActionBarLayout = 0x7f110001
 com.example.loginultimodia:menu/menu_main = 0x7f0c0002
 com.example.loginultimodia:style/FirebaseUI.TextInputLayout.NameField = 0x7f100114
+<<<<<<< HEAD
 com.example.loginultimodia:layout/notification_template_media = 0x7f0b0090
 com.example.loginultimodia:dimen/material_clock_size = 0x7f0600b5
 com.example.loginultimodia:layout/test_toolbar_custom_background = 0x7f0b009f
@@ -954,6 +1720,22 @@ com.example.loginultimodia:anim/btn_checkbox_to_checked_icon_null_animation = 0x
 com.example.loginultimodia:color/mtrl_navigation_bar_colored_ripple_color = 0x7f0500ba
 com.example.loginultimodia:layout/select_dialog_singlechoice_material = 0x7f0b0096
 com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.HeaderDivider = 0x7f1002d1
+=======
+com.example.loginultimodia:dimen/material_clock_size = 0x7f0600b5
+com.example.loginultimodia:layout/notification_template_media = 0x7f0b0090
+com.example.loginultimodia:layout/test_toolbar_custom_background = 0x7f0b009f
+com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth = 0x7f1001ea
+com.example.loginultimodia:id/mtrl_child_content_container = 0x7f080161
+com.example.loginultimodia:attr/layout_constraintStart_toEndOf = 0x7f030215
+com.example.loginultimodia:id/view_transition = 0x7f080241
+com.example.loginultimodia:string/fui_idp_name_email = 0x7f0f006b
+com.example.loginultimodia:layout/test_action_chip = 0x7f0b0098
+com.example.loginultimodia:dimen/notification_right_side_padding_top = 0x7f06019a
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.HeaderDivider = 0x7f1002d1
+com.example.loginultimodia:anim/btn_checkbox_to_checked_icon_null_animation = 0x7f01000e
+com.example.loginultimodia:color/mtrl_navigation_bar_colored_ripple_color = 0x7f0500ba
+com.example.loginultimodia:layout/select_dialog_singlechoice_material = 0x7f0b0096
+>>>>>>> develop
 com.example.loginultimodia:layout/notification_template_big_media_narrow = 0x7f0b008b
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.BottomAppBar.Primary = 0x7f10021f
 com.example.loginultimodia:string/fui_privacy_policy = 0x7f0f007d
@@ -977,14 +1759,22 @@ com.example.loginultimodia:layout/mtrl_calendar_day_of_week = 0x7f0b006f
 com.example.loginultimodia:style/ThemeOverlay.AppCompat.ActionBar = 0x7f10020d
 com.example.loginultimodia:style/Widget.Design.TextInputEditText = 0x7f100291
 com.example.loginultimodia:styleable/ExtendedFloatingActionButton = 0x7f110030
+<<<<<<< HEAD
 com.example.loginultimodia:string/fui_progress_dialog_signing_in = 0x7f0f0081
 com.example.loginultimodia:drawable/$avd_hide_password__2 = 0x7f070002
 com.example.loginultimodia:layout/mtrl_alert_select_dialog_multichoice = 0x7f0b006c
 com.example.loginultimodia:layout/mtrl_calendar_month = 0x7f0b0072
+=======
+com.example.loginultimodia:layout/mtrl_calendar_month = 0x7f0b0072
+com.example.loginultimodia:string/fui_progress_dialog_signing_in = 0x7f0f0081
+com.example.loginultimodia:drawable/$avd_hide_password__2 = 0x7f070002
+com.example.loginultimodia:layout/mtrl_alert_select_dialog_multichoice = 0x7f0b006c
+>>>>>>> develop
 com.example.loginultimodia:layout/mtrl_alert_dialog_actions = 0x7f0b0069
 com.example.loginultimodia:style/Animation.AppCompat.DropDownUp = 0x7f100004
 com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f100182
 com.example.loginultimodia:styleable/ChipGroup = 0x7f11001e
+<<<<<<< HEAD
 com.example.loginultimodia:id/root = 0x7f0801ad
 com.example.loginultimodia:style/Base.V22.Theme.AppCompat = 0x7f10008b
 com.example.loginultimodia:style/Animation.Design.BottomSheetDialog = 0x7f100006
@@ -995,6 +1785,18 @@ com.example.loginultimodia:dimen/fui_body_padding_bottom = 0x7f060098
 com.example.loginultimodia:style/Theme.AppCompat.DayNight.NoActionBar = 0x7f1001c6
 com.example.loginultimodia:dimen/material_font_2_0_box_collapsed_padding_top = 0x7f0600c1
 com.example.loginultimodia:string/fui_tos_and_pp = 0x7f0f009a
+=======
+com.example.loginultimodia:dimen/fui_body_padding_bottom = 0x7f060098
+com.example.loginultimodia:style/Theme.AppCompat.DayNight.NoActionBar = 0x7f1001c6
+com.example.loginultimodia:dimen/material_font_2_0_box_collapsed_padding_top = 0x7f0600c1
+com.example.loginultimodia:string/fui_tos_and_pp = 0x7f0f009a
+com.example.loginultimodia:layout/menu_administrador = 0x7f0b0067
+com.example.loginultimodia:style/Base.V7.Widget.AppCompat.AutoCompleteTextView = 0x7f100099
+com.example.loginultimodia:style/Animation.Design.BottomSheetDialog = 0x7f100006
+com.example.loginultimodia:attr/chipIcon = 0x7f0300a4
+com.example.loginultimodia:id/root = 0x7f0801ad
+com.example.loginultimodia:style/Base.V22.Theme.AppCompat = 0x7f10008b
+>>>>>>> develop
 com.example.loginultimodia:layout/material_timepicker_dialog = 0x7f0b0065
 com.example.loginultimodia:style/FirebaseUI.TextInputLayout.PasswordField = 0x7f100116
 com.example.loginultimodia:styleable/AppBarLayout = 0x7f11000a
@@ -1106,6 +1908,7 @@ com.example.loginultimodia:integer/mtrl_btn_anim_delay_ms = 0x7f090013
 com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse = 0x7f10018a
 com.example.loginultimodia:integer/material_motion_path = 0x7f090011
 com.example.loginultimodia:integer/material_motion_duration_short_1 = 0x7f09000f
+<<<<<<< HEAD
 com.example.loginultimodia:style/Theme.MaterialComponents.DialogWhenLarge = 0x7f1001f7
 com.example.loginultimodia:attr/errorIconTintMode = 0x7f030158
 com.example.loginultimodia:string/abc_menu_ctrl_shortcut_label = 0x7f0f000d
@@ -1117,6 +1920,21 @@ com.example.loginultimodia:attr/layout_wrapBehaviorInParent = 0x7f030233
 com.example.loginultimodia:drawable/icono_dosis = 0x7f070097
 com.example.loginultimodia:dimen/mtrl_calendar_header_height_fullscreen = 0x7f06010a
 com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton.Icon = 0x7f1002af
+=======
+com.example.loginultimodia:attr/layout_wrapBehaviorInParent = 0x7f030233
+com.example.loginultimodia:xml/standalone_badge_gravity_bottom_end = 0x7f120002
+com.example.loginultimodia:dimen/mtrl_exposed_dropdown_menu_popup_elevation = 0x7f06012c
+com.example.loginultimodia:id/textinput_placeholder = 0x7f08021f
+com.example.loginultimodia:attr/errorIconTintMode = 0x7f030158
+com.example.loginultimodia:style/Theme.MaterialComponents.DialogWhenLarge = 0x7f1001f7
+com.example.loginultimodia:string/abc_menu_ctrl_shortcut_label = 0x7f0f000d
+com.example.loginultimodia:drawable/fui_ic_facebook_white_22dp = 0x7f070081
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.TextButton.Icon = 0x7f1002af
+com.example.loginultimodia:drawable/icono_dosis = 0x7f070097
+com.example.loginultimodia:dimen/mtrl_calendar_header_height_fullscreen = 0x7f06010a
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat = 0x7f100013
+com.example.loginultimodia:dimen/mtrl_textinput_box_stroke_width_focused = 0x7f060185
+>>>>>>> develop
 com.example.loginultimodia:integer/cancel_button_image_alpha = 0x7f090004
 com.example.loginultimodia:attr/materialCalendarHeaderLayout = 0x7f030258
 com.example.loginultimodia:id/withText = 0x7f08024e
@@ -1132,6 +1950,7 @@ com.example.loginultimodia:drawable/fui_ic_github_white_24dp = 0x7f070082
 com.example.loginultimodia:id/chain = 0x7f08008a
 com.example.loginultimodia:string/material_timepicker_pm = 0x7f0f00c1
 com.example.loginultimodia:id/mini = 0x7f08014e
+<<<<<<< HEAD
 com.example.loginultimodia:drawable/abc_item_background_holo_dark = 0x7f070029
 com.example.loginultimodia:id/match_parent = 0x7f080137
 com.example.loginultimodia:attr/dividerPadding = 0x7f030130
@@ -1141,6 +1960,17 @@ com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text 
 com.example.loginultimodia:style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked = 0x7f100123
 com.example.loginultimodia:id/welcome_back_email_link_body = 0x7f080248
 com.example.loginultimodia:attr/maxVelocity = 0x7f03026e
+=======
+com.example.loginultimodia:id/match_parent = 0x7f080137
+com.example.loginultimodia:attr/dividerPadding = 0x7f030130
+com.example.loginultimodia:drawable/abc_item_background_holo_dark = 0x7f070029
+com.example.loginultimodia:attr/maxVelocity = 0x7f03026e
+com.example.loginultimodia:string/fui_auto_verified = 0x7f0f004b
+com.example.loginultimodia:drawable/notification_bg_low = 0x7f0700b5
+com.example.loginultimodia:id/welcome_back_email_link_body = 0x7f080248
+com.example.loginultimodia:style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked = 0x7f100123
+com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text = 0x7f10013b
+>>>>>>> develop
 com.example.loginultimodia:id/visible_removing_fragment_view_tag = 0x7f080247
 com.example.loginultimodia:id/viewpager = 0x7f080245
 com.example.loginultimodia:dimen/abc_dialog_corner_radius_material = 0x7f06001b
@@ -1148,8 +1978,14 @@ com.example.loginultimodia:dimen/abc_action_bar_stacked_max_height = 0x7f060009
 com.example.loginultimodia:style/Base.Theme.AppCompat.Light = 0x7f10004e
 com.example.loginultimodia:dimen/material_clock_period_toggle_width = 0x7f0600b4
 com.example.loginultimodia:id/dragRight = 0x7f0800cd
+<<<<<<< HEAD
 com.example.loginultimodia:attr/colorPrimary = 0x7f0300de
 com.example.loginultimodia:id/vertical_only = 0x7f08023f
+=======
+com.example.loginultimodia:id/vertical_only = 0x7f08023f
+com.example.loginultimodia:attr/colorPrimary = 0x7f0300de
+com.example.loginultimodia:dimen/mtrl_badge_text_size = 0x7f0600d7
+>>>>>>> develop
 com.example.loginultimodia:integer/material_motion_duration_medium_1 = 0x7f09000d
 com.example.loginultimodia:color/common_google_signin_btn_text_dark_disabled = 0x7f050037
 com.example.loginultimodia:id/useLogo = 0x7f08023e
@@ -1162,21 +1998,37 @@ com.example.loginultimodia:id/uniform = 0x7f08023b
 com.example.loginultimodia:style/TextAppearance.AppCompat.Display2 = 0x7f10016b
 com.example.loginultimodia:style/Widget.Compat.NotificationActionContainer = 0x7f100286
 com.example.loginultimodia:styleable/ViewBackgroundHelper = 0x7f110091
+<<<<<<< HEAD
 com.example.loginultimodia:id/view_offset_helper = 0x7f080240
 com.example.loginultimodia:id/progress_horizontal = 0x7f0801a0
 com.example.loginultimodia:dimen/mtrl_navigation_item_icon_size = 0x7f060153
 com.example.loginultimodia:id/frost = 0x7f0800fa
+=======
+com.example.loginultimodia:dimen/mtrl_navigation_item_icon_size = 0x7f060153
+com.example.loginultimodia:id/frost = 0x7f0800fa
+com.example.loginultimodia:id/view_offset_helper = 0x7f080240
+com.example.loginultimodia:id/progress_horizontal = 0x7f0801a0
+>>>>>>> develop
 com.example.loginultimodia:id/action_context_bar = 0x7f080048
 com.example.loginultimodia:id/bounceEnd = 0x7f08006f
 com.example.loginultimodia:dimen/mtrl_card_checked_icon_size = 0x7f060124
 com.example.loginultimodia:string/fui_email_hint = 0x7f0f0054
 com.example.loginultimodia:id/touch_outside = 0x7f08022c
+<<<<<<< HEAD
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen = 0x7f100232
 com.example.loginultimodia:anim/design_snackbar_out = 0x7f01001b
 com.example.loginultimodia:id/textinput_suffix_text = 0x7f080221
 com.example.loginultimodia:styleable/Spinner = 0x7f11007c
 com.example.loginultimodia:style/Widget.MaterialComponents.CompoundButton.Switch = 0x7f1002c1
 com.example.loginultimodia:style/Widget.AppCompat.ActionBar.TabBar = 0x7f10023f
+=======
+com.example.loginultimodia:id/textinput_suffix_text = 0x7f080221
+com.example.loginultimodia:anim/design_snackbar_out = 0x7f01001b
+com.example.loginultimodia:styleable/Spinner = 0x7f11007c
+com.example.loginultimodia:style/Widget.MaterialComponents.CompoundButton.Switch = 0x7f1002c1
+com.example.loginultimodia:style/Widget.AppCompat.ActionBar.TabBar = 0x7f10023f
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen = 0x7f100232
+>>>>>>> develop
 com.example.loginultimodia:id/textinput_counter = 0x7f08021c
 com.example.loginultimodia:style/Base.Widget.AppCompat.Light.ActionBar = 0x7f1000b7
 com.example.loginultimodia:color/common_google_signin_btn_text_light = 0x7f05003a
@@ -1187,8 +2039,11 @@ com.example.loginultimodia:id/end_padder = 0x7f0800e0
 com.example.loginultimodia:id/textView8 = 0x7f080218
 com.example.loginultimodia:id/textView3 = 0x7f080214
 com.example.loginultimodia:id/welcome_back_idp_button = 0x7f080249
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat = 0x7f100013
 com.example.loginultimodia:dimen/mtrl_textinput_box_stroke_width_focused = 0x7f060185
+=======
+>>>>>>> develop
 com.example.loginultimodia:attr/boxStrokeWidthFocused = 0x7f030070
 com.example.loginultimodia:id/text2 = 0x7f080209
 com.example.loginultimodia:layout/design_layout_snackbar = 0x7f0b0029
@@ -1196,15 +2051,25 @@ com.example.loginultimodia:id/mtrl_calendar_selection_frame = 0x7f08015d
 com.example.loginultimodia:attr/selectableItemBackgroundBorderless = 0x7f0302fd
 com.example.loginultimodia:id/temp = 0x7f080203
 com.example.loginultimodia:id/mtrl_picker_header_selection_text = 0x7f080166
+<<<<<<< HEAD
 com.example.loginultimodia:id/tag_on_apply_window_listener = 0x7f0801fa
 com.example.loginultimodia:dimen/mtrl_chip_pressed_translation_z = 0x7f060129
+=======
+com.example.loginultimodia:dimen/mtrl_chip_pressed_translation_z = 0x7f060129
+com.example.loginultimodia:id/tag_on_apply_window_listener = 0x7f0801fa
+>>>>>>> develop
 com.example.loginultimodia:color/design_default_color_primary_variant = 0x7f050058
 com.example.loginultimodia:id/tag_accessibility_pane_title = 0x7f0801f9
 com.example.loginultimodia:attr/layout_goneMarginTop = 0x7f03022c
 com.example.loginultimodia:id/tag_accessibility_actions = 0x7f0801f6
 com.example.loginultimodia:attr/checkedIconTint = 0x7f03009d
+<<<<<<< HEAD
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text = 0x7f10022e
 com.example.loginultimodia:style/FirebaseUI.TextInputEditText.EmailField = 0x7f10010d
+=======
+com.example.loginultimodia:style/FirebaseUI.TextInputEditText.EmailField = 0x7f10010d
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text = 0x7f10022e
+>>>>>>> develop
 com.example.loginultimodia:id/tabavisos = 0x7f0801f2
 com.example.loginultimodia:style/TextAppearance.Compat.Notification.Line2.Media = 0x7f100199
 com.example.loginultimodia:attr/listLayout = 0x7f03023f
@@ -1215,14 +2080,23 @@ com.example.loginultimodia:id/stop = 0x7f0801ec
 com.example.loginultimodia:dimen/material_clock_face_margin_top = 0x7f0600ad
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents.Toolbar.Surface = 0x7f10023b
 com.example.loginultimodia:color/abc_hint_foreground_material_light = 0x7f050008
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.Widget.MaterialComponents.AutoCompleteTextView = 0x7f1000d7
 com.example.loginultimodia:id/etRegDni = 0x7f0800e5
+=======
+com.example.loginultimodia:id/etRegDni = 0x7f0800e5
+com.example.loginultimodia:string/Hora = 0x7f0f0000
+com.example.loginultimodia:styleable/AppCompatImageView = 0x7f11000e
+>>>>>>> develop
 com.example.loginultimodia:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse = 0x7f100184
 com.example.loginultimodia:style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f1001bb
 com.example.loginultimodia:dimen/hint_pressed_alpha_material_light = 0x7f0600a7
 com.example.loginultimodia:style/CardView.Light = 0x7f1000e6
+<<<<<<< HEAD
 com.example.loginultimodia:string/Hora = 0x7f0f0000
 com.example.loginultimodia:styleable/AppCompatImageView = 0x7f11000e
+=======
+>>>>>>> develop
 com.example.loginultimodia:dimen/mtrl_calendar_navigation_bottom_padding = 0x7f060113
 com.example.loginultimodia:layout/test_design_radiobutton = 0x7f0b009b
 com.example.loginultimodia:id/grouping = 0x7f080102
@@ -1287,6 +2161,7 @@ com.example.loginultimodia:id/save_overlay_view = 0x7f0801b1
 com.example.loginultimodia:style/Base.V21.Theme.MaterialComponents.Light = 0x7f100087
 com.example.loginultimodia:id/rounded = 0x7f0801ae
 com.example.loginultimodia:id/arc = 0x7f08005f
+<<<<<<< HEAD
 com.example.loginultimodia:id/btAvisos = 0x7f080076
 com.example.loginultimodia:id/endToStart = 0x7f0800df
 com.example.loginultimodia:drawable/icono_temperatura2_background = 0x7f070099
@@ -1294,6 +2169,15 @@ com.example.loginultimodia:style/Theme.MaterialComponents.NoActionBar = 0x7f1002
 com.example.loginultimodia:attr/listDividerAlertDialog = 0x7f03023d
 com.example.loginultimodia:dimen/mtrl_btn_inset = 0x7f0600ea
 com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.Search.DropDown = 0x7f10013d
+=======
+com.example.loginultimodia:style/RtlOverlay.Widget.AppCompat.Search.DropDown = 0x7f10013d
+com.example.loginultimodia:id/btAvisos = 0x7f080076
+com.example.loginultimodia:id/endToStart = 0x7f0800df
+com.example.loginultimodia:dimen/mtrl_btn_inset = 0x7f0600ea
+com.example.loginultimodia:attr/listDividerAlertDialog = 0x7f03023d
+com.example.loginultimodia:drawable/icono_temperatura2_background = 0x7f070099
+com.example.loginultimodia:style/Theme.MaterialComponents.NoActionBar = 0x7f10020a
+>>>>>>> develop
 com.example.loginultimodia:id/right = 0x7f0801a9
 com.example.loginultimodia:style/Base.V7.Theme.AppCompat.Light.Dialog = 0x7f100097
 com.example.loginultimodia:id/recyclerView = 0x7f0801a5
@@ -1362,10 +2246,17 @@ com.example.loginultimodia:id/allStates = 0x7f080059
 com.example.loginultimodia:id/mtrl_motion_snapshot_view = 0x7f080163
 com.example.loginultimodia:id/elastic = 0x7f0800d7
 com.example.loginultimodia:string/fui_email_link_different_anonymous_user_header = 0x7f0f0058
+<<<<<<< HEAD
 com.example.loginultimodia:dimen/mtrl_card_dragged_z = 0x7f060126
 com.example.loginultimodia:attr/actionViewClass = 0x7f030025
 com.example.loginultimodia:id/mtrl_calendar_main_pane = 0x7f08015b
 com.example.loginultimodia:id/CTRL = 0x7f080003
+=======
+com.example.loginultimodia:id/CTRL = 0x7f080003
+com.example.loginultimodia:attr/actionViewClass = 0x7f030025
+com.example.loginultimodia:id/mtrl_calendar_main_pane = 0x7f08015b
+com.example.loginultimodia:dimen/mtrl_card_dragged_z = 0x7f060126
+>>>>>>> develop
 com.example.loginultimodia:id/mtrl_calendar_frame = 0x7f08015a
 com.example.loginultimodia:id/mtrl_calendar_days_of_week = 0x7f080159
 com.example.loginultimodia:attr/flow_maxElementsWrap = 0x7f030182
@@ -1383,12 +2274,21 @@ com.example.loginultimodia:integer/google_play_services_version = 0x7f090009
 com.example.loginultimodia:id/month_title = 0x7f080154
 com.example.loginultimodia:dimen/material_helper_text_font_1_3_padding_top = 0x7f0600c4
 com.example.loginultimodia:layout/abc_activity_chooser_view_list_item = 0x7f0b0007
+<<<<<<< HEAD
 com.example.loginultimodia:id/ignoreRequest = 0x7f080114
 com.example.loginultimodia:id/month_navigation_fragment_toggle = 0x7f080151
 com.example.loginultimodia:id/tag_unhandled_key_listeners = 0x7f080201
 com.example.loginultimodia:attr/behavior_skipCollapsed = 0x7f03005c
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored = 0x7f100037
 com.example.loginultimodia:id/activity_chooser_view_content = 0x7f080052
+=======
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored = 0x7f100037
+com.example.loginultimodia:id/activity_chooser_view_content = 0x7f080052
+com.example.loginultimodia:id/month_navigation_fragment_toggle = 0x7f080151
+com.example.loginultimodia:id/tag_unhandled_key_listeners = 0x7f080201
+com.example.loginultimodia:attr/behavior_skipCollapsed = 0x7f03005c
+com.example.loginultimodia:id/ignoreRequest = 0x7f080114
+>>>>>>> develop
 com.example.loginultimodia:drawable/abc_cab_background_internal_bg = 0x7f070016
 com.example.loginultimodia:id/month_grid = 0x7f08014f
 com.example.loginultimodia:style/Base.V26.Theme.AppCompat.Light = 0x7f100090
@@ -1399,6 +2299,7 @@ com.example.loginultimodia:id/message = 0x7f08014c
 com.example.loginultimodia:attr/textEndPadding = 0x7f030382
 com.example.loginultimodia:id/material_textinput_timepicker = 0x7f080143
 com.example.loginultimodia:dimen/mtrl_progress_circular_size_extra_small = 0x7f060165
+<<<<<<< HEAD
 com.example.loginultimodia:layout/abc_action_menu_item_layout = 0x7f0b0002
 com.example.loginultimodia:style/ThemeOverlay.MaterialComponents = 0x7f100216
 com.example.loginultimodia:layout/test_toolbar_surface = 0x7f0b00a1
@@ -1406,6 +2307,15 @@ com.example.loginultimodia:id/material_hour_text_input = 0x7f08013e
 com.example.loginultimodia:attr/windowFixedWidthMinor = 0x7f0303e7
 com.example.loginultimodia:styleable/NavigationRailView = 0x7f110067
 com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection = 0x7f1002d3
+=======
+com.example.loginultimodia:attr/windowFixedWidthMinor = 0x7f0303e7
+com.example.loginultimodia:styleable/NavigationRailView = 0x7f110067
+com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection = 0x7f1002d3
+com.example.loginultimodia:layout/abc_action_menu_item_layout = 0x7f0b0002
+com.example.loginultimodia:id/material_hour_text_input = 0x7f08013e
+com.example.loginultimodia:layout/test_toolbar_surface = 0x7f0b00a1
+com.example.loginultimodia:style/ThemeOverlay.MaterialComponents = 0x7f100216
+>>>>>>> develop
 com.example.loginultimodia:style/Widget.MaterialComponents.AppBarLayout.Surface = 0x7f100299
 com.example.loginultimodia:style/Widget.MaterialComponents.Button.Icon = 0x7f1002a8
 com.example.loginultimodia:id/masked = 0x7f080135
@@ -1415,9 +2325,15 @@ com.example.loginultimodia:id/legacy = 0x7f08012c
 com.example.loginultimodia:dimen/mtrl_btn_disabled_z = 0x7f0600e4
 com.example.loginultimodia:id/accessibility_custom_action_5 = 0x7f080036
 com.example.loginultimodia:drawable/abc_ic_arrow_drop_right_black_24dp = 0x7f07001d
+<<<<<<< HEAD
 com.example.loginultimodia:color/secondary_text_default_material_light = 0x7f0500e3
 com.example.loginultimodia:id/jumpToEnd = 0x7f080126
 com.example.loginultimodia:style/Widget.AppCompat.AutoCompleteTextView = 0x7f100247
+=======
+com.example.loginultimodia:style/Widget.AppCompat.AutoCompleteTextView = 0x7f100247
+com.example.loginultimodia:color/secondary_text_default_material_light = 0x7f0500e3
+com.example.loginultimodia:id/jumpToEnd = 0x7f080126
+>>>>>>> develop
 com.example.loginultimodia:string/fui_sign_in_with_microsoft = 0x7f0f008d
 com.example.loginultimodia:integer/mtrl_chip_anim_duration = 0x7f09001a
 com.example.loginultimodia:color/common_google_signin_btn_text_dark_pressed = 0x7f050039
@@ -1451,6 +2367,7 @@ com.example.loginultimodia:id/fade = 0x7f0800eb
 com.example.loginultimodia:string/fui_sign_in_with_phone = 0x7f0f008e
 com.example.loginultimodia:attr/ifTagSet = 0x7f0301b9
 com.example.loginultimodia:color/material_grey_100 = 0x7f050082
+<<<<<<< HEAD
 com.example.loginultimodia:attr/paddingTopNoTitle = 0x7f0302b7
 com.example.loginultimodia:id/accessibility_custom_action_31 = 0x7f080034
 com.example.loginultimodia:styleable/Fragment = 0x7f110038
@@ -1458,15 +2375,29 @@ com.example.loginultimodia:id/expanded_menu = 0x7f0800ea
 com.example.loginultimodia:drawable/material_ic_keyboard_arrow_previous_black_24dp = 0x7f0700a2
 com.example.loginultimodia:style/Widget.AppCompat.DropDownItem.Spinner = 0x7f100254
 com.example.loginultimodia:id/dragEnd = 0x7f0800cb
+=======
+com.example.loginultimodia:style/Widget.AppCompat.DropDownItem.Spinner = 0x7f100254
+com.example.loginultimodia:id/dragEnd = 0x7f0800cb
+com.example.loginultimodia:drawable/material_ic_keyboard_arrow_previous_black_24dp = 0x7f0700a2
+com.example.loginultimodia:id/expanded_menu = 0x7f0800ea
+com.example.loginultimodia:attr/paddingTopNoTitle = 0x7f0302b7
+com.example.loginultimodia:id/accessibility_custom_action_31 = 0x7f080034
+com.example.loginultimodia:styleable/Fragment = 0x7f110038
+>>>>>>> develop
 com.example.loginultimodia:id/etRegNombreApellido = 0x7f0800e6
 com.example.loginultimodia:attr/reverseLayout = 0x7f0302ed
 com.example.loginultimodia:color/dim_foreground_disabled_material_light = 0x7f050067
 com.example.loginultimodia:id/etLoginEmail = 0x7f0800e3
 com.example.loginultimodia:color/mtrl_textinput_filled_box_default_background_color = 0x7f0500ce
 com.example.loginultimodia:style/TextAppearance.Design.Counter.Overflow = 0x7f1001a1
+<<<<<<< HEAD
 com.example.loginultimodia:dimen/mtrl_badge_text_size = 0x7f0600d7
 com.example.loginultimodia:style/Base.Widget.AppCompat.ActionBar.TabText = 0x7f10009f
 com.example.loginultimodia:layout/fui_idp_button_microsoft = 0x7f0b004e
+=======
+com.example.loginultimodia:layout/fui_idp_button_microsoft = 0x7f0b004e
+com.example.loginultimodia:style/Base.Widget.AppCompat.ActionBar.TabText = 0x7f10009f
+>>>>>>> develop
 com.example.loginultimodia:color/design_dark_default_color_on_surface = 0x7f050048
 com.example.loginultimodia:attr/chipGroupStyle = 0x7f0300a3
 com.example.loginultimodia:style/Theme.AppCompat.Dialog.MinWidth = 0x7f1001c9
@@ -1476,16 +2407,27 @@ com.example.loginultimodia:style/Base.Theme.AppCompat.Light.DialogWhenLarge = 0x
 com.example.loginultimodia:id/enterAlwaysCollapsed = 0x7f0800e2
 com.example.loginultimodia:id/email_footer_tos_and_pp_text = 0x7f0800db
 com.example.loginultimodia:attr/layout = 0x7f0301ec
+<<<<<<< HEAD
+=======
+com.example.loginultimodia:string/fui_invalid_email_address = 0x7f0f0072
+com.example.loginultimodia:id/actions = 0x7f080051
+com.example.loginultimodia:id/title = 0x7f080224
+com.example.loginultimodia:layout/abc_select_dialog_material = 0x7f0b001a
+com.example.loginultimodia:dimen/design_snackbar_action_inline_max_width = 0x7f060080
+>>>>>>> develop
 com.example.loginultimodia:id/fragment_register_email = 0x7f0800f9
 com.example.loginultimodia:id/cross_device_linking_body = 0x7f0800aa
 com.example.loginultimodia:style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle = 0x7f1001bc
 com.example.loginultimodia:id/email_button = 0x7f0800da
 com.example.loginultimodia:id/bounceBoth = 0x7f08006e
+<<<<<<< HEAD
 com.example.loginultimodia:id/title = 0x7f080224
 com.example.loginultimodia:layout/abc_select_dialog_material = 0x7f0b001a
 com.example.loginultimodia:dimen/design_snackbar_action_inline_max_width = 0x7f060080
 com.example.loginultimodia:string/fui_invalid_email_address = 0x7f0f0072
 com.example.loginultimodia:id/actions = 0x7f080051
+=======
+>>>>>>> develop
 com.example.loginultimodia:id/email = 0x7f0800d8
 com.example.loginultimodia:style/Base.Theme.MaterialComponents = 0x7f100055
 com.example.loginultimodia:id/confirmation_code = 0x7f08009c
@@ -1626,8 +2568,13 @@ com.example.loginultimodia:id/alertTitle = 0x7f080056
 com.example.loginultimodia:drawable/abc_tab_indicator_mtrl_alpha = 0x7f07004b
 com.example.loginultimodia:style/Widget.MaterialComponents.PopupMenu = 0x7f1002e4
 com.example.loginultimodia:id/sign_in_email_sent_text = 0x7f0801cf
+<<<<<<< HEAD
 com.example.loginultimodia:attr/panelMenuListTheme = 0x7f0302ba
 com.example.loginultimodia:id/action_menu_divider = 0x7f08004b
+=======
+com.example.loginultimodia:id/action_menu_divider = 0x7f08004b
+com.example.loginultimodia:attr/panelMenuListTheme = 0x7f0302ba
+>>>>>>> develop
 com.example.loginultimodia:string/fui_sign_in_with_email = 0x7f0f0089
 com.example.loginultimodia:style/Platform.ThemeOverlay.AppCompat.Light = 0x7f10012e
 com.example.loginultimodia:id/add = 0x7f080053
@@ -1636,12 +2583,21 @@ com.example.loginultimodia:layout/notification_template_custom_big = 0x7f0b008d
 com.example.loginultimodia:style/Base.ThemeOverlay.MaterialComponents.Dialog = 0x7f10006f
 com.example.loginultimodia:id/accessibility_custom_action_14 = 0x7f080021
 com.example.loginultimodia:id/action_image = 0x7f08004a
+<<<<<<< HEAD
 com.example.loginultimodia:id/logo = 0x7f080133
 com.example.loginultimodia:dimen/mtrl_progress_circular_size = 0x7f060164
 com.example.loginultimodia:id/constraint = 0x7f08009e
 com.example.loginultimodia:style/Theme.MaterialComponents.Dialog.Bridge = 0x7f1001f2
 com.example.loginultimodia:style/TextAppearance.AppCompat.Display4 = 0x7f10016d
 com.example.loginultimodia:id/action_container = 0x7f080047
+=======
+com.example.loginultimodia:dimen/mtrl_progress_circular_size = 0x7f060164
+com.example.loginultimodia:id/logo = 0x7f080133
+com.example.loginultimodia:id/constraint = 0x7f08009e
+com.example.loginultimodia:style/Theme.MaterialComponents.Dialog.Bridge = 0x7f1001f2
+com.example.loginultimodia:id/action_container = 0x7f080047
+com.example.loginultimodia:style/TextAppearance.AppCompat.Display4 = 0x7f10016d
+>>>>>>> develop
 com.example.loginultimodia:id/action_bar = 0x7f080040
 com.example.loginultimodia:string/material_slider_range_end = 0x7f0f00bb
 com.example.loginultimodia:id/actionDownUp = 0x7f08003e
@@ -1649,9 +2605,15 @@ com.example.loginultimodia:color/mtrl_choice_chip_text_color = 0x7f0500b0
 com.example.loginultimodia:id/accessibility_custom_action_9 = 0x7f08003a
 com.example.loginultimodia:id/accessibility_custom_action_6 = 0x7f080037
 com.example.loginultimodia:id/spring = 0x7f0801df
+<<<<<<< HEAD
 com.example.loginultimodia:string/common_google_play_services_unsupported_text = 0x7f0f0034
 com.example.loginultimodia:id/main_tos_and_pp = 0x7f080134
 com.example.loginultimodia:attr/quantizeMotionSteps = 0x7f0302db
+=======
+com.example.loginultimodia:id/main_tos_and_pp = 0x7f080134
+com.example.loginultimodia:attr/quantizeMotionSteps = 0x7f0302db
+com.example.loginultimodia:string/common_google_play_services_unsupported_text = 0x7f0f0034
+>>>>>>> develop
 com.example.loginultimodia:id/accessibility_custom_action_24 = 0x7f08002c
 com.example.loginultimodia:id/accessibility_custom_action_23 = 0x7f08002b
 com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Year = 0x7f1002da
@@ -1661,19 +2623,33 @@ com.example.loginultimodia:layout/design_navigation_menu_item = 0x7f0b0033
 com.example.loginultimodia:drawable/common_google_signin_btn_text_light_focused = 0x7f070075
 com.example.loginultimodia:layout/test_reflow_chipgroup = 0x7f0b009d
 com.example.loginultimodia:id/accessibility_custom_action_2 = 0x7f080027
+<<<<<<< HEAD
 com.example.loginultimodia:color/design_dark_default_color_on_background = 0x7f050044
 com.example.loginultimodia:styleable/BottomNavigationView = 0x7f110016
+=======
+com.example.loginultimodia:styleable/BottomNavigationView = 0x7f110016
+com.example.loginultimodia:color/design_dark_default_color_on_background = 0x7f050044
+>>>>>>> develop
 com.example.loginultimodia:id/accessibility_custom_action_25 = 0x7f08002d
 com.example.loginultimodia:id/accessibility_custom_action_12 = 0x7f08001f
 com.example.loginultimodia:attr/actionOverflowButtonStyle = 0x7f030021
 com.example.loginultimodia:drawable/common_google_signin_btn_text_dark_normal = 0x7f070071
 com.example.loginultimodia:id/accessibility_custom_action_11 = 0x7f08001e
+<<<<<<< HEAD
 com.example.loginultimodia:id/material_clock_hand = 0x7f08013a
 com.example.loginultimodia:style/Widget.AppCompat.RatingBar.Indicator = 0x7f100278
 com.example.loginultimodia:id/skipCollapsed = 0x7f0801d1
 com.example.loginultimodia:color/error_color_material_light = 0x7f05006b
 com.example.loginultimodia:id/accessibility_custom_action_1 = 0x7f08001c
 com.example.loginultimodia:attr/passwordToggleTint = 0x7f0302bf
+=======
+com.example.loginultimodia:style/Widget.AppCompat.RatingBar.Indicator = 0x7f100278
+com.example.loginultimodia:id/material_clock_hand = 0x7f08013a
+com.example.loginultimodia:id/skipCollapsed = 0x7f0801d1
+com.example.loginultimodia:id/accessibility_custom_action_1 = 0x7f08001c
+com.example.loginultimodia:attr/passwordToggleTint = 0x7f0302bf
+com.example.loginultimodia:color/error_color_material_light = 0x7f05006b
+>>>>>>> develop
 com.example.loginultimodia:id/accessibility_action_clickable_span = 0x7f08001a
 com.example.loginultimodia:id/accelerate = 0x7f080019
 com.example.loginultimodia:id/TextView01 = 0x7f080018
@@ -1687,8 +2663,13 @@ com.example.loginultimodia:layout/design_layout_snackbar_include = 0x7f0b002a
 com.example.loginultimodia:id/SHOW_ALL = 0x7f080012
 com.example.loginultimodia:attr/motionEffect_translationX = 0x7f030290
 com.example.loginultimodia:style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked = 0x7f100125
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f100067
 com.example.loginultimodia:style/Widget.MaterialComponents.Button.UnelevatedButton.Icon = 0x7f1002b2
+=======
+com.example.loginultimodia:style/Widget.MaterialComponents.Button.UnelevatedButton.Icon = 0x7f1002b2
+com.example.loginultimodia:style/Base.Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f100067
+>>>>>>> develop
 com.example.loginultimodia:id/action_bar_activity_content = 0x7f080041
 com.example.loginultimodia:id/HoraSolo = 0x7f080005
 com.example.loginultimodia:id/NO_DEBUG = 0x7f08000c
@@ -1703,8 +2684,13 @@ com.example.loginultimodia:style/Theme.MaterialComponents.Dialog.Alert.Bridge = 
 com.example.loginultimodia:id/FUNCTION = 0x7f080004
 com.example.loginultimodia:id/disableHome = 0x7f0800bf
 com.example.loginultimodia:dimen/mtrl_snackbar_message_margin_horizontal = 0x7f06017e
+<<<<<<< HEAD
 com.example.loginultimodia:attr/animationMode = 0x7f030031
 com.example.loginultimodia:id/BOTTOM_START = 0x7f080002
+=======
+com.example.loginultimodia:id/BOTTOM_START = 0x7f080002
+com.example.loginultimodia:attr/animationMode = 0x7f030031
+>>>>>>> develop
 com.example.loginultimodia:attr/passwordToggleTintMode = 0x7f0302c0
 com.example.loginultimodia:style/AlertDialog.AppCompat.Light = 0x7f100001
 com.example.loginultimodia:id/ALT = 0x7f080000
@@ -1731,8 +2717,13 @@ com.example.loginultimodia:style/Widget.MaterialComponents.BottomNavigationView.
 com.example.loginultimodia:drawable/notification_template_icon_bg = 0x7f0700bb
 com.example.loginultimodia:drawable/notification_icon_background = 0x7f0700ba
 com.example.loginultimodia:styleable/AlertDialog = 0x7f110006
+<<<<<<< HEAD
 com.example.loginultimodia:drawable/notification_bg_normal = 0x7f0700b8
 com.example.loginultimodia:drawable/common_google_signin_btn_icon_dark_normal = 0x7f070068
+=======
+com.example.loginultimodia:drawable/common_google_signin_btn_icon_dark_normal = 0x7f070068
+com.example.loginultimodia:drawable/notification_bg_normal = 0x7f0700b8
+>>>>>>> develop
 com.example.loginultimodia:drawable/mtrl_popupmenu_background = 0x7f0700af
 com.example.loginultimodia:id/barrier = 0x7f080066
 com.example.loginultimodia:id/transition_current_scene = 0x7f08022f
@@ -1752,8 +2743,13 @@ com.example.loginultimodia:drawable/material_ic_edit_black_24dp = 0x7f07009f
 com.example.loginultimodia:drawable/material_cursor_drawable = 0x7f07009c
 com.example.loginultimodia:drawable/login = 0x7f07009b
 com.example.loginultimodia:style/Theme.MaterialComponents.Light.Dialog.MinWidth = 0x7f100204
+<<<<<<< HEAD
 com.example.loginultimodia:drawable/icono_campana = 0x7f070096
 com.example.loginultimodia:dimen/design_tab_text_size = 0x7f06008d
+=======
+com.example.loginultimodia:dimen/design_tab_text_size = 0x7f06008d
+com.example.loginultimodia:drawable/icono_campana = 0x7f070096
+>>>>>>> develop
 com.example.loginultimodia:drawable/icon_anyadir = 0x7f070094
 com.example.loginultimodia:style/Theme.AppCompat.DayNight = 0x7f1001c0
 com.example.loginultimodia:string/fui_new_password_hint = 0x7f0f0077
@@ -1773,8 +2769,13 @@ com.example.loginultimodia:attr/rangeFillColor = 0x7f0302e0
 com.example.loginultimodia:dimen/browser_actions_context_menu_min_padding = 0x7f060054
 com.example.loginultimodia:drawable/googleg_disabled_color_18 = 0x7f070089
 com.example.loginultimodia:id/x_right = 0x7f080254
+<<<<<<< HEAD
 com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f100035
 com.example.loginultimodia:style/FirebaseUI.TextInputEditText.PhoneField = 0x7f100110
+=======
+com.example.loginultimodia:style/FirebaseUI.TextInputEditText.PhoneField = 0x7f100110
+com.example.loginultimodia:style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f100035
+>>>>>>> develop
 com.example.loginultimodia:attr/state_dragged = 0x7f03032e
 com.example.loginultimodia:dimen/material_bottom_sheet_max_width = 0x7f0600ab
 com.example.loginultimodia:attr/tickVisible = 0x7f0303a1
@@ -1811,8 +2812,13 @@ com.example.loginultimodia:drawable/design_fab_background = 0x7f070078
 com.example.loginultimodia:style/Widget.AppCompat.SeekBar = 0x7f10027c
 com.example.loginultimodia:id/textTop = 0x7f080211
 com.example.loginultimodia:attr/helperTextTextColor = 0x7f0301a2
+<<<<<<< HEAD
 com.example.loginultimodia:id/linear = 0x7f080130
 com.example.loginultimodia:drawable/common_google_signin_btn_text_disabled = 0x7f070073
+=======
+com.example.loginultimodia:drawable/common_google_signin_btn_text_disabled = 0x7f070073
+com.example.loginultimodia:id/linear = 0x7f080130
+>>>>>>> develop
 com.example.loginultimodia:drawable/common_google_signin_btn_icon_light = 0x7f07006b
 com.example.loginultimodia:dimen/mtrl_calendar_day_height = 0x7f0600ff
 com.example.loginultimodia:string/bottom_sheet_behavior = 0x7f0f0022
@@ -1822,12 +2828,21 @@ com.example.loginultimodia:drawable/boy = 0x7f07005a
 com.example.loginultimodia:drawable/abc_btn_radio_material_anim = 0x7f070011
 com.example.loginultimodia:styleable/KeyCycle = 0x7f11003f
 com.example.loginultimodia:id/withinBounds = 0x7f08024f
+<<<<<<< HEAD
 com.example.loginultimodia:attr/layout_constraintLeft_creator = 0x7f03020f
 com.example.loginultimodia:id/transition_scene_layoutid_cache = 0x7f080232
 com.example.loginultimodia:drawable/btn_redondeado_blue = 0x7f070063
 com.example.loginultimodia:attr/layout_constraintRight_toRightOf = 0x7f030214
 com.example.loginultimodia:id/auto = 0x7f080062
 com.example.loginultimodia:drawable/abc_vector_test = 0x7f070055
+=======
+com.example.loginultimodia:id/transition_scene_layoutid_cache = 0x7f080232
+com.example.loginultimodia:attr/layout_constraintLeft_creator = 0x7f03020f
+com.example.loginultimodia:drawable/btn_redondeado_blue = 0x7f070063
+com.example.loginultimodia:attr/layout_constraintRight_toRightOf = 0x7f030214
+com.example.loginultimodia:drawable/abc_vector_test = 0x7f070055
+com.example.loginultimodia:id/auto = 0x7f080062
+>>>>>>> develop
 com.example.loginultimodia:dimen/mtrl_card_spacing = 0x7f060128
 com.example.loginultimodia:color/mtrl_filled_icon_tint = 0x7f0500b6
 com.example.loginultimodia:drawable/abc_textfield_default_mtrl_alpha = 0x7f070051
@@ -1837,9 +2852,13 @@ com.example.loginultimodia:drawable/abc_star_black_48dp = 0x7f070046
 com.example.loginultimodia:style/Base.ThemeOverlay.AppCompat.Dark = 0x7f10006a
 com.example.loginultimodia:style/Base.Widget.AppCompat.PopupMenu.Overflow = 0x7f1000c5
 com.example.loginultimodia:style/Widget.MaterialComponents.MaterialCalendar.Year.Selected = 0x7f1002db
+<<<<<<< HEAD
 com.example.loginultimodia:attr/layout_constrainedHeight = 0x7f0301f5
+=======
+>>>>>>> develop
 com.example.loginultimodia:attr/colorSecondaryVariant = 0x7f0300e4
 com.example.loginultimodia:drawable/abc_seekbar_track_material = 0x7f070043
+com.example.loginultimodia:attr/layout_constrainedHeight = 0x7f0301f5
 com.example.loginultimodia:id/accessibility_custom_action_18 = 0x7f080025
 com.example.loginultimodia:drawable/abc_scrubber_track_mtrl_alpha = 0x7f070040
 com.example.loginultimodia:style/Widget.AppCompat.ActionButton = 0x7f100242
@@ -1854,8 +2873,13 @@ com.example.loginultimodia:drawable/abc_list_pressed_holo_dark = 0x7f07002f
 com.example.loginultimodia:style/Widget.AppCompat.PopupMenu = 0x7f100272
 com.example.loginultimodia:style/Widget.AppCompat.TextView = 0x7f100282
 com.example.loginultimodia:attr/layout_constraintBottom_toBottomOf = 0x7f0301fc
+<<<<<<< HEAD
 com.example.loginultimodia:attr/backgroundInsetTop = 0x7f030045
 com.example.loginultimodia:drawable/abc_list_longpressed_holo = 0x7f07002e
+=======
+com.example.loginultimodia:drawable/abc_list_longpressed_holo = 0x7f07002e
+com.example.loginultimodia:attr/backgroundInsetTop = 0x7f030045
+>>>>>>> develop
 com.example.loginultimodia:id/textView4 = 0x7f080215
 com.example.loginultimodia:drawable/abc_ic_voice_search_api_material = 0x7f070028
 com.example.loginultimodia:attr/chipStrokeColor = 0x7f0300b0
@@ -1864,8 +2888,13 @@ com.example.loginultimodia:drawable/abc_ic_menu_overflow_material = 0x7f070023
 com.example.loginultimodia:dimen/hint_pressed_alpha_material_dark = 0x7f0600a6
 com.example.loginultimodia:attr/region_heightLessThan = 0x7f0302e9
 com.example.loginultimodia:style/Theme.MaterialComponents.DayNight.DarkActionBar = 0x7f1001e2
+<<<<<<< HEAD
 com.example.loginultimodia:drawable/abc_btn_default_mtrl_shape = 0x7f07000f
 com.example.loginultimodia:drawable/abc_ic_go_search_api_material = 0x7f070020
+=======
+com.example.loginultimodia:drawable/abc_ic_go_search_api_material = 0x7f070020
+com.example.loginultimodia:drawable/abc_btn_default_mtrl_shape = 0x7f07000f
+>>>>>>> develop
 com.example.loginultimodia:style/Test.Widget.MaterialComponents.MaterialCalendar = 0x7f10015c
 com.example.loginultimodia:drawable/abc_edit_text_material = 0x7f07001b
 com.example.loginultimodia:style/Base.Theme.AppCompat.Light.Dialog.FixedSize = 0x7f100052
@@ -2624,8 +3653,13 @@ com.example.loginultimodia:dimen/fastscroll_default_thickness = 0x7f060092
 com.example.loginultimodia:attr/useMaterialThemeColors = 0x7f0303d0
 com.example.loginultimodia:dimen/abc_action_bar_content_inset_with_nav = 0x7f060001
 com.example.loginultimodia:id/notification_background = 0x7f080180
+<<<<<<< HEAD
 com.example.loginultimodia:layout/mtrl_calendar_horizontal = 0x7f0b0071
 com.example.loginultimodia:attr/tabTextAppearance = 0x7f03035d
+=======
+com.example.loginultimodia:attr/tabTextAppearance = 0x7f03035d
+com.example.loginultimodia:layout/mtrl_calendar_horizontal = 0x7f0b0071
+>>>>>>> develop
 com.example.loginultimodia:color/abc_search_url_text_normal = 0x7f05000e
 com.example.loginultimodia:attr/tabPaddingEnd = 0x7f030357
 com.example.loginultimodia:style/Base.Theme.AppCompat.CompactMenu = 0x7f100048

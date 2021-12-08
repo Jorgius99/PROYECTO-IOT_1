@@ -36,7 +36,6 @@ public class AdaptadorDosis extends
         this.context = context;
 
     }
-    //xd
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView pastilla, fecha;
@@ -57,7 +56,6 @@ public class AdaptadorDosis extends
             Date date = dosis.getHoraFecha();
             DateFormat df = new SimpleDateFormat("dd/MM/yy");
             fecha.setText(df.format(date));
-
         }
     }
 

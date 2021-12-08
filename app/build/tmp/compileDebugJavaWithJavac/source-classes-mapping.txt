@@ -5,8 +5,15 @@ com/example/loginultimodia/AdaptadorHabsDoctor.java
  com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
 com/example/loginultimodia/Usuario.java
  com.example.loginultimodia.Usuario
+<<<<<<< HEAD
 com/example/loginultimodia/Habitacion.java
  com.example.loginultimodia.Habitacion
+=======
+com/example/loginultimodia/LoginActivity.java
+ com.example.loginultimodia.LoginActivity
+ com.example.loginultimodia.LoginActivity$1
+ com.example.loginultimodia.LoginActivity$2
+>>>>>>> develop
 com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
  com.example.loginultimodia.ControladorDoctor.HabitacionesDoc
 com/example/loginultimodia/Controlador/PagerControler.java
@@ -66,6 +73,11 @@ com/example/loginultimodia/Controlador/Habitaciones.java
  com.example.loginultimodia.Controlador.Habitaciones
 com/example/loginultimodia/MainActivity.java
  com.example.loginultimodia.MainActivity
+<<<<<<< HEAD
+=======
+com/example/loginultimodia/Controlador/Dosis.java
+ com.example.loginultimodia.Controlador.Dosis
+>>>>>>> develop
 com/example/loginultimodia/AvisosActivity.java
  com.example.loginultimodia.AvisosActivity
 com/example/loginultimodia/SecondActivity.java
@@ -102,9 +114,21 @@ com/example/loginultimodia/databinding/CuestionarioPastillasBinding.java
  com.example.loginultimodia.databinding.CuestionarioPastillasBinding
 com/example/loginultimodia/ActividadAbrirCuestionarioPaciente.java
  com.example.loginultimodia.ActividadAbrirCuestionarioPaciente
+<<<<<<< HEAD
+=======
+com/example/loginultimodia/AdaptadorDosis.java
+ com.example.loginultimodia.AdaptadorDosis
+ com.example.loginultimodia.AdaptadorDosis$ViewHolder
+>>>>>>> develop
 com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
 com/example/loginultimodia/databinding/ActivityMainBinding.java
  com.example.loginultimodia.databinding.ActivityMainBinding
 com/example/loginultimodia/databinding/ActivitySignUpBinding.java
  com.example.loginultimodia.databinding.ActivitySignUpBinding
+<<<<<<< HEAD
+=======
+com/example/loginultimodia/AdaptadorHabsDoctor.java
+ com.example.loginultimodia.AdaptadorHabsDoctor
+ com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+>>>>>>> develop
