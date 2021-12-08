@@ -26,7 +26,7 @@
         android:layout_marginTop="112dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/habs"
-        android:textColor="#0C3688"
+        android:textColor="@color/gris"
         android:textSize="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

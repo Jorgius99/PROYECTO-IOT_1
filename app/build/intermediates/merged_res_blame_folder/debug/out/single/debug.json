@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_aplicacion_medica.png.flat",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\aplicacion_medica.png"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
@@ -94,6 +94,10 @@
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_formarecycler.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\formarecycler.xml"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_campana.xml.flat",

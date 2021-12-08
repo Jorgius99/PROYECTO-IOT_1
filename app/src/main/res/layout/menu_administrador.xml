@@ -7,18 +7,20 @@
 
     <Button
         android:id="@+id/btAvisos"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Avisos"
+        android:background="@drawable/btn_redondeado_blue"
+        android:text="Añadir avisos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btPacientes"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/btn_redondeado_blue"
         android:text="Añadir paciente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btAvisos"

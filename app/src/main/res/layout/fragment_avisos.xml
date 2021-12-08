@@ -30,7 +30,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-black"
             android:text="@string/notificaciones"
-            android:textColor="#0C3688"
+            android:textColor="@color/gris"
             android:textSize="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
