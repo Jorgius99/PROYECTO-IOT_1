@@ -10,69 +10,62 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.loginultimodia.databinding.ElementoAvisoBinding;
-import com.example.loginultimodia.databinding.ElementoDosisBinding;
+
+import com.example.loginultimodia.databinding.ElementoHabsDoctorBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.Query;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-public class AdaptadorDosis extends
-        FirestoreRecyclerAdapter<objetoDosis, AdaptadorDosis.ViewHolder> {
+public class AdaptadorHabsDoctor extends
+        FirestoreRecyclerAdapter<Habitacion, AdaptadorHabsDoctor.ViewHolder> {
     protected View.OnClickListener onClickListener;
     protected Context context;
-    protected  static CollectionReference pacientes;
+    protected  static CollectionReference habitaciones;
 
-    public AdaptadorDosis(
-            @NonNull FirestoreRecyclerOptions<objetoDosis> options, Context context){
+    public AdaptadorHabsDoctor(
+            @NonNull FirestoreRecyclerOptions<Habitacion> options, Context context){
         super(options);
         this.context = context;
 
     }
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public TextView pastilla, fecha;
+        public TextView numHab;
         private Task<DocumentSnapshot> aviso123;
 
-        public ViewHolder(ElementoDosisBinding itemView) {
+        public ViewHolder(ElementoHabsDoctorBinding itemView) {
             super(itemView.getRoot());
-            pastilla = itemView.pastilla;
-            fecha = itemView.fecha1;
+            numHab = itemView.numHab;
+
         }
         // Personalizamos un ViewHolder a partir de un lugar
-        public void personaliza(objetoDosis dosis) {
+        public void personaliza(Habitacion habitacion) {
 
             FirebaseFirestore db = FirebaseFirestore.getInstance();
-            pacientes = db.collection("dosis");
-            pacientes.document().get();
-            pastilla.setText(dosis.getMedicamento());
-            Date date = dosis.getHoraFecha();
-            DateFormat df = new SimpleDateFormat("dd/MM/yy");
-            fecha.setText(df.format(date));
+            habitaciones = db.collection("habitaciones");
+            habitaciones.document().get();
+            numHab.setText(habitacion.getNumHab());
+
 
         }
     }
 
     @Override
-    public AdaptadorDosis.ViewHolder onCreateViewHolder(
+    public AdaptadorHabsDoctor.ViewHolder onCreateViewHolder(
             ViewGroup parent, int viewType) {
-        ElementoDosisBinding v = ElementoDosisBinding.inflate(
+        ElementoHabsDoctorBinding v = ElementoHabsDoctorBinding.inflate(
                 LayoutInflater.from(parent.getContext()), parent, false);
         v.getRoot().setOnClickListener(onClickListener);
-        return new AdaptadorDosis.ViewHolder(v);
+        return new AdaptadorHabsDoctor.ViewHolder(v);
     }
 
     @Override
-    protected void onBindViewHolder(@NonNull AdaptadorDosis
-            .ViewHolder holder, int position, @NonNull objetoDosis dosis) {
-        holder.personaliza(dosis);
+    protected void onBindViewHolder(@NonNull AdaptadorHabsDoctor
+            .ViewHolder holder, int position, @NonNull Habitacion hab) {
+        holder.personaliza(hab);
     }
 
     public void setOnItemClickListener(View.OnClickListener onClick) {
