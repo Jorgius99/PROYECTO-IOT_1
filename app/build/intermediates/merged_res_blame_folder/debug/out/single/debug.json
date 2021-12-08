@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_btn_redondeado_white.xml.flat",
-        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable-v24\\btn_redondeado_white.xml"
-    },
-    {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -30,6 +26,10 @@
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_telefono.png.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable-v24\\telefono.png"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_med_photoroom__1_.png.flat",
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_doctor_photoroom.png.flat",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\doctor_photoroom.png"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_btn_redondeado_blue.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable-v24\\btn_redondeado_blue.xml"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_main.xml.flat",
