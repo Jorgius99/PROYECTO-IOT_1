@@ -19,6 +19,13 @@ public class objetoDosis {
             this.Frecuencia = freq;
     }
 
+    public objetoDosis(){
+        this.Medicamento = "Ibus";
+        this.NumPastillas= "7";
+        this.HoraFecha = new Date();
+        this.Frecuencia = 8;
+
+    }
     //-------------------------GETTERS---------------------------------
 
     public String getMedicamento() {
