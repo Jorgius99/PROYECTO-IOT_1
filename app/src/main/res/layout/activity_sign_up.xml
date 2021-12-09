@@ -19,9 +19,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="16dp"
+            android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
             android:text="Crear Paciente"
-            android:textColor="@color/teal_700"
+            android:textColor="@color/gris"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -80,11 +81,40 @@
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etRegDniDoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Dni Doctor"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etRegNumHab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numero Habitacion"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/recuperarBoton"
+            android:id="@+id/ppp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
+            android:background="@drawable/botonesredondos"
             android:text="Enviar" />
 
         <LinearLayout
@@ -97,13 +127,13 @@
             <TextView
                 android:id="@+id/tvLoginHere"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|center_vertical"
                 android:text="Volver"
-                android:textColor="@color/teal_700"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
+                android:textColor="@color/black"
+                android:textSize="18sp" />
         </LinearLayout>
 
     </LinearLayout>

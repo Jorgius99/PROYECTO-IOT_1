@@ -83,9 +83,14 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this, "User logged in successfully", Toast.LENGTH_SHORT).show();
                         FirebaseUser usuario = FirebaseAuth.getInstance().getCurrentUser();
 
-                        if (usuario.getEmail().equals("admin@gmail.com")) {
-                            startActivity(new Intent(LoginActivity.this, DoctorSecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-                        } else {
+                        if (usuario.getEmail().equals("admins@gmail.com")) {
+                            startActivity(new Intent(LoginActivity.this, SuperAdminSecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                        }
+
+                        else if (usuario.getEmail().equals("admin@gmail.com")) {
+                            startActivity(new Intent(LoginActivity.this, DoctorSecondActivity .class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+                        }else {
                             startActivity(new Intent(LoginActivity.this, SecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
                         }
                     } else {

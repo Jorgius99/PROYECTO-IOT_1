@@ -4,11 +4,11 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.loginultimodia.R;
@@ -21,91 +21,16 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView Medicamento1;
+  public final RecyclerView recyclerView;
 
   @NonNull
-  public final TextView Medicamento2;
-
-  @NonNull
-  public final TextView Medicamento3;
-
-  @NonNull
-  public final TextView Medicamento4;
-
-  @NonNull
-  public final TextView Nombre1;
-
-  @NonNull
-  public final TextView Nombre2;
-
-  @NonNull
-  public final TextView Nombre3;
-
-  @NonNull
-  public final TextView Nombre4;
-
-  @NonNull
-  public final ConstraintLayout constraintLayout;
-
-  @NonNull
-  public final ConstraintLayout dosis1;
-
-  @NonNull
-  public final ConstraintLayout dosis2;
-
-  @NonNull
-  public final ConstraintLayout dosis3;
-
-  @NonNull
-  public final ConstraintLayout dosis4;
-
-  @NonNull
-  public final TextView habs;
-
-  @NonNull
-  public final ImageView imageView3;
-
-  @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
-  public final ImageView imageView6;
-
-  @NonNull
-  public final ImageView imageView7;
-
-  @NonNull
-  public final ImageView imageView8;
+  public final TextView tusHabs;
 
   private FragmentDoctorHabitacionesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView Medicamento1, @NonNull TextView Medicamento2,
-      @NonNull TextView Medicamento3, @NonNull TextView Medicamento4, @NonNull TextView Nombre1,
-      @NonNull TextView Nombre2, @NonNull TextView Nombre3, @NonNull TextView Nombre4,
-      @NonNull ConstraintLayout constraintLayout, @NonNull ConstraintLayout dosis1,
-      @NonNull ConstraintLayout dosis2, @NonNull ConstraintLayout dosis3,
-      @NonNull ConstraintLayout dosis4, @NonNull TextView habs, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView4, @NonNull ImageView imageView6, @NonNull ImageView imageView7,
-      @NonNull ImageView imageView8) {
+      @NonNull RecyclerView recyclerView, @NonNull TextView tusHabs) {
     this.rootView = rootView;
-    this.Medicamento1 = Medicamento1;
-    this.Medicamento2 = Medicamento2;
-    this.Medicamento3 = Medicamento3;
-    this.Medicamento4 = Medicamento4;
-    this.Nombre1 = Nombre1;
-    this.Nombre2 = Nombre2;
-    this.Nombre3 = Nombre3;
-    this.Nombre4 = Nombre4;
-    this.constraintLayout = constraintLayout;
-    this.dosis1 = dosis1;
-    this.dosis2 = dosis2;
-    this.dosis3 = dosis3;
-    this.dosis4 = dosis4;
-    this.habs = habs;
-    this.imageView3 = imageView3;
-    this.imageView4 = imageView4;
-    this.imageView6 = imageView6;
-    this.imageView7 = imageView7;
-    this.imageView8 = imageView8;
+    this.recyclerView = recyclerView;
+    this.tusHabs = tusHabs;
   }
 
   @Override
@@ -135,124 +60,20 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Medicamento1;
-      TextView Medicamento1 = ViewBindings.findChildViewById(rootView, id);
-      if (Medicamento1 == null) {
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
         break missingId;
       }
 
-      id = R.id.Medicamento2;
-      TextView Medicamento2 = ViewBindings.findChildViewById(rootView, id);
-      if (Medicamento2 == null) {
+      id = R.id.tus_habs;
+      TextView tusHabs = ViewBindings.findChildViewById(rootView, id);
+      if (tusHabs == null) {
         break missingId;
       }
 
-      id = R.id.Medicamento3;
-      TextView Medicamento3 = ViewBindings.findChildViewById(rootView, id);
-      if (Medicamento3 == null) {
-        break missingId;
-      }
-
-      id = R.id.Medicamento4;
-      TextView Medicamento4 = ViewBindings.findChildViewById(rootView, id);
-      if (Medicamento4 == null) {
-        break missingId;
-      }
-
-      id = R.id.Nombre1;
-      TextView Nombre1 = ViewBindings.findChildViewById(rootView, id);
-      if (Nombre1 == null) {
-        break missingId;
-      }
-
-      id = R.id.Nombre2;
-      TextView Nombre2 = ViewBindings.findChildViewById(rootView, id);
-      if (Nombre2 == null) {
-        break missingId;
-      }
-
-      id = R.id.Nombre3;
-      TextView Nombre3 = ViewBindings.findChildViewById(rootView, id);
-      if (Nombre3 == null) {
-        break missingId;
-      }
-
-      id = R.id.Nombre4;
-      TextView Nombre4 = ViewBindings.findChildViewById(rootView, id);
-      if (Nombre4 == null) {
-        break missingId;
-      }
-
-      id = R.id.constraintLayout;
-      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
-      if (constraintLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.dosis1;
-      ConstraintLayout dosis1 = ViewBindings.findChildViewById(rootView, id);
-      if (dosis1 == null) {
-        break missingId;
-      }
-
-      id = R.id.dosis2;
-      ConstraintLayout dosis2 = ViewBindings.findChildViewById(rootView, id);
-      if (dosis2 == null) {
-        break missingId;
-      }
-
-      id = R.id.dosis3;
-      ConstraintLayout dosis3 = ViewBindings.findChildViewById(rootView, id);
-      if (dosis3 == null) {
-        break missingId;
-      }
-
-      id = R.id.dosis4;
-      ConstraintLayout dosis4 = ViewBindings.findChildViewById(rootView, id);
-      if (dosis4 == null) {
-        break missingId;
-      }
-
-      id = R.id.habs;
-      TextView habs = ViewBindings.findChildViewById(rootView, id);
-      if (habs == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView3;
-      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView3 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6;
-      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView6 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView7;
-      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView7 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView8;
-      ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView8 == null) {
-        break missingId;
-      }
-
-      return new FragmentDoctorHabitacionesBinding((ConstraintLayout) rootView, Medicamento1,
-          Medicamento2, Medicamento3, Medicamento4, Nombre1, Nombre2, Nombre3, Nombre4,
-          constraintLayout, dosis1, dosis2, dosis3, dosis4, habs, imageView3, imageView4,
-          imageView6, imageView7, imageView8);
+      return new FragmentDoctorHabitacionesBinding((ConstraintLayout) rootView, recyclerView,
+          tusHabs);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

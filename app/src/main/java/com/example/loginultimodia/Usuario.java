@@ -1,14 +1,21 @@
 package com.example.loginultimodia;
 
+import android.content.Intent;
+
 public class Usuario {
     private String nombreApellido;
     private String tipoUser;
     private String DNI;
+    private String DNIDOCTOR;
+    private String NumHabitacion;
 
-    public Usuario(String dni, String nombreApellido, String tipoUsuario ) {
+    public Usuario(String dni, String nombreApellido, String tipoUsuario,String dnidoctor, String numhabitacion  ) {
         this.DNI=dni;
-        this.nombreApellido=nombreApellido;
-        this.tipoUser=tipoUsuario;
+        this.nombreApellido= nombreApellido;
+        this.tipoUser= tipoUsuario;
+        this.DNIDOCTOR= dnidoctor;
+        this.NumHabitacion= numhabitacion;
+
     }
 
     //-------------------------GETTERS---------------------------------
@@ -24,6 +31,15 @@ public class Usuario {
         return tipoUser;
     }
 
+    public String getDNIDOCTOR() {
+        return DNIDOCTOR;
+    }
+
+
+    public String getNumHabitacion() {
+        return NumHabitacion;
+    }
+
     //-------------------------SETTERS---------------------------------
     public void setTipoUser(String tipoUser) {
         this.tipoUser = tipoUser;
@@ -35,5 +51,13 @@ public class Usuario {
 
     public void setDNI(String DNI) {
         this.DNI = DNI;
+    }
+
+    public void setDNIDOCTOR(String DNIDOCTOR) {
+        this.DNIDOCTOR = DNIDOCTOR;
+    }
+
+    public void setNumHabitacion(String numHabitacion) {
+        NumHabitacion = numHabitacion;
     }
 }

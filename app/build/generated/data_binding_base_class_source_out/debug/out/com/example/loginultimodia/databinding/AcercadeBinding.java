@@ -4,9 +4,9 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.loginultimodia.R;
 import java.lang.NullPointerException;
@@ -14,19 +14,15 @@ import java.lang.Override;
 
 public final class AcercadeBinding implements ViewBinding {
   @NonNull
-  private final TextView rootView;
+  private final ConstraintLayout rootView;
 
-  @NonNull
-  public final TextView TextView01;
-
-  private AcercadeBinding(@NonNull TextView rootView, @NonNull TextView TextView01) {
+  private AcercadeBinding(@NonNull ConstraintLayout rootView) {
     this.rootView = rootView;
-    this.TextView01 = TextView01;
   }
 
   @Override
   @NonNull
-  public TextView getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -51,8 +47,6 @@ public final class AcercadeBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    TextView TextView01 = (TextView) rootView;
-
-    return new AcercadeBinding((TextView) rootView, TextView01);
+    return new AcercadeBinding((ConstraintLayout) rootView);
   }
 }

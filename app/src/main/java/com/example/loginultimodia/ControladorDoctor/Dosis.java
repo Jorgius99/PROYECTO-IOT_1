@@ -5,15 +5,18 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.example.loginultimodia.AvisosActivity;
-import com.example.loginultimodia.DosisActivity;
-import com.example.loginultimodia.HabitacionesActivity;
+import com.example.loginultimodia.AdaptadorDosisDoc;
+import com.example.loginultimodia.Habitacion;
 import com.example.loginultimodia.MasDosisActivity;
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.databinding.FragmentDoctorDosisBinding;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -21,7 +24,8 @@ import com.example.loginultimodia.R;
  * create an instance of this fragment.
  */
 public class Dosis extends Fragment {
-
+    private FragmentDoctorDosisBinding binding; //si no está
+    public static AdaptadorDosisDoc adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -56,10 +60,12 @@ public class Dosis extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 /*
     @Override
@@ -69,7 +75,6 @@ public class Dosis extends Fragment {
         return inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
     }
     */
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -81,37 +86,64 @@ public class Dosis extends Fragment {
             startActivity(new Intent(getContext(), MasDosisActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
+        binding = FragmentDoctorDosisBinding.inflate(getLayoutInflater());
+        Query query = FirebaseFirestore.getInstance()
+                .collection("habitaciones");
+                //.whereEqualTo("numHab", "1");
+        FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
+                .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
+        adaptador = new AdaptadorDosisDoc(opciones, getContext());
+        System.out.println(getContext());
+        binding.recyclerView.setAdapter(adaptador);
+        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-
-        View botonHab1 = v.findViewById(R.id.dosis1);
-        botonHab1.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), DosisActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-
-        View botonHab2 = v.findViewById(R.id.dosis2);
-        botonHab2.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), DosisActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-
-        View botonHab3 = v.findViewById(R.id.dosis3);
-        botonHab3.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), DosisActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-
-        View botonHab4 = v.findViewById(R.id.dosis4);
-        botonHab4.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), DosisActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-        return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
-
-    }
-
-
-
+        // Inflate the layout for this fragment
+        //return binding.getRoot();
+        return v;
 
 
     }
+/*
+    @Override
+    public View onCreateView2(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+
+        View botonHab0 = v.findViewById(R.id.imageView01);
+        botonHab0.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), MasDosisActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+
+        // Inflate the layout for this fragment
+        return v;
+
+
+    }
+    */
+
+/*
+    @Override
+    public void añadirDosis(LayoutInflater inflater, ViewGroup container,
+                            Bundle savedInstanceState) {
+
+            View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+
+            View botonHab0 = v.findViewById(R.id.imageView01);
+            botonHab0.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+                startActivity(new Intent(getContext(), MasDosisActivity.class));
+                //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+            });
+            return v;
+    }
+  */
+    @Override
+    public void onStart() {
+        super.onStart();
+        adaptador.startListening();
+    }
+    @Override
+    public void onStop() {
+        super.onStop();
+        adaptador.stopListening();
+    }
+}

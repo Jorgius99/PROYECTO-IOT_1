@@ -2,41 +2,47 @@ package com.example.loginultimodia;
 
 public class Habitacion {
 
-    private String numHabitacion;
-    private String paciente;
-    private String doctor;
+    private String numHab;
+    private String DNI;
+    private boolean ocupacion;
+    private float temperatura;
+    private float humedad;
 
-
-     public Habitacion (String num, String paciente, String doctor){
-         this.numHabitacion=num;
-         this.paciente=paciente;
-         this.doctor=doctor;
+     public Habitacion (String num, String DNI, boolean ocupacion){
+         this.numHab =num;
+         this.DNI = DNI;
+         this.ocupacion = ocupacion;
      }
 
+     public Habitacion(){
+         this.numHab ="666";
+         this.DNI ="74362511M";
+         this.ocupacion=true;
+     }
     //-------------------------GETTERS---------------------------------
-    public String getNumHabitacion() {
-        return numHabitacion;
+    public String getNumHab() {
+        return numHab;
     }
 
-    public String getPaciente() {
-        return paciente;
+    public String getDNI() {
+        return DNI;
     }
 
-    public String getDoctor() {
-        return doctor;
+    public boolean getOcupacion() {
+        return ocupacion;
     }
 
     //-------------------------SETTERS---------------------------------
 
-    public void setNumHabitacion(String numHabitacion) {
-        this.numHabitacion = numHabitacion;
+    public void setNumHab(String numHab) {
+        this.numHab = numHab;
     }
 
-    public void setPaciente(String paciente) {
-        this.paciente = paciente;
+    public void setDNI(String DNI) {
+        this.DNI = DNI;
     }
 
-    public void setDoctor(String doctor) {
-        this.doctor = doctor;
+    public void setOcupacion(boolean ocupacion) {
+        this.ocupacion = ocupacion;
     }
 }
