@@ -10,6 +10,7 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.loginultimodia.AdaptadorDosisDoc;
 import com.example.loginultimodia.AdaptadorHabsDoctor;
 import com.example.loginultimodia.AvisosActivity;
 import com.example.loginultimodia.DosisActivity;
@@ -17,6 +18,7 @@ import com.example.loginultimodia.Habitacion;
 import com.example.loginultimodia.HabitacionesActivity;
 import com.example.loginultimodia.MasDosisActivity;
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.databinding.FragmentDoctorDosisBinding;
 import com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -28,8 +30,8 @@ import com.google.firebase.firestore.Query;
  * create an instance of this fragment.
  */
 public class Dosis extends Fragment {
-    private FragmentDoctorHabitacionesBinding binding; //si no está
-    public static AdaptadorHabsDoctor adaptador;
+    private FragmentDoctorDosisBinding binding; //si no está
+    public static AdaptadorDosisDoc adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -88,13 +90,13 @@ public class Dosis extends Fragment {
             startActivity(new Intent(getContext(), MasDosisActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
-        binding = FragmentDoctorHabitacionesBinding.inflate(getLayoutInflater());
+        binding = FragmentDoctorDosisBinding.inflate(getLayoutInflater());
         Query query = FirebaseFirestore.getInstance()
                 .collection("habitaciones")
                 .whereEqualTo("numHab", "1");
         FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
-        adaptador = new AdaptadorHabsDoctor(opciones, getContext());
+        adaptador = new AdaptadorDosisDoc(opciones, getContext());
         System.out.println(getContext());
         binding.recyclerView.setAdapter(adaptador);
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));

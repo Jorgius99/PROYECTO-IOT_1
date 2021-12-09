@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.loginultimodia.R;
@@ -24,15 +25,20 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
   public final ImageView imageView01;
 
   @NonNull
+  public final RecyclerView recyclerView;
+
+  @NonNull
   public final TextView textView8;
 
   @NonNull
   public final TextView tusHabs;
 
   private FragmentDoctorDosisBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView01, @NonNull TextView textView8, @NonNull TextView tusHabs) {
+      @NonNull ImageView imageView01, @NonNull RecyclerView recyclerView,
+      @NonNull TextView textView8, @NonNull TextView tusHabs) {
     this.rootView = rootView;
     this.imageView01 = imageView01;
+    this.recyclerView = recyclerView;
     this.textView8 = textView8;
     this.tusHabs = tusHabs;
   }
@@ -70,6 +76,12 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
+        break missingId;
+      }
+
       id = R.id.textView8;
       TextView textView8 = ViewBindings.findChildViewById(rootView, id);
       if (textView8 == null) {
@@ -82,8 +94,8 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, imageView01, textView8,
-          tusHabs);
+      return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, imageView01, recyclerView,
+          textView8, tusHabs);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
