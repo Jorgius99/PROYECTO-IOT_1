@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_aplicacion_medica.png.flat",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\aplicacion_medica.png"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
@@ -70,6 +70,10 @@
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_login.png.flat",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_formarecyclerdosis.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable-v24\\formarecyclerdosis.xml"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_elemento_aviso.xml.flat",
@@ -142,6 +146,10 @@
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_doctor_dosis.xml.flat",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_doctor_dosis.xml"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_botonesredondos.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\botonesredondos.xml"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_basura.xml.flat",

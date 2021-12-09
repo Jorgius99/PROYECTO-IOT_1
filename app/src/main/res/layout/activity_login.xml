@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/telefono" />
 
     <LinearLayout
-        android:layout_width="362dp"
+        android:layout_width="295dp"
         android:layout_height="564dp"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
@@ -86,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/btn_redondeado_blue"
+                android:background="@drawable/botonesredondos"
                 android:text="¿Eres nuevo?"
                 app:backgroundTint="#FF3488F1" />
         </LinearLayout>
