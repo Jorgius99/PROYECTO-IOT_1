@@ -94,8 +94,8 @@ public class Dosis extends Fragment {
         });
         binding = FragmentDoctorDosisBinding.inflate(getLayoutInflater());
         Query query = FirebaseFirestore.getInstance()
-                .collection("habitaciones")
-                .whereEqualTo("numHab", "1");
+                .collection("habitaciones");
+                //.whereEqualTo("numHab", "1");
         FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
         adaptador = new AdaptadorDosisDoc(opciones, getContext());

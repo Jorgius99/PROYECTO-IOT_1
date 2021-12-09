@@ -109,8 +109,8 @@ public class HabitacionesDoc extends Fragment {
                              Bundle savedInstanceState) {
         binding = FragmentDoctorHabitacionesBinding.inflate(getLayoutInflater());
         Query query = FirebaseFirestore.getInstance()
-                .collection("habitaciones")
-                .whereEqualTo("numHab", "1");
+                .collection("habitaciones");
+                //.whereEqualTo("numHab", "1");
         FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
         adaptador = new AdaptadorHabsDoctor(opciones, getContext());
