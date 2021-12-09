@@ -23,6 +23,9 @@ public class RegisterActivity extends AppCompatActivity {
     TextInputEditText etRegPassword;
     TextInputEditText etRegNombreApellido;
     TextInputEditText etRegDni;
+    TextInputEditText etRegDniDoctor;
+    TextInputEditText etRegNumHabitacion;
+
     TextView tvLoginHere;
     Button btnRegister;
     FirebaseAuth mAuth;
@@ -36,8 +39,10 @@ public class RegisterActivity extends AppCompatActivity {
         etRegPassword = findViewById(R.id.etRegPass);
         etRegNombreApellido = findViewById(R.id.etRegNombreApellido);
         etRegDni=findViewById(R.id.etRegDni);
+        etRegDniDoctor=findViewById(R.id.etRegDniDoc);
+        etRegNumHabitacion=findViewById(R.id.etRegNumHab);
         tvLoginHere = findViewById(R.id.tvLoginHere);
-        btnRegister = findViewById(R.id.recuperarBoton);
+        btnRegister = findViewById(R.id.ppp);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -55,6 +60,9 @@ public class RegisterActivity extends AppCompatActivity {
         String password = etRegPassword.getText().toString();
         String nombreApellido = etRegNombreApellido.getText().toString();
         String dni = etRegDni.getText().toString();
+        String dniDoc = etRegDniDoctor.getText().toString();
+        String NumHab = etRegNumHabitacion.getText().toString();
+
         if (TextUtils.isEmpty(email)){
             etRegEmail.setError("Email cannot be empty");
             etRegEmail.requestFocus();
@@ -62,7 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
             etRegPassword.setError("Password cannot be empty");
             etRegPassword.requestFocus();
         }else{
-            Usuario usuario = new Usuario(dni, nombreApellido, "paciente");
+            Usuario usuario = new Usuario(dni, nombreApellido,"paciente",dniDoc, NumHab);
             //Usuario doctor = new Usuario("74743318K", "Paco Boluda", "doctor");
             mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override

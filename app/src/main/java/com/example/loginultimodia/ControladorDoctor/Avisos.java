@@ -1,20 +1,15 @@
 package com.example.loginultimodia.ControladorDoctor;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.loginultimodia.AdaptadorAvisos;
 import com.example.loginultimodia.Aviso;
-import com.example.loginultimodia.AvisosActivity;
-import com.example.loginultimodia.R;
-import com.example.loginultimodia.RegisterActivity;
 import com.example.loginultimodia.databinding.FragmentAvisosBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
