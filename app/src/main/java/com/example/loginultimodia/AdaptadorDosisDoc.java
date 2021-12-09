@@ -58,6 +58,7 @@ public class AdaptadorDosisDoc extends
         ElementoDosisDocBinding v = ElementoDosisDocBinding.inflate(
                 LayoutInflater.from(parent.getContext()), parent, false);
         v.getRoot().setOnClickListener(onClickListener);
+
         return new AdaptadorDosisDoc.ViewHolder(v);
     }
 

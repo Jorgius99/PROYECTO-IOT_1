@@ -66,10 +66,12 @@ public class Dosis extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 /*
     @Override
@@ -100,9 +102,45 @@ public class Dosis extends Fragment {
         System.out.println(getContext());
         binding.recyclerView.setAdapter(adaptador);
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
         // Inflate the layout for this fragment
         return binding.getRoot();
+
+
     }
+/*
+    @Override
+    public View onCreateView2(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+
+        View botonHab0 = v.findViewById(R.id.imageView01);
+        botonHab0.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), MasDosisActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+
+        // Inflate the layout for this fragment
+        return v;
+
+
+    }
+    */
+
+/*
+    @Override
+    public void añadirDosis(LayoutInflater inflater, ViewGroup container,
+                            Bundle savedInstanceState) {
+
+            View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+
+            View botonHab0 = v.findViewById(R.id.imageView01);
+            botonHab0.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+                startActivity(new Intent(getContext(), MasDosisActivity.class));
+                //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+            });
+            return v;
+    }
+  */
     @Override
     public void onStart() {
         super.onStart();
