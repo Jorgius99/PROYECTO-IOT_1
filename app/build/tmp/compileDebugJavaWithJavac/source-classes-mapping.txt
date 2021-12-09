@@ -1,81 +1,15 @@
-com/example/loginultimodia/AdaptadorHabsDoctor.java
- com.example.loginultimodia.AdaptadorHabsDoctor
- com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+com/example/loginultimodia/ControladorDoctor/PagerControler.java
+ com.example.loginultimodia.ControladorDoctor.PagerControler
 com/example/loginultimodia/databinding/AcercadeBinding.java
  com.example.loginultimodia.databinding.AcercadeBinding
 com/example/loginultimodia/Usuario.java
  com.example.loginultimodia.Usuario
-<<<<<<< HEAD
-com/example/loginultimodia/HabitacionesActivity.java
- com.example.loginultimodia.HabitacionesActivity
-com/example/loginultimodia/SuperAdminSecondActivity.java
- com.example.loginultimodia.SuperAdminSecondActivity
- com.example.loginultimodia.SuperAdminSecondActivity$1
- com.example.loginultimodia.SuperAdminSecondActivity$2
-<<<<<<< HEAD
- com.example.loginultimodia.SuperAdminSecondActivity$3
-=======
->>>>>>> parent of ed4ee61 (eliminarpacientes)
-com/example/loginultimodia/AcercaDeActivity.java
- com.example.loginultimodia.AcercaDeActivity
-com/example/loginultimodia/MasDosisActivity.java
- com.example.loginultimodia.MasDosisActivity
-com/example/loginultimodia/MainActivity.java
- com.example.loginultimodia.MainActivity
-com/example/loginultimodia/databinding/ElementoDosisDocBinding.java
- com.example.loginultimodia.databinding.ElementoDosisDocBinding
-com/example/loginultimodia/AdaptadorDosisDoc.java
- com.example.loginultimodia.AdaptadorDosisDoc
- com.example.loginultimodia.AdaptadorDosisDoc$ViewHolder
-com/example/loginultimodia/Controlador/Dosis.java
- com.example.loginultimodia.Controlador.Dosis
-com/example/loginultimodia/DoctorSecondActivity.java
- com.example.loginultimodia.DoctorSecondActivity
- com.example.loginultimodia.DoctorSecondActivity$1
-com/example/loginultimodia/LogOutActivity.java
- com.example.loginultimodia.LogOutActivity
-com/example/loginultimodia/AdaptadorDosis.java
- com.example.loginultimodia.AdaptadorDosis
- com.example.loginultimodia.AdaptadorDosis$ViewHolder
-com/example/loginultimodia/databinding/MenuAdministradorBinding.java
- com.example.loginultimodia.databinding.MenuAdministradorBinding
-com/example/loginultimodia/Controlador/PagerControler.java
- com.example.loginultimodia.Controlador.PagerControler
-com/example/loginultimodia/databinding/ActivityLoginBinding.java
- com.example.loginultimodia.databinding.ActivityLoginBinding
-<<<<<<< HEAD
-com/example/loginultimodia/EliminarPacienteActivity.java
- com.example.loginultimodia.EliminarPacienteActivity
-=======
->>>>>>> parent of ed4ee61 (eliminarpacientes)
-com/example/loginultimodia/databinding/FragmentAvisosBinding.java
- com.example.loginultimodia.databinding.FragmentAvisosBinding
-com/example/loginultimodia/databinding/ElementoDosisBinding.java
- com.example.loginultimodia.databinding.ElementoDosisBinding
-com/example/loginultimodia/Aviso.java
- com.example.loginultimodia.Aviso
-<<<<<<< HEAD
-com/example/loginultimodia/AbrirEliminarActivity.java
- com.example.loginultimodia.AbrirEliminarActivity
-=======
->>>>>>> parent of ed4ee61 (eliminarpacientes)
-com/example/loginultimodia/databinding/ActivityMainBinding.java
- com.example.loginultimodia.databinding.ActivityMainBinding
-com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
- com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
-=======
->>>>>>> escri2Rama
 com/example/loginultimodia/LoginActivity.java
  com.example.loginultimodia.LoginActivity
  com.example.loginultimodia.LoginActivity$1
  com.example.loginultimodia.LoginActivity$2
-<<<<<<< HEAD
 com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
  com.example.loginultimodia.ControladorDoctor.HabitacionesDoc
-=======
-com/example/loginultimodia/databinding/ActivitySignUpBinding.java
- com.example.loginultimodia.databinding.ActivitySignUpBinding
->>>>>>> parent of ed4ee61 (eliminarpacientes)
 com/example/loginultimodia/databinding/ActivityForgotPasswordBinding.java
  com.example.loginultimodia.databinding.ActivityForgotPasswordBinding
 com/example/loginultimodia/AnyadirAvisoActivity.java
@@ -163,12 +97,6 @@ com/example/loginultimodia/databinding/CuestionarioPastillasBinding.java
  com.example.loginultimodia.databinding.CuestionarioPastillasBinding
 com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
-<<<<<<< HEAD
-com/example/loginultimodia/ActividadAbrirCuestionarioPaciente.java
- com.example.loginultimodia.ActividadAbrirCuestionarioPaciente
-<<<<<<< HEAD
-=======
->>>>>>> escri2Rama
 com/example/loginultimodia/AdaptadorDosis.java
  com.example.loginultimodia.AdaptadorDosis
  com.example.loginultimodia.AdaptadorDosis$ViewHolder
@@ -181,11 +109,3 @@ com/example/loginultimodia/databinding/ActivitySignUpBinding.java
 com/example/loginultimodia/AdaptadorHabsDoctor.java
  com.example.loginultimodia.AdaptadorHabsDoctor
  com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
-=======
-com/example/loginultimodia/ControladorDoctor/PagerControler.java
- com.example.loginultimodia.ControladorDoctor.PagerControler
-com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
- com.example.loginultimodia.ControladorDoctor.HabitacionesDoc
-com/example/loginultimodia/ControladorDoctor/Dosis.java
- com.example.loginultimodia.ControladorDoctor.Dosis
->>>>>>> parent of ed4ee61 (eliminarpacientes)
