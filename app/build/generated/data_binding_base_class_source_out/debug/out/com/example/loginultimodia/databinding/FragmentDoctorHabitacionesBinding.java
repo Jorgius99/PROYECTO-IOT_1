@@ -21,19 +21,14 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView nombreDocHabs;
-
-  @NonNull
   public final RecyclerView recyclerView;
 
   @NonNull
   public final TextView tusHabs;
 
   private FragmentDoctorHabitacionesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView nombreDocHabs, @NonNull RecyclerView recyclerView,
-      @NonNull TextView tusHabs) {
+      @NonNull RecyclerView recyclerView, @NonNull TextView tusHabs) {
     this.rootView = rootView;
-    this.nombreDocHabs = nombreDocHabs;
     this.recyclerView = recyclerView;
     this.tusHabs = tusHabs;
   }
@@ -65,12 +60,6 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.nombre_doc_habs;
-      TextView nombreDocHabs = ViewBindings.findChildViewById(rootView, id);
-      if (nombreDocHabs == null) {
-        break missingId;
-      }
-
       id = R.id.recyclerView;
       RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
       if (recyclerView == null) {
@@ -83,8 +72,8 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDoctorHabitacionesBinding((ConstraintLayout) rootView, nombreDocHabs,
-          recyclerView, tusHabs);
+      return new FragmentDoctorHabitacionesBinding((ConstraintLayout) rootView, recyclerView,
+          tusHabs);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
