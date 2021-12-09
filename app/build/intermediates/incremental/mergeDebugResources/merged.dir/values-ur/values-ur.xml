@@ -36,6 +36,7 @@
     <string name="character_counter_content_description">%2$d میں سے %1$d حروف درج کیے گئے</string>
     <string name="character_counter_overflowed_content_description">حروف کی تعداد کی حد %2$d سے %1$d پہنچ گئی</string>
     <string name="clear_text_end_icon_content_description">ٹیکسٹ صاف کریں</string>
+<<<<<<< HEAD
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">فعال کریں</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">‏جب تک آپ Google Play سروسز فعال نہیں کر لیتے، %1$s کام نہیں کرے گی۔</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">‏Google Play سروسز فعال کریں</string>
@@ -60,18 +61,50 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"لنک کاپی کریں"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"براؤزر میں کھولیں"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"لنک کا اشتراک کریں"</string>
+=======
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"فعال کریں"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏جب تک آپ Google Play سروسز فعال نہیں کر لیتے، <ns1:g id="APP_NAME">%1$s</ns1:g> کام نہیں کرے گی۔"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏Google Play سروسز فعال کریں"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"انسٹال کریں"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جو آپ کے آلہ سے غائب ہیں۔"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏Google Play سروسز حاصل کریں"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏Google Play سروسز کی دستیابی"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏Google Play سروسز کی خرابی"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جن کی آپ کا آلہ معاونت نہیں کرتا۔"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"اپ ڈیٹ کریں"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏جب تک آپ Google Play سروسز اپ ڈیٹ نہیں کر لیتے ہیں <ns1:g id="APP_NAME">%1$s</ns1:g> تب تک نہیں چلے گی۔"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏Google Play سروسز اپ ڈیٹ کریں"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جو فی الحال اپ ڈیٹ ہو رہی ہیں۔"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏Google Play سروسز کے نئے ورژن کی ضرورت ہے۔ یہ تھوڑی دیر میں خود ہی اپنے آپ کو اپ ڈیٹ کر لے گا۔"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فون پر کھولیں"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"سائن ان کریں"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏Google کے ساتھ سائن ان کریں"</string>
+    <string name="error_icon_content_description">خرابی</string>
+    <string name="exposed_dropdown_menu_content_description">ڈراپ ڈاؤن مینو دکھائیں</string>
+>>>>>>> javiDevelope
     <string name="fui_accessibility_logo">ایپ لوگو</string>
     <string name="fui_auto_verified">فون نمبر کی خودکار طور پر توثیق ہو گئی</string>
     <string name="fui_button_text_save">محفوظ کریں</string>
     <string name="fui_button_text_send">بھیجیں</string>
+<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">اپنے پاس ورڈ کو بازیافت کرنے کے لیے %1$s پر بھیجی گئی ہدایات کی پیروی کریں۔</string>
     <string name="fui_continue">جاری رکھیں</string>
     <string name="fui_country_hint">ملک</string>
+=======
+    <string name="fui_cancel">منسوخ کریں</string>
+    <string name="fui_confirm_recovery_body">اپنے پاس ورڈ کو بازیافت کرنے کے لیے %1$s پر بھیجی گئی ہدایات کی پیروی کریں۔</string>
+    <string name="fui_continue">جاری رکھیں</string>
+>>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">ای میل اکاؤنٹ کی رجسٹریشن نا کام رہی</string>
     <string name="fui_email_hint">ای میل</string>
     <string name="fui_email_link_confirm_email_header">ای میل کی تصدیق کریں</string>
     <string name="fui_email_link_confirm_email_message">سائن ان جاری رکھنے کے لیے ای میل کی توثیق کریں</string>
     <string name="fui_email_link_cross_device_linking_text">آپ نے اصل میں اپنے ای میل اکاؤنٹ کو %1$s کے ساتھ منسلک کرنا چاہتے تھے لیکن آپ نے لنک کو دوسرے آلہ پر کھولا ہے جہاں آپ سائن ان نہیں ہیں۔‎\n\nاگر آپ ابھی بھی اپنے %1$s اکاؤنٹ سے منسلک ہونا چاہتے ہیں، تو اسی آلہ پر لنک کو کھولیں جہاں سے آپ نے سائن ان شروع کیا تھا۔ بصورت دیگر، اس آلہ پر مسلسل سائن کرنے کے لیے تھپتھپائيں۔</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_cross_device_sign_in_button_text">%1$s کے ساتھ سائن ان کریں</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">سیشن ختم ہو گیا</string>
     <string name="fui_email_link_different_anonymous_user_message">سائن ان درخواست کے شروع ہونے والے سیشن کی میعاد آیا ختم ہو چکی ہے یا صاف ہو چکی ہے۔</string>
     <string name="fui_email_link_dismiss_button">برخاست کریں</string>
@@ -81,6 +114,10 @@
     <string name="fui_email_link_invalid_link_message">کارروائی کا کوڈ غلط ہے، اگر یہ کوڈ بے ترتیب ہے، اس کی میعاد ختم ہو گئی ہے،یا پہلے ہی استعمال کر لیا گیا ہے تو ایسا ہو سکتا ہے۔</string>
     <string name="fui_email_link_resend">دوبارہ بھیجیں</string>
     <string name="fui_email_link_trouble_getting_email_header">ای میل حاصل کرنے میں دشواری پیش آ رہی ہے؟</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_trouble_getting_email_resend_solution">اگر مندرجہ بالا مراحل کام نہ کریں تو آپ ای میل دوبارہ بھیج سکتے ہیں۔ نوٹ کریں کہ اس سے پرانی ای میل میں موجود لنک غیر فعال ہو جائے گا۔</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">یہ عام اصلاحات آزمائیں:‎\n\u2022 چیک کریں کہ آیا ای میل کو اسپام یا فلٹر شدہ کے بطور نشان زد تو نہیں کیا گیا ہے۔‎\n\u2022 اپنا انٹرنیٹ کنکشن چیک کریں۔‎\n\u2022 چیک کریں کہ آپ نے اپنی ای میل میں ہجے کی کوئی غلطی تو نہیں کی ہے۔‎\n\u2022 چیک کریں کہ آپ کے ان باکس میں جگہ ختم تو نہیں ہو رہی ہے یا ان باکس کی ترتیب سے متعلق کوئی دوسرا مسئلہ تو نہیں ہے۔‎\n</string>
     <string name="fui_email_link_wrong_device_header">نئے آلہ یا براؤزر کا پتا چلا ہے۔</string>
     <string name="fui_email_link_wrong_device_message">جہاں آپ نے سائن ان کا عمل شروع کیا تھا، اسی آلہ یا براؤزر کا استعمال کر کے لنک کھولنے کی کوشش کریں۔</string>

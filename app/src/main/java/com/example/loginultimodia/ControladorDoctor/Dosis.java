@@ -1,0 +1,117 @@
+package com.example.loginultimodia.ControladorDoctor;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+
+import androidx.fragment.app.Fragment;
+
+import com.example.loginultimodia.AvisosActivity;
+import com.example.loginultimodia.DosisActivity;
+import com.example.loginultimodia.HabitacionesActivity;
+import com.example.loginultimodia.MasDosisActivity;
+import com.example.loginultimodia.R;
+
+/**
+ * A simple {@link Fragment} subclass.
+ * Use the {@link Dosis#newInstance} factory method to
+ * create an instance of this fragment.
+ */
+public class Dosis extends Fragment {
+
+    // TODO: Rename parameter arguments, choose names that match
+    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    private static final String ARG_PARAM1 = "param1";
+    private static final String ARG_PARAM2 = "param2";
+
+    // TODO: Rename and change types of parameters
+    private String mParam1;
+    private String mParam2;
+
+    public Dosis() {
+        // Required empty public constructor
+    }
+
+    /**
+     * Use this factory method to create a new instance of
+     * this fragment using the provided parameters.
+     *
+     * @param param1 Parameter 1.
+     * @param param2 Parameter 2.
+     * @return A new instance of fragment Dosis.
+     */
+    // TODO: Rename and change types and number of parameters
+    public static Dosis newInstance(String param1, String param2) {
+        Dosis fragment = new Dosis();
+        Bundle args = new Bundle();
+        args.putString(ARG_PARAM1, param1);
+        args.putString(ARG_PARAM2, param2);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            mParam1 = getArguments().getString(ARG_PARAM1);
+            mParam2 = getArguments().getString(ARG_PARAM2);
+        }
+    }
+/*
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+    }
+    */
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+
+        View botonHab0 = v.findViewById(R.id.imageView01);
+        botonHab0.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), MasDosisActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+        });
+
+
+        View botonHab1 = v.findViewById(R.id.dosis1);
+        botonHab1.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), DosisActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+        });
+
+        View botonHab2 = v.findViewById(R.id.dosis2);
+        botonHab2.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), DosisActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+        });
+
+        View botonHab3 = v.findViewById(R.id.dosis3);
+        botonHab3.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), DosisActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+        });
+
+        View botonHab4 = v.findViewById(R.id.dosis4);
+        botonHab4.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            startActivity(new Intent(getContext(), DosisActivity.class));
+            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+        });
+        return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
+
+    }
+
+
+
+
+
+    }

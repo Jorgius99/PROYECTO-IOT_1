@@ -36,6 +36,7 @@
     <string name="character_counter_content_description">输入了 %1$d 个字符（上限为 %2$d 个）</string>
     <string name="character_counter_overflowed_content_description">超出字符数限制（共 %1$d 个，上限为 %2$d 个）</string>
     <string name="clear_text_end_icon_content_description">清除文字</string>
+<<<<<<< HEAD
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">启用</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">您必须先启用 Google Play 服务，然后才能运行%1$s。</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">启用 Google Play 服务</string>
@@ -60,18 +61,50 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"复制链接"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"在浏览器中打开"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"分享链接"</string>
+=======
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"启用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必须先启用 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"启用 Google Play 服务"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安装"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的设备没有安装 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"获取 Google Play 服务"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play 服务的适用范围"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play服务出错"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>无法访问 Google Play 服务，请重试。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的设备不支持 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必须先更新 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服务"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Google Play 服务当前正在更新，因此您无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"必须使用新版 Google Play 服务。该服务很快就会自行更新。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手机上打开"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登录"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帐号登录"</string>
+    <string name="error_icon_content_description">错误</string>
+    <string name="exposed_dropdown_menu_content_description">显示下拉菜单</string>
+>>>>>>> javiDevelope
     <string name="fui_accessibility_logo">应用徽标</string>
     <string name="fui_auto_verified">电话号码已自动验证</string>
     <string name="fui_button_text_save">保存</string>
     <string name="fui_button_text_send">发送</string>
+<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">请按照发送到 %1$s 的说明找回密码。</string>
     <string name="fui_continue">继续</string>
     <string name="fui_country_hint">国家/地区</string>
+=======
+    <string name="fui_cancel">取消</string>
+    <string name="fui_confirm_recovery_body">请按照发送到 %1$s 的说明找回密码。</string>
+    <string name="fui_continue">继续</string>
+>>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">未能使用电子邮件地址注册帐号</string>
     <string name="fui_email_hint">电子邮件地址</string>
     <string name="fui_email_link_confirm_email_header">确认电子邮件地址</string>
     <string name="fui_email_link_confirm_email_message">确认电子邮件地址以继续登录</string>
     <string name="fui_email_link_cross_device_linking_text">您最初是想将%1$s与您的电子邮件帐号关联起来，但是您换用其他未登录的设备打开了此链接。\n\n如果您仍希望关联您的%1$s帐号，请在您最初开始登录时所用的设备上打开此链接。否则，请点按“继续”以在当前设备上登录。</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_cross_device_sign_in_button_text">使用%1$s登录</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">会话已结束</string>
     <string name="fui_email_link_different_anonymous_user_message">与此登录请求关联的会话已过期或清除。</string>
     <string name="fui_email_link_dismiss_button">关闭</string>
@@ -81,6 +114,10 @@
     <string name="fui_email_link_invalid_link_message">操作代码无效。如果该代码格式有误、已过期或已被使用，就可能会发生这种情况。</string>
     <string name="fui_email_link_resend">重新发送</string>
     <string name="fui_email_link_trouble_getting_email_header">无法收到电子邮件？</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_trouble_getting_email_resend_solution">如果上述步骤未能帮助您解决问题，您可以重新发送电子邮件。请注意，重新发送后上一封电子邮件中的链接将失效。</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">尝试以下常见解决方法：\n\u2022 检查电子邮件是否被标记为垃圾邮件或被过滤。\n\u2022 检查您的互联网连接。\n\u2022 确保没有写错电子邮件地址。\n\u2022 确保收件箱空间充足，且不存在其他与收件箱设置有关的问题。\n</string>
     <string name="fui_email_link_wrong_device_header">检测到新设备或新浏览器。</string>
     <string name="fui_email_link_wrong_device_message">请尝试使用您最初进入登录流程时所用的设备或浏览器打开链接。</string>

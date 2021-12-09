@@ -36,6 +36,7 @@
     <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
     <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Xóa văn bản</string>
+<<<<<<< HEAD
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Bật</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Bật dịch vụ của Google Play</string>
@@ -60,18 +61,51 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Sao chép đường liên kết"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Mở trong trình duyệt"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Chia sẻ liên kết"</string>
+=======
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Bật"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Bật dịch vụ của Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Cài đặt"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Thiết bị của bạn bị thiếu dịch vụ này."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Cài đặt dịch vụ của Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Phạm vi cung cấp các dịch vụ của Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Lỗi dịch vụ của Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> đang gặp sự cố với các dịch vụ của Google Play. Hãy thử lại."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có các dịch vụ của Google Play. Thiết bị của bạn không hỗ trợ các dịch vụ này."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Cập nhật"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy trừ khi bạn cập nhật Dịch vụ của Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Cập nhật dịch vụ của Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Dịch vụ này hiện đang cập nhật."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Cần phiên bản mới của dịch vụ Google Play. Dịch vụ sẽ sớm tự động cập nhật."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Mở trên điện thoại"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Đăng nhập"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Đăng nhập bằng Google"</string>
+    <string name="error_icon_content_description">Lỗi</string>
+    <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
+>>>>>>> javiDevelope
     <string name="fui_accessibility_logo">Biểu trưng ứng dụng</string>
     <string name="fui_auto_verified">Đã tự động xác minh số điện thoại</string>
     <string name="fui_button_text_save">Lưu</string>
     <string name="fui_button_text_send">Gửi</string>
+<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Làm theo hướng dẫn gửi tới %1$s để khôi phục mật khẩu của bạn.</string>
     <string name="fui_continue">Tiếp tục</string>
     <string name="fui_country_hint">Quốc gia</string>
+=======
+    <string name="fui_cancel">Hủy</string>
+    <string name="fui_confirm_recovery_body">Làm theo hướng dẫn gửi tới %1$s để khôi phục mật khẩu của bạn.</string>
+    <string name="fui_continue">Tiếp tục</string>
+>>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Đăng ký tài khoản email không thành công</string>
     <string name="fui_email_hint">Email</string>
     <string name="fui_email_link_confirm_email_header">Xác nhận email</string>
     <string name="fui_email_link_confirm_email_message">Xác nhận email để tiếp tục đăng nhập</string>
+<<<<<<< HEAD
     <string name="fui_email_link_cross_device_linking_text">Ban đầu, bạn có ý định kết nối %1$s với tài khoản email của bạn nhưng đã mở đường liên kết trên một thiết bị khác mà bạn chưa đăng nhập.\n\nNếu bạn vẫn muốn kết nối với tài khoản %1$s của mình, hãy mở đường liên kết này trên cùng một thiết bị mà bạn đã đăng nhập từ đầu. Nếu không, hãy nhấn Tiếp tục để đăng nhập trên thiết bị này.</string>
+=======
+    <string name="fui_email_link_cross_device_linking_text">Ban đầu, bạn có ý định kết nối %1$s với tài khoản email của bạn nhưng đã mở liên kết trên một thiết bị khác mà bạn chưa đăng nhập.\n\nNếu bạn vẫn muốn kết nối với tài khoản %1$s của mình, hãy mở liên kết này trên cùng một thiết bị mà bạn đã đăng nhập từ đầu. Nếu không, hãy nhấn Tiếp tục để đăng nhập trên thiết bị này.</string>
+    <string name="fui_email_link_cross_device_sign_in_button_text">Đăng nhập bằng %1$s</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Phiên hoạt động đã kết thúc</string>
     <string name="fui_email_link_different_anonymous_user_message">Phiên hoạt động liên quan đến yêu cầu đăng nhập này đã hết hạn hoặc đã bị xóa.</string>
     <string name="fui_email_link_dismiss_button">Bỏ qua</string>
@@ -81,9 +115,16 @@
     <string name="fui_email_link_invalid_link_message">Mã kích hoạt không hợp lệ. Điều này có thể xảy ra nếu mã không đúng định dạng, đã hết hạn hoặc đã sử dụng.</string>
     <string name="fui_email_link_resend">Gửi lại</string>
     <string name="fui_email_link_trouble_getting_email_header">Bạn gặp vấn đề khi nhận email?</string>
+<<<<<<< HEAD
     <string name="fui_email_link_trouble_getting_possible_fixes">Hãy thử các biện pháp khắc phục phổ biến sau:\n\u2022 Kiểm tra xem email có bị đánh dấu là spam hay đã được lọc.\n\u2022 Kiểm tra kết nối Internet của bạn.\n\u2022 Kiểm tra để đảm bảo bạn không viết sai chính tả tên email.\n\u2022 Kiểm tra để đảm bảo hộp thư đến của bạn chưa hết dung lượng và không có vấn đề về cài đặt hộp thư đến.\n</string>
     <string name="fui_email_link_wrong_device_header">Đã phát hiện thiết bị hoặc trình duyệt mới.</string>
     <string name="fui_email_link_wrong_device_message">Hãy thử mở đường liên kết bằng cùng một thiết bị hoặc trình duyệt mà bạn dùng để bắt đầu quá trình đăng nhập.</string>
+=======
+    <string name="fui_email_link_trouble_getting_email_resend_solution">Nếu các bước trên không hiệu quả, bạn có thể gửi lại email. Vui lòng lưu ý rằng thao tác này sẽ hủy kích hoạt đường dẫn liên kết trong email cũ.</string>
+    <string name="fui_email_link_trouble_getting_possible_fixes">Hãy thử các biện pháp khắc phục phổ biến sau:\n\u2022 Kiểm tra xem email có bị đánh dấu là spam hay đã được lọc.\n\u2022 Kiểm tra kết nối Internet của bạn.\n\u2022 Kiểm tra để đảm bảo bạn không viết sai chính tả tên email.\n\u2022 Kiểm tra để đảm bảo hộp thư đến của bạn chưa hết dung lượng và không có vấn đề về cài đặt hộp thư đến.\n</string>
+    <string name="fui_email_link_wrong_device_header">Đã phát hiện thiết bị hoặc trình duyệt mới.</string>
+    <string name="fui_email_link_wrong_device_message">Hãy thử mở liên kết bằng cùng một thiết bị hoặc trình duyệt mà bạn dùng để bắt đầu quá trình đăng nhập.</string>
+>>>>>>> javiDevelope
     <string name="fui_enter_confirmation_code">Nhập mã 6 chữ số mà chúng tôi đã gửi cho bạn</string>
     <string name="fui_error_email_does_not_exist">Địa chỉ email đó không khớp với tài khoản hiện có</string>
     <string name="fui_error_invalid_password">Sai mật khẩu.</string>
@@ -145,7 +186,11 @@
     <string name="fui_verifying">Đang xác minh…</string>
     <string name="fui_welcome_back_email_header">Chào mừng bạn quay trở lại!</string>
     <string name="fui_welcome_back_email_link_header">Bạn đã có tài khoản\n</string>
+<<<<<<< HEAD
     <string name="fui_welcome_back_email_link_prompt_body">Bạn đã sử dụng %1$s. Bạn có thể kết nối tài khoản %2$s của mình với %1$s bằng cách đăng nhập vào liên kết email bên dưới.\n\nĐể quy trình kết nối tài khoản %2$s của bạn với email này diễn ra thành công, bạn phải mở đường liên kết trên cùng một thiết bị hoặc trình duyệt.</string>
+=======
+    <string name="fui_welcome_back_email_link_prompt_body">Bạn đã sử dụng %1$s. Bạn có thể kết nối tài khoản %2$s của mình với %1$s bằng cách đăng nhập vào liên kết email bên dưới.\n\nĐể quy trình kết nối tài khoản %2$s của bạn với email này diễn ra thành công, bạn phải mở liên kết trên cùng một thiết bị hoặc trình duyệt.</string>
+>>>>>>> javiDevelope
     <string name="fui_welcome_back_idp_header">Bạn đã có tài khoản</string>
     <string name="fui_welcome_back_idp_prompt">Bạn đã sử dụng %1$s. Đăng nhập bằng %2$s để tiếp tục.</string>
     <string name="fui_welcome_back_password_prompt_body">Bạn đã sử dụng %1$s để đăng nhập. Hãy nhập mật khẩu của bạn cho tài khoản đó.</string>

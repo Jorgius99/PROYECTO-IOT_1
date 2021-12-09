@@ -37,6 +37,7 @@
     <string name="character_counter_content_description">Ievadītās rakstzīmes: %1$d no %2$d</string>
     <string name="character_counter_overflowed_content_description">Pārsniegts rakstzīmju skaita ierobežojums (%1$d no %2$d)</string>
     <string name="clear_text_end_icon_content_description">Notīrīt tekstu</string>
+<<<<<<< HEAD
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Iespējot</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">Lai lietotne %1$s darbotos, ir jāiespējo Google Play pakalpojumi.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play pakalpojumu iespējošana</string>
@@ -61,18 +62,50 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopēt saiti"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Atvērt pārlūkprogrammā"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Kopīgot saiti"</string>
+=======
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Iespējot"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir jāiespējo Google Play pakalpojumi."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play pakalpojumu iespējošana"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalēt"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ierīcē ir jāinstalē Google Play pakalpojumi."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play pakalpojumu iegūšana"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play pakalpojumu pieejamība"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play pakalpojumu kļūda"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Lietotnē <ns1:g id="APP_NAME">%1$s</ns1:g> ir radusies problēma ar Google Play pakalpojumu darbību. Lūdzu, mēģiniet vēlreiz."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir nepieciešami Google Play pakalpojumi, taču jūsu ierīce tos neatbalsta."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Atjaunināt"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, jums ir jāatjaunina Google Play pakalpojumi."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play pakalpojumu atjaunināšana"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir jāinstalē Google Play pakalpojumi. Pašlaik notiek to atjaunināšana."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Ir nepieciešama jauna Google Play pakalpojumu versija. Drīzumā tā tiks instalēta."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Atvērt tālrunī"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Pierakstīties"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Pierakstīties ar Google kontu"</string>
+    <string name="error_icon_content_description">Kļūda</string>
+    <string name="exposed_dropdown_menu_content_description">Rādīt nolaižamo izvēlni</string>
+>>>>>>> javiDevelope
     <string name="fui_accessibility_logo">Lietotnes logotips</string>
     <string name="fui_auto_verified">Tālruņa numurs tika automātiski verificēts</string>
     <string name="fui_button_text_save">Saglabāt</string>
     <string name="fui_button_text_send">Sūtīt</string>
+<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Izpildiet uz e-pasta adresi %1$s nosūtītos norādījumus, lai atgūtu paroli.</string>
     <string name="fui_continue">Tālāk</string>
     <string name="fui_country_hint">Valsts</string>
+=======
+    <string name="fui_cancel">Atcelt</string>
+    <string name="fui_confirm_recovery_body">Izpildiet uz e-pasta adresi %1$s nosūtītos norādījumus, lai atgūtu paroli.</string>
+    <string name="fui_continue">Tālāk</string>
+>>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Nesekmīga e-pasta konta reģistrācija</string>
     <string name="fui_email_hint">E-pasts</string>
     <string name="fui_email_link_confirm_email_header">Apstipriniet e-pasta adresi</string>
     <string name="fui_email_link_confirm_email_message">Lai turpinātu pierakstīšanos, apstipriniet e-pasta adresi.</string>
     <string name="fui_email_link_cross_device_linking_text">Sākotnēji vēlējāties saistīt %1$s ar savu e-pasta kontu, tomēr saiti atvērāt citā ierīcē, kurā neesat pierakstījies.\n\nJa joprojām vēlaties saistīt savu %1$s kontu, atveriet saiti tajā pašā ierīcē, kurā sākāt pierakstīšanos. Pretējā gadījumā pieskarieties vienumam Turpināt, lai pierakstītos šajā ierīcē.</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_cross_device_sign_in_button_text">Pierakstieties ar %1$s</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Sesija ir beigusies</string>
     <string name="fui_email_link_different_anonymous_user_message">Ar šo pierakstīšanās pieprasījumu saistītajai sesijai ir beidzies termiņš vai tā tika notīrīta.</string>
     <string name="fui_email_link_dismiss_button">Nerādīt</string>
@@ -82,6 +115,10 @@
     <string name="fui_email_link_invalid_link_message">Aktivizācijas kods nav derīgs. Tā var notikt, ja kods ir nepareizi veidots, tam beidzies derīguma termiņš vai tas jau ir izmantots.</string>
     <string name="fui_email_link_resend">Sūtīt vēlreiz</string>
     <string name="fui_email_link_trouble_getting_email_header">Vai jums ir problēmas ar e-pasta ziņojuma saņemšanu?</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_trouble_getting_email_resend_solution">Ja iepriekš minētās darbības nepalīdzēja, varat atkārtoti nosūtīt e-pasta ziņojumu. Ņemiet vērā: tiks deaktivizēta saite no iepriekšējā e-pasta ziņojuma.</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Izmēģiniet tālāk norādītās tipiskās problēmu novēršanas iespējas.\n\u2022 Pārbaudiet, vai e-pasta ziņojums nav atzīmēts kā mēstule vai nav filtrēts.\n\u2022 Pārbaudiet interneta savienojumu.\n\u2022 Pārbaudiet, vai e-pasta adrese ir pareizi uzrakstīta.\n\u2022 Pārbaudiet, vai jūsu iesūtnes krātuve nav beigusies vai nav citu ar iesūtnes iestatījumiem saistītu problēmu.\n</string>
     <string name="fui_email_link_wrong_device_header">Konstatēta jauna ierīce vai pārlūkprogramma.</string>
     <string name="fui_email_link_wrong_device_message">Mēģiniet atvērt saiti, izmantot to pašu ierīci vai pārlūkprogrammu, kur sākāt pierakstīšanās procesu.</string>

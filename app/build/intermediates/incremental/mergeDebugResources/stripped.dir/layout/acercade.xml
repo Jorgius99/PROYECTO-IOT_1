@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -16,3 +17,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TextView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/browser_actions_context_menu_min_padding"
+    android:text="Esta APP es un software utilizado en Centros sanitarios para controlar y admnistrar pacientes,de ahí,Nuestras siglas CAPH"></TextView>
+>>>>>>> javiDevelope

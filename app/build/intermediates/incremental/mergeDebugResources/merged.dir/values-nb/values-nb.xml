@@ -36,6 +36,7 @@
     <string name="character_counter_content_description">%1$d av %2$d tegn er skrevet inn</string>
     <string name="character_counter_overflowed_content_description">Tegngrensen er overskredet – %1$d av %2$d</string>
     <string name="clear_text_end_icon_content_description">Fjern teksten</string>
+<<<<<<< HEAD
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivér</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
@@ -60,18 +61,50 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiér linken"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Åpne i nettleseren"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Del link"</string>
+=======
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Slå på"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerer ikke med mindre du slår på Google Play-tjenester."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Slå på Google Play-tjenester"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installer"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installer Google Play-tjenester"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play Tjenester-tilgjengelighet"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play Tjenester-feil"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> har problemer med Google Play-tjenester. Prøv på nytt."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Oppdater"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke med mindre du oppdaterer Google Play Tjenester."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Oppdater Google Play-tjenester"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Du må installere en ny versjon av Google Play-tjenester. Appen oppdateres automatisk om en kort stund."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Åpne på telefonen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Logg på"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Logg på med Google"</string>
+    <string name="error_icon_content_description">Feil</string>
+    <string name="exposed_dropdown_menu_content_description">Vis rullegardinmenyen</string>
+>>>>>>> javiDevelope
     <string name="fui_accessibility_logo">App-logo</string>
     <string name="fui_auto_verified">Telefonnummeret ble bekreftet automatisk</string>
     <string name="fui_button_text_save">Lagre</string>
     <string name="fui_button_text_send">Send</string>
+<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Følg veiledningen som er sendt til %1$s, for å gjenopprette passordet ditt.</string>
     <string name="fui_continue">Fortsett</string>
     <string name="fui_country_hint">Land</string>
+=======
+    <string name="fui_cancel">Avbryt</string>
+    <string name="fui_confirm_recovery_body">Følg veiledningen som er sendt til %1$s, for å gjenopprette passordet ditt.</string>
+    <string name="fui_continue">Fortsett</string>
+>>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Kunne ikke registrere e-postkontoen</string>
     <string name="fui_email_hint">E-post</string>
     <string name="fui_email_link_confirm_email_header">Bekreft e-postadressen</string>
     <string name="fui_email_link_confirm_email_message">Bekreft e-postadressen for å fortsette med påloggingen</string>
     <string name="fui_email_link_cross_device_linking_text">Du forsøkte opprinnelig å koble %1$s til e-postkontoen din, men du åpnet linken på en annen enhet enn den du er pålogget med.\n\nHvis du fortsatt ønsker å koble til %1$s-kontoen din, åpner du linken på enheten du er pålogget med. Hvis ikke trykker du på Fortsett for å logge på med denne enheten.</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_cross_device_sign_in_button_text">Logg på med %1$s</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Økten er utløpt</string>
     <string name="fui_email_link_different_anonymous_user_message">Økten som er knyttet til denne påloggingsforespørselen, er enten utløpt eller fjernet.</string>
     <string name="fui_email_link_dismiss_button">Lukk</string>
@@ -81,6 +114,10 @@
     <string name="fui_email_link_invalid_link_message">Koden er ugyldig. Dette kan skyldes at koden er utløpt eller i feil format, eller at den allerede er brukt.</string>
     <string name="fui_email_link_resend">Send på nytt</string>
     <string name="fui_email_link_trouble_getting_email_header">Problemer med å motta e-posten?</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_trouble_getting_email_resend_solution">Hvis trinnene ovenfor ikke bidro til å løse problemet, kan du sende e-posten på nytt. Merk at denne handlingen deaktiverer linken i den forrige e-posten.</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Prøv disse vanlige løsningene:\n\u2022 Sjekk om e-posten ble merket som søppelpost eller filtrert bort.\n\u2022 Sjekk internettilkoblingen din.\n\u2022 Sjekk at du ikke har skrevet e-postadressen din feil.\n\u2022 Sjekk at innboksen din ikke er full, og se etter andre problemer knyttet til innboksinnstillingene.\n</string>
     <string name="fui_email_link_wrong_device_header">Ny enhet eller nettleser er registrert.</string>
     <string name="fui_email_link_wrong_device_message">Prøv å åpne linken med den samme enheten eller nettleseren som du brukte til å starte påloggingsprosessen.</string>

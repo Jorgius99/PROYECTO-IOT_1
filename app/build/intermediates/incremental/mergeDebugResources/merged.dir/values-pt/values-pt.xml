@@ -28,22 +28,35 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+<<<<<<< HEAD
     <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiado para a área de transferência"</string>
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar link"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir no navegador"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartilhar link"</string>
+=======
+>>>>>>> javiDevelope
     <string name="fui_accessibility_logo">Logotipo do app</string>
     <string name="fui_auto_verified">O número de telefone foi verificado automaticamente</string>
     <string name="fui_button_text_save">Salvar</string>
     <string name="fui_button_text_send">Enviar</string>
+<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Siga as instruções enviadas para %1$s para recuperar sua senha.</string>
     <string name="fui_continue">Continuar</string>
     <string name="fui_country_hint">País</string>
+=======
+    <string name="fui_cancel">Cancelar</string>
+    <string name="fui_confirm_recovery_body">Siga as instruções enviadas para %1$s para recuperar sua senha.</string>
+    <string name="fui_continue">Continuar</string>
+>>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Falha no registro da conta do e-mail</string>
     <string name="fui_email_hint">E-mail</string>
     <string name="fui_email_link_confirm_email_header">Confirme o e-mail</string>
     <string name="fui_email_link_confirm_email_message">Confirme o e-mail para continuar o login</string>
     <string name="fui_email_link_cross_device_linking_text">Inicialmente, você quis conectar %1$s à sua conta de e-mail, mas abriu o link em outro dispositivo no qual você não está conectado.\n\nSe você ainda quiser conectar sua conta de %1$s, abra o link no mesmo dispositivo em que fez login. Se preferir, toque em \"Continuar\" para fazer login neste dispositivo.</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_cross_device_sign_in_button_text">Fazer login com %1$s</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Sessão encerrada</string>
     <string name="fui_email_link_different_anonymous_user_message">A sessão associada a este login expirou ou foi apagada.</string>
     <string name="fui_email_link_dismiss_button">Dispensar</string>
@@ -53,6 +66,10 @@
     <string name="fui_email_link_invalid_link_message">O código da ação é inválido. Isso pode acontecer quando o código está incorreto ou já foi usado.</string>
     <string name="fui_email_link_resend">Reenviar</string>
     <string name="fui_email_link_trouble_getting_email_header">Problemas para receber e-mails?</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_trouble_getting_email_resend_solution">Se as etapas acima não funcionarem, envie o e-mail novamente. Observação: isso desativará o link do e-mail anterior.</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Utilize estas soluções comuns:\n\u2022 Verifique se o e-mail foi filtrado ou marcado como spam\n\u2022 Verifique sua conexão com a Internet.\n\u2022 Verifique se você digitou seu e-mail corretamente.\n\u2022 Verifique se a sua caixa de entrada está cheia ou se ela está com outro tipo de problema.\n</string>
     <string name="fui_email_link_wrong_device_header">Novo dispositivo ou navegador detectado.</string>
     <string name="fui_email_link_wrong_device_message">Tente abrir o link usando o mesmo dispositivo ou navegador que você usou para iniciar o processo de login.</string>

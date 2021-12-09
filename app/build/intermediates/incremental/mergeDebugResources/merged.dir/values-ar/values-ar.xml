@@ -16,7 +16,11 @@
     <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
     <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
     <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+<<<<<<< HEAD
     <string msgid="884982626291842264" name="abc_capital_on">"مفعّلة"</string>
+=======
+    <string msgid="884982626291842264" name="abc_capital_on">"تفعيل"</string>
+>>>>>>> javiDevelope
     <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
     <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
     <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
@@ -40,6 +44,7 @@
     <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
     <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
     <string name="clear_text_end_icon_content_description">محو النص</string>
+<<<<<<< HEAD
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">تفعيل</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
@@ -64,18 +69,50 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"نسخ الرابط"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"فتح في المتصفح"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"مشاركة الرابط"</string>
+=======
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+>>>>>>> javiDevelope
     <string name="fui_accessibility_logo">شعار التطبيق</string>
     <string name="fui_auto_verified">تمّ التحقّق تلقائيًا من رقم الهاتف.</string>
     <string name="fui_button_text_save">حفظ</string>
     <string name="fui_button_text_send">إرسال</string>
+<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">اتبع التعليمات التي تم إرسالها إلى %1$s لاسترداد كلمة المرور.</string>
     <string name="fui_continue">متابعة</string>
     <string name="fui_country_hint">البلد</string>
+=======
+    <string name="fui_cancel">إلغاء</string>
+    <string name="fui_confirm_recovery_body">اتبع التعليمات التي تم إرسالها إلى %1$s لاسترداد كلمة المرور.</string>
+    <string name="fui_continue">متابعة</string>
+>>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">فشل تسجيل حساب البريد الإلكتروني</string>
     <string name="fui_email_hint">البريد الإلكتروني</string>
     <string name="fui_email_link_confirm_email_header">تأكيد عنوان البريد الإلكتروني</string>
     <string name="fui_email_link_confirm_email_message">تأكيد عنوان البريد الإلكتروني لمتابعة تسجيل الدخول</string>
     <string name="fui_email_link_cross_device_linking_text">لقد بدأت هذه العملية بهدف ربط %1$s ببريدك الإلكتروني إلّا أنك فتحت الرابط على جهاز آخر لم يتمّ تسجيل الدخول عليه.\n\nلربط حسابك على %1$s، يجب فتح الرابط على الجهاز نفسه حيث سجّلت الدخول في البداية. ولإلغاء عملية الربط، يُرجى النقر على \"متابعة\" لتسجيل الدخول على هذا الجهاز.</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_cross_device_sign_in_button_text">تسجيل الدخول باستخدام %1$s</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">انتهت الجلسة</string>
     <string name="fui_email_link_different_anonymous_user_message">انتهت صلاحية الجلسة المرتبطة بطلب تسجيل الدخول هذا أو تمّ محوها.</string>
     <string name="fui_email_link_dismiss_button">رفض</string>
@@ -85,6 +122,10 @@
     <string name="fui_email_link_invalid_link_message">إنّ رمز الإجراء غير صالح. قد تحدث هذه المشكلة إذا كان الرمز غير صحيح أو منتهي الصلاحية أو إذا تمّ استخدامه سابقًا.</string>
     <string name="fui_email_link_resend">إعادة الإرسال</string>
     <string name="fui_email_link_trouble_getting_email_header">هل تواجه مشكلة في استلام الرسالة الإلكترونية؟</string>
+<<<<<<< HEAD
+=======
+    <string name="fui_email_link_trouble_getting_email_resend_solution">إذا لم تنجح الخطوات أعلاه، يمكنك إعادة إرسال الرسالة الإلكترونية إلّا أنّ ذلك سيُلغي الرابط المضمّن في الرسالة السابقة.</string>
+>>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">يمكنك تجربة الحلول الشائعة التالية:\n\u2022 التأكّد ممّا إذا تمّ وضع علامة على الرسالة الإلكترونية بأنّها \"غير مرغوب فيها\" أو إذا تمّ نقلها تلقائيًا إلى مجلّد آخر\n\u2022 التحقّق من الاتصال بالإنترنت\n\u2022 التأكّد من كتابة عنوان البريد الإلكتروني بالشكل الصحيح\n\u2022 التحقق من عدم نفاد مساحة البريد الوارد أو من عدم وجود مشاكل أخرى في إعداده\n</string>
     <string name="fui_email_link_wrong_device_header">تمّ رصد جهاز أو متصفّح جديد</string>
     <string name="fui_email_link_wrong_device_message">يُرجى محاولة فتح الرابط باستخدام الجهاز أو المتصفّح نفسه الذي استخدمته عند بدء عملية تسجيل الدخول.</string>

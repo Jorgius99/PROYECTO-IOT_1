@@ -12,15 +12,22 @@
         android:id="@+id/tablayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:background="@color/blue"
         app:tabIconTint="@color/white"
         app:tabTextColor="@color/white">
+=======
+        android:background="@color/purple_200">
+>>>>>>> javiDevelope
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabavisos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:backgroundTint="@color/black"
+=======
+>>>>>>> javiDevelope
             android:icon="@drawable/icono_campana"
             android:text="@string/tabavisos" />
 
@@ -28,7 +35,10 @@
             android:id="@+id/tabhabitacion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:backgroundTint="@color/black"
+=======
+>>>>>>> javiDevelope
             android:icon="@drawable/icono_habitacion"
             android:text="@string/tabhabitacion" />
 
