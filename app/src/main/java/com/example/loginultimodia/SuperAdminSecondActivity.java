@@ -27,7 +27,6 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
     PagerControler pagerAdapter;
     Button BotonAviso;
     Button BotonPaciente;
-    Button BotonEliminar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,17 +52,7 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
                 finish();
             }
         });
-        BotonEliminar=findViewById(R.id.btPacientesEliminar);
-        BotonEliminar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(SuperAdminSecondActivity.this, AbrirEliminarActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
     }
-
 
 
 

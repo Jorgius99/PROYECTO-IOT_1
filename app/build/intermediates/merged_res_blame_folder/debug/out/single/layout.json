@@ -4,6 +4,7 @@
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_pastillas.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_avisos.xml",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_avisos.xml"
     },
@@ -14,6 +15,18 @@
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\menu_administrador.xml",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\menu_administrador.xml"
+=======
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_avisos.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_avisos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cuestionario_avisos.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_avisos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_habs_doctor.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_habs_doctor.xml"
+>>>>>>> parent of ed4ee61 (eliminarpacientes)
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_dosis_doc.xml",
@@ -56,12 +69,17 @@
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cuestionario_avisos.xml",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_avisos.xml"
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_doctor_habitaciones.xml",
         "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_doctor_habitaciones.xml"
+=======
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acercade.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\acercade.xml"
+>>>>>>> parent of ed4ee61 (eliminarpacientes)
     },
     {
         "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tabmain.xml",

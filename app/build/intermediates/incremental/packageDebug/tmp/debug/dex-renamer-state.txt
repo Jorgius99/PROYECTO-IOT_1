@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Thu Dec 09 21:05:56 CET 2021
+=======
+#Thu Dec 09 17:57:34 CET 2021
+>>>>>>> parent of ed4ee61 (eliminarpacientes)
 path.4=14/classes.dex
 path.3=13/classes.dex
 path.2=11/classes.dex

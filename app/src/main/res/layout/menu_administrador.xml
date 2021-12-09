@@ -6,27 +6,13 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btPacientesEliminar"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_redondeado_blue"
-        android:text="Eliminar paciente"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btAvisos"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/btAvisos"
-        app:layout_constraintTop_toBottomOf="@+id/btPacientes" />
-
-    <Button
         android:id="@+id/btAvisos"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn_redondeado_blue"
         android:text="Añadir avisos"
-        app:layout_constraintBottom_toTopOf="@+id/btPacientes"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,9 +22,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/btn_redondeado_blue"
         android:text="Añadir paciente"
-        app:layout_constraintBottom_toTopOf="@+id/btPacientesEliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btAvisos"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/btAvisos"
         app:layout_constraintTop_toBottomOf="@+id/btAvisos" />
 </androidx.constraintlayout.widget.ConstraintLayout>
