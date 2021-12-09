@@ -2048,6 +2048,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id botoneliminar
 id bottom
 id bounce
 id bounceBoth
@@ -2060,6 +2061,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btAvisos
 id btPacientes
+id btPacientesEliminar
 id btnLogin
 id btnLogout
 id btn_holder
@@ -2166,17 +2168,11 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-id enviaravi
 id etLoginEmail
 id etLoginPass
 id etRegDni
-id etRegDniDoc
-id etRegHabi
-id etRegMoti
 id etRegNombreApellido
-id etRegNumHab
 id etRegPass
-id etRegPrio
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2323,6 +2319,8 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nombpa
+id nombre_doc_habs
 id none
 id normal
 id north
@@ -2357,7 +2355,6 @@ id phone_number
 id pin
 id position
 id postLayout
-id ppp
 id progress_circular
 id progress_horizontal
 id radio
@@ -2475,6 +2472,7 @@ id textStart
 id textTop
 id textView
 id textView15
+id textView2
 id textView3
 id textView4
 id textView5
@@ -2518,6 +2516,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userEliminar
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -2527,7 +2526,6 @@ id view_tree_view_model_store_owner
 id viewpager
 id visible
 id visible_removing_fragment_view_tag
-id volverAcasa
 id welcome_back_email_link_body
 id welcome_back_idp_button
 id welcome_back_idp_prompt
@@ -2620,6 +2618,7 @@ layout activity_tabmain
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout cuestionario_avisos
+layout cuestionario_eliminar
 layout cuestionario_pastillas
 layout custom_dialog
 layout design_bottom_navigation_item
