@@ -8,11 +8,7 @@
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
-<<<<<<< HEAD
     <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
-=======
-    <string msgid="4692188335987374352" name="abc_action_mode_done">"Listo"</string>
->>>>>>> javiDevelope
     <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
     <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
     <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
@@ -40,32 +36,6 @@
     <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
     <string name="clear_text_end_icon_content_description">Borrar texto</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Habilitar</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites Servicios de Google Play.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Habilita Servicios de Google Play</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalar</string>
-    <string name="common_google_play_services_install_text">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Descargar Servicios de Google Play</string>
-    <string name="common_google_play_services_notification_channel_name">Disponibilidad Servicios de Google Play</string>
-    <string name="common_google_play_services_notification_ticker">Error de Servicios de Google Play</string>
-    <string name="common_google_play_services_unknown_issue">La aplicación %1$s tiene problemas con los Servicios de Google Play. Vuelve a intentarlo.</string>
-    <string name="common_google_play_services_unsupported_text">No es posible ejecutar la aplicación %1$s sin los Servicios de Google Play, que no son compatibles con tu dispositivo.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Actualizar</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s no funcionará hasta que no actualices Servicios de Google Play.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Actualiza Servicios de Google Play</string>
-    <string name="common_google_play_services_updating_text">%1$s no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play.</string>
-    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve.</string>
-    <string name="common_open_on_phone">Abrir en teléfono</string>
-    <string name="common_signin_button_text">Iniciar sesión</string>
-    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Enlace copiado en el portapapeles"</string>
-    <string name="error_icon_content_description">Error</string>
-    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar enlace"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir en el navegador"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartir enlace"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Habilitar"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites Servicios de Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Habilita Servicios de Google Play"</string>
@@ -84,31 +54,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir en teléfono"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sesión"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Copiar"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Enlace copiado en el portapapeles"</string>
     <string name="error_icon_content_description">Error</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avanzado"</string>
     <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar enlace"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir en el navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartir enlace"</string>
     <string name="fui_accessibility_logo">Logotipo de la aplicación</string>
     <string name="fui_auto_verified">Se ha verificado automáticamente el número de teléfono</string>
     <string name="fui_button_text_save">Guardar</string>
     <string name="fui_button_text_send">Enviar</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Sigue las instrucciones que te hemos enviado a %1$s para recuperar la contraseña.</string>
     <string name="fui_continue">Continuar</string>
     <string name="fui_country_hint">País</string>
-=======
-    <string name="fui_cancel">Cancelar</string>
-    <string name="fui_confirm_recovery_body">Sigue las instrucciones que te hemos enviado a %1$s para recuperar la contraseña.</string>
-    <string name="fui_continue">Continuar</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">No se ha podido registrar la cuenta de correo electrónico</string>
     <string name="fui_email_hint">Correo electrónico</string>
     <string name="fui_email_link_confirm_email_header">Confirmar el correo electrónico</string>
     <string name="fui_email_link_confirm_email_message">Confirma el correo electrónico para continuar con el inicio de sesión</string>
     <string name="fui_email_link_cross_device_linking_text">En un principio intentaste conectar %1$s a tu cuenta de correo electrónico, pero has abierto el enlace en un dispositivo diferente en el que no has iniciado sesión.\n\nSi sigues queriendo vincular tu cuenta de %1$s, abre el enlace en el mismo dispositivo en el que empezaste el inicio de sesión. De lo contrario, toca Continuar para iniciar sesión en este dispositivo.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Iniciar sesión con %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">La sesión ha finalizado</string>
     <string name="fui_email_link_different_anonymous_user_message">La sesión asociada con esta solicitud de inicio de sesión ha caducado o se ha borrado.</string>
     <string name="fui_email_link_dismiss_button">Cerrar</string>
@@ -118,10 +83,6 @@
     <string name="fui_email_link_invalid_link_message">El código de acción no es válido. Esto puede deberse a que ha caducado, ya se ha utilizado o el formato es incorrecto.</string>
     <string name="fui_email_link_resend">Reenviar</string>
     <string name="fui_email_link_trouble_getting_email_header">¿No puedes recibir el correo?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Si no se ha resuelto el problema con los pasos mencionados, puedes volver a enviar el correo electrónico (se desactivará el enlace del correo electrónico anterior).</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Prueba las soluciones más habituales:\n\u2022 Comprueba si el mensaje de correo electrónico se ha filtrado o marcado como spam.\n\u2022 Verifica que tienes conexión a Internet.\n\u2022 Asegúrate de haber escrito correctamente tu dirección de correo electrónico.\n\u2022 Comprueba que no te estás quedando sin espacio en la bandeja de entrada y que no hay ningún problema con su configuración.\n</string>
     <string name="fui_email_link_wrong_device_header">Se ha detectado un nuevo dispositivo o navegador.</string>
     <string name="fui_email_link_wrong_device_message">Prueba a abrir el enlace con el mismo dispositivo o navegador en los que empezaste el proceso de inicio de sesión.</string>
@@ -173,11 +134,7 @@
     <string name="fui_sign_in_with_yahoo">Iniciar sesión con Yahoo</string>
     <string name="fui_sms_terms_of_service">Al tocar %1$s, podría enviarse un SMS. Es posible que se apliquen cargos de mensajería y de uso de datos.</string>
     <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Si tocas %1$s, confirmas que aceptas nuestras %2$s y nuestra %3$s. Podría enviarse un SMS, por lo que es posible que se apliquen cargos de mensajería y de uso de datos.</string>
-<<<<<<< HEAD
     <string name="fui_terms_of_service">Términos del Servicio</string>
-=======
-    <string name="fui_terms_of_service">Condiciones de Servicio</string>
->>>>>>> javiDevelope
     <string name="fui_title_confirm_recover_password">Consulta tu correo electrónico</string>
     <string name="fui_title_recover_password_activity">Recuperar contraseña</string>
     <string name="fui_title_register_email">Registrarse</string>
@@ -241,7 +198,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
     <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Abrir panel de navegación"</string>
+    <string msgid="478774118347071097" name="not_set">"Sin definir"</string>
     <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" se ha copiado en el portapapeles."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESACTIVADA"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ACTIVADO"</string>
 </resources>

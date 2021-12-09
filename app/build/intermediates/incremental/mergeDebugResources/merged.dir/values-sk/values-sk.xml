@@ -38,32 +38,6 @@
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Bol prekročený povolený počet znakov (%1$d z %2$d)</string>
     <string name="clear_text_end_icon_content_description">Vymazať text</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Povoliť</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Aplikácia %1$s bude fungovať až po povolení služieb Google Play.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Povoliť služby Google Play</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Inštalovať</string>
-    <string name="common_google_play_services_install_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na zariadení nemáte.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Inštalovať služby Google Play</string>
-    <string name="common_google_play_services_notification_channel_name">Dostupnosť služieb Google Play</string>
-    <string name="common_google_play_services_notification_ticker">Chyba služieb Google Play</string>
-    <string name="common_google_play_services_unknown_issue">Aplikácia %1$s má problémy so službami Google Play. Skúste to znova.</string>
-    <string name="common_google_play_services_unsupported_text">Aplikáciu %1$s nebude možné spustiť bez služieb Google Play, ktoré vaše zariadenie nepodporuje.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Aktualizovať</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Aplikáciu %1$s bude možné spustiť až po aktualizácii služieb Google Play.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Aktualizácia služieb Google Play</string>
-    <string name="common_google_play_services_updating_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú.</string>
-    <string name="common_google_play_services_wear_update_text">Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase.</string>
-    <string name="common_open_on_phone">Otvoriť v telefóne</string>
-    <string name="common_signin_button_text">Prihlásiť sa</string>
-    <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Odkaz bol skopírovaný do schránky"</string>
-    <string name="error_icon_content_description">Chyba</string>
-    <string name="exposed_dropdown_menu_content_description">Zobraziť rozbaľovaciu ponuku</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopírovať odkaz"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otvoriť v prehliadači"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Zdieľať odkaz"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Povoliť"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> bude fungovať až po povolení služieb Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Povoliť služby Google Play"</string>
@@ -82,31 +56,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Otvoriť v telefóne"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Prihlásiť sa"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Prihlásiť sa účtom Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopírovať"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Odkaz bol skopírovaný do schránky"</string>
     <string name="error_icon_content_description">Chyba</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Rozšírené"</string>
     <string name="exposed_dropdown_menu_content_description">Zobraziť rozbaľovaciu ponuku</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopírovať odkaz"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otvoriť v prehliadači"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Zdieľať odkaz"</string>
     <string name="fui_accessibility_logo">Logo aplikácie</string>
     <string name="fui_auto_verified">Telefónne číslo bolo automaticky overené</string>
     <string name="fui_button_text_save">Uložiť</string>
     <string name="fui_button_text_send">Odoslať</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Obnovte si heslo podľa pokynov odoslaných na adresu %1$s.</string>
     <string name="fui_continue">Pokračovať</string>
     <string name="fui_country_hint">Krajina</string>
-=======
-    <string name="fui_cancel">Zrušiť</string>
-    <string name="fui_confirm_recovery_body">Obnovte si heslo podľa pokynov odoslaných na adresu %1$s.</string>
-    <string name="fui_continue">Pokračovať</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Registrácia e-mailového účtu nebola úspešná</string>
     <string name="fui_email_hint">E-mail</string>
     <string name="fui_email_link_confirm_email_header">Potvrdenie e‑mailovej adresy</string>
     <string name="fui_email_link_confirm_email_message">Ak chcete pokračovať v prihlasovaní, potvrďte e‑mailovú adresu</string>
     <string name="fui_email_link_cross_device_linking_text">Pôvodne ste chceli prepojiť svoj účet v službe %1$s so svojím e‑mailovým účtom, ale odkaz ste otvorili v inom zariadení, v ktorom ste sa neprihlásili.\n\nAk stále chcete prepojiť svoj účet v službe %1$s, otvorte odkaz v rovnakom zariadení, v ktorom ste sa začali prihlasovať. V opačnom prípade klepnite na tlačidlo Pokračovať a prihláste sa v tomto zariadení.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Prihláste sa cez %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Relácia sa skončila</string>
     <string name="fui_email_link_different_anonymous_user_message">Relácia spojená s touto žiadosťou o prihlásenie bola vymazaná alebo jej platnosť vypršala.</string>
     <string name="fui_email_link_dismiss_button">Odmietnuť</string>
@@ -116,10 +85,6 @@
     <string name="fui_email_link_invalid_link_message">Tento akčný kód je neplatný. Môže to byť preto, že má nesprávny tvar, jeho platnosť vypršala alebo už bol použitý.</string>
     <string name="fui_email_link_resend">Odoslať znova</string>
     <string name="fui_email_link_trouble_getting_email_header">Máte problémy s dostávaním e‑mailov?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Ak sa uvedenými krokmi problém nevyriešil, e‑mail môžete znovu odoslať. Upozorňujeme, že opätovné odoslanie deaktivuje odkaz v staršom e‑maile.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Vyskúšajte tieto bežné opravy:\n\u2022 Skontrolujte, či e‑mail nebol označený ako spam alebo či nebol odfiltrovaný.\n\u2022 Skontrolujte internetové pripojenie.\n\u2022 Skontrolujte, či ste správne napísali svoju e‑mailovú adresu.\n\u2022 Skontrolujte, či máte dostatok miesta v doručenej pošte alebo či nemáte iné problémy súvisiace s nastaveniami doručenej pošty.\n</string>
     <string name="fui_email_link_wrong_device_header">Bolo rozpoznané nové zariadenie alebo prehliadač.</string>
     <string name="fui_email_link_wrong_device_message">Skúste otvoriť odkaz pomocou toho istého zariadenia, v ktorom ste začali proces prihlásenia.</string>
@@ -235,7 +200,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Klepnutím prepnete na výber dňa</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Prepnúť na textový režim vstupu</string>
     <string name="mtrl_picker_toggle_to_year_selection">Klepnutím prepnete na výber roka</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Prejsť hore"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Otvoriť navigačný vysúvací panel"</string>
+    <string msgid="478774118347071097" name="not_set">"Nenastavené"</string>
     <string name="password_toggle_content_description">Zobraziť heslo</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Položka <ns1:g id="SUMMARY">%1$s</ns1:g> bola skopírovaná do schránky."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Hľadať"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"VYP."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ZAP."</string>
 </resources>

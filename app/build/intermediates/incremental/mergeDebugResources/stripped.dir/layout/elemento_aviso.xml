@@ -2,19 +2,6 @@
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-<<<<<<< HEAD
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/dosis4"
-    android:layout_width="wrap_content"
-    android:layout_height="159dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginTop="20dp"
-    android:layout_marginRight="10dp"
-    android:background="@drawable/formarecycler"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0"
-=======
     android:id="@+id/dosis4"
     android:layout_width="wrap_content"
     android:layout_height="159dp"
@@ -24,7 +11,6 @@
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.5"
->>>>>>> javiDevelope
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
 
@@ -33,11 +19,7 @@
         android:layout_width="144dp"
         android:layout_height="46dp"
         android:layout_marginStart="12dp"
-<<<<<<< HEAD
-        android:layout_marginTop="15dp"
-=======
         android:layout_marginTop="52dp"
->>>>>>> javiDevelope
         android:text="13/10/2021 16:00"
         android:textColor="@color/design_default_color_background"
         android:textColorHighlight="@color/white"
@@ -50,33 +32,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-<<<<<<< HEAD
-        android:layout_marginTop="4dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="Motivo"
-        android:textColor="@color/blueoscuro"
-=======
         android:layout_marginTop="24dp"
         android:text="@string/motivo"
         android:textColor="#FF5722"
->>>>>>> javiDevelope
         android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/motivo"
-<<<<<<< HEAD
-        android:layout_width="190dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="4dp"
-=======
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="24dp"
->>>>>>> javiDevelope
         android:text="@string/medicamento"
         android:textColor="@color/design_default_color_background"
         android:textSize="18dp"
@@ -88,16 +56,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-<<<<<<< HEAD
-        android:layout_marginTop="40dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/Hora"
-        android:textColor="@color/blueoscuro"
-=======
         android:layout_marginTop="52dp"
         android:text="@string/Hora"
         android:textColor="#FF5722"
->>>>>>> javiDevelope
         android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUsername" />

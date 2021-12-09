@@ -36,32 +36,6 @@
     <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
     <string name="clear_text_end_icon_content_description">Metni temizle</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Etkinleştir</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Yükle</string>
-    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
-    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
-    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
-    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Güncelle</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
-    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
-    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
-    <string name="common_open_on_phone">Telefonda aç</string>
-    <string name="common_signin_button_text">Oturum aç</string>
-    <string name="common_signin_button_text_long">Google\'da oturum aç</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Bağlantı panoya kopyalandı"</string>
-    <string name="error_icon_content_description">Hata</string>
-    <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Bağlantıyı kopyala"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Tarayıcıda aç"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bağlantıyı paylaş"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Etkinleştir"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play hizmetlerini etkinleştirmezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmaz."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play hizmetlerini etkinleştirin"</string>
@@ -80,31 +54,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Telefonda aç"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Oturum aç"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google\'da oturum aç"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopyala"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Bağlantı panoya kopyalandı"</string>
     <string name="error_icon_content_description">Hata</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Gelişmiş"</string>
     <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Bağlantıyı kopyala"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Tarayıcıda aç"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bağlantıyı paylaş"</string>
     <string name="fui_accessibility_logo">Uygulama logosu</string>
     <string name="fui_auto_verified">Telefon numarası otomatik olarak doğrulandı</string>
     <string name="fui_button_text_save">Kaydet</string>
     <string name="fui_button_text_send">Gönder</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Şifrenizi kurtarmak için %1$s adresine gönderilen talimatları uygulayın.</string>
     <string name="fui_continue">Devam</string>
     <string name="fui_country_hint">Ülke</string>
-=======
-    <string name="fui_cancel">İptal</string>
-    <string name="fui_confirm_recovery_body">Şifrenizi kurtarmak için %1$s adresine gönderilen talimatları uygulayın.</string>
-    <string name="fui_continue">Devam</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">E-posta hesabı kaydı başarısız oldu</string>
     <string name="fui_email_hint">E-posta</string>
     <string name="fui_email_link_confirm_email_header">E-posta adresini onaylayın</string>
     <string name="fui_email_link_confirm_email_message">Oturum açma işlemine devam etmek için e-posta adresini onaylayın</string>
     <string name="fui_email_link_cross_device_linking_text">Aslında %1$s adlı sağlayıcıyı e-posta hesabınıza bağlamak istediniz ancak bağlantıyı, oturum açmadığınız farklı bir cihazda açtınız.\n\nHâlâ %1$s hesabınızı bağlamak istiyorsanız bağlantıyı oturum açma işlemini başlattığınız cihazda açın. Aksi takdirde bu cihazda oturum açmak için Devam\'a dokunun.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">%1$s ile oturum aç</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Oturum sona erdi</string>
     <string name="fui_email_link_different_anonymous_user_message">Bu oturum açma isteğiyle ilişkili oturumun süresi doldu veya oturum kaldırıldı.</string>
     <string name="fui_email_link_dismiss_button">Kapat</string>
@@ -114,10 +83,6 @@
     <string name="fui_email_link_invalid_link_message">İşlem kodu geçersiz. Bunun nedeni kodun bozuk olması, süresinin dolması veya daha önce kullanılmış olması olabilir.</string>
     <string name="fui_email_link_resend">Tekrar gönder</string>
     <string name="fui_email_link_trouble_getting_email_header">E-posta almayla ilgili sorun mu yaşıyorsunuz?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Yukarıdaki adımların işe yaramadığı durumlarda e-postayı yeniden gönderebilirsiniz. Bu işlemin eski e-postadaki bağlantıyı devre dışı bırakacağını unutmayın.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Şu sık başvurulan düzeltme yöntemlerini deneyin:\n\u2022 E-postanın spam olarak işaretlenme veya filtrelenme durumunu kontrol edin.\n\u2022 İnternet bağlantınızı kontrol edin.\n\u2022 E-postanızda yazım hatası bulunmadığından emin olun.\n\u2022 Gelen kutunuzdaki boş alanın azalıp azalmadığını ve gelen kutusu ayarlarıyla ilgili başka bir sorun olup olmadığını kontrol edin.\n</string>
     <string name="fui_email_link_wrong_device_header">Yeni bir cihaz veya tarayıcı algılandı.</string>
     <string name="fui_email_link_wrong_device_message">Bağlantıyı, oturum açma işlemini başlattığınız cihazda veya tarayıcıda açmayı deneyin.</string>
@@ -233,7 +198,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Gün seçmeye geçmek için dokunun</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
     <string name="mtrl_picker_toggle_to_year_selection">Yıl seçmeye geçmek için dokunun</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Yukarı git"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Gezinme çekmecesini aç"</string>
+    <string msgid="478774118347071097" name="not_set">"Ayarlanmadı"</string>
     <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" panoya kopyalandı."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Ara"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"KAPALI"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AÇIK"</string>
 </resources>

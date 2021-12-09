@@ -17,13 +17,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:fontFamily="sans-serif-black"
-<<<<<<< HEAD
-            android:text="Habitación"
-            android:textColor="@color/gris"
-=======
             android:text="@string/tabhabitacion"
             android:textColor="#0C3688"
->>>>>>> javiDevelope
             android:textSize="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -34,13 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-<<<<<<< HEAD
-            android:fontFamily="sans-serif-medium"
-            android:text="Humedad"
-            android:textColor="@color/black"
-=======
             android:text="hume"
->>>>>>> javiDevelope
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,14 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-<<<<<<< HEAD
-            android:backgroundTint="@color/black"
-            android:fontFamily="sans-serif-medium"
             android:text="@string/temp"
-            android:textColor="@color/black"
-=======
-            android:text="@string/temp"
->>>>>>> javiDevelope
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -69,11 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="25ºC"
-<<<<<<< HEAD
-            android:textColor="@color/blueoscuro"
-=======
             android:textColor="#FF9800"
->>>>>>> javiDevelope
             android:textSize="60sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -85,11 +63,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="15%"
-<<<<<<< HEAD
-            android:textColor="@color/blueoscuro"
-=======
             android:textColor="#FF9800"
->>>>>>> javiDevelope
             android:textSize="60sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.461"

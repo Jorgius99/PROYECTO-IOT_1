@@ -36,32 +36,6 @@
     <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
     <string name="clear_text_end_icon_content_description">テキストを消去</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">有効にする</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play開発者サービスの有効化</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">インストール</string>
-    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスにはインストールされていません。</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play開発者サービスの入手</string>
-    <string name="common_google_play_services_notification_channel_name">Google Play 開発者サービスの利用</string>
-    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
-    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
-    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスではサポートされていません。</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">更新</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play開発者サービスの更新</string>
-    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
-    <string name="common_google_play_services_wear_update_text">Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。</string>
-    <string name="common_open_on_phone">スマートフォンで開く</string>
-    <string name="common_signin_button_text">ログイン</string>
-    <string name="common_signin_button_text_long">Googleにログイン</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"リンクをクリップボードにコピーしました"</string>
-    <string name="error_icon_content_description">エラー</string>
-    <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"リンクをコピー"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ブラウザで開く"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"リンクの共有"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"有効にする"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行には、Google Play開発者サービスの有効化が必要です。"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play開発者サービスの有効化"</string>
@@ -80,31 +54,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"スマートフォンで開く"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ログイン"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleにログイン"</string>
+    <string msgid="3209159573327985035" name="copy">"コピー"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"リンクをクリップボードにコピーしました"</string>
     <string name="error_icon_content_description">エラー</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"詳細設定"</string>
     <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"リンクをコピー"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ブラウザで開く"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"リンクの共有"</string>
     <string name="fui_accessibility_logo">アプリのロゴ</string>
     <string name="fui_auto_verified">電話番号は自動的に確認されました</string>
     <string name="fui_button_text_save">保存</string>
     <string name="fui_button_text_send">送信</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">%1$s に送信された手順に沿ってパスワードを復元してください</string>
     <string name="fui_continue">続行</string>
     <string name="fui_country_hint">国</string>
-=======
-    <string name="fui_cancel">キャンセル</string>
-    <string name="fui_confirm_recovery_body">%1$s に送信された手順に沿ってパスワードを復元してください</string>
-    <string name="fui_continue">続行</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">メール アカウントの登録に失敗しました</string>
     <string name="fui_email_hint">メールアドレス</string>
     <string name="fui_email_link_confirm_email_header">メールの確認</string>
     <string name="fui_email_link_confirm_email_message">ログインを続行するにはメールを確認してください</string>
     <string name="fui_email_link_cross_device_linking_text">元々は %1$s をメール アカウントに接続しようとしましたが、ログインしていないデバイスでリンクが開かれました。%1$s アカウントの接続を続行する場合は、ログインを開始したデバイスでリンクを開いてください。接続しない場合は、[続行] をタップしてこのデバイスでログインします。</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">%1$s でログイン</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">セッションが終了しています</string>
     <string name="fui_email_link_different_anonymous_user_message">このログイン リクエストに関連付けられたセッションの有効期限が切れているか、クリアされています。</string>
     <string name="fui_email_link_dismiss_button">閉じる</string>
@@ -114,10 +83,6 @@
     <string name="fui_email_link_invalid_link_message">アクション コードが無効です。この問題は、コードの形式が誤っているか期限が切れている、またはコードがすでに使用されている場合に発生する可能性があります。</string>
     <string name="fui_email_link_resend">再送信</string>
     <string name="fui_email_link_trouble_getting_email_header">メールが受信できない場合</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">上記の手順で解決しなかった場合はメールを再送信できます。メールを再送信すると、前回のメールに記載されたリンクは無効になります。</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">以下の一般的な解決方法をお試しください。\n\u2022 メールがスパムに分類されたりフィルタされたりしていないか確認する。\n\u2022 インターネットの接続を確認する。\n\u2022 メールアドレスのスペルに誤りがないか確認する。\n\u2022 受信トレイの容量不足や、設定関連のその他の問題がないか確認する。\n</string>
     <string name="fui_email_link_wrong_device_header">新しいデバイスまたはブラウザが検出されました。</string>
     <string name="fui_email_link_wrong_device_message">ログイン プロセスを開始したときと同じデバイスまたはブラウザを使用してリンクを開いてみてください。</string>
@@ -233,7 +198,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
     <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"上へ移動"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ナビゲーション ドロワーを開く"</string>
+    <string msgid="478774118347071097" name="not_set">"未設定"</string>
     <string name="password_toggle_content_description">パスワードを表示</string>
+    <string msgid="7961817945132860002" name="preference_copied">"「<ns1:g id="SUMMARY">%1$s</ns1:g>」をクリップボードにコピーしました。"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"OFF"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ON"</string>
 </resources>

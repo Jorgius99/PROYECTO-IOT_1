@@ -31,44 +31,13 @@
     <string msgid="3417662926640357176" name="abc_searchview_description_search">"Iskanje"</string>
     <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Pošiljanje poizvedbe"</string>
     <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Glasovno iskanje"</string>
-<<<<<<< HEAD
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Deljenje z:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Deljenje z drugimi prek aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
-=======
-    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Skupna raba z:"</string>
-    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Skupna raba z drugimi prek aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
->>>>>>> javiDevelope
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Strnitev"</string>
     <string name="bottomsheet_action_expand_halfway">Razširjanje na pol višine</string>
     <string name="character_counter_content_description">Število vnesenih znakov je %1$d od %2$d</string>
     <string name="character_counter_overflowed_content_description">Omejitev števila znakov je presegla %1$d od %2$d</string>
     <string name="clear_text_end_icon_content_description">Izbris besedila</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Omogoči</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Aplikacija %1$s ne bo delovala, če ne omogočite storitev Google Play.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Omogočanje storitev Google Play</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Namesti</string>
-    <string name="common_google_play_services_install_text">Aplikacija %1$s ne deluje brez storitev Google Play, vendar teh ni v napravi.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Namestitev storitev Google Play</string>
-    <string name="common_google_play_services_notification_channel_name">Dostopnost storitev Google Play</string>
-    <string name="common_google_play_services_notification_ticker">Napaka storitev Google Play</string>
-    <string name="common_google_play_services_unknown_issue">Aplikacija %1$s ima težave s storitvami Google Play. Poskusite znova.</string>
-    <string name="common_google_play_services_unsupported_text">Aplikacija %1$s ne deluje brez storitev Google Play, ki jih vaša naprava ne podpira.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Posodobi</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Aplikacija %1$s ne bo delovala, če ne posodobite storitev Google Play.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Posodobitev storitev Google Play</string>
-    <string name="common_google_play_services_updating_text">Aplikacija %1$s ne deluje brez storitev Google Play, ki se trenutno posodabljajo.</string>
-    <string name="common_google_play_services_wear_update_text">Potrebujete novo različico storitev Google Play. V kratkem se bodo posodobile.</string>
-    <string name="common_open_on_phone">Odpiranje v telefonu</string>
-    <string name="common_signin_button_text">Prijava</string>
-    <string name="common_signin_button_text_long">Prijava z računom Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Povezava je kopirana v odložišče"</string>
-    <string name="error_icon_content_description">Napaka</string>
-    <string name="exposed_dropdown_menu_content_description">Prikaz spustnega menija</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiraj povezavo"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Odpri v brskalniku"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Deli povezavo"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Omogoči"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Aplikacija <ns1:g id="APP_NAME">%1$s</ns1:g> ne bo delovala, če ne omogočite storitev Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Omogočanje storitev Google Play"</string>
@@ -87,31 +56,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Odpiranje v telefonu"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Prijava"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Prijava z Google Računom"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiraj"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Povezava je kopirana v odložišče"</string>
     <string name="error_icon_content_description">Napaka</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Dodatno"</string>
     <string name="exposed_dropdown_menu_content_description">Prikaz spustnega menija</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiraj povezavo"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Odpri v brskalniku"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Deli povezavo"</string>
     <string name="fui_accessibility_logo">Logotip aplikacije</string>
     <string name="fui_auto_verified">Telefonska številka je bila samodejno preverjena</string>
     <string name="fui_button_text_save">Shrani</string>
     <string name="fui_button_text_send">Pošlji</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Če želite obnoviti geslo, upoštevajte navodila, poslana na naslov %1$s.</string>
     <string name="fui_continue">Naprej</string>
     <string name="fui_country_hint">Država</string>
-=======
-    <string name="fui_cancel">Prekliči</string>
-    <string name="fui_confirm_recovery_body">Če želite obnoviti geslo, upoštevajte navodila, poslana na naslov %1$s.</string>
-    <string name="fui_continue">Naprej</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Registracija e-poštnega računa ni bila uspešna</string>
     <string name="fui_email_hint">E-pošta</string>
     <string name="fui_email_link_confirm_email_header">Potrdite e-poštni naslov</string>
     <string name="fui_email_link_confirm_email_message">Če želite nadaljevati s prijavo, potrdite e-poštni naslov</string>
     <string name="fui_email_link_cross_device_linking_text">Najprej ste želeli račun %1$s povezati z e-poštnim računom, vendar ste povezavo odprli v drugi napravi, kjer niste prijavljeni.\n\nČe želite še vedno povezati račun %1$s, odprite povezavo v napravi, v kateri ste začeli s prijavo. V nasprotnem primeru se dotaknite možnosti »Nadaljuj«, da se prijavite v tej napravi.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Prijava z računom %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Seja se je končala</string>
     <string name="fui_email_link_different_anonymous_user_message">Seja, povezana s to zahtevo za prijavo, je potekla ali je bila izbrisana.</string>
     <string name="fui_email_link_dismiss_button">Opusti</string>
@@ -121,10 +85,6 @@
     <string name="fui_email_link_invalid_link_message">Aktivacijska koda ni veljavna. To se lahko zgodi, če koda ni pravilne oblike, je potekla ali je že bila uporabljena.</string>
     <string name="fui_email_link_resend">Pošlji znova</string>
     <string name="fui_email_link_trouble_getting_email_header">Niste prejeli e-poštnega sporočila?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Če z zgornjimi koraki ne odpravite težave, lahko znova pošljete e-poštno sporočilo. Upoštevajte, da boste s tem onemogočili povezavo v prejšnjem e-poštnem sporočilu.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Poskusite te splošne rešitve:\n\u2022 Preverite, ali je bilo e-poštno sporočilo označeno kot vsiljena pošta ali filtrirano.\n\u2022 Preverite internetno povezavo.\n\u2022 Preverite, ali je e-poštni naslov pravilno zapisan.\n\u2022 Zagotovite, da imate v mapi »Prejeto« dovolj prostora oziroma da ni prišlo do drugih težav, povezanih z nastavitvami mape »Prejeto«.\n</string>
     <string name="fui_email_link_wrong_device_header">Zaznana je bila nova naprava ali brskalnik.</string>
     <string name="fui_email_link_wrong_device_message">Povezavo poskusite odpreti v isti napravi ali brskalniku, kjer ste začeli postopek prijave.</string>
@@ -168,11 +128,7 @@
     <string name="fui_sign_in_with_email">Prijava z e-poštnim naslovom</string>
     <string name="fui_sign_in_with_facebook">Prijava z računom za Facebook</string>
     <string name="fui_sign_in_with_github">Prijava z računom za GitHub</string>
-<<<<<<< HEAD
     <string name="fui_sign_in_with_google">Prijava z Googlom</string>
-=======
-    <string name="fui_sign_in_with_google">Prijava z Google Računom</string>
->>>>>>> javiDevelope
     <string name="fui_sign_in_with_microsoft">Prijava z računom za Microsoft</string>
     <string name="fui_sign_in_with_phone">Prijava s telefonom</string>
     <string name="fui_sign_in_with_phone_number">Prijava s telefonsko številko</string>
@@ -244,7 +200,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Dotik za preklop na izbiro dneva</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Preklop na način vnosa besedila</string>
     <string name="mtrl_picker_toggle_to_year_selection">Dotik za preklop na izbiro leta</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Pomik navzgor"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Odpri predal za krmarjenje"</string>
+    <string msgid="478774118347071097" name="not_set">"Ni nastavljeno"</string>
     <string name="password_toggle_content_description">Prikaz gesla</string>
+    <string msgid="7961817945132860002" name="preference_copied">"»<ns1:g id="SUMMARY">%1$s</ns1:g>« je bilo kopirano v odložišče."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Iskanje"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"IZKLOPLJENO"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"VKLOPLJENO"</string>
 </resources>

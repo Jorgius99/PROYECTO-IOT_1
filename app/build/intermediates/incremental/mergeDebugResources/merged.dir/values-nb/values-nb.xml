@@ -36,32 +36,6 @@
     <string name="character_counter_content_description">%1$d av %2$d tegn er skrevet inn</string>
     <string name="character_counter_overflowed_content_description">Tegngrensen er overskredet – %1$d av %2$d</string>
     <string name="clear_text_end_icon_content_description">Fjern teksten</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivér</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installer</string>
-    <string name="common_google_play_services_install_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Installer Google Play-tjenester</string>
-    <string name="common_google_play_services_notification_channel_name">Google Play Tjenester-tilgjengelighet</string>
-    <string name="common_google_play_services_notification_ticker">Google Play Tjenester-feil</string>
-    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Oppdater</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s kjører ikke med mindre du oppdaterer Google Play Tjenester.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Oppdater Google Play-tjenester</string>
-    <string name="common_google_play_services_updating_text">%1$s kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå.</string>
-    <string name="common_google_play_services_wear_update_text">Du må installere en ny versjon av Google Play-tjenester. Appen oppdateres automatisk om en kort stund.</string>
-    <string name="common_open_on_phone">Åpne på telefonen</string>
-    <string name="common_signin_button_text">Logg på</string>
-    <string name="common_signin_button_text_long">Logg på med Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Linken er kopiert til utklippstavlen"</string>
-    <string name="error_icon_content_description">Feil</string>
-    <string name="exposed_dropdown_menu_content_description">Vis rullegardinmenyen</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiér linken"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Åpne i nettleseren"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Del link"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Slå på"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerer ikke med mindre du slår på Google Play-tjenester."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Slå på Google Play-tjenester"</string>
@@ -80,31 +54,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Åpne på telefonen"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Logg på"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Logg på med Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiér"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linken er kopiert til utklippstavlen"</string>
     <string name="error_icon_content_description">Feil</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avansert"</string>
     <string name="exposed_dropdown_menu_content_description">Vis rullegardinmenyen</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiér linken"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Åpne i nettleseren"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Del link"</string>
     <string name="fui_accessibility_logo">App-logo</string>
     <string name="fui_auto_verified">Telefonnummeret ble bekreftet automatisk</string>
     <string name="fui_button_text_save">Lagre</string>
     <string name="fui_button_text_send">Send</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Følg veiledningen som er sendt til %1$s, for å gjenopprette passordet ditt.</string>
     <string name="fui_continue">Fortsett</string>
     <string name="fui_country_hint">Land</string>
-=======
-    <string name="fui_cancel">Avbryt</string>
-    <string name="fui_confirm_recovery_body">Følg veiledningen som er sendt til %1$s, for å gjenopprette passordet ditt.</string>
-    <string name="fui_continue">Fortsett</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Kunne ikke registrere e-postkontoen</string>
     <string name="fui_email_hint">E-post</string>
     <string name="fui_email_link_confirm_email_header">Bekreft e-postadressen</string>
     <string name="fui_email_link_confirm_email_message">Bekreft e-postadressen for å fortsette med påloggingen</string>
     <string name="fui_email_link_cross_device_linking_text">Du forsøkte opprinnelig å koble %1$s til e-postkontoen din, men du åpnet linken på en annen enhet enn den du er pålogget med.\n\nHvis du fortsatt ønsker å koble til %1$s-kontoen din, åpner du linken på enheten du er pålogget med. Hvis ikke trykker du på Fortsett for å logge på med denne enheten.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Logg på med %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Økten er utløpt</string>
     <string name="fui_email_link_different_anonymous_user_message">Økten som er knyttet til denne påloggingsforespørselen, er enten utløpt eller fjernet.</string>
     <string name="fui_email_link_dismiss_button">Lukk</string>
@@ -114,10 +83,6 @@
     <string name="fui_email_link_invalid_link_message">Koden er ugyldig. Dette kan skyldes at koden er utløpt eller i feil format, eller at den allerede er brukt.</string>
     <string name="fui_email_link_resend">Send på nytt</string>
     <string name="fui_email_link_trouble_getting_email_header">Problemer med å motta e-posten?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Hvis trinnene ovenfor ikke bidro til å løse problemet, kan du sende e-posten på nytt. Merk at denne handlingen deaktiverer linken i den forrige e-posten.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Prøv disse vanlige løsningene:\n\u2022 Sjekk om e-posten ble merket som søppelpost eller filtrert bort.\n\u2022 Sjekk internettilkoblingen din.\n\u2022 Sjekk at du ikke har skrevet e-postadressen din feil.\n\u2022 Sjekk at innboksen din ikke er full, og se etter andre problemer knyttet til innboksinnstillingene.\n</string>
     <string name="fui_email_link_wrong_device_header">Ny enhet eller nettleser er registrert.</string>
     <string name="fui_email_link_wrong_device_message">Prøv å åpne linken med den samme enheten eller nettleseren som du brukte til å starte påloggingsprosessen.</string>
@@ -233,7 +198,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Trykk for å bytte til å velge dag</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Bytt til tekstinndatamodus</string>
     <string name="mtrl_picker_toggle_to_year_selection">Trykk for å bytte til å velge år</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Naviger opp"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Åpne uttrekksmenyen"</string>
+    <string msgid="478774118347071097" name="not_set">"Ikke angitt"</string>
     <string name="password_toggle_content_description">Vis passordet</string>
+    <string msgid="7961817945132860002" name="preference_copied">"«<ns1:g id="SUMMARY">%1$s</ns1:g>» er kopiert til utklippstavlen."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Søk"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AV"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"PÅ"</string>
 </resources>

@@ -36,32 +36,6 @@
     <string name="character_counter_content_description">%2$d இல் %1$d எழுத்துகள் உள்ளிடப்பட்டுள்ளன</string>
     <string name="character_counter_overflowed_content_description">%2$d இல் %1$d எழுத்து வரம்பு மீறப்பட்டது</string>
     <string name="clear_text_end_icon_content_description">உரையை அழிக்கும்</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">இயக்கு</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play சேவைகளை இயக்கினால் மட்டுமே, %1$s செயல்படும்.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play சேவைகளை இயக்கவும்</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">நிறுவு</string>
-    <string name="common_google_play_services_install_text">Google Play சேவைகள் இருந்தால் மட்டுமே, %1$s இயங்கும். அவை உங்கள் சாதனத்தில் இல்லை.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play சேவைகளைப் பெறவும்</string>
-    <string name="common_google_play_services_notification_channel_name">கிடைக்கும் Google Play சேவைகள்</string>
-    <string name="common_google_play_services_notification_ticker">Google Play சேவைகள் பிழை</string>
-    <string name="common_google_play_services_unknown_issue">Google Play சேவைகளில் சிக்கல் ஏற்பட்டதால், %1$s ஆப்ஸை அணுக முடியவில்லை. மீண்டும் முயலவும்.</string>
-    <string name="common_google_play_services_unsupported_text">Google Play சேவைகள் இருந்தால் மட்டுமே %1$s ஆப்ஸ் இயங்கும். ஆனால், உங்கள் சாதனத்தில் அவை ஆதரிக்கப்படவில்லை.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">புதுப்பி</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play சேவைகளை இயக்கினால் மட்டுமே, %1$s செயல்படும்.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play சேவைகளைப் புதுப்பிக்கவும்</string>
-    <string name="common_google_play_services_updating_text">தற்போது புதுப்பிக்கப்படும், Google Play சேவைகள் இருந்தால் மட்டுமே, %1$s செயல்படும்.</string>
-    <string name="common_google_play_services_wear_update_text">Google Play சேவைகளின் புதிய பதிப்பு தேவை. அது விரைவில் தானாகவே புதுப்பிக்கப்படும்.</string>
-    <string name="common_open_on_phone">மொபைலில் திற</string>
-    <string name="common_signin_button_text">உள்நுழைக</string>
-    <string name="common_signin_button_text_long">Google மூலம் உள்நுழைக</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"கிளிப்-போர்டுக்கு இணைப்பு நகலெடுக்கப்பட்டது"</string>
-    <string name="error_icon_content_description">பிழை</string>
-    <string name="exposed_dropdown_menu_content_description">கீழ் தோன்றல் மெனுவைக் காட்டும் பட்டன்</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"இணைப்பை நகலெடு"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"உலாவியில் திற"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"இணைப்பைப் பகிர்"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"இயக்கு"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play சேவைகளை இயக்கினால் மட்டுமே, <ns1:g id="APP_NAME">%1$s</ns1:g> செயல்படும்."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play சேவைகளை இயக்கவும்"</string>
@@ -80,31 +54,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"மொபைலில் திற"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"உள்நுழைக"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google மூலம் உள்நுழைக"</string>
+    <string msgid="3209159573327985035" name="copy">"நகலெடு"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"கிளிப்-போர்டுக்கு இணைப்பு நகலெடுக்கப்பட்டது"</string>
     <string name="error_icon_content_description">பிழை</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"மேம்பட்டவை"</string>
     <string name="exposed_dropdown_menu_content_description">கீழ் தோன்றல் மெனுவைக் காட்டும் பட்டன்</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"இணைப்பை நகலெடு"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"உலாவியில் திற"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"இணைப்பைப் பகிர்"</string>
     <string name="fui_accessibility_logo">ஆப்ஸ் லோகோ</string>
     <string name="fui_auto_verified">ஃபோன் எண் தானாகவே சரிபார்க்கப்பட்டது</string>
     <string name="fui_button_text_save">சேமி</string>
     <string name="fui_button_text_send">அனுப்பு</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">கடவுச்சொல்லை மீட்டெடுக்க, %1$sக்கு அனுப்பிய வழிமுறைகளைப் பின்பற்றவும்.</string>
     <string name="fui_continue">தொடர்க</string>
     <string name="fui_country_hint">நாடு</string>
-=======
-    <string name="fui_cancel">ரத்துசெய்</string>
-    <string name="fui_confirm_recovery_body">கடவுச்சொல்லை மீட்டெடுக்க, %1$sக்கு அனுப்பிய வழிமுறைகளைப் பின்பற்றவும்.</string>
-    <string name="fui_continue">தொடர்க</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">மின்னஞ்சல் கணக்கைப் பதிவு செய்ய முடியவில்லை</string>
     <string name="fui_email_hint">மின்னஞ்சல்</string>
     <string name="fui_email_link_confirm_email_header">மின்னஞ்சலை உறுதிப்படுத்தவும்</string>
     <string name="fui_email_link_confirm_email_message">உள்நுழைவைத் தொடர, மின்னஞ்சலை உறுதிப்படுத்தவும்</string>
     <string name="fui_email_link_cross_device_linking_text">முதலில் %1$sஐ உங்கள் மின்னஞ்சல் கணக்குடன் இணைப்பதற்காக முயற்சித்தீர்கள், ஆனால் உள்நுழைந்திராத வேறொரு சாதனத்தில் இணைப்பைத் திறந்துள்ளீர்கள்.\n\nஉங்கள் %1$s கணக்கை இணைக்க விரும்பினால், நீங்கள் உள்நுழைய தொடங்கிய அதே சாதனத்தில் இணைப்பைத் திறக்கவும். இல்லையெனில் இந்தச் சாதனத்தில் உள்நுழைய தொடர்க என்பதைத் தட்டவும்.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">%1$s மூலம் உள்நுழையவும்</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">அமர்வு முடிந்தது</string>
     <string name="fui_email_link_different_anonymous_user_message">இந்த உள்நுழைவு கோரிக்கையுடன் தொடர்புடைய அமர்வு காலாவதியானது அல்லது அழிக்கப்பட்டது.</string>
     <string name="fui_email_link_dismiss_button">மூடு</string>
@@ -114,10 +83,6 @@
     <string name="fui_email_link_invalid_link_message">தவறான செயல் குறியீடு. குறியீடு தவறாக இருந்தால், காலாவதியானால் அல்லது ஏற்கனவே பயன்படுத்தப்பட்டிருந்தால் இவ்வாறு நிகழலாம்.</string>
     <string name="fui_email_link_resend">மீண்டும் அனுப்பு</string>
     <string name="fui_email_link_trouble_getting_email_header">மின்னஞ்சலைப் பெறுவதில் சிக்கல் உள்ளதா?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">மேலேயுள்ளவற்றை முயன்றும் பலனளிக்கவில்லை எனில், நீங்கள் மீண்டும் மின்னஞ்சல் அனுப்பலாம். இது முந்தைய மின்னஞ்சலில் உள்ள இணைப்பை முடக்கிவிடும் என்பதை நினைவில் கொள்ளவும்.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">இந்த வழக்கமான பிழைத்திருத்த முறைகளை முயலவும்:\n\u2022 மின்னஞ்சல் ஸ்பேமாகக் குறிக்கப்பட்டுள்ளதா அல்லது வடிகட்டப்பட்டுள்ளதா எனப் பார்க்கவும்.\n\u2022 உங்கள் இணைய இணைப்பைச் சரிபார்க்கவும்.\n\u2022 உங்கள் மின்னஞ்சல் முகவரி சரியாக இருக்கிறதா எனப் பார்க்கவும்.\n\u2022 இன்பாக்ஸில் போதுமான இடமுள்ளதா என்பதையும், மற்ற இன்பாக்ஸ் அமைப்புகளுடன் தொடர்புடைய சிக்கல்களையும் சரிபார்க்கவும்.\n</string>
     <string name="fui_email_link_wrong_device_header">புதிய சாதனம் அல்லது உலாவி கண்டறியப்பட்டுள்ளது.</string>
     <string name="fui_email_link_wrong_device_message">நீங்கள் உள்நுழைவுச் செயல்முறையைத் தொடங்கிய அதே சாதனம் அல்லது உலாவியைப் பயன்படுத்தி இணைப்பைத் திறக்கவும்.</string>
@@ -233,7 +198,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">நாளைத் தேர்வுசெய்வதற்கு மாற்ற தட்டவும்</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">உரை உள்ளீட்டு முறைக்கு மாற்றும்</string>
     <string name="mtrl_picker_toggle_to_year_selection">ஆண்டைத் தேர்வுசெய்வதற்கு மாற்ற தட்டவும்</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"மேலே செல்லும்"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"வழிசெலுத்தல் டிராயரைத் திறக்கும்"</string>
+    <string msgid="478774118347071097" name="not_set">"அமைக்கப்படவில்லை"</string>
     <string name="password_toggle_content_description">கடவுச்சொல்லைக் காட்டு</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"தேடல்"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ஆஃப்"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ஆன்"</string>
 </resources>

@@ -35,32 +35,6 @@
     <string name="character_counter_content_description">%1$d/%2$d таңба енгізілді</string>
     <string name="character_counter_overflowed_content_description">Таңба саны шегінен асты: %1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Мәтінді өшіру</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Қосу</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play қызметтерін қоспасаңыз, %1$s жұмыс істемейді.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play қызметтерін қосу</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Орнату</string>
-    <string name="common_google_play_services_install_text">Google Play қызметтері құрылғыда болмағандықтан, %1$s іске қосылмайды.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play қызметтерін алу</string>
-    <string name="common_google_play_services_notification_channel_name">Google Play қызметтерінің қолжетімділігі</string>
-    <string name="common_google_play_services_notification_ticker">Google Play қызметтерінің қатесі</string>
-    <string name="common_google_play_services_unknown_issue">%1$s қолданбасында Google Play қызметіне байланысты белгісіз қате шықты. Әрекетті қайталаңыз.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s қолданбасы құрылғыңызда қолдау көрсетілмейтін Google Play қызметінсіз жұмыс істемейді.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Жаңарту</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play қызметтерін жаңартпасаңыз, %1$s іске қосылмайды.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play қызметтерін жаңарту</string>
-    <string name="common_google_play_services_updating_text">Қазіргі уақытта жаңартылып жатқан Google Play қызметтерінсіз %1$s іске қосылмайды.</string>
-    <string name="common_google_play_services_wear_update_text">Google Play қызметтерінің жаңа нұсқасы қажет. Ол қысқа уақыттан кейін өзі жаңарады.</string>
-    <string name="common_open_on_phone">Телефонда ашу</string>
-    <string name="common_signin_button_text">Кіру</string>
-    <string name="common_signin_button_text_long">Google арқылы кіру</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Сілтеме буферге көшірілді."</string>
-    <string name="error_icon_content_description">Қате</string>
-    <string name="exposed_dropdown_menu_content_description">Ашылмалы мәзірді көрсету</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Сілтемені көшіру"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Браузерден ашу"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Сілтемені бөлісу"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Қосу"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play қызметтерін қоспасаңыз, <ns1:g id="APP_NAME">%1$s</ns1:g> жұмыс істемейді."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play қызметтерін қосу"</string>
@@ -79,9 +53,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Телефонда ашу"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Кіру"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google арқылы кіру"</string>
+    <string msgid="3209159573327985035" name="copy">"Көшіру"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Сілтеме буферге көшірілді."</string>
     <string name="error_icon_content_description">Қате</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Қосымша"</string>
     <string name="exposed_dropdown_menu_content_description">Ашылмалы мәзірді көрсету</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Сілтемені көшіру"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Браузерден ашу"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Сілтемені бөлісу"</string>
     <string name="icon_content_description">Диалог белгішесі</string>
     <string name="item_view_role_description">Қойынды</string>
     <string name="material_clock_toggle_content_description">\"AM\" немесе \"PM\" форматын таңдау</string>
@@ -129,7 +108,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Күнді таңдауға ауысу үшін түртіңіз.</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Мәтін енгізу режиміне ауысу</string>
     <string name="mtrl_picker_toggle_to_year_selection">Жылды таңдауға ауысу үшін түртіңіз.</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Жоғары қарай жылжу"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Навигация тартпасын ашу"</string>
+    <string msgid="478774118347071097" name="not_set">"Орнатылмаған"</string>
     <string name="password_toggle_content_description">Құпия сөзді көрсету</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" қорытындысы буферге көшірілді"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Іздеу"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ӨШІРУЛІ"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ҚОСУЛЫ"</string>
 </resources>

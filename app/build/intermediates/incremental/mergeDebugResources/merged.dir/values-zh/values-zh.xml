@@ -5,24 +5,14 @@
     <string name="fui_auto_verified">电话号码已自动验证</string>
     <string name="fui_button_text_save">保存</string>
     <string name="fui_button_text_send">发送</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">请按照发送到 %1$s 的说明找回密码。</string>
     <string name="fui_continue">继续</string>
     <string name="fui_country_hint">国家/地区</string>
-=======
-    <string name="fui_cancel">取消</string>
-    <string name="fui_confirm_recovery_body">请按照发送到 %1$s 的说明找回密码。</string>
-    <string name="fui_continue">继续</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">未能使用电子邮件地址注册帐号</string>
     <string name="fui_email_hint">电子邮件地址</string>
     <string name="fui_email_link_confirm_email_header">确认电子邮件地址</string>
     <string name="fui_email_link_confirm_email_message">确认电子邮件地址以继续登录</string>
     <string name="fui_email_link_cross_device_linking_text">您最初是想将%1$s与您的电子邮件帐号关联起来，但是您换用其他未登录的设备打开了此链接。\n\n如果您仍希望关联您的%1$s帐号，请在您最初开始登录时所用的设备上打开此链接。否则，请点按“继续”以在当前设备上登录。</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">使用%1$s登录</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">会话已结束</string>
     <string name="fui_email_link_different_anonymous_user_message">与此登录请求关联的会话已过期或清除。</string>
     <string name="fui_email_link_dismiss_button">关闭</string>
@@ -32,10 +22,6 @@
     <string name="fui_email_link_invalid_link_message">操作代码无效。如果该代码格式有误、已过期或已被使用，就可能会发生这种情况。</string>
     <string name="fui_email_link_resend">重新发送</string>
     <string name="fui_email_link_trouble_getting_email_header">无法收到电子邮件？</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">如果上述步骤未能帮助您解决问题，您可以重新发送电子邮件。请注意，重新发送后上一封电子邮件中的链接将失效。</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">尝试以下常见解决方法：\n\u2022 检查电子邮件是否被标记为垃圾邮件或被过滤。\n\u2022 检查您的互联网连接。\n\u2022 确保没有写错电子邮件地址。\n\u2022 确保收件箱空间充足，且不存在其他与收件箱设置有关的问题。\n</string>
     <string name="fui_email_link_wrong_device_header">检测到新设备或新浏览器。</string>
     <string name="fui_email_link_wrong_device_message">请尝试使用您最初进入登录流程时所用的设备或浏览器打开链接。</string>

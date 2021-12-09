@@ -5,24 +5,14 @@
     <string name="fui_auto_verified">Telefonnummeret ble bekreftet automatisk</string>
     <string name="fui_button_text_save">Lagre</string>
     <string name="fui_button_text_send">Send</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Følg veiledningen som er sendt til %1$s, for å gjenopprette passordet ditt.</string>
     <string name="fui_continue">Fortsett</string>
     <string name="fui_country_hint">Land</string>
-=======
-    <string name="fui_cancel">Avbryt</string>
-    <string name="fui_confirm_recovery_body">Følg veiledningen som er sendt til %1$s, for å gjenopprette passordet ditt.</string>
-    <string name="fui_continue">Fortsett</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Kunne ikke registrere e-postkontoen</string>
     <string name="fui_email_hint">E-post</string>
     <string name="fui_email_link_confirm_email_header">Bekreft e-postadressen</string>
     <string name="fui_email_link_confirm_email_message">Bekreft e-postadressen for å fortsette med påloggingen</string>
     <string name="fui_email_link_cross_device_linking_text">Du forsøkte opprinnelig å koble %1$s til e-postkontoen din, men du åpnet linken på en annen enhet enn den du er pålogget med.\n\nHvis du fortsatt ønsker å koble til %1$s-kontoen din, åpner du linken på enheten du er pålogget med. Hvis ikke trykker du på Fortsett for å logge på med denne enheten.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Logg på med %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Økten er utløpt</string>
     <string name="fui_email_link_different_anonymous_user_message">Økten som er knyttet til denne påloggingsforespørselen, er enten utløpt eller fjernet.</string>
     <string name="fui_email_link_dismiss_button">Lukk</string>
@@ -32,10 +22,6 @@
     <string name="fui_email_link_invalid_link_message">Koden er ugyldig. Dette kan skyldes at koden er utløpt eller i feil format, eller at den allerede er brukt.</string>
     <string name="fui_email_link_resend">Send på nytt</string>
     <string name="fui_email_link_trouble_getting_email_header">Problemer med å motta e-posten?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Hvis trinnene ovenfor ikke bidro til å løse problemet, kan du sende e-posten på nytt. Merk at denne handlingen deaktiverer linken i den forrige e-posten.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Prøv disse vanlige løsningene:\n\u2022 Sjekk om e-posten ble merket som søppelpost eller filtrert bort.\n\u2022 Sjekk internettilkoblingen din.\n\u2022 Sjekk at du ikke har skrevet e-postadressen din feil.\n\u2022 Sjekk at innboksen din ikke er full, og se etter andre problemer knyttet til innboksinnstillingene.\n</string>
     <string name="fui_email_link_wrong_device_header">Ny enhet eller nettleser er registrert.</string>
     <string name="fui_email_link_wrong_device_message">Prøv å åpne linken med den samme enheten eller nettleseren som du brukte til å starte påloggingsprosessen.</string>

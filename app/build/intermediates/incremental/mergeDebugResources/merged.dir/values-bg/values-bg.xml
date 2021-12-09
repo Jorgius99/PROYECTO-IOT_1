@@ -36,32 +36,6 @@
     <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
     <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
     <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Активиране</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Инсталиране</string>
-    <string name="common_google_play_services_install_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на устройството ви.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
-    <string name="common_google_play_services_notification_channel_name">Наличност на услугите за Google Play</string>
-    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
-    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не се поддържат от устройството ви.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Актуализиране</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
-    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
-    <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
-    <string name="common_open_on_phone">Отваряне на телефона</string>
-    <string name="common_signin_button_text">Вход</string>
-    <string name="common_signin_button_text_long">Вход с Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Връзката е копирана в буферната памет"</string>
-    <string name="error_icon_content_description">Грешка</string>
-    <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копиране на връзката"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отваряне в браузър"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Споделяне на връзката"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Активиране"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да работи, освен ако не активирате услугите за Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Активиране на услугите за Google Play"</string>
@@ -80,31 +54,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Отваряне на телефона"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Вход"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Вход с Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Копиране"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Връзката е копирана в буферната памет"</string>
     <string name="error_icon_content_description">Грешка</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Разширени"</string>
     <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копиране на връзката"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отваряне в браузър"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Споделяне на връзката"</string>
     <string name="fui_accessibility_logo">Лого на приложението</string>
     <string name="fui_auto_verified">Телефонният номер е потвърден автоматично</string>
     <string name="fui_button_text_save">Запазване</string>
     <string name="fui_button_text_send">Изпращане</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">За да възстановите паролата си, изпълнете инструкциите, изпратени до %1$s.</string>
     <string name="fui_continue">Напред</string>
     <string name="fui_country_hint">Държава</string>
-=======
-    <string name="fui_cancel">Отказ</string>
-    <string name="fui_confirm_recovery_body">За да възстановите паролата си, изпълнете инструкциите, изпратени до %1$s.</string>
-    <string name="fui_continue">Напред</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Регистрацията с имейл адрес не бе успешна</string>
     <string name="fui_email_hint">Имейл</string>
     <string name="fui_email_link_confirm_email_header">Потвърдете имейл адреса</string>
     <string name="fui_email_link_confirm_email_message">Потвърдете имейл адреса, за да продължите с влизането в профила</string>
     <string name="fui_email_link_cross_device_linking_text">Първоначално искахте да свържете %1$s с имейла на профила си, но отворихте връзката на различно устройство без вход в профила.\n\nАко все още искате да свържете профила си в(ъв) %1$s, отворете връзката на същото устройство, на което започнахте влизането в профила. В противен случай докоснете „Напред“, за да влезете на това устройство.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Вход в профила с(ъс) %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Сесията приключи</string>
     <string name="fui_email_link_different_anonymous_user_message">Сесията, свързана с тази заявка за вход в профила, е изтекла или бе изчистена.</string>
     <string name="fui_email_link_dismiss_button">Отхвърляне</string>
@@ -114,10 +83,6 @@
     <string name="fui_email_link_invalid_link_message">Кодът за активиране е невалиден. Той може да е образуван неправилно, да е с изтекла валидност или вече да е използван.</string>
     <string name="fui_email_link_resend">Повторно изпращане</string>
     <string name="fui_email_link_trouble_getting_email_header">Имате проблеми с получаването на имейла?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Ако стъпките по-горе не проработят, можете да изпратите отново имейла. Имайте предвид, че това ще деактивира връзката в предходното съобщение.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Изпробвайте следните често използвани решения:\n\u2022 Проверете дали имейлът не е обозначен и филтриран като спам.\n\u2022 Проверете връзката си с интернет.\n\u2022 Проверете дали имейлът е изписан правилно.\n\u2022 Проверете дали в пощенската ви кутия има достатъчно пространство, или не е налице друг проблем с настройките й.\n</string>
     <string name="fui_email_link_wrong_device_header">Открито е ново устройство или браузър.</string>
     <string name="fui_email_link_wrong_device_message">Опитайте да отворите връзката от същото устройство или браузър, където е започнат процесът на влизане в профила.</string>
@@ -233,7 +198,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Докоснете, за да превключите към избиране на ден</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Превключване към режим за въвеждане на текст</string>
     <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Придвижване нагоре"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Отваряне на слоя за навигация"</string>
+    <string msgid="478774118347071097" name="not_set">"Не е зададено"</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Копирахте „<ns1:g id="SUMMARY">%1$s</ns1:g>“ в буферната памет."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Търсене"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ИЗКЛ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ВКЛ."</string>
 </resources>

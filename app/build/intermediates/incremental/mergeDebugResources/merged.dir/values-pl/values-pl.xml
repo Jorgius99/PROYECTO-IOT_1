@@ -38,32 +38,6 @@
     <string name="character_counter_content_description">%1$d z %2$d znaków</string>
     <string name="character_counter_overflowed_content_description">Przekroczono limit znaków (%1$d z %2$d)</string>
     <string name="clear_text_end_icon_content_description">Wyczyść tekst</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Włącz</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Aplikacja %1$s nie będzie działać, jeśli nie włączysz Usług Google Play.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Włącz Usługi Google Play</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Zainstaluj</string>
-    <string name="common_google_play_services_install_text">%1$s nie będzie działać, jeśli nie zainstalujesz na urządzeniu Usług Google Play.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Pobierz Usługi Google Play</string>
-    <string name="common_google_play_services_notification_channel_name">Dostępność Usług Google Play</string>
-    <string name="common_google_play_services_notification_ticker">Błąd Usług Google Play</string>
-    <string name="common_google_play_services_unknown_issue">%1$s ma problem z dostępem do Usług Google Play. Spróbuj jeszcze raz.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s nie będzie działać bez Usług Google Play, które nie są obecnie obsługiwane przez urządzenie.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Aktualizuj</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Aplikacja %1$s nie będzie działać, jeśli nie zaktualizujesz Usług Google Play.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Zaktualizuj Usługi Google Play</string>
-    <string name="common_google_play_services_updating_text">Aplikacja %1$s nie będzie działać bez Usług Google Play, które są obecnie aktualizowane.</string>
-    <string name="common_google_play_services_wear_update_text">Wymagana jest nowa wersja Usług Google Play. Wkrótce nastąpi automatyczna aktualizacja.</string>
-    <string name="common_open_on_phone">Otwórz na telefonie</string>
-    <string name="common_signin_button_text">Zaloguj się</string>
-    <string name="common_signin_button_text_long">Zaloguj się przez Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Link skopiowany do schowka"</string>
-    <string name="error_icon_content_description">Błąd</string>
-    <string name="exposed_dropdown_menu_content_description">Pokaż menu</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiuj link"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otwórz w przeglądarce"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Udostępnij link"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Włącz"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Aplikacja <ns1:g id="APP_NAME">%1$s</ns1:g> nie będzie działać, jeśli nie włączysz Usług Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Włącz Usługi Google Play"</string>
@@ -82,31 +56,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Otwórz na telefonie"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Zaloguj się"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Zaloguj się przez Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiuj"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link skopiowany do schowka"</string>
     <string name="error_icon_content_description">Błąd</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Zaawansowane"</string>
     <string name="exposed_dropdown_menu_content_description">Pokaż menu</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiuj link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otwórz w przeglądarce"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Udostępnij link"</string>
     <string name="fui_accessibility_logo">Logo aplikacji</string>
     <string name="fui_auto_verified">Numer telefonu został automatycznie zweryfikowany</string>
     <string name="fui_button_text_save">Zapisz</string>
     <string name="fui_button_text_send">Wyślij</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Aby odzyskać hasło, wykonaj instrukcje, które wysłaliśmy Ci na adres %1$s.</string>
     <string name="fui_continue">Dalej</string>
     <string name="fui_country_hint">Kraj</string>
-=======
-    <string name="fui_cancel">Anuluj</string>
-    <string name="fui_confirm_recovery_body">Aby odzyskać hasło, wykonaj instrukcje, które wysłaliśmy Ci na adres %1$s.</string>
-    <string name="fui_continue">Dalej</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Rejestracja konta e-mail nie powiodła się</string>
     <string name="fui_email_hint">Adres e-mail</string>
     <string name="fui_email_link_confirm_email_header">Potwierdź adres e-mail</string>
     <string name="fui_email_link_confirm_email_message">Potwierdź adres e-mail, aby kontynuować logowanie się</string>
     <string name="fui_email_link_cross_device_linking_text">Podjęto próbę połączenia konta %1$s z kontem, na którym używasz podanego adresu e-mail, ale link został otwarty na innym urządzeniu, na którym użytkownik nie był zalogowany.\n\nJeśli nadal chcesz połączyć konto w serwisie %1$s, otwórz link na urządzeniu, na którym rozpoczęto logowanie. W przeciwnym razie wybierz Dalej, by zalogować się na tym urządzeniu.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Zaloguj się przez: %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Sesja została zakończona</string>
     <string name="fui_email_link_different_anonymous_user_message">Sesja powiązana z tą prośbą o zalogowanie wygasła lub została wyczyszczona.</string>
     <string name="fui_email_link_dismiss_button">Odrzuć</string>
@@ -116,10 +85,6 @@
     <string name="fui_email_link_invalid_link_message">Kod aktywacyjny jest nieprawidłowy. Może się to zdarzyć, jeśli kod ma nieprawidłowy format, wygasł lub został już wykorzystany.</string>
     <string name="fui_email_link_resend">Wyślij ponownie</string>
     <string name="fui_email_link_trouble_getting_email_header">E-mail nie dotarł?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Jeżeli wykonanie powyższych czynności nie dało żadnych rezultatów, możesz wysłać e-mail jeszcze raz. Link wysłany w poprzedniej wiadomości przestanie być aktywny.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Typowe rozwiązania tego problemu:\n\u2022 Sprawdź, czy e-mail nie został oznaczony jako spam lub objęty którymś z filtrów.\n\u2022 Sprawdź połączenie z internetem.\n\u2022 Sprawdź, czy został wpisany poprawny adres e-mail.\n\u2022 Sprawdź, czy nie kończy się miejsce w skrzynce odbiorczej oraz czy nie ma innych problemów z jej ustawieniami.\n</string>
     <string name="fui_email_link_wrong_device_header">Wykryto nowe urządzenie lub nową przeglądarkę</string>
     <string name="fui_email_link_wrong_device_message">Otwórz link na tym samym urządzeniu, na którym rozpoczęto proces logowania i w tej samej przeglądarce.</string>
@@ -235,7 +200,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Kliknij, by wybrać dzień</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Włącz tekstowy tryb wprowadzania</string>
     <string name="mtrl_picker_toggle_to_year_selection">Kliknij, by wybrać rok</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Przejdź wyżej"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Otwórz panel nawigacji"</string>
+    <string msgid="478774118347071097" name="not_set">"Nie ustawiono"</string>
     <string name="password_toggle_content_description">Pokaż hasło</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Skopiowano „<ns1:g id="SUMMARY">%1$s</ns1:g>” do schowka."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Szukaj"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"WYŁ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"WŁ."</string>
 </resources>

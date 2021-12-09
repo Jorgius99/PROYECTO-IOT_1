@@ -33,6 +33,10 @@ anim fui_slide_out_left
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim nav_default_enter_anim
+anim nav_default_exit_anim
+anim nav_default_pop_enter_anim
+anim nav_default_pop_exit_anim
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -59,8 +63,13 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+animator nav_default_enter_anim
+animator nav_default_exit_anim
+animator nav_default_pop_enter_anim
+animator nav_default_pop_exit_anim
 attr SharedValue
 attr SharedValueId
+attr action
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -98,24 +107,25 @@ attr actionProviderClass
 attr actionTextColorAlpha
 attr actionViewClass
 attr activityChooserViewStyle
+attr adjustable
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
 attr alertDialogTheme
+attr allowDividerAbove
+attr allowDividerAfterLastItem
+attr allowDividerBelow
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
 attr altSrc
-<<<<<<< HEAD
-attr ambientEnabled
-=======
->>>>>>> javiDevelope
 attr animateCircleAngleTo
 attr animateRelativeTo
 attr animationMode
 attr appBarLayoutStyle
 attr applyMotionScene
 attr arcMode
+attr argType
 attr arrowHeadLength
 attr arrowShaftLength
 attr attributeName
@@ -191,16 +201,6 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
-<<<<<<< HEAD
-attr cameraBearing
-attr cameraMaxZoomPreference
-attr cameraMinZoomPreference
-attr cameraTargetLat
-attr cameraTargetLng
-attr cameraTilt
-attr cameraZoom
-=======
->>>>>>> javiDevelope
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -220,12 +220,10 @@ attr carousel_touchUpMode
 attr carousel_touchUp_dampeningFactor
 attr carousel_touchUp_velocityThreshold
 attr chainUseRtl
-<<<<<<< HEAD
+attr checkBoxPreferenceStyle
 attr checkMarkCompat
 attr checkMarkTint
 attr checkMarkTintMode
-=======
->>>>>>> javiDevelope
 attr checkboxStyle
 attr checkedButton
 attr checkedChip
@@ -364,19 +362,31 @@ attr customNavigationLayout
 attr customPixelDimension
 attr customReference
 attr customStringValue
+attr data
+attr dataPattern
 attr dayInvalidStyle
 attr daySelectedStyle
 attr dayStyle
 attr dayTodayStyle
 attr defaultDuration
+attr defaultNavHost
 attr defaultQueryHint
 attr defaultState
+attr defaultValue
 attr deltaPolarAngle
 attr deltaPolarRadius
+attr dependency
 attr deriveConstraintsFrom
+attr destination
 attr dialogCornerRadius
+attr dialogIcon
+attr dialogLayout
+attr dialogMessage
+attr dialogPreferenceStyle
 attr dialogPreferredPadding
 attr dialogTheme
+attr dialogTitle
+attr disableDependentsState
 attr displayOptions
 attr divider
 attr dividerHorizontal
@@ -396,20 +406,22 @@ attr drawableTint
 attr drawableTintMode
 attr drawableTopCompat
 attr drawerArrowStyle
+attr drawerLayoutStyle
 attr dropDownListViewStyle
 attr dropdownListPreferredItemHeight
+attr dropdownPreferenceStyle
 attr duration
 attr editTextBackground
 attr editTextColor
+attr editTextPreferenceStyle
 attr editTextStyle
 attr elevation
 attr elevationOverlayColor
 attr elevationOverlayEnabled
-<<<<<<< HEAD
 attr emojiCompatEnabled
-=======
->>>>>>> javiDevelope
+attr enableCopying
 attr enableEdgeToEdge
+attr enabled
 attr endIconCheckable
 attr endIconContentDescription
 attr endIconDrawable
@@ -419,6 +431,9 @@ attr endIconTintMode
 attr enforceMaterialTheme
 attr enforceTextAppearance
 attr ensureMinTouchTargetSize
+attr enterAnim
+attr entries
+attr entryValues
 attr errorContentDescription
 attr errorEnabled
 attr errorIconDrawable
@@ -426,6 +441,7 @@ attr errorIconTint
 attr errorIconTintMode
 attr errorTextAppearance
 attr errorTextColor
+attr exitAnim
 attr expandActivityOverflowButtonDrawable
 attr expanded
 attr expandedHintEnabled
@@ -486,10 +502,12 @@ attr fontVariationSettings
 attr fontWeight
 attr forceApplySystemWindowInsetTop
 attr foregroundInsidePadding
+attr fragment
 attr framePosition
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
 attr goIcon
+attr graph
 attr haloColor
 attr haloRadius
 attr headerLayout
@@ -515,6 +533,7 @@ attr iconEndPadding
 attr iconGravity
 attr iconPadding
 attr iconSize
+attr iconSpaceReserved
 attr iconStartPadding
 attr iconTint
 attr iconTintMode
@@ -536,9 +555,11 @@ attr indicatorDirectionLinear
 attr indicatorInset
 attr indicatorSize
 attr initialActivityCount
+attr initialExpandedChildrenCount
 attr insetForeground
 attr isLightTheme
 attr isMaterialTheme
+attr isPreferenceVisible
 attr itemBackground
 attr itemFillColor
 attr itemHorizontalPadding
@@ -563,24 +584,16 @@ attr itemTextAppearance
 attr itemTextAppearanceActive
 attr itemTextAppearanceInactive
 attr itemTextColor
+attr key
 attr keyPositionType
 attr keyboardIcon
 attr keylines
-<<<<<<< HEAD
 attr lStar
-=======
->>>>>>> javiDevelope
 attr labelBehavior
 attr labelStyle
 attr labelVisibilityMode
 attr lastBaselineToBottomHeight
-<<<<<<< HEAD
-attr latLngBoundsNorthEastLatitude
-attr latLngBoundsNorthEastLongitude
-attr latLngBoundsSouthWestLatitude
-attr latLngBoundsSouthWestLongitude
-=======
->>>>>>> javiDevelope
+attr launchSingleTop
 attr layout
 attr layoutDescription
 attr layoutDuringTransition
@@ -674,16 +687,8 @@ attr listPreferredItemPaddingEnd
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
-<<<<<<< HEAD
-attr liteMode
 attr logo
 attr logoDescription
-attr mapId
-attr mapType
-=======
-attr logo
-attr logoDescription
->>>>>>> javiDevelope
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -725,6 +730,8 @@ attr measureWithLargestChild
 attr menu
 attr menuGravity
 attr methodName
+attr mimeType
+attr min
 attr minHeight
 attr minHideDelay
 attr minSeparation
@@ -765,35 +772,19 @@ attr motionTarget
 attr motion_postLayoutCollision
 attr motion_triggerOnCollision
 attr moveWhenScrollAtTop
-<<<<<<< HEAD
-=======
-attr mpb_determinateCircularProgressStyle
-attr mpb_indeterminateTint
-attr mpb_indeterminateTintMode
-attr mpb_progressBackgroundTint
-attr mpb_progressBackgroundTintMode
-attr mpb_progressStyle
-attr mpb_progressTint
-attr mpb_progressTintMode
-attr mpb_secondaryProgressTint
-attr mpb_secondaryProgressTintMode
-attr mpb_setBothDrawables
-attr mpb_showProgressBackground
-attr mpb_useIntrinsicPadding
->>>>>>> javiDevelope
 attr multiChoiceItemLayout
+attr navGraph
 attr navigationContentDescription
 attr navigationIcon
 attr navigationIconTint
 attr navigationMode
 attr navigationRailStyle
 attr navigationViewStyle
+attr negativeButtonText
 attr nestedScrollFlags
-<<<<<<< HEAD
 attr nestedScrollViewStyle
-=======
->>>>>>> javiDevelope
 attr nestedScrollable
+attr nullable
 attr number
 attr numericModifiers
 attr onCross
@@ -803,6 +794,8 @@ attr onPositiveCross
 attr onShow
 attr onStateTransition
 attr onTouchUp
+attr order
+attr orderingFromXml
 attr overlapAnchor
 attr overlay
 attr paddingBottomNoButtons
@@ -828,16 +821,31 @@ attr percentWidth
 attr percentX
 attr percentY
 attr perpendicularPath_percent
+attr persistent
 attr pivotAnchor
 attr placeholderText
 attr placeholderTextAppearance
 attr placeholderTextColor
 attr placeholder_emptyVisibility
 attr polarRelativeTo
+attr popEnterAnim
+attr popExitAnim
+attr popUpTo
+attr popUpToInclusive
 attr popupMenuBackground
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
+attr positiveButtonText
+attr preferenceCategoryStyle
+attr preferenceCategoryTitleTextAppearance
+attr preferenceFragmentCompatStyle
+attr preferenceFragmentListStyle
+attr preferenceFragmentStyle
+attr preferenceInformationStyle
+attr preferenceScreenStyle
+attr preferenceStyle
+attr preferenceTheme
 attr prefixText
 attr prefixTextAppearance
 attr prefixTextColor
@@ -850,10 +858,7 @@ attr quantizeMotionPhase
 attr quantizeMotionSteps
 attr queryBackground
 attr queryHint
-<<<<<<< HEAD
 attr queryPatterns
-=======
->>>>>>> javiDevelope
 attr radioButtonStyle
 attr rangeFillColor
 attr ratingBarStyle
@@ -882,7 +887,10 @@ attr scrimVisibleHeightTrigger
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
+attr seekBarIncrement
+attr seekBarPreferenceStyle
 attr seekBarStyle
+attr selectable
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
 attr selectionRequired
@@ -893,21 +901,21 @@ attr shapeAppearanceLargeComponent
 attr shapeAppearanceMediumComponent
 attr shapeAppearanceOverlay
 attr shapeAppearanceSmallComponent
-<<<<<<< HEAD
 attr shortcutMatchRequired
-=======
->>>>>>> javiDevelope
+attr shouldDisableView
 attr showAnimationBehavior
 attr showAsAction
 attr showDelay
 attr showDividers
 attr showMotionSpec
 attr showPaths
+attr showSeekBarValue
 attr showText
 attr showTitle
 attr shrinkMotionSpec
 attr singleChoiceItemLayout
 attr singleLine
+attr singleLineTitle
 attr singleSelection
 attr sizePercent
 attr sliderStyle
@@ -928,6 +936,7 @@ attr springStopThreshold
 attr srcCompat
 attr stackFromEnd
 attr staggered
+attr startDestination
 attr startIconCheckable
 attr startIconContentDescription
 attr startIconDrawable
@@ -955,10 +964,17 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr summary
+attr summaryOff
+attr summaryOn
 attr switchMinWidth
 attr switchPadding
+attr switchPreferenceCompatStyle
+attr switchPreferenceStyle
 attr switchStyle
 attr switchTextAppearance
+attr switchTextOff
+attr switchTextOn
 attr tabBackground
 attr tabContentStart
 attr tabGravity
@@ -987,6 +1003,7 @@ attr tabTextAppearance
 attr tabTextColor
 attr tabUnboundedRipple
 attr targetId
+attr targetPackage
 attr telltales_tailColor
 attr telltales_tailScale
 attr telltales_velocityMode
@@ -1096,24 +1113,12 @@ attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
-<<<<<<< HEAD
-attr uiCompass
-attr uiMapToolbar
-attr uiRotateGestures
-attr uiScrollGestures
-attr uiScrollGesturesDuringRotateOrZoom
-attr uiTiltGestures
-attr uiZoomControls
-attr uiZoomGestures
 attr upDuration
+attr updatesContinuously
+attr uri
 attr useCompatPadding
 attr useMaterialThemeColors
-attr useViewLifecycle
-=======
-attr upDuration
-attr useCompatPadding
-attr useMaterialThemeColors
->>>>>>> javiDevelope
+attr useSimpleSummaryProvider
 attr values
 attr verticalOffset
 attr viewInflaterClass
@@ -1130,6 +1135,7 @@ attr wavePeriod
 attr wavePhase
 attr waveShape
 attr waveVariesBy
+attr widgetLayout
 attr windowActionBar
 attr windowActionBarOverlay
 attr windowActionModeOverlay
@@ -1143,12 +1149,9 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
-<<<<<<< HEAD
-attr zOrderOnTop
-=======
->>>>>>> javiDevelope
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool config_materialPreferenceIconSpaceReserved
 bool mtrl_btn_textappearance_all_caps
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
@@ -1184,11 +1187,6 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
-<<<<<<< HEAD
-color blue
-color blueoscuro
-=======
->>>>>>> javiDevelope
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1206,12 +1204,6 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
-<<<<<<< HEAD
-=======
-color colorAccent
-color colorPrimary
-color colorPrimaryDark
->>>>>>> javiDevelope
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1270,28 +1262,16 @@ color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
 color fui_bgAnonymous
-<<<<<<< HEAD
 color fui_bgApple
-=======
->>>>>>> javiDevelope
 color fui_bgEmail
 color fui_bgFacebook
 color fui_bgGitHub
 color fui_bgGoogle
-<<<<<<< HEAD
 color fui_bgMicrosoft
 color fui_bgPhone
 color fui_bgTwitter
 color fui_bgYahoo
 color fui_transparent
-color gris
-=======
-color fui_bgPhone
-color fui_bgTwitter
-color fui_buttonShadow
-color fui_linkColor
-color fui_transparent
->>>>>>> javiDevelope
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1382,6 +1362,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color preference_fallback_accent_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1394,10 +1375,6 @@ color purple_200
 color purple_500
 color purple_700
 color radiobutton_themeable_attribute_color
-<<<<<<< HEAD
-color red
-=======
->>>>>>> javiDevelope
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1513,6 +1490,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen def_drawer_elevation
 dimen default_dimension
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
@@ -1833,6 +1811,11 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen preference_dropdown_padding_start
+dimen preference_icon_minWidth
+dimen preference_seekbar_padding_horizontal
+dimen preference_seekbar_padding_vertical
+dimen preference_seekbar_value_minWidth
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
@@ -1936,18 +1919,10 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-<<<<<<< HEAD
-drawable anyadirazul
-=======
->>>>>>> javiDevelope
 drawable aplicacion_medica
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
-<<<<<<< HEAD
-drawable botonesredondos
-=======
->>>>>>> javiDevelope
 drawable boy
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1957,10 +1932,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-<<<<<<< HEAD
-drawable btn_redondeado_blue
-=======
->>>>>>> javiDevelope
 drawable calor
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1987,12 +1958,6 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable doctor_photoroom
-<<<<<<< HEAD
-drawable formarecycler
-drawable formarecyclerdosis
-drawable formarecyclerhabitacion
-=======
->>>>>>> javiDevelope
 drawable fui_ic_anonymous_white_24dp
 drawable fui_ic_apple_white_24dp
 drawable fui_ic_check_circle_black_128dp
@@ -2004,22 +1969,10 @@ drawable fui_ic_microsoft_24dp
 drawable fui_ic_phone_white_24dp
 drawable fui_ic_twitter_bird_white_24dp
 drawable fui_ic_yahoo_24dp
-<<<<<<< HEAD
-=======
-drawable fui_idp_button_background_anonymous
-drawable fui_idp_button_background_apple
-drawable fui_idp_button_background_email
-drawable fui_idp_button_background_facebook
-drawable fui_idp_button_background_github
-drawable fui_idp_button_background_google
-drawable fui_idp_button_background_microsoft
-drawable fui_idp_button_background_phone
-drawable fui_idp_button_background_twitter
-drawable fui_idp_button_background_yahoo
->>>>>>> javiDevelope
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable humedad
+drawable ic_arrow_down_24dp
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2071,13 +2024,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-<<<<<<< HEAD
-drawable telefono
+drawable preference_list_divider_material
 drawable test_custom_background
 drawable test_level_drawable
-=======
-drawable test_custom_background
->>>>>>> javiDevelope
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable whatsapp_image_2021_10_14_at_13_50_00
@@ -2088,12 +2037,6 @@ id CTRL
 id FUNCTION
 id HoraSolo
 id HoraSolo1
-<<<<<<< HEAD
-id Humedad
-id META
-id NO_DEBUG
-id Nombre2
-=======
 id HoraSolo2
 id Humedad
 id META
@@ -2106,7 +2049,6 @@ id Nombre1
 id Nombre2
 id Nombre3
 id Nombre4
->>>>>>> javiDevelope
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2114,10 +2056,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-<<<<<<< HEAD
-=======
 id TextView01
->>>>>>> javiDevelope
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2186,15 +2125,8 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
-<<<<<<< HEAD
 id antiClockwise
 id anticipate
-=======
-id anonymous_button
-id antiClockwise
-id anticipate
-id apple_signin_button
->>>>>>> javiDevelope
 id arc
 id asConfigured
 id async
@@ -2207,12 +2139,9 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
+id biniciarPikku
 id blocking
-<<<<<<< HEAD
-id botoneliminar
-=======
 id bloque4
->>>>>>> javiDevelope
 id bottom
 id bounce
 id bounceBoth
@@ -2223,16 +2152,13 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-<<<<<<< HEAD
-id btAvisos
-id btPacientes
-id btPacientesEliminar
-=======
->>>>>>> javiDevelope
 id btnLogin
 id btnLogout
 id btn_holder
+id buttonConnect
+id buttonMConnect
 id buttonPanel
+id buttonScan
 id button_continue
 id button_create
 id button_done
@@ -2240,10 +2166,7 @@ id button_next
 id button_resend_email
 id button_sign_in
 id cache_measures
-<<<<<<< HEAD
 id callMeasure
-=======
->>>>>>> javiDevelope
 id cancel_action
 id cancel_button
 id carryVelocity
@@ -2261,10 +2184,6 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
-<<<<<<< HEAD
-=======
-id circular
->>>>>>> javiDevelope
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -2275,10 +2194,7 @@ id confirm_button
 id confirmation_code
 id confirmation_code_layout
 id constraint
-<<<<<<< HEAD
-=======
 id constraintLayout
->>>>>>> javiDevelope
 id container
 id content
 id contentPanel
@@ -2288,11 +2204,8 @@ id coordinator
 id cos
 id counterclockwise
 id country_list
-<<<<<<< HEAD
 id country_list_layout
 id country_list_popup_anchor
-=======
->>>>>>> javiDevelope
 id cross_device_linking_body
 id currentState
 id custom
@@ -2320,10 +2233,7 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id dosis1
-<<<<<<< HEAD
-=======
 id dosis2
->>>>>>> javiDevelope
 id dosis3
 id dosis4
 id dragAnticlockwise
@@ -2335,10 +2245,6 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
-<<<<<<< HEAD
-=======
-id dynamic
->>>>>>> javiDevelope
 id easeIn
 id easeInOut
 id easeOut
@@ -2351,45 +2257,24 @@ id emailEditText
 id email_button
 id email_footer_tos_and_pp_text
 id email_layout
-<<<<<<< HEAD
-=======
-id email_top_layout
->>>>>>> javiDevelope
 id email_tos_and_pp_text
 id end
 id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-<<<<<<< HEAD
-id enviaravi
-id etLoginEmail
-id etLoginPass
-id etRegDni
-id etRegDniDoc
-id etRegHabi
-id etRegMoti
-id etRegNombreApellido
-id etRegNumHab
-id etRegPass
-id etRegPrio
-=======
 id etLoginEmail
 id etLoginPass
 id etRegDni
 id etRegNombreApellido
 id etRegPass
->>>>>>> javiDevelope
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
 id fecha
 id fecha1
-<<<<<<< HEAD
-=======
 id fecha2
->>>>>>> javiDevelope
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2413,11 +2298,8 @@ id group_divider
 id grouping
 id groups
 id guideline
-<<<<<<< HEAD
-=======
 id habs
 id habs1
->>>>>>> javiDevelope
 id header
 id header_text
 id header_title
@@ -2426,26 +2308,15 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
-<<<<<<< HEAD
 id horizontal_only
-id hybrid
-=======
-id horizontal
-id horizontal_only
->>>>>>> javiDevelope
 id icon
+id icon_frame
 id icon_group
 id icon_only
 id ifRoom
 id ignore
 id ignoreRequest
 id image
-<<<<<<< HEAD
-id imageView01
-id imageView11
-id imageView2
-id imageView6
-=======
 id imageButton
 id imageView
 id imageView01
@@ -2455,7 +2326,6 @@ id imageView4
 id imageView6
 id imageView7
 id imageView8
->>>>>>> javiDevelope
 id immediateStop
 id included
 id info
@@ -2463,13 +2333,10 @@ id invisible
 id invisible_frame
 id inward
 id italic
-<<<<<<< HEAD
 id item1
 id item2
 id item3
 id item4
-=======
->>>>>>> javiDevelope
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -2486,10 +2353,6 @@ id listMode
 id list_item
 id logo
 id main_tos_and_pp
-<<<<<<< HEAD
-id mapa
-=======
->>>>>>> javiDevelope
 id masked
 id match_constraint
 id match_parent
@@ -2514,10 +2377,6 @@ id material_timepicker_view
 id material_value_index
 id media_actions
 id message
-<<<<<<< HEAD
-=======
-id microsoft_signin_button
->>>>>>> javiDevelope
 id middle
 id mini
 id month_grid
@@ -2528,11 +2387,8 @@ id month_navigation_previous
 id month_title
 id motion_base
 id motivo
-<<<<<<< HEAD
-=======
 id motivo1
 id motivo2
->>>>>>> javiDevelope
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -2559,6 +2415,8 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id name
 id name_layout
+id nav_controller_view_tag
+id nav_host_fragment_container
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
@@ -2569,32 +2427,23 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
-<<<<<<< HEAD
-=======
 id nombpa
->>>>>>> javiDevelope
 id none
 id normal
 id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-<<<<<<< HEAD
-id num_hab
 id off
 id olvidasteContra
 id on
 id onInterceptTouchReturnSwipe
-=======
-id off
-id olvidasteContra
-id on
->>>>>>> javiDevelope
 id outline
 id outward
 id overshoot
 id packed
 id parallax
+id pararPikku
 id parent
 id parentPanel
 id parentRelative
@@ -2602,10 +2451,6 @@ id parent_matrix
 id password
 id password_layout
 id password_toggle
-<<<<<<< HEAD
-id pastilla
-=======
->>>>>>> javiDevelope
 id path
 id pathRelative
 id peekHeight
@@ -2616,10 +2461,6 @@ id phone_number
 id pin
 id position
 id postLayout
-<<<<<<< HEAD
-id ppp
-=======
->>>>>>> javiDevelope
 id progress_circular
 id progress_horizontal
 id radio
@@ -2627,6 +2468,7 @@ id ratio
 id rectangles
 id recuperarBoton
 id recyclerView
+id recycler_view
 id resend_barrier
 id resend_code
 id reverseSawtooth
@@ -2637,10 +2479,6 @@ id right_side
 id root
 id rounded
 id row_index_key
-<<<<<<< HEAD
-id satellite
-=======
->>>>>>> javiDevelope
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2661,6 +2499,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seekbar
+id seekbar_value
 id select_dialog_listview
 id selected
 id selection_type
@@ -2672,10 +2512,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-<<<<<<< HEAD
-=======
-id sign_in_email_sent_header_text
->>>>>>> javiDevelope
 id sign_in_email_sent_text
 id sin
 id skipCollapsed
@@ -2688,6 +2524,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -2710,15 +2547,13 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchWidget
 id tabMode
 id tabavisos
 id tabdosis
 id tabhabitacion
 id tablayout
-<<<<<<< HEAD
-=======
 id tableLayout
->>>>>>> javiDevelope
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2733,47 +2568,34 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id temp
-<<<<<<< HEAD
-id terrain
-=======
->>>>>>> javiDevelope
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
 id text2
+id textConnect
 id textEnd
 id textInputLayout
 id textInputLayout2
 id textInputLayout3
-<<<<<<< HEAD
-=======
 id textInputLayout4
 id textInputLayout5
->>>>>>> javiDevelope
+id textScan
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-<<<<<<< HEAD
-id textView15
-id textView2
-=======
 id textView10
 id textView15
 id textView16
->>>>>>> javiDevelope
 id textView3
 id textView4
 id textView5
 id textView6
 id textView8
-<<<<<<< HEAD
-=======
 id textView9
->>>>>>> javiDevelope
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2783,13 +2605,10 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-<<<<<<< HEAD
-=======
 id textoAviso
 id textoAviso1
 id textoAviso2
 id textoAviso3
->>>>>>> javiDevelope
 id ticker
 id time
 id title
@@ -2810,28 +2629,16 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id trouble_signing_in
-<<<<<<< HEAD
-id tus_habs
-id tvLoginHere
-id txtUsername
-id txtUsername1
-=======
-id trouble_signing_in_possible_fixes
 id tvLoginHere
 id txtUsername
 id txtUsername1
 id txtUsername2
 id txtUsername3
->>>>>>> javiDevelope
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
-<<<<<<< HEAD
-id userEliminar
-=======
->>>>>>> javiDevelope
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -2841,10 +2648,6 @@ id view_tree_view_model_store_owner
 id viewpager
 id visible
 id visible_removing_fragment_view_tag
-<<<<<<< HEAD
-id volverAcasa
-=======
->>>>>>> javiDevelope
 id welcome_back_email_link_body
 id welcome_back_idp_button
 id welcome_back_idp_prompt
@@ -2858,16 +2661,13 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
-<<<<<<< HEAD
-=======
-id yahoo_signin_button
->>>>>>> javiDevelope
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
 integer bottom_sheet_slide_duration
 integer cancel_button_image_alpha
+integer config_navAnimTime
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
@@ -2933,6 +2733,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout acercade
+layout activity_conectar_pikku
 layout activity_forgot_password
 layout activity_login
 layout activity_main
@@ -2941,10 +2742,6 @@ layout activity_tabmain
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout cuestionario_avisos
-<<<<<<< HEAD
-layout cuestionario_eliminar
-=======
->>>>>>> javiDevelope
 layout cuestionario_pastillas
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2963,12 +2760,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout elemento_aviso
-<<<<<<< HEAD
-layout elemento_dosis
-layout elemento_dosis_doc
-layout elemento_habs_doctor
-=======
->>>>>>> javiDevelope
+layout expand_button
 layout fragment_avisos
 layout fragment_doctor_avisos
 layout fragment_doctor_dosis
@@ -3001,6 +2793,7 @@ layout fui_register_email_layout
 layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
+layout image_frame
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3015,10 +2808,6 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
-<<<<<<< HEAD
-layout menu_administrador
-=======
->>>>>>> javiDevelope
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -3063,10 +2852,23 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-<<<<<<< HEAD
-=======
+layout preference
+layout preference_category
+layout preference_category_material
+layout preference_dialog_edittext
+layout preference_dropdown
+layout preference_dropdown_material
+layout preference_information
+layout preference_information_material
+layout preference_list_fragment
+layout preference_material
+layout preference_recyclerview
+layout preference_widget_checkbox
+layout preference_widget_seekbar
+layout preference_widget_seekbar_material
+layout preference_widget_switch
+layout preference_widget_switch_compat
 layout recycled_view
->>>>>>> javiDevelope
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3086,15 +2888,13 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-<<<<<<< HEAD
 menu example_menu
 menu example_menu2
-=======
->>>>>>> javiDevelope
 menu menu_main
 mipmap ic_launcher_round
 plurals fui_error_weak_password
 plurals mtrl_badge_content_description
+raw audio
 string Hora
 string HoraSolo
 string Humedad
@@ -3126,10 +2926,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-<<<<<<< HEAD
 string androidx_startup
-=======
->>>>>>> javiDevelope
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -3159,38 +2956,28 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
-<<<<<<< HEAD
+string copy
 string copy_toast_msg
-=======
->>>>>>> javiDevelope
 string default_web_client_id
 string descrp
 string error_icon_content_description
+string expand_button_title
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string facebook_application_id
 string facebook_login_protocol_scheme
-<<<<<<< HEAD
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
-=======
->>>>>>> javiDevelope
 string firebase_web_host
 string fui_accessibility_logo
 string fui_auto_verified
 string fui_button_text_save
 string fui_button_text_send
-<<<<<<< HEAD
 string fui_confirm_recovery_body
 string fui_continue
 string fui_country_hint
-=======
-string fui_cancel
-string fui_confirm_recovery_body
-string fui_continue
->>>>>>> javiDevelope
 string fui_default_toolbar_title
 string fui_email_account_creation_error
 string fui_email_field_name
@@ -3198,10 +2985,6 @@ string fui_email_hint
 string fui_email_link_confirm_email_header
 string fui_email_link_confirm_email_message
 string fui_email_link_cross_device_linking_text
-<<<<<<< HEAD
-=======
-string fui_email_link_cross_device_sign_in_button_text
->>>>>>> javiDevelope
 string fui_email_link_different_anonymous_user_header
 string fui_email_link_different_anonymous_user_message
 string fui_email_link_dismiss_button
@@ -3211,10 +2994,6 @@ string fui_email_link_invalid_link_header
 string fui_email_link_invalid_link_message
 string fui_email_link_resend
 string fui_email_link_trouble_getting_email_header
-<<<<<<< HEAD
-=======
-string fui_email_link_trouble_getting_email_resend_solution
->>>>>>> javiDevelope
 string fui_email_link_trouble_getting_possible_fixes
 string fui_email_link_wrong_device_header
 string fui_email_link_wrong_device_message
@@ -3289,10 +3068,6 @@ string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
-<<<<<<< HEAD
-string google_maps_key
-=======
->>>>>>> javiDevelope
 string google_storage_bucket
 string habs
 string hide_bottom_view_on_scroll_behavior
@@ -3355,16 +3130,21 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string nav_app_bar_navigate_up_description
+string nav_app_bar_open_drawer_description
 string nombpa
+string not_set
 string notificaciones
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string preference_copied
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string summary_collapsed_preference_list
 string tabavisos
 string tabdosis
 string tabhabitacion
@@ -3373,6 +3153,8 @@ string textoAviso
 string textoDoctor
 string txtPassword
 string txtUsername
+string v7_preference_off
+string v7_preference_on
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -3613,10 +3395,7 @@ style FirebaseUI_Button
 style FirebaseUI_Button_AccountChooser
 style FirebaseUI_Button_AccountChooser_AnonymousButton
 style FirebaseUI_Button_AccountChooser_AppleButton
-<<<<<<< HEAD
 style FirebaseUI_Button_AccountChooser_BaseButton
-=======
->>>>>>> javiDevelope
 style FirebaseUI_Button_AccountChooser_EmailButton
 style FirebaseUI_Button_AccountChooser_FacebookButton
 style FirebaseUI_Button_AccountChooser_GitHubButton
@@ -3626,10 +3405,7 @@ style FirebaseUI_Button_AccountChooser_PhoneButton
 style FirebaseUI_Button_AccountChooser_TwitterButton
 style FirebaseUI_Button_AccountChooser_YahooButton
 style FirebaseUI_CountrySpinner
-<<<<<<< HEAD
 style FirebaseUI_DefaultMaterialTheme
-=======
->>>>>>> javiDevelope
 style FirebaseUI_PrivacyFooter
 style FirebaseUI_Text
 style FirebaseUI_Text_BodyText
@@ -3653,10 +3429,7 @@ style FirebaseUI_TextInputEditText_NameField
 style FirebaseUI_TextInputEditText_PasswordField
 style FirebaseUI_TextInputEditText_PhoneField
 style FirebaseUI_TextInputLayout
-<<<<<<< HEAD
 style FirebaseUI_TextInputLayout_CountryField
-=======
->>>>>>> javiDevelope
 style FirebaseUI_TextInputLayout_EmailField
 style FirebaseUI_TextInputLayout_NameField
 style FirebaseUI_TextInputLayout_NewPasswordField
@@ -3690,6 +3463,37 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style Preference
+style Preference_Category
+style Preference_Category_Material
+style Preference_CheckBoxPreference
+style Preference_CheckBoxPreference_Material
+style Preference_DialogPreference
+style Preference_DialogPreference_EditTextPreference
+style Preference_DialogPreference_EditTextPreference_Material
+style Preference_DialogPreference_Material
+style Preference_DropDown
+style Preference_DropDown_Material
+style Preference_Information
+style Preference_Information_Material
+style Preference_Material
+style Preference_PreferenceScreen
+style Preference_PreferenceScreen_Material
+style Preference_SeekBarPreference
+style Preference_SeekBarPreference_Material
+style Preference_SwitchPreference
+style Preference_SwitchPreference_Material
+style Preference_SwitchPreferenceCompat
+style Preference_SwitchPreferenceCompat_Material
+style PreferenceCategoryTitleTextStyle
+style PreferenceFragment
+style PreferenceFragment_Material
+style PreferenceFragmentList
+style PreferenceFragmentList_Material
+style PreferenceSummaryTextStyle
+style PreferenceThemeOverlay
+style PreferenceThemeOverlay_v14
+style PreferenceThemeOverlay_v14_Material
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon
@@ -4160,17 +3964,6 @@ style Widget_MaterialComponents_Toolbar_Primary
 style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
-<<<<<<< HEAD
-=======
-style Widget_MaterialProgressBar_ProgressBar
-style Widget_MaterialProgressBar_ProgressBar_Horizontal
-style Widget_MaterialProgressBar_ProgressBar_Horizontal_NoPadding
-style Widget_MaterialProgressBar_ProgressBar_Large
-style Widget_MaterialProgressBar_ProgressBar_Large_NoPadding
-style Widget_MaterialProgressBar_ProgressBar_NoPadding
-style Widget_MaterialProgressBar_ProgressBar_Small
-style Widget_MaterialProgressBar_ProgressBar_Small_NoPadding
->>>>>>> javiDevelope
 style Widget_Support_CoordinatorLayout
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
@@ -4178,6 +3971,7 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
+styleable ActivityNavigator android_name action data dataPattern targetPackage
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable
@@ -4185,34 +3979,24 @@ styleable AnimatedStateListDrawableTransition android_drawable android_toId andr
 styleable AppBarLayout android_background android_touchscreenBlocksFocus android_keyboardNavigationCluster elevation expanded liftOnScroll liftOnScrollTargetViewId statusBarForeground
 styleable AppBarLayoutStates state_collapsed state_collapsible state_liftable state_lifted
 styleable AppBarLayout_Layout layout_scrollFlags layout_scrollInterpolator
-<<<<<<< HEAD
 styleable AppCompatEmojiHelper
 styleable AppCompatImageView android_src srcCompat tint tintMode
 styleable AppCompatSeekBar android_thumb tickMark tickMarkTint tickMarkTintMode
 styleable AppCompatTextHelper android_textAppearance android_drawableTop android_drawableBottom android_drawableLeft android_drawableRight android_drawableStart android_drawableEnd
-styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType drawableBottomCompat drawableEndCompat drawableLeftCompat drawableRightCompat drawableStartCompat drawableTint drawableTintMode drawableTopCompat emojiCompatEnabled firstBaselineToTopHeight fontFamily fontVariationSettings lastBaselineToBottomHeight lineHeight textAllCaps textLocale
-=======
-styleable AppCompatImageView android_src srcCompat tint tintMode
-styleable AppCompatSeekBar android_thumb tickMark tickMarkTint tickMarkTintMode
-styleable AppCompatTextHelper android_textAppearance android_drawableTop android_drawableBottom android_drawableLeft android_drawableRight android_drawableStart android_drawableEnd
-styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType drawableBottomCompat drawableEndCompat drawableLeftCompat drawableRightCompat drawableStartCompat drawableTint drawableTintMode drawableTopCompat firstBaselineToTopHeight fontFamily fontVariationSettings lastBaselineToBottomHeight lineHeight textAllCaps textLocale
->>>>>>> javiDevelope
+styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType drawableBottomCompat drawableEndCompat drawableLeftCompat drawableRightCompat drawableStartCompat drawableTint drawableTintMode drawableTopCompat firstBaselineToTopHeight fontFamily fontVariationSettings lastBaselineToBottomHeight lineHeight textAllCaps textLocale emojiCompatEnabled
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseContentDescription actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeTheme actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogCornerRadius dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listChoiceIndicatorMultipleAnimated listChoiceIndicatorSingleAnimated listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingEnd listPreferredItemPaddingLeft listPreferredItemPaddingRight listPreferredItemPaddingStart panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
+styleable BackgroundStyle android_selectableItemBackground selectableItemBackground
 styleable Badge backgroundColor badgeGravity badgeTextColor horizontalOffset maxCharacterCount number verticalOffset
 styleable BaseProgressIndicator android_indeterminate hideAnimationBehavior indicatorColor minHideDelay showAnimationBehavior showDelay trackColor trackCornerRadius trackThickness
 styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMode fabCradleMargin fabCradleRoundedCornerRadius fabCradleVerticalOffset hideOnScroll paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable BottomNavigationView itemHorizontalTranslationEnabled
 styleable BottomSheetBehavior_Layout android_maxWidth android_elevation backgroundTint behavior_draggable behavior_expandedOffset behavior_fitToContents behavior_halfExpandedRatio behavior_hideable behavior_peekHeight behavior_saveFlags behavior_skipCollapsed gestureInsetBottomIgnored paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets paddingTopSystemWindowInsets shapeAppearance shapeAppearanceOverlay
 styleable ButtonBarLayout allowStacking
-<<<<<<< HEAD
 styleable Capability queryPatterns shortcutMatchRequired
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carousel_firstView carousel_forwardTransition carousel_infinite carousel_nextState carousel_previousState carousel_touchUpMode carousel_touchUp_dampeningFactor carousel_touchUp_velocityThreshold
+styleable CheckBoxPreference android_summaryOn android_summaryOff android_disableDependentsState disableDependentsState summaryOff summaryOn
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
-=======
-styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
-styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carousel_firstView carousel_forwardTransition carousel_infinite carousel_nextState carousel_previousState carousel_touchUpMode carousel_touchUp_dampeningFactor carousel_touchUp_velocityThreshold
->>>>>>> javiDevelope
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
@@ -4220,11 +4004,7 @@ styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance extraMultilineHeightEnabled forceApplySystemWindowInsetTop maxLines scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleCollapseMode titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
-<<<<<<< HEAD
 styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
-=======
-styleable ColorStateListItem android_color android_alpha alpha
->>>>>>> javiDevelope
 styleable CompoundButton android_button buttonCompat buttonTint buttonTintMode
 styleable Constraint android_orientation android_id android_visibility android_layout_width android_layout_height android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom android_maxWidth android_maxHeight android_minWidth android_minHeight android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_layout_marginStart android_layout_marginEnd android_translationZ android_elevation animateCircleAngleTo animateRelativeTo barrierAllowsGoneWidgets barrierDirection barrierMargin chainUseRtl constraint_referenced_ids constraint_referenced_tags drawPath flow_firstHorizontalBias flow_firstHorizontalStyle flow_firstVerticalBias flow_firstVerticalStyle flow_horizontalAlign flow_horizontalBias flow_horizontalGap flow_horizontalStyle flow_lastHorizontalBias flow_lastHorizontalStyle flow_lastVerticalBias flow_lastVerticalStyle flow_maxElementsWrap flow_verticalAlign flow_verticalBias flow_verticalGap flow_verticalStyle flow_wrapMode layout_constrainedHeight layout_constrainedWidth layout_constraintBaseline_creator layout_constraintBaseline_toBaselineOf layout_constraintBaseline_toBottomOf layout_constraintBaseline_toTopOf layout_constraintBottom_creator layout_constraintBottom_toBottomOf layout_constraintBottom_toTopOf layout_constraintCircle layout_constraintCircleAngle layout_constraintCircleRadius layout_constraintDimensionRatio layout_constraintEnd_toEndOf layout_constraintEnd_toStartOf layout_constraintGuide_begin layout_constraintGuide_end layout_constraintGuide_percent layout_constraintHeight layout_constraintHeight_default layout_constraintHeight_max layout_constraintHeight_min layout_constraintHeight_percent layout_constraintHorizontal_bias layout_constraintHorizontal_chainStyle layout_constraintHorizontal_weight layout_constraintLeft_creator layout_constraintLeft_toLeftOf layout_constraintLeft_toRightOf layout_constraintRight_creator layout_constraintRight_toLeftOf layout_constraintRight_toRightOf layout_constraintStart_toEndOf layout_constraintStart_toStartOf layout_constraintTag layout_constraintTop_creator layout_constraintTop_toBottomOf layout_constraintTop_toTopOf layout_constraintVertical_bias layout_constraintVertical_chainStyle layout_constraintVertical_weight layout_constraintWidth layout_constraintWidth_default layout_constraintWidth_max layout_constraintWidth_min layout_constraintWidth_percent layout_editor_absoluteX layout_editor_absoluteY layout_goneMarginBaseline layout_goneMarginBottom layout_goneMarginEnd layout_goneMarginLeft layout_goneMarginRight layout_goneMarginStart layout_goneMarginTop layout_marginBaseline layout_wrapBehaviorInParent motionProgress motionStagger pathMotionArc pivotAnchor polarRelativeTo quantizeMotionInterpolator quantizeMotionPhase quantizeMotionSteps transformPivotTarget transitionEasing transitionPathRotate visibilityMode
 styleable ConstraintLayout_Layout android_orientation android_padding android_paddingLeft android_paddingTop android_paddingRight android_paddingBottom android_visibility android_layout_width android_layout_height android_layout_margin android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom android_maxWidth android_maxHeight android_minWidth android_minHeight android_paddingStart android_paddingEnd android_layout_marginStart android_layout_marginEnd android_elevation android_layout_marginHorizontal android_layout_marginVertical barrierAllowsGoneWidgets barrierDirection barrierMargin chainUseRtl circularflow_angles circularflow_defaultAngle circularflow_defaultRadius circularflow_radiusInDP circularflow_viewCenter constraintSet constraint_referenced_ids constraint_referenced_tags flow_firstHorizontalBias flow_firstHorizontalStyle flow_firstVerticalBias flow_firstVerticalStyle flow_horizontalAlign flow_horizontalBias flow_horizontalGap flow_horizontalStyle flow_lastHorizontalBias flow_lastHorizontalStyle flow_lastVerticalBias flow_lastVerticalStyle flow_maxElementsWrap flow_verticalAlign flow_verticalBias flow_verticalGap flow_verticalStyle flow_wrapMode layoutDescription layout_constrainedHeight layout_constrainedWidth layout_constraintBaseline_creator layout_constraintBaseline_toBaselineOf layout_constraintBaseline_toBottomOf layout_constraintBaseline_toTopOf layout_constraintBottom_creator layout_constraintBottom_toBottomOf layout_constraintBottom_toTopOf layout_constraintCircle layout_constraintCircleAngle layout_constraintCircleRadius layout_constraintDimensionRatio layout_constraintEnd_toEndOf layout_constraintEnd_toStartOf layout_constraintGuide_begin layout_constraintGuide_end layout_constraintGuide_percent layout_constraintHeight layout_constraintHeight_default layout_constraintHeight_max layout_constraintHeight_min layout_constraintHeight_percent layout_constraintHorizontal_bias layout_constraintHorizontal_chainStyle layout_constraintHorizontal_weight layout_constraintLeft_creator layout_constraintLeft_toLeftOf layout_constraintLeft_toRightOf layout_constraintRight_creator layout_constraintRight_toLeftOf layout_constraintRight_toRightOf layout_constraintStart_toEndOf layout_constraintStart_toStartOf layout_constraintTag layout_constraintTop_creator layout_constraintTop_toBottomOf layout_constraintTop_toTopOf layout_constraintVertical_bias layout_constraintVertical_chainStyle layout_constraintVertical_weight layout_constraintWidth layout_constraintWidth_default layout_constraintWidth_max layout_constraintWidth_min layout_constraintWidth_percent layout_editor_absoluteX layout_editor_absoluteY layout_goneMarginBaseline layout_goneMarginBottom layout_goneMarginEnd layout_goneMarginLeft layout_goneMarginRight layout_goneMarginStart layout_goneMarginTop layout_marginBaseline layout_optimizationLevel layout_wrapBehaviorInParent
@@ -4235,7 +4015,11 @@ styleable ConstraintSet android_orientation android_id android_visibility androi
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customPixelDimension customReference customStringValue methodName
+styleable DialogFragmentNavigator android_name
+styleable DialogPreference android_dialogTitle android_dialogMessage android_dialogIcon android_positiveButtonText android_negativeButtonText android_dialogLayout dialogIcon dialogLayout dialogMessage dialogTitle negativeButtonText positiveButtonText
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
+styleable DrawerLayout elevation
+styleable EditTextPreference useSimpleSummaryProvider
 styleable ExtendedFloatingActionButton collapsedSize elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
 styleable FloatingActionButton android_enabled backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding
@@ -4246,6 +4030,7 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
+styleable FragmentNavigator android_name
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth
@@ -4263,11 +4048,8 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable ListPreference android_entries android_entryValues entries entryValues useSimpleSummaryProvider
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
-<<<<<<< HEAD
-styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
-=======
->>>>>>> javiDevelope
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType
@@ -4277,10 +4059,6 @@ styleable MaterialCalendar android_windowFullscreen dayInvalidStyle daySelectedS
 styleable MaterialCalendarItem android_insetLeft android_insetRight android_insetTop android_insetBottom itemFillColor itemShapeAppearance itemShapeAppearanceOverlay itemStrokeColor itemStrokeWidth itemTextColor
 styleable MaterialCardView android_checkable cardForegroundColor checkedIcon checkedIconMargin checkedIconSize checkedIconTint rippleColor shapeAppearance shapeAppearanceOverlay state_dragged strokeColor strokeWidth
 styleable MaterialCheckBox buttonTint useMaterialThemeColors
-<<<<<<< HEAD
-=======
-styleable MaterialProgressBar mpb_determinateCircularProgressStyle mpb_indeterminateTint mpb_indeterminateTintMode mpb_progressBackgroundTint mpb_progressBackgroundTintMode mpb_progressStyle mpb_progressTint mpb_progressTintMode mpb_secondaryProgressTint mpb_secondaryProgressTintMode mpb_setBothDrawables mpb_showProgressBackground mpb_useIntrinsicPadding
->>>>>>> javiDevelope
 styleable MaterialRadioButton buttonTint useMaterialThemeColors
 styleable MaterialShape shapeAppearance shapeAppearanceOverlay
 styleable MaterialTextAppearance android_letterSpacing android_lineHeight lineHeight
@@ -4298,13 +4076,28 @@ styleable MotionLabel android_textSize android_typeface android_textStyle androi
 styleable MotionLayout applyMotionScene currentState layoutDescription motionDebug motionProgress showPaths
 styleable MotionScene defaultDuration layoutDuringTransition
 styleable MotionTelltales telltales_tailColor telltales_tailScale telltales_velocityMode
+styleable MultiSelectListPreference android_entries android_entryValues entries entryValues
+styleable NavAction android_id destination enterAnim exitAnim launchSingleTop popEnterAnim popExitAnim popUpTo popUpToInclusive
+styleable NavArgument android_name android_defaultValue argType nullable
+styleable NavDeepLink android_autoVerify action mimeType uri
+styleable NavGraphNavigator startDestination
+styleable NavHost navGraph
+styleable NavHostFragment defaultNavHost
+styleable NavInclude graph
 styleable NavigationBarView backgroundTint elevation itemBackground itemIconSize itemIconTint itemRippleColor itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
 styleable NavigationRailView headerLayout menuGravity
 styleable NavigationView android_background android_fitsSystemWindows android_maxWidth elevation headerLayout itemBackground itemHorizontalPadding itemIconPadding itemIconSize itemIconTint itemMaxLines itemShapeAppearance itemShapeAppearanceOverlay itemShapeFillColor itemShapeInsetBottom itemShapeInsetEnd itemShapeInsetStart itemShapeInsetTop itemTextAppearance itemTextColor menu shapeAppearance shapeAppearanceOverlay
+styleable Navigator android_label android_id
 styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable Preference android_icon android_persistent android_enabled android_layout android_title android_selectable android_key android_summary android_order android_widgetLayout android_dependency android_defaultValue android_shouldDisableView android_fragment android_singleLineTitle android_iconSpaceReserved icon layout title allowDividerAbove allowDividerBelow defaultValue dependency enableCopying enabled fragment iconSpaceReserved isPreferenceVisible key order persistent selectable shouldDisableView singleLineTitle summary widgetLayout
+styleable PreferenceFragment android_layout android_divider android_dividerHeight allowDividerAfterLastItem
+styleable PreferenceFragmentCompat android_layout android_divider android_dividerHeight allowDividerAfterLastItem
+styleable PreferenceGroup android_orderingFromXml initialExpandedChildrenCount orderingFromXml
+styleable PreferenceImageView android_maxWidth android_maxHeight maxHeight maxWidth
+styleable PreferenceTheme checkBoxPreferenceStyle dialogPreferenceStyle dropdownPreferenceStyle editTextPreferenceStyle preferenceCategoryStyle preferenceCategoryTitleTextAppearance preferenceFragmentCompatStyle preferenceFragmentListStyle preferenceFragmentStyle preferenceInformationStyle preferenceScreenStyle preferenceStyle preferenceTheme seekBarPreferenceStyle switchPreferenceCompatStyle switchPreferenceStyle
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
@@ -4313,6 +4106,7 @@ styleable RecyclerView android_orientation android_clipToPadding android_descend
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+styleable SeekBarPreference android_layout android_max adjustable min seekBarIncrement showSeekBarValue updatesContinuously
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
 styleable ShapeableImageView contentPadding contentPaddingBottom contentPaddingEnd contentPaddingLeft contentPaddingRight contentPaddingStart contentPaddingTop shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
 styleable SignInButton buttonSize colorScheme scopeUris
@@ -4328,6 +4122,8 @@ styleable StateSet defaultState
 styleable SupportVectorDrawablesButton drawableBottomCompat drawableEndCompat drawableStartCompat drawableTopCompat
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
+styleable SwitchPreference android_summaryOn android_summaryOff android_disableDependentsState android_switchTextOn android_switchTextOff disableDependentsState summaryOff summaryOn switchTextOff switchTextOn
+styleable SwitchPreferenceCompat android_summaryOn android_summaryOff android_disableDependentsState android_switchTextOn android_switchTextOff disableDependentsState summaryOff summaryOn switchTextOff switchTextOn
 styleable TabItem android_icon android_layout android_text
 styleable TabLayout tabBackground tabContentStart tabGravity tabIconTint tabIconTintMode tabIndicator tabIndicatorAnimationDuration tabIndicatorAnimationMode tabIndicatorColor tabIndicatorFullWidth tabIndicatorGravity tabIndicatorHeight tabInlineLabel tabMaxWidth tabMinWidth tabMode tabPadding tabPaddingBottom tabPaddingEnd tabPaddingStart tabPaddingTop tabRippleColor tabSelectedTextColor tabTextAppearance tabTextColor tabUnboundedRipple
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily android_textFontWeight fontFamily fontVariationSettings textAllCaps textLocale
@@ -4346,10 +4142,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
-<<<<<<< HEAD
 xml image_share_filepaths
-=======
->>>>>>> javiDevelope
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

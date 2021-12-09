@@ -5,24 +5,14 @@
     <string name="fui_auto_verified">Telefonnummer wurde automatisch bestätigt</string>
     <string name="fui_button_text_save">Speichern</string>
     <string name="fui_button_text_send">Senden</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Folgen Sie der an %1$s gesendeten Anleitung, um Ihr Passwort zurückzusetzen.</string>
     <string name="fui_continue">Weiter</string>
     <string name="fui_country_hint">Land</string>
-=======
-    <string name="fui_cancel">Abbrechen</string>
-    <string name="fui_confirm_recovery_body">Folgen Sie der an %1$s gesendeten Anleitung, um Ihr Passwort zurückzusetzen.</string>
-    <string name="fui_continue">Weiter</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Registrierung des E-Mail-Kontos fehlgeschlagen</string>
     <string name="fui_email_hint">E-Mail-Adresse</string>
     <string name="fui_email_link_confirm_email_header">E-Mail-Adresse bestätigen</string>
     <string name="fui_email_link_confirm_email_message">E-Mail-Adresse bestätigen, um Anmeldung fortzusetzen</string>
     <string name="fui_email_link_cross_device_linking_text">Sie haben versucht, %1$s auf einem Gerät, auf dem Sie nicht angemeldet sind, mit Ihrem E-Mail-Konto zu verbinden.\n\nWenn Sie Ihr %1$s-Konto weiterhin verbinden möchten, öffnen Sie den Link bitte auf dem Gerät, auf dem Sie den Anmeldevorgang gestartet haben. Andernfalls tippen Sie auf \"Weiter\", um sich auf diesem Gerät anzumelden.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Mit %1$s anmelden</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Sitzung beendet</string>
     <string name="fui_email_link_different_anonymous_user_message">Die mit dieser Anmeldeanfrage verknüpfte Sitzung ist entweder abgelaufen oder wurde gelöscht.</string>
     <string name="fui_email_link_dismiss_button">Ablehnen</string>
@@ -32,18 +22,10 @@
     <string name="fui_email_link_invalid_link_message">Der Aktionscode ist ungültig. Möglicherweise ist der Code fehlerhaft oder abgelaufen oder er wurde bereits verwendet.</string>
     <string name="fui_email_link_resend">Erneut senden</string>
     <string name="fui_email_link_trouble_getting_email_header">Probleme beim Empfangen von E-Mails?</string>
-<<<<<<< HEAD
     <string name="fui_email_link_trouble_getting_possible_fixes">Versuchen Sie es mit diesen gängigen Korrekturen:\n\u2022 Prüfen Sie, ob die E-Mail als Spam markiert oder gefiltert wurde.\n\u2022 Prüfen Sie Ihre Internetverbindung.\n\u2022 Prüfen Sie, ob Sie die E-Mail-Adresse korrekt geschrieben haben.\n\u2022 Prüfen Sie, ob Ihr Posteingang über genügend Speicherplatz verfügt oder ob es Probleme mit den Einstellungen gibt.\n</string>
     <string name="fui_email_link_wrong_device_header">Neues Gerät oder neuer Browser erkannt.</string>
     <string name="fui_email_link_wrong_device_message">Öffnen Sie den Link mit demselben Gerät oder Browser, mit dem Sie die Anmeldung begonnen haben.</string>
     <string name="fui_enter_confirmation_code">Geben Sie den 6-stelligen Code ein, der gesendet wurde an</string>
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Sollte das Problem auch nach Ausführung der obigen Schritte weiterhin bestehen, können Sie sich die Anmelde-E-Mail noch einmal zusenden lassen. Hinweis: Der Link in der vorhergehenden E-Mail ist dann nicht mehr gültig.</string>
-    <string name="fui_email_link_trouble_getting_possible_fixes">Versuchen Sie es mit diesen gängigen Korrekturen:\n\u2022 Prüfen Sie, ob die E-Mail als Spam markiert oder gefiltert wurde.\n\u2022 Prüfen Sie Ihre Internetverbindung.\n\u2022 Prüfen Sie, ob Sie die E-Mail-Adresse korrekt geschrieben haben.\n\u2022 Prüfen Sie, ob Ihr Posteingang über genügend Speicherplatz verfügt oder ob es Probleme mit den Einstellungen gibt.\n</string>
-    <string name="fui_email_link_wrong_device_header">Neues Gerät oder neuer Browser erkannt.</string>
-    <string name="fui_email_link_wrong_device_message">Öffnen Sie den Link mit demselben Gerät oder Browser, mit dem Sie die Anmeldung begonnen haben.</string>
-    <string name="fui_enter_confirmation_code">Gib den 6-stelligen Code ein, der gesendet wurde an</string>
->>>>>>> javiDevelope
     <string name="fui_error_email_does_not_exist">Diese E-Mail-Adresse passt zu keinem Konto</string>
     <string name="fui_error_invalid_password">Falsches Passwort</string>
     <string name="fui_error_quota_exceeded">Bei der Bestätigung Ihrer Telefonnummer ist ein Problem aufgetreten</string>
@@ -58,15 +40,9 @@
     <string name="fui_idp_name_twitter">Twitter</string>
     <string name="fui_incorrect_code_dialog_body">Falscher Code. Versuchen Sie es noch einmal.</string>
     <string name="fui_invalid_email_address">Ungültige E-Mail-Adresse</string>
-<<<<<<< HEAD
     <string name="fui_invalid_phone_number">Geben Sie eine gültige Telefonnummer ein</string>
     <string name="fui_missing_email_address">E-Mail-Adresse eingeben, um fortzufahren</string>
     <string name="fui_missing_first_and_last_name">Geben Sie einen Vor- und Nachnamen ein.</string>
-=======
-    <string name="fui_invalid_phone_number">Gib eine gültige Telefonnummer ein</string>
-    <string name="fui_missing_email_address">E-Mail-Adresse eingeben, um fortzufahren</string>
-    <string name="fui_missing_first_and_last_name">Gib einen Vor- und Nachnamen ein.</string>
->>>>>>> javiDevelope
     <string name="fui_name_hint">Vor- und Nachname</string>
     <string name="fui_new_password_hint">Neues Passwort</string>
     <string name="fui_next_default">Weiter</string>
@@ -113,9 +89,5 @@
     <string name="fui_welcome_back_email_link_prompt_body">Sie haben %1$s schon benutzt. Sie können Ihr %2$s-Konto mit %1$s verbinden, indem Sie sich über den folgenden E-Mail-Link anmelden.\n\nÖffnen Sie den Link mit demselben Gerät oder Browser, um Ihr %2$s-Konto mit dieser E-Mail-Adresse zu verbinden.</string>
     <string name="fui_welcome_back_idp_header">Sie haben bereits ein Konto</string>
     <string name="fui_welcome_back_idp_prompt">Sie haben %1$s bereits verwendet. Melden Sie sich mit %2$s an, um fortzufahren.</string>
-<<<<<<< HEAD
     <string name="fui_welcome_back_password_prompt_body">Sie haben %1$s bereits zur Anmeldung verwendet. Geben Sie das Passwort für dieses Konto ein.</string>
-=======
-    <string name="fui_welcome_back_password_prompt_body">Sie haben %1$s bereits zur Anmeldung verwendet. Gib das Passwort für dieses Konto ein.</string>
->>>>>>> javiDevelope
 </resources>

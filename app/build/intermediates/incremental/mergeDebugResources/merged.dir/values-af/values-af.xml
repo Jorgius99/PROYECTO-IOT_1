@@ -35,32 +35,6 @@
     <string name="character_counter_content_description">Karakters ingevoer: %1$d van %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakterlimiet oorskry %1$d van %2$d</string>
     <string name="clear_text_end_icon_content_description">Vee teks uit</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktiveer</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s sal nie werk nie tensy jy Google Play Dienste aktiveer.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Aktiveer Google Play Dienste</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installeer</string>
-    <string name="common_google_play_services_install_text">%1$s sal nie sonder Google Play Dienste werk nie, wat nie op jou toestel is nie.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Kry Google Play Dienste</string>
-    <string name="common_google_play_services_notification_channel_name">Beskikbaarheid van Google Play Dienste</string>
-    <string name="common_google_play_services_notification_ticker">Google Play Services-fout</string>
-    <string name="common_google_play_services_unknown_issue">%1$s ondervind probleme met Google Play Dienste. Probeer asseblief weer.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s sal nie werk sonder Google Play Dienste nie, wat nie deur jou toestel gesteun word nie.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Dateer op</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s sal nie werk nie tensy jy Google Play Dienste opdateer.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Dateer Google Play Dienste op</string>
-    <string name="common_google_play_services_updating_text">%1$s sal nie sonder Google Play Dienste werk nie, wat tans opdateer.</string>
-    <string name="common_google_play_services_wear_update_text">Nuwe weergawe van Google Play Dienste is nodig. Dit sal binnekort self opdateer.</string>
-    <string name="common_open_on_phone">Maak oop op foon</string>
-    <string name="common_signin_button_text">Meld aan</string>
-    <string name="common_signin_button_text_long">Meld aan met Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Skakel is na knipbord gekopieer"</string>
-    <string name="error_icon_content_description">Fout</string>
-    <string name="exposed_dropdown_menu_content_description">Wys aftrekkieslys</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopieer skakel"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Maak in blaaier oop"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Deel skakel"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktiveer"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sal nie werk nie tensy jy Google Play Dienste aktiveer."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktiveer Google Play Dienste"</string>
@@ -79,9 +53,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Maak oop op foon"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Meld aan"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Meld aan met Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopieer"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Skakel is na knipbord gekopieer"</string>
     <string name="error_icon_content_description">Fout</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Gevorderd"</string>
     <string name="exposed_dropdown_menu_content_description">Wys aftrekkieslys</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopieer skakel"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Maak in blaaier oop"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Deel skakel"</string>
     <string name="icon_content_description">Dialoogikoon</string>
     <string name="item_view_role_description">Oortjie</string>
     <string name="material_clock_toggle_content_description">Kies vm. of nm.</string>
@@ -129,7 +108,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Tik om oor te skakel na die kies van \'n dag</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Skakel oor na teksinvoermodus</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tik om oor te skakel na die kies van \'n jaar</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Gaan op"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Maak navigasielaai oop"</string>
+    <string msgid="478774118347071097" name="not_set">"Nie gestel nie"</string>
     <string name="password_toggle_content_description">Wys wagwoord</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" is na knipbord gekopieer."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Soek"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AF"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AAN"</string>
 </resources>

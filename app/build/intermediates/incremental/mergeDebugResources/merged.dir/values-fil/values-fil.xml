@@ -5,24 +5,14 @@
     <string name="fui_auto_verified">Awtomatikong na-verify ang numero ng telepono</string>
     <string name="fui_button_text_save">I-save</string>
     <string name="fui_button_text_send">Ipadala</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Sundin ang mga tagubilin na ipinadala sa %1$s upang ma-recover ang iyong password.</string>
     <string name="fui_continue">Magpatuloy</string>
     <string name="fui_country_hint">Bansa</string>
-=======
-    <string name="fui_cancel">Kanselahin</string>
-    <string name="fui_confirm_recovery_body">Sundin ang mga tagubilin na ipinadala sa %1$s upang ma-recover ang iyong password.</string>
-    <string name="fui_continue">Magpatuloy</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Hindi nagtagumpay ang pagpaparehistro ng email account</string>
     <string name="fui_email_hint">Mag-email</string>
     <string name="fui_email_link_confirm_email_header">Kumpirmahin ang email</string>
     <string name="fui_email_link_confirm_email_message">Kumpirmahin ang email para magpatuloy sa pag-sign in</string>
     <string name="fui_email_link_cross_device_linking_text">Orihinal na sinadya mong ikonekta ang %1$s sa iyong email account pero nabuksan ang link sa ibang device kung saan hindi ka naka-sign in.\n\nKung gusto mo pa ring ikonekta ang iyong %1$s account, buksan ang link sa parehong device kung saan ka nagsimulang mag-sign in. Kung hindi, i-tap ang Magpatuloy para makapag-sign in sa device na ito.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Mag-sign in gamit ang %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Natapos ang session</string>
     <string name="fui_email_link_different_anonymous_user_message">Ang session na kaugnay ng kahilingan sa pag-sign in na ito ay maaaring nag-expire na o na-clear.</string>
     <string name="fui_email_link_dismiss_button">I-dismiss</string>
@@ -32,10 +22,6 @@
     <string name="fui_email_link_invalid_link_message">Hindi valid ang code ng aksyon. Maaaring mangyari ito kung malformed, nag-expire na, o nagamit na ang code.</string>
     <string name="fui_email_link_resend">Muling ipadala</string>
     <string name="fui_email_link_trouble_getting_email_header">Nagkakaproblema sa pagtanggap ng email?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Kung hindi gumagana ang mga hakbang sa itaas, maaari mong ipadala muli ang email. Tandaan na ide-deactivate nito ang link sa mas lumang email.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Subukan ang mga karaniwang pag-aayos na ito:\n\u2022 Tingnan kung namarkahan na spam o na-filter ang email.\n\u2022 Tingnan ang iyong koneksyon sa internet.\n\u2022 Tiyakin na hindi ka nagkamali sa pagbaybay sa iyong email.\n\u2022 Tiyakin na hindi nauubusan ng espasyo ang iyong inbox o may iba pang isyu na may kinalaman sa setting ng inbox.\n</string>
     <string name="fui_email_link_wrong_device_header">May nakitang bagong device o browser.</string>
     <string name="fui_email_link_wrong_device_message">Subukang buksan ang link gamit ang parehong device o browser kung saan mo sinimulan ang proseso ng pag-sign in.</string>

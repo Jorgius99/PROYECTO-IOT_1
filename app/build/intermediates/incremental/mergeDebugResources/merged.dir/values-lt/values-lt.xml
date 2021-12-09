@@ -38,32 +38,6 @@
     <string name="character_counter_content_description">Įvesta simbolių: %1$d iš %2$d</string>
     <string name="character_counter_overflowed_content_description">Viršytas simbolių skaičius: %1$d iš %2$d</string>
     <string name="clear_text_end_icon_content_description">Išvalyti tekstą</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Įgalinti</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">„%1$s“ neveiks, jei neįgalinsite „Google Play“ paslaugų.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Įgalinkite „Google Play“ paslaugas</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Įdiegti</string>
-    <string name="common_google_play_services_install_text">Programa „%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurių nėra įrenginyje.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Gaukite „Google Play“ paslaugas</string>
-    <string name="common_google_play_services_notification_channel_name">„Google Play“ paslaugų pasiekiamumas</string>
-    <string name="common_google_play_services_notification_ticker">„Google Play“ paslaugų klaida</string>
-    <string name="common_google_play_services_unknown_issue">Naudojant programą „%1$s“ kilo problemų dėl „Google Play“ paslaugų. Bandykite dar kartą.</string>
-    <string name="common_google_play_services_unsupported_text">Programa „%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurių jūsų įrenginys nepalaiko.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Atnaujinti</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">„%1$s“ nebus paleidžiama, jei neatnaujinsite „Google Play“ paslaugų.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Atnaujinkite „Google Play“ paslaugas</string>
-    <string name="common_google_play_services_updating_text">„%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurios šiuo metu atnaujinamos.</string>
-    <string name="common_google_play_services_wear_update_text">Reikia naujos versijos „Google Play“ paslaugų. Jos netrukus bus atnaujintos.</string>
-    <string name="common_open_on_phone">Atidaryti telefone</string>
-    <string name="common_signin_button_text">Prisijungti</string>
-    <string name="common_signin_button_text_long">Prisijungti naudojant „Google“</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Nuoroda nukopijuota į iškarpinę"</string>
-    <string name="error_icon_content_description">Klaida</string>
-    <string name="exposed_dropdown_menu_content_description">Rodyti išskleidžiamąjį meniu</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopijuoti nuorodą"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Atidaryti naršyklėje"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bendrinti nuorodą"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Įgalinti"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"„<ns1:g id="APP_NAME">%1$s</ns1:g>“ neveiks, jei neįgalinsite „Google Play“ paslaugų."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Įgalinkite „Google Play“ paslaugas"</string>
@@ -82,31 +56,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Atidaryti telefone"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Prisijungti"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Prisijungti naudojant „Google“"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopijuoti"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Nuoroda nukopijuota į iškarpinę"</string>
     <string name="error_icon_content_description">Klaida</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Išplėstinė"</string>
     <string name="exposed_dropdown_menu_content_description">Rodyti išskleidžiamąjį meniu</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopijuoti nuorodą"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Atidaryti naršyklėje"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bendrinti nuorodą"</string>
     <string name="fui_accessibility_logo">Programos logotipas</string>
     <string name="fui_auto_verified">Telefono numeris patvirtintas automatiškai</string>
     <string name="fui_button_text_save">Išsaugoti</string>
     <string name="fui_button_text_send">Siųsti</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Vadovaudamiesi el. pašto adresu %1$s išsiųstais nurodymais atkurkite slaptažodį.</string>
     <string name="fui_continue">Tęsti</string>
     <string name="fui_country_hint">Šalis</string>
-=======
-    <string name="fui_cancel">Atšaukti</string>
-    <string name="fui_confirm_recovery_body">Vadovaudamiesi el. pašto adresu %1$s išsiųstais nurodymais atkurkite slaptažodį.</string>
-    <string name="fui_continue">Tęsti</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">El. pašto paskyros užregistruoti nepavyko</string>
     <string name="fui_email_hint">El. pašto adresas</string>
     <string name="fui_email_link_confirm_email_header">Patvirtinkite el. paštą</string>
     <string name="fui_email_link_confirm_email_message">Patvirtinkite el. paštą, kad galėtumėte tęsti prisijungimą</string>
     <string name="fui_email_link_cross_device_linking_text">Iš pradžių ketinote susieti %1$s ir el. pašto paskyras, bet atidarėte nuorodą kitame įrenginyje, kuriame nesate prisijungę.\n\nJei vis tiek norite susieti %1$s paskyrą, atidarykite nuorodą tame pačiame įrenginyje, kuriame pradėjote prisijungimo procesą. Jei nenorite, palieskite „Tęsti“ ir prisijunkite šiame įrenginyje.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Prisijungti per „%1$s“</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Sesija baigėsi</string>
     <string name="fui_email_link_different_anonymous_user_message">Šios prisijungimo užklausos sesija baigė galioti arba buvo išvalyta.</string>
     <string name="fui_email_link_dismiss_button">Atsisakyti</string>
@@ -116,10 +85,6 @@
     <string name="fui_email_link_invalid_link_message">Veiksmo kodas netinkamas. Tai gali nutikti, kai kodas netinkamai suformuotas, baigė galioti arba jau buvo naudotas.</string>
     <string name="fui_email_link_resend">Siųsti iš naujo</string>
     <string name="fui_email_link_trouble_getting_email_header">Negaunate el. laiško?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Jei ankstesni veiksmai nebuvo naudingi, galite iš naujo išsiųsti el. laišką. Atkreipkite dėmesį, kad šiuo veiksmu bus išaktyvinta ankstesniame el. laiške pateikta nuoroda.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Išbandykite šiuos dažnai kylančių problemų sprendimo būdus:\n\u2022 patikrinkite, ar el. laiškas nebuvo pažymėtas kaip šlamštas arba filtruotas;\n\u2022 patikrinkite interneto ryšį;\n\u2022 patikrinkite, ar nurodėte tikslų el. pašto adresą;\n\u2022 patikrinkite, ar nepasibaigė gautiesiems skirta saugyklos vieta arba kitas su gautųjų nustatymais susijusias problemas.\n</string>
     <string name="fui_email_link_wrong_device_header">Aptiktas naujas įrenginys arba naršyklė.</string>
     <string name="fui_email_link_wrong_device_message">Bandykite atidaryti nuorodą naudodami tą patį įrenginį ar naršyklę, kur pradėjote prisijungimo procesą.</string>
@@ -235,7 +200,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Palieskite, kad perjungtumėte į dienos pasirinkimą</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Perjungti į teksto įvesties režimą</string>
     <string name="mtrl_picker_toggle_to_year_selection">Palieskite, kad perjungtumėte į metų pasirinkimą</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Naršyti aukštyn"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Atidaryti naršymo juostą"</string>
+    <string msgid="478774118347071097" name="not_set">"Nenustatyta"</string>
     <string name="password_toggle_content_description">Rodyti slaptažodį</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Suvestinė „<ns1:g id="SUMMARY">%1$s</ns1:g>“ nukopijuota į iškarpinę."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Ieškoti"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"IŠJUNGTA"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ĮJUNGTA"</string>
 </resources>

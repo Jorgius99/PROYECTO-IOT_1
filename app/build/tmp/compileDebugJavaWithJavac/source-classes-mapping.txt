@@ -21,24 +21,33 @@ com/example/loginultimodia/databinding/FragmentDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDosisBinding
 com/example/loginultimodia/HabitacionesActivity.java
  com.example.loginultimodia.HabitacionesActivity
-com/example/loginultimodia/databinding/ActivityMainBinding.java
- com.example.loginultimodia.databinding.ActivityMainBinding
+com/example/loginultimodia/Controlador/Avisos.java
+ com.example.loginultimodia.Controlador.Avisos
 com/example/loginultimodia/DosisActivity.java
  com.example.loginultimodia.DosisActivity
 com/example/loginultimodia/AcercaDeActivity.java
  com.example.loginultimodia.AcercaDeActivity
 com/example/loginultimodia/ControladorDoctor/Avisos.java
  com.example.loginultimodia.ControladorDoctor.Avisos
+com/example/loginultimodia/databinding/ActivityConectarPikkuBinding.java
+ com.example.loginultimodia.databinding.ActivityConectarPikkuBinding
 com/example/loginultimodia/MasDosisActivity.java
  com.example.loginultimodia.MasDosisActivity
 com/example/loginultimodia/Controlador/Habitaciones.java
  com.example.loginultimodia.Controlador.Habitaciones
-com/example/loginultimodia/databinding/ActivitySignUpBinding.java
- com.example.loginultimodia.databinding.ActivitySignUpBinding
+com/example/loginultimodia/pikkuFuncion.java
+ com.example.loginultimodia.pikkuFuncion
+ com.example.loginultimodia.pikkuFuncion$MovementListener
+com/example/loginultimodia/AdaptadorAvisos.java
+ com.example.loginultimodia.AdaptadorAvisos
+ com.example.loginultimodia.AdaptadorAvisos$ViewHolder
 com/example/loginultimodia/Habitacion.java
  com.example.loginultimodia.Habitacion
 com/example/loginultimodia/MainActivity.java
  com.example.loginultimodia.MainActivity
+ com.example.loginultimodia.MainActivity$1
+ com.example.loginultimodia.MainActivity$2
+ com.example.loginultimodia.MainActivity$3
 com/example/loginultimodia/databinding/RecycledViewBinding.java
  com.example.loginultimodia.databinding.RecycledViewBinding
 com/example/loginultimodia/Controlador/Dosis.java
@@ -53,6 +62,8 @@ com/example/loginultimodia/databinding/ActivityTabmainBinding.java
 com/example/loginultimodia/DoctorSecondActivity.java
  com.example.loginultimodia.DoctorSecondActivity
  com.example.loginultimodia.DoctorSecondActivity$1
+com/example/loginultimodia/ServicioPikku.java
+ com.example.loginultimodia.ServicioPikku
 com/example/loginultimodia/BuildConfig.java
  com.example.loginultimodia.BuildConfig
 com/example/loginultimodia/LogOutActivity.java
@@ -73,6 +84,14 @@ com/example/loginultimodia/ForgotPassword.java
  com.example.loginultimodia.ForgotPassword$2
 com/example/loginultimodia/ControladorDoctor/Habitaciones.java
  com.example.loginultimodia.ControladorDoctor.Habitaciones
+com/example/loginultimodia/ConectarPikkuActivity.java
+ com.example.loginultimodia.ConectarPikkuActivity
+ com.example.loginultimodia.ConectarPikkuActivity$1
+ com.example.loginultimodia.ConectarPikkuActivity$1$1
+ com.example.loginultimodia.ConectarPikkuActivity$2
+ com.example.loginultimodia.ConectarPikkuActivity$3
+ com.example.loginultimodia.ConectarPikkuActivity$4
+ com.example.loginultimodia.ConectarPikkuActivity$5
 com/example/loginultimodia/databinding/FragmentAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentAvisosBinding
 com/example/loginultimodia/Aviso.java
@@ -83,8 +102,7 @@ com/example/loginultimodia/databinding/CuestionarioPastillasBinding.java
  com.example.loginultimodia.databinding.CuestionarioPastillasBinding
 com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
-com/example/loginultimodia/AdaptadorAvisos.java
- com.example.loginultimodia.AdaptadorAvisos
- com.example.loginultimodia.AdaptadorAvisos$ViewHolder
-com/example/loginultimodia/Controlador/Avisos.java
- com.example.loginultimodia.Controlador.Avisos
+com/example/loginultimodia/databinding/ActivityMainBinding.java
+ com.example.loginultimodia.databinding.ActivityMainBinding
+com/example/loginultimodia/databinding/ActivitySignUpBinding.java
+ com.example.loginultimodia.databinding.ActivitySignUpBinding

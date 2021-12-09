@@ -36,32 +36,6 @@
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
     <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
     <string name="clear_text_end_icon_content_description">Rensa text</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivera</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Aktivera Google Play-tjänster</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installera</string>
-    <string name="common_google_play_services_install_text">%1$s kan inte köras utan Google Play-tjänsterna, som saknas på enheten.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Hämta Google Play-tjänster</string>
-    <string name="common_google_play_services_notification_channel_name">Tillgänglighet för Google Plays tjänster</string>
-    <string name="common_google_play_services_notification_ticker">Fel på Google Play-tjänster</string>
-    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Uppdatera</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Uppdatera Google Play-tjänster</string>
-    <string name="common_google_play_services_updating_text">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
-    <string name="common_google_play_services_wear_update_text">En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort.</string>
-    <string name="common_open_on_phone">Öppna på mobilen</string>
-    <string name="common_signin_button_text">Logga in</string>
-    <string name="common_signin_button_text_long">Logga in med Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Länk kopierad till Urklipp"</string>
-    <string name="error_icon_content_description">Fel</string>
-    <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiera länk"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Öppna i webbläsaren"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Dela länk"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivera"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte om du inte aktiverar Google Play-tjänster."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivera Google Play-tjänster"</string>
@@ -80,31 +54,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Öppna på mobilen"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Logga in"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Logga in med Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiera"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Länk kopierad till Urklipp"</string>
     <string name="error_icon_content_description">Fel</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avancerat"</string>
     <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiera länk"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Öppna i webbläsaren"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Dela länk"</string>
     <string name="fui_accessibility_logo">Appens logotyp</string>
     <string name="fui_auto_verified">Telefonnumret verifierades automatiskt</string>
     <string name="fui_button_text_save">Spara</string>
     <string name="fui_button_text_send">Skicka</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Följ anvisningarna som har skickats till %1$s för att återställa ditt lösenord.</string>
     <string name="fui_continue">Fortsätt</string>
     <string name="fui_country_hint">Land</string>
-=======
-    <string name="fui_cancel">Avbryt</string>
-    <string name="fui_confirm_recovery_body">Följ anvisningarna som har skickats till %1$s för att återställa ditt lösenord.</string>
-    <string name="fui_continue">Fortsätt</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Det gick inte att registrera e-postkontot</string>
     <string name="fui_email_hint">E-post</string>
     <string name="fui_email_link_confirm_email_header">Bekräfta e-postadress</string>
     <string name="fui_email_link_confirm_email_message">Bekräfta e-postadressen om du vill fortsätta med inloggningen</string>
     <string name="fui_email_link_cross_device_linking_text">Du skulle ansluta %1$s till ditt e-postkonto men har öppnat länken på en annan enhet där du inte är inloggad.\n\nOm du fortfarande vill ansluta ditt %1$s-konto ska du öppna länken på den enhet där du påbörjade inloggningen. Annars kan du klicka på Fortsätt för att logga in på den här enheten.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Logga in med %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Sessionen är avslutad</string>
     <string name="fui_email_link_different_anonymous_user_message">Sessionen som hör till den här inloggningsförfrågan har antingen upphört att gälla eller tagits bort.</string>
     <string name="fui_email_link_dismiss_button">Stäng</string>
@@ -114,10 +83,6 @@
     <string name="fui_email_link_invalid_link_message">Åtgärdskoden är ogiltig. Det här kan inträffa om kodformatet är felaktigt, om koden har upphört att gälla eller om den redan har använts.</string>
     <string name="fui_email_link_resend">Skicka igen</string>
     <string name="fui_email_link_trouble_getting_email_header">Fick du inget e-postmeddelande?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Om ovanstående lösningar inte fungerar kan du testa att skicka meddelandet igen. Länken i det gamla meddelandet inaktiveras.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Prova dessa vanliga lösningar:\n\u2022 Kontrollera om meddelandet hamnade bland skräpposten eller filtrerades.\n\u2022 Kontrollera internetanslutningen.\n\u2022 Kontrollera att du inte stavade e-postadressen fel.\n\u2022 Kontrollera att du inte har ont om utrymme i inkorgen samt andra inkorgsrelaterade problem.\n</string>
     <string name="fui_email_link_wrong_device_header">Ny enhet eller webbläsare identifierad.</string>
     <string name="fui_email_link_wrong_device_message">Testa att öppna länken med samma enhet eller webbläsare som du använde när du påbörjade inloggningen.</string>
@@ -146,11 +111,7 @@
     <string name="fui_password_hint">Lösenord</string>
     <string name="fui_password_recovery_body">Få ett e-postmeddelande med anvisningar för hur du återställer lösenordet.</string>
     <string name="fui_phone_hint">Telefonnummer</string>
-<<<<<<< HEAD
     <string name="fui_privacy_policy">Integritetspolicy</string>
-=======
-    <string name="fui_privacy_policy">Sekretesspolicy</string>
->>>>>>> javiDevelope
     <string name="fui_progress_dialog_checking_accounts">Söker efter befintliga konton…</string>
     <string name="fui_progress_dialog_loading">Läser in…</string>
     <string name="fui_progress_dialog_sending">Skickar…</string>
@@ -237,7 +198,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
     <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Navigera uppåt"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Öppna navigeringspanelen"</string>
+    <string msgid="478774118347071097" name="not_set">"Inte angett"</string>
     <string name="password_toggle_content_description">Visa lösenord</string>
+    <string msgid="7961817945132860002" name="preference_copied">"<ns1:g id="SUMMARY">%1$s</ns1:g> har kopierats till Urklipp."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Sök"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AV"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"PÅ"</string>
 </resources>

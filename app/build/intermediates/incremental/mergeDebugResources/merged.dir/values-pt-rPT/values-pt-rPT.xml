@@ -36,32 +36,6 @@
     <string name="character_counter_content_description">Carateres introduzidos: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Limite de carateres excedido: %1$d de %2$d</string>
     <string name="clear_text_end_icon_content_description">Limpar texto</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Ativar</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">O %1$s não funciona enquanto não ativar os serviços do Google Play.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Ativar serviços do Google Play</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalar</string>
-    <string name="common_google_play_services_install_text">O %1$s não é executado sem os Serviços do Google Play, os quais estão em falta no seu dispositivo.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Obter serviços do Google Play</string>
-    <string name="common_google_play_services_notification_channel_name">Disponibilidade Serviços do Google Play</string>
-    <string name="common_google_play_services_notification_ticker">Erro dos Serviços do Google Play</string>
-    <string name="common_google_play_services_unknown_issue">%1$s está a ter problemas com os Serviços do Google Play. Tente novamente.</string>
-    <string name="common_google_play_services_unsupported_text">Não é possível executar o %1$s sem os Serviços do Google Play, os quais não são compatíveis com o seu dispositivo.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Atualizar</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">O %1$s não é executado enquanto não atualizar os serviços do Google Play.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Atualizar serviços do Google Play</string>
-    <string name="common_google_play_services_updating_text">O %1$s não é executado sem os serviços do Google Play, os quais estão a ser atualizados.</string>
-    <string name="common_google_play_services_wear_update_text">É necessária uma nova versão dos serviços do Google Play. Esta será atualizada automaticamente em breve.</string>
-    <string name="common_open_on_phone">Abrir no telemóvel</string>
-    <string name="common_signin_button_text">Iniciar sessão</string>
-    <string name="common_signin_button_text_long">Iniciar sessão com o Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiado para a área de transferência."</string>
-    <string name="error_icon_content_description">Erro</string>
-    <string name="exposed_dropdown_menu_content_description">Mostrar menu pendente</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar link"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir no navegador"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Partilhar link"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ativar"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não funciona enquanto não ativar os serviços do Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ativar serviços do Google Play"</string>
@@ -80,31 +54,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no telemóvel"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sessão"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sessão com o Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Copiar"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiado para a área de transferência."</string>
     <string name="error_icon_content_description">Erro</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avançadas"</string>
     <string name="exposed_dropdown_menu_content_description">Mostrar menu pendente</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir no navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Partilhar link"</string>
     <string name="fui_accessibility_logo">Logótipo da aplicação</string>
     <string name="fui_auto_verified">Número de telefone verificado automaticamente</string>
     <string name="fui_button_text_save">Guardar</string>
     <string name="fui_button_text_send">Enviar</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Siga as instruções enviadas para %1$s para recuperar a palavra-passe.</string>
     <string name="fui_continue">Continuar</string>
     <string name="fui_country_hint">País</string>
-=======
-    <string name="fui_cancel">Cancelar</string>
-    <string name="fui_confirm_recovery_body">Siga as instruções enviadas para %1$s para recuperar a palavra-passe.</string>
-    <string name="fui_continue">Continuar</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">O registo da conta de email não foi bem-sucedido</string>
     <string name="fui_email_hint">Email</string>
     <string name="fui_email_link_confirm_email_header">Confirmar email</string>
     <string name="fui_email_link_confirm_email_message">Confirme o email para iniciar sessão.</string>
     <string name="fui_email_link_cross_device_linking_text">Originalmente, pretendia associar %1$s à sua conta de email, mas abriu o link num dispositivo diferente no qual não tem sessão iniciada.\n\nSe ainda pretender associar a sua conta do %1$s, abra o link no mesmo dispositivo em que iniciou sessão. Caso contrário, toque em Continuar para iniciar sessão neste dispositivo.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Iniciar sessão com %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Sesão terminada</string>
     <string name="fui_email_link_different_anonymous_user_message">A sessão associada a este pedido de início de sessão expirou ou foi limpa.</string>
     <string name="fui_email_link_dismiss_button">Ignorar</string>
@@ -114,10 +83,6 @@
     <string name="fui_email_link_invalid_link_message">O código da ação é inválido. Isto pode acontecer quando o código tem um formato incorreto, expirou ou já foi utilizado.</string>
     <string name="fui_email_link_resend">Reenviar</string>
     <string name="fui_email_link_trouble_getting_email_header">Está com problemas para receber emails?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Se os passos acima não resolverem o problema, pode reenviar o email. Tenha em atenção que esta ação desativa o link no email mais antigo.</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Experimente estas correções comuns:\n\u2022 Verifique se o email foi assinalado como spam ou filtrado.\n\u2022 Verifique a ligação à Internet.\n\u2022 Certifique-se de que não introduziu o seu email incorretamente.\n\u2022 Certifique-se de que a sua caixa de entrada não está a ficar sem espaço disponível nem está com outros problemas relacionados com as definições da caixa de entrada.\n</string>
     <string name="fui_email_link_wrong_device_header">Novo dispositivo ou navegador detetado.</string>
     <string name="fui_email_link_wrong_device_message">Experimente abrir o link através do mesmo dispositivo ou navegador no qual iniciou o processo de início de sessão.</string>
@@ -233,7 +198,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Toque para mudar para a seleção do dia</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Mudar para o modo de introdução de texto</string>
     <string name="mtrl_picker_toggle_to_year_selection">Toque para mudar para a seleção do ano</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Navegar para cima"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Abrir gaveta de navegação"</string>
+    <string msgid="478774118347071097" name="not_set">"Não definido"</string>
     <string name="password_toggle_content_description">Mostrar palavra-passe</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copiado para a área de transferência."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESATIVADO"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ATIVADO"</string>
 </resources>

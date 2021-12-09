@@ -125,6 +125,7 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
 
 
 
+
     private ActivityConectarPikkuBinding binding;
     private PikkuAcademy pikku;
     private static final int SOLICITUD_PERMISO_WRITE_CALL_LOG = 0;

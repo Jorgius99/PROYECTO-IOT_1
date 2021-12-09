@@ -38,32 +38,6 @@
     <string name="character_counter_content_description">Введено символів: %1$d з %2$d</string>
     <string name="character_counter_overflowed_content_description">Перевищено ліміт символів: %1$d з %2$d</string>
     <string name="clear_text_end_icon_content_description">Видалити текст</string>
-<<<<<<< HEAD
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Увімкнути</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Додаток %1$s не працюватиме, якщо не ввімкнути сервіси Google Play.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Увімкнути сервіси Google Play</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Установити</string>
-    <string name="common_google_play_services_install_text">Додаток %1$s не працюватиме без сервісів Google Play, яких немає на вашому пристрої.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Установити сервіси Google Play</string>
-    <string name="common_google_play_services_notification_channel_name">Доступність сервісів Google Play</string>
-    <string name="common_google_play_services_notification_ticker">Помилка сервісів Google Play</string>
-    <string name="common_google_play_services_unknown_issue">У додатку %1$s виникла проблема із сервісами Google Play. Повторіть спробу.</string>
-    <string name="common_google_play_services_unsupported_text">Додаток %1$s не працюватиме без сервісів Google Play, які не підтримуються на вашому пристрої.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Оновити</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Додаток %1$s не працюватиме, якщо не оновити сервіси Google Play.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Оновіть сервіси Google Play</string>
-    <string name="common_google_play_services_updating_text">Додаток %1$s не працюватиме без сервісів Google Play, які зараз оновлюються.</string>
-    <string name="common_google_play_services_wear_update_text">Потрібна нова версія сервісів Google Play. Вони невдовзі оновляться.</string>
-    <string name="common_open_on_phone">Відкрити на телефоні</string>
-    <string name="common_signin_button_text">Увійти</string>
-    <string name="common_signin_button_text_long">Увійти в облік. запис Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Посилання скопійовано в буфер обміну"</string>
-    <string name="error_icon_content_description">Помилка</string>
-    <string name="exposed_dropdown_menu_content_description">Показати спадне меню</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копіювати посилання"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Відкрити у веб-переглядачі"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Надіслати посилання"</string>
-=======
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Увімкнути"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме, якщо не ввімкнути сервіси Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Увімкнути сервіси Google Play"</string>
@@ -82,31 +56,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Відкрити на телефоні"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Увійти"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Увійти в облік. запис Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Скопіювати"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Посилання скопійовано в буфер обміну"</string>
     <string name="error_icon_content_description">Помилка</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Додатково"</string>
     <string name="exposed_dropdown_menu_content_description">Показати спадне меню</string>
->>>>>>> javiDevelope
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копіювати посилання"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Відкрити у веб-переглядачі"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Надіслати посилання"</string>
     <string name="fui_accessibility_logo">Логотип додатка</string>
     <string name="fui_auto_verified">Номер телефону підтверджено автоматично</string>
     <string name="fui_button_text_save">Зберегти</string>
     <string name="fui_button_text_send">Надіслати</string>
-<<<<<<< HEAD
     <string name="fui_confirm_recovery_body">Виконайте інструкції з відновлення пароля, надіслані на адресу %1$s.</string>
     <string name="fui_continue">Продовжити</string>
     <string name="fui_country_hint">Країна</string>
-=======
-    <string name="fui_cancel">Скасувати</string>
-    <string name="fui_confirm_recovery_body">Виконайте інструкції з відновлення пароля, надіслані на адресу %1$s.</string>
-    <string name="fui_continue">Продовжити</string>
->>>>>>> javiDevelope
     <string name="fui_email_account_creation_error">Не вдалося зареєструвати обліковий запис електронної пошти</string>
     <string name="fui_email_hint">Електронна адреса</string>
     <string name="fui_email_link_confirm_email_header">Підтвердьте електронну адресу</string>
     <string name="fui_email_link_confirm_email_message">Щоб продовжити, підтвердьте електронну адресу</string>
     <string name="fui_email_link_cross_device_linking_text">Ви збиралися зв’язати %1$s зі своєю електронною адресою, але відкрили надане посилання на пристрої, на якому не ввійшли в обліковий запис.\n\nЩоб зв’язати обліковий запис %1$s, відкрийте посилання на пристрої, де ви почали входити, або натисніть \"Продовжити\", щоб увійти на цьому пристрої.</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_cross_device_sign_in_button_text">Увійти, використовуючи %1$s</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_different_anonymous_user_header">Сеанс завершено</string>
     <string name="fui_email_link_different_anonymous_user_message">Сеанс, пов’язаний із цим запитом на вхід, завершено або видалено.</string>
     <string name="fui_email_link_dismiss_button">Закрити</string>
@@ -116,10 +85,6 @@
     <string name="fui_email_link_invalid_link_message">Недійсний код активації. Можливо, він неправильний, застарілий або вже використаний.</string>
     <string name="fui_email_link_resend">Надіслати повторно</string>
     <string name="fui_email_link_trouble_getting_email_header">Не отримали листа?</string>
-<<<<<<< HEAD
-=======
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Якщо наведені вище поради не допомагають, спробуйте знову надіслати електронний лист (у такому разі посилання в попередньому листі стане неактивним).</string>
->>>>>>> javiDevelope
     <string name="fui_email_link_trouble_getting_possible_fixes">Скористайтеся порадами нижче, щоб вирішити проблему.\n\u2022 Перевірте – можливо, електронний лист позначено як спам або відфільтровано.\n\u2022 Перевірте інтернет-з’єднання.\n\u2022 Переконайтеся, що ви правильно вказали електронну адресу.\n\u2022 Перевірте доступний обсяг пам’яті для папки \"Вхідні\" й інші можливі проблеми з налаштуваннями.\n</string>
     <string name="fui_email_link_wrong_device_header">Виявлено новий пристрій або веб-переглядач.</string>
     <string name="fui_email_link_wrong_device_message">Спробуйте відкрити посилання на пристрої або у веб-переглядачі, де ви починали процедуру входу.</string>
@@ -235,7 +200,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Натисніть, щоб вибрати день</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим введення тексту</string>
     <string name="mtrl_picker_toggle_to_year_selection">Натисніть, щоб вибрати рік</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Перейти вгору"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Відкрити панель навігації"</string>
+    <string msgid="478774118347071097" name="not_set">"Не налаштовано"</string>
     <string name="password_toggle_content_description">Показувати пароль</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\": скопійовано в буфер обміну."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ВИМКНЕНО"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"УВІМКНЕНО"</string>
 </resources>
