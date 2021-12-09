@@ -98,7 +98,8 @@ public class Dosis extends Fragment {
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
         // Inflate the layout for this fragment
-        return binding.getRoot();
+        //return binding.getRoot();
+        return v;
 
 
     }

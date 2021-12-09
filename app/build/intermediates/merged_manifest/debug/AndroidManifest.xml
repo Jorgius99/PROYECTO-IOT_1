@@ -74,10 +74,6 @@
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.ActividadAbrirCuestionarioPaciente"
-            android:exported="true" >
-        </activity>
-        <activity
             android:name="com.example.loginultimodia.SuperAdminSecondActivity"
             android:exported="true" >
         </activity>
