@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.loginultimodia">
-<<<<<<< HEAD
 
 
-=======
->>>>>>> develop
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <application
@@ -35,7 +33,6 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
             android:name=".RegisterActivity"
 
             android:exported="true">
@@ -48,8 +45,7 @@
 
         </activity>
         <activity
-=======
->>>>>>> develop
+
             android:name=".ForgotPassword"
 
             android:exported="true">

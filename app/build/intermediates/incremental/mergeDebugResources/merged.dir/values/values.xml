@@ -497,6 +497,8 @@
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
     <color name="black">#FF000000</color>
+    <color name="blue">#3488F1</color>
+    <color name="blueoscuro">#1F3CFF</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -575,6 +577,7 @@
     <color name="fui_bgTwitter">#FF5BAAF4</color>
     <color name="fui_bgYahoo">#720E9E</color>
     <color name="fui_transparent">#00000000</color>
+    <color name="gris">#878787</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -612,6 +615,7 @@
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FF0303</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -1404,6 +1408,9 @@
     <string name="google_api_key" translatable="false">AIzaSyBCgkQEYn3CJgMXrk1dNLunoWujQq27s7A</string>
     <string name="google_app_id" translatable="false">1:965957292289:android:900d986a863d57c2b44b00</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBCgkQEYn3CJgMXrk1dNLunoWujQq27s7A</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+ AIzaSyAl8xlqC26dN0-nWQ-34TDRdyPABYHOg5o
+ </string>
     <string name="google_storage_bucket" translatable="false">asincronaejercicio.appspot.com</string>
     <string name="habs">Tus Habitaciones</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
@@ -4565,8 +4572,8 @@
   </style>
     <style name="Theme.LoginUltimoDia" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blueoscuro</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -8587,6 +8594,69 @@
 <attr format="float" name="imageAspectRatio"/>
 
 <attr format="boolean" name="circleCrop"/>
+</declare-styleable>
+    <declare-styleable name="MapAttrs"><attr name="mapType">
+<enum name="none" value="0"/>
+
+<enum name="normal" value="1"/>
+
+<enum name="satellite" value="2"/>
+
+<enum name="terrain" value="3"/>
+
+<enum name="hybrid" value="4"/>
+
+</attr>
+
+<attr format="float" name="cameraBearing"/>
+
+<attr format="float" name="cameraTargetLat"/>
+
+<attr format="float" name="cameraTargetLng"/>
+
+<attr format="float" name="cameraTilt"/>
+
+<attr format="float" name="cameraZoom"/>
+
+<attr format="boolean" name="liteMode"/>
+
+<attr format="boolean" name="uiCompass"/>
+
+<attr format="boolean" name="uiRotateGestures"/>
+
+<attr format="boolean" name="uiScrollGestures"/>
+
+<attr format="boolean" name="uiScrollGesturesDuringRotateOrZoom"/>
+
+<attr format="boolean" name="uiTiltGestures"/>
+
+<attr format="boolean" name="uiZoomControls"/>
+
+<attr format="boolean" name="uiZoomGestures"/>
+
+<attr format="boolean" name="useViewLifecycle"/>
+
+<attr format="boolean" name="zOrderOnTop"/>
+
+<attr format="boolean" name="uiMapToolbar"/>
+
+<attr format="boolean" name="ambientEnabled"/>
+
+<attr format="float" name="cameraMinZoomPreference"/>
+
+<attr format="float" name="cameraMaxZoomPreference"/>
+
+<attr format="float" name="latLngBoundsSouthWestLatitude"/>
+
+<attr format="float" name="latLngBoundsSouthWestLongitude"/>
+
+<attr format="float" name="latLngBoundsNorthEastLatitude"/>
+
+<attr format="float" name="latLngBoundsNorthEastLongitude"/>
+
+<attr format="color" name="backgroundColor"/>
+
+<attr format="string" name="mapId"/>
 </declare-styleable>
     <declare-styleable name="MaterialAlertDialog">
     <attr format="dimension" name="backgroundInsetStart"/>
