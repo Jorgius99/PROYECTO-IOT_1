@@ -25,11 +25,15 @@ public final class MenuAdministradorBinding implements ViewBinding {
   @NonNull
   public final Button btPacientes;
 
+  @NonNull
+  public final Button btPacientesEliminar;
+
   private MenuAdministradorBinding(@NonNull ConstraintLayout rootView, @NonNull Button btAvisos,
-      @NonNull Button btPacientes) {
+      @NonNull Button btPacientes, @NonNull Button btPacientesEliminar) {
     this.rootView = rootView;
     this.btAvisos = btAvisos;
     this.btPacientes = btPacientes;
+    this.btPacientesEliminar = btPacientesEliminar;
   }
 
   @Override
@@ -71,7 +75,14 @@ public final class MenuAdministradorBinding implements ViewBinding {
         break missingId;
       }
 
-      return new MenuAdministradorBinding((ConstraintLayout) rootView, btAvisos, btPacientes);
+      id = R.id.btPacientesEliminar;
+      Button btPacientesEliminar = ViewBindings.findChildViewById(rootView, id);
+      if (btPacientesEliminar == null) {
+        break missingId;
+      }
+
+      return new MenuAdministradorBinding((ConstraintLayout) rootView, btAvisos, btPacientes,
+          btPacientesEliminar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

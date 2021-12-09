@@ -69,11 +69,7 @@ public final class ElementoHabsDoctorBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.dosis1;
-      ConstraintLayout dosis1 = ViewBindings.findChildViewById(rootView, id);
-      if (dosis1 == null) {
-        break missingId;
-      }
+      ConstraintLayout dosis1 = (ConstraintLayout) rootView;
 
       id = R.id.num_hab;
       TextView numHab = ViewBindings.findChildViewById(rootView, id);
