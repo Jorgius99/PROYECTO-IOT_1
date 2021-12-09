@@ -34,7 +34,7 @@ public class AdaptadorAvisos extends
             @NonNull FirestoreRecyclerOptions<Aviso> options, Context context){
         super(options);
         this.context = context;
-
+        
     }
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
     public static class ViewHolder extends RecyclerView.ViewHolder {
