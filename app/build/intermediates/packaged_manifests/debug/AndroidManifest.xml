@@ -50,10 +50,6 @@
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.AvisosActivity"
-            android:exported="true" >
-        </activity>
-        <activity
             android:name="com.example.loginultimodia.RegisterActivity"
             android:exported="true" >
         </activity>

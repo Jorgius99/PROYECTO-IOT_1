@@ -5,21 +5,15 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.loginultimodia.AdaptadorDosisDoc;
-import com.example.loginultimodia.AdaptadorHabsDoctor;
-import com.example.loginultimodia.AvisosActivity;
-import com.example.loginultimodia.DosisActivity;
 import com.example.loginultimodia.Habitacion;
-import com.example.loginultimodia.HabitacionesActivity;
 import com.example.loginultimodia.MasDosisActivity;
 import com.example.loginultimodia.R;
 import com.example.loginultimodia.databinding.FragmentDoctorDosisBinding;
-import com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;

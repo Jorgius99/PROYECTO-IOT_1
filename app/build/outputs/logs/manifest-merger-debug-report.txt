@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
 MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\3f1bb7f08fcdd134c23d6bf8f48c96d9\transformed\jetified-viewbinding-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-firestore:8.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\30aaa8d3af41cd5134d98b9991988269\transformed\jetified-firebase-ui-firestore-8.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\eebf61f7fd24cd58606d363edaa73fad\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -74,25 +74,25 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Álvaro Escribano\.gradle\cach
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\97c9b5d86fced5e6f7a4cbd2f94853b9\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\0d32d35274e9316f6cb3cc28abf26edd\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\c4748cd6bd5cb29e127895c065f91fd7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
 	package
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-99:12
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:5:5-97:19
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:5:5-91:19
 MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\b02dba28f75de41b4c0931eec3c69679\transformed\jetified-firebase-ui-auth-8.0.0\AndroidManifest.xml:13:5-105:19
 MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\b02dba28f75de41b4c0931eec3c69679\transformed\jetified-firebase-ui-auth-8.0.0\AndroidManifest.xml:13:5-105:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\d1716f973584b4b2af17a35d695ea6c1\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:16:5-24:19
@@ -189,54 +189,48 @@ ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:46:9-
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:49:13-36
 	android:name
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:47:13-49
-activity#com.example.loginultimodia.AvisosActivity
+activity#com.example.loginultimodia.RegisterActivity
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:53:9-58:20
 	android:exported
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:56:13-36
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:54:13-43
-activity#com.example.loginultimodia.RegisterActivity
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:54:13-45
+activity#com.example.loginultimodia.AnyadirAvisoActivity
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:59:9-64:20
 	android:exported
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:62:13-36
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:60:13-45
-activity#com.example.loginultimodia.AnyadirAvisoActivity
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:60:13-49
+activity#com.example.loginultimodia.DosisActivity
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:65:9-70:20
 	android:exported
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:68:13-36
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:66:13-49
-activity#com.example.loginultimodia.DosisActivity
-ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:71:9-76:20
-	android:exported
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:74:13-36
-	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:72:13-42
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:66:13-42
 activity#com.example.loginultimodia.MasDosisActivity
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:72:9-77:20
+	android:exported
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:75:13-36
+	android:name
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:73:13-45
+activity#com.example.loginultimodia.SuperAdminSecondActivity
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:78:9-83:20
 	android:exported
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:81:13-36
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:79:13-45
-activity#com.example.loginultimodia.SuperAdminSecondActivity
-ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:84:9-89:20
-	android:exported
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:87:13-36
-	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:85:13-53
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:79:13-53
 activity#com.example.loginultimodia.AcercaDeActivity
-ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:91:9-93:44
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:85:9-87:44
 	android:label
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:93:13-42
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:87:13-42
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:92:13-45
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:86:13-45
 activity#com.example.loginultimodia.LogOutActivity
-ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:94:9-95:44
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:88:9-89:44
 	android:label
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:95:13-42
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:89:13-42
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:94:19-49
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:88:19-49
 uses-sdk
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
