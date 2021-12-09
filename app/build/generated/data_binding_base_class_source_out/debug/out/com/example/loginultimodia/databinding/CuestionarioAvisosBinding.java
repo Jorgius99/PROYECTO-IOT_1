@@ -22,34 +22,34 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextInputEditText emailEditText;
+  public final MaterialButton enviaravi;
 
   @NonNull
   public final TextInputEditText etRegDni;
 
   @NonNull
-  public final TextInputEditText etRegNombreApellido;
+  public final TextInputEditText etRegHabi;
 
   @NonNull
-  public final TextInputEditText etRegPass;
+  public final TextInputEditText etRegMoti;
 
   @NonNull
-  public final MaterialButton recuperarBoton;
+  public final TextInputEditText etRegPrio;
 
   @NonNull
-  public final TextView tvLoginHere;
+  public final TextView volverAcasa;
 
   private CuestionarioAvisosBinding(@NonNull LinearLayout rootView,
-      @NonNull TextInputEditText emailEditText, @NonNull TextInputEditText etRegDni,
-      @NonNull TextInputEditText etRegNombreApellido, @NonNull TextInputEditText etRegPass,
-      @NonNull MaterialButton recuperarBoton, @NonNull TextView tvLoginHere) {
+      @NonNull MaterialButton enviaravi, @NonNull TextInputEditText etRegDni,
+      @NonNull TextInputEditText etRegHabi, @NonNull TextInputEditText etRegMoti,
+      @NonNull TextInputEditText etRegPrio, @NonNull TextView volverAcasa) {
     this.rootView = rootView;
-    this.emailEditText = emailEditText;
+    this.enviaravi = enviaravi;
     this.etRegDni = etRegDni;
-    this.etRegNombreApellido = etRegNombreApellido;
-    this.etRegPass = etRegPass;
-    this.recuperarBoton = recuperarBoton;
-    this.tvLoginHere = tvLoginHere;
+    this.etRegHabi = etRegHabi;
+    this.etRegMoti = etRegMoti;
+    this.etRegPrio = etRegPrio;
+    this.volverAcasa = volverAcasa;
   }
 
   @Override
@@ -79,9 +79,9 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.emailEditText;
-      TextInputEditText emailEditText = ViewBindings.findChildViewById(rootView, id);
-      if (emailEditText == null) {
+      id = R.id.enviaravi;
+      MaterialButton enviaravi = ViewBindings.findChildViewById(rootView, id);
+      if (enviaravi == null) {
         break missingId;
       }
 
@@ -91,32 +91,32 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.etRegNombreApellido;
-      TextInputEditText etRegNombreApellido = ViewBindings.findChildViewById(rootView, id);
-      if (etRegNombreApellido == null) {
+      id = R.id.etRegHabi;
+      TextInputEditText etRegHabi = ViewBindings.findChildViewById(rootView, id);
+      if (etRegHabi == null) {
         break missingId;
       }
 
-      id = R.id.etRegPass;
-      TextInputEditText etRegPass = ViewBindings.findChildViewById(rootView, id);
-      if (etRegPass == null) {
+      id = R.id.etRegMoti;
+      TextInputEditText etRegMoti = ViewBindings.findChildViewById(rootView, id);
+      if (etRegMoti == null) {
         break missingId;
       }
 
-      id = R.id.recuperarBoton;
-      MaterialButton recuperarBoton = ViewBindings.findChildViewById(rootView, id);
-      if (recuperarBoton == null) {
+      id = R.id.etRegPrio;
+      TextInputEditText etRegPrio = ViewBindings.findChildViewById(rootView, id);
+      if (etRegPrio == null) {
         break missingId;
       }
 
-      id = R.id.tvLoginHere;
-      TextView tvLoginHere = ViewBindings.findChildViewById(rootView, id);
-      if (tvLoginHere == null) {
+      id = R.id.volverAcasa;
+      TextView volverAcasa = ViewBindings.findChildViewById(rootView, id);
+      if (volverAcasa == null) {
         break missingId;
       }
 
-      return new CuestionarioAvisosBinding((LinearLayout) rootView, emailEditText, etRegDni,
-          etRegNombreApellido, etRegPass, recuperarBoton, tvLoginHere);
+      return new CuestionarioAvisosBinding((LinearLayout) rootView, enviaravi, etRegDni, etRegHabi,
+          etRegMoti, etRegPrio, volverAcasa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

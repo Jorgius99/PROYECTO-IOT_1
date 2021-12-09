@@ -30,17 +30,13 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
   @NonNull
   public final TextView textView8;
 
-  @NonNull
-  public final TextView tusHabs;
-
   private FragmentDoctorDosisBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView01, @NonNull RecyclerView recyclerView,
-      @NonNull TextView textView8, @NonNull TextView tusHabs) {
+      @NonNull TextView textView8) {
     this.rootView = rootView;
     this.imageView01 = imageView01;
     this.recyclerView = recyclerView;
     this.textView8 = textView8;
-    this.tusHabs = tusHabs;
   }
 
   @Override
@@ -88,14 +84,8 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tus_habs;
-      TextView tusHabs = ViewBindings.findChildViewById(rootView, id);
-      if (tusHabs == null) {
-        break missingId;
-      }
-
       return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, imageView01, recyclerView,
-          textView8, tusHabs);
+          textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

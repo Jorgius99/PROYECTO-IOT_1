@@ -24,7 +24,6 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
     TabItem tab1, tab2, tab3;
     //Button  nuevooo;
 
-    PagerControler pagerAdapter;
     Button BotonAviso;
     Button BotonPaciente;
 
@@ -37,9 +36,8 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
         BotonAviso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SuperAdminSecondActivity.this, ActividadAbrirCuestionarioAvisos.class);
+                Intent intent = new Intent(SuperAdminSecondActivity.this, AnyadirAvisoActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
 
@@ -47,9 +45,8 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
         BotonPaciente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SuperAdminSecondActivity.this, ActividadAbrirCuestionarioPaciente.class);
+                Intent intent = new Intent(SuperAdminSecondActivity.this, RegisterActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
     }

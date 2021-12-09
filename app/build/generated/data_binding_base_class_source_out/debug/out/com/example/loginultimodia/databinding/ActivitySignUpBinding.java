@@ -28,27 +28,36 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final TextInputEditText etRegDni;
 
   @NonNull
+  public final TextInputEditText etRegDniDoc;
+
+  @NonNull
   public final TextInputEditText etRegNombreApellido;
+
+  @NonNull
+  public final TextInputEditText etRegNumHab;
 
   @NonNull
   public final TextInputEditText etRegPass;
 
   @NonNull
-  public final MaterialButton recuperarBoton;
+  public final MaterialButton ppp;
 
   @NonNull
   public final TextView tvLoginHere;
 
   private ActivitySignUpBinding(@NonNull LinearLayout rootView,
       @NonNull TextInputEditText emailEditText, @NonNull TextInputEditText etRegDni,
-      @NonNull TextInputEditText etRegNombreApellido, @NonNull TextInputEditText etRegPass,
-      @NonNull MaterialButton recuperarBoton, @NonNull TextView tvLoginHere) {
+      @NonNull TextInputEditText etRegDniDoc, @NonNull TextInputEditText etRegNombreApellido,
+      @NonNull TextInputEditText etRegNumHab, @NonNull TextInputEditText etRegPass,
+      @NonNull MaterialButton ppp, @NonNull TextView tvLoginHere) {
     this.rootView = rootView;
     this.emailEditText = emailEditText;
     this.etRegDni = etRegDni;
+    this.etRegDniDoc = etRegDniDoc;
     this.etRegNombreApellido = etRegNombreApellido;
+    this.etRegNumHab = etRegNumHab;
     this.etRegPass = etRegPass;
-    this.recuperarBoton = recuperarBoton;
+    this.ppp = ppp;
     this.tvLoginHere = tvLoginHere;
   }
 
@@ -91,9 +100,21 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.etRegDniDoc;
+      TextInputEditText etRegDniDoc = ViewBindings.findChildViewById(rootView, id);
+      if (etRegDniDoc == null) {
+        break missingId;
+      }
+
       id = R.id.etRegNombreApellido;
       TextInputEditText etRegNombreApellido = ViewBindings.findChildViewById(rootView, id);
       if (etRegNombreApellido == null) {
+        break missingId;
+      }
+
+      id = R.id.etRegNumHab;
+      TextInputEditText etRegNumHab = ViewBindings.findChildViewById(rootView, id);
+      if (etRegNumHab == null) {
         break missingId;
       }
 
@@ -103,9 +124,9 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recuperarBoton;
-      MaterialButton recuperarBoton = ViewBindings.findChildViewById(rootView, id);
-      if (recuperarBoton == null) {
+      id = R.id.ppp;
+      MaterialButton ppp = ViewBindings.findChildViewById(rootView, id);
+      if (ppp == null) {
         break missingId;
       }
 
@@ -116,7 +137,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
       }
 
       return new ActivitySignUpBinding((LinearLayout) rootView, emailEditText, etRegDni,
-          etRegNombreApellido, etRegPass, recuperarBoton, tvLoginHere);
+          etRegDniDoc, etRegNombreApellido, etRegNumHab, etRegPass, ppp, tvLoginHere);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

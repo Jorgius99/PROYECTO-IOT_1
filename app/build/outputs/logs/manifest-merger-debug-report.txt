@@ -1,10 +1,17 @@
 -- Merging decision tree log ---
 manifest
 <<<<<<< HEAD
+<<<<<<< HEAD
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
+=======
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+>>>>>>> escri2Rama
 MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\3f1bb7f08fcdd134c23d6bf8f48c96d9\transformed\jetified-viewbinding-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-firestore:8.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\30aaa8d3af41cd5134d98b9991988269\transformed\jetified-firebase-ui-firestore-8.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\eebf61f7fd24cd58606d363edaa73fad\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -76,6 +83,7 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Álvaro Escribano\.gradle\cach
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\97c9b5d86fced5e6f7a4cbd2f94853b9\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\0d32d35274e9316f6cb3cc28abf26edd\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\c4748cd6bd5cb29e127895c065f91fd7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+<<<<<<< HEAD
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
@@ -158,6 +166,11 @@ INJECTED from C:\Users\Usuario\OneDrive - UPV\SEGUNDO\PROYECTO-IOT_1\app\src\mai
 INJECTED from C:\Users\Usuario\OneDrive - UPV\SEGUNDO\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-105:12
 INJECTED from C:\Users\Usuario\OneDrive - UPV\SEGUNDO\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-105:12
 >>>>>>> parent of ed4ee61 (eliminarpacientes)
+=======
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+>>>>>>> escri2Rama
 	package
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
@@ -165,11 +178,19 @@ INJECTED from C:\Users\Usuario\OneDrive - UPV\SEGUNDO\PROYECTO-IOT_1\app\src\mai
 	android:versionName
 <<<<<<< HEAD
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
+<<<<<<< HEAD
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-118:12
+=======
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:1-93:12
+>>>>>>> escri2Rama
 		INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
 =======
 		INJECTED from C:\Users\Usuario\OneDrive - UPV\SEGUNDO\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
@@ -184,7 +205,11 @@ INJECTED from C:\Users\Usuario\OneDrive - UPV\SEGUNDO\PROYECTO-IOT_1\app\src\mai
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:2:11-69
 application
 <<<<<<< HEAD
+<<<<<<< HEAD
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:5:5-116:19
+=======
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:5:5-91:19
+>>>>>>> escri2Rama
 MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\b02dba28f75de41b4c0931eec3c69679\transformed\jetified-firebase-ui-auth-8.0.0\AndroidManifest.xml:13:5-105:19
 MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\b02dba28f75de41b4c0931eec3c69679\transformed\jetified-firebase-ui-auth-8.0.0\AndroidManifest.xml:13:5-105:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\Álvaro Escribano\.gradle\caches\transforms-3\d1716f973584b4b2af17a35d695ea6c1\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:16:5-24:19
@@ -300,42 +325,42 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:24:27-74
-activity#com.example.loginultimodia.RegisterActivity
+activity#com.example.loginultimodia.ForgotPassword
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:27:9-32:20
 	android:exported
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:28:13-45
-activity#com.example.loginultimodia.ForgotPassword
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:28:13-43
+activity#com.example.loginultimodia.SecondActivity
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:33:9-38:20
 	android:exported
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:34:13-43
-activity#com.example.loginultimodia.SecondActivity
+activity#com.example.loginultimodia.DoctorSecondActivity
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:39:9-44:20
 	android:exported
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:42:13-36
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:40:13-43
-activity#com.example.loginultimodia.DoctorSecondActivity
-ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:45:9-50:20
-	android:exported
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:48:13-36
-	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:40:13-49
 activity#com.example.loginultimodia.HabitacionesActivity
-ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:52:9-57:20
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:46:9-51:20
 	android:exported
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:55:13-36
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:53:13-49
-activity#com.example.loginultimodia.AvisosActivity
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:47:13-49
+activity#com.example.loginultimodia.RegisterActivity
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:53:9-58:20
+	android:exported
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:54:13-45
+activity#com.example.loginultimodia.AnyadirAvisoActivity
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:59:9-64:20
 	android:exported
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:62:13-36
 	android:name
-		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:60:13-43
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:60:13-49
 activity#com.example.loginultimodia.DosisActivity
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:65:9-70:20
 	android:exported
@@ -354,6 +379,7 @@ ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:78:9-
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:81:13-36
 	android:name
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:79:13-53
+<<<<<<< HEAD
 activity#com.example.loginultimodia.ActividadAbrirCuestionarioAvisos
 ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:84:9-89:20
 	android:exported
@@ -397,6 +423,20 @@ ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:113:9
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:114:13-42
 	android:name
 		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:113:19-49
+=======
+activity#com.example.loginultimodia.AcercaDeActivity
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:85:9-87:44
+	android:label
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:87:13-42
+	android:name
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:86:13-45
+activity#com.example.loginultimodia.LogOutActivity
+ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:88:9-89:44
+	android:label
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:89:13-42
+	android:name
+		ADDED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:88:19-49
+>>>>>>> escri2Rama
 uses-sdk
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\AllProyectos\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml
