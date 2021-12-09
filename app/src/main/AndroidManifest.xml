@@ -76,7 +76,7 @@
 
         </activity>
         <activity
-<<<<<<< HEAD
+
             android:name=".EliminarPacienteActivity"
 
             android:exported="true">
@@ -89,16 +89,14 @@
             android:exported="true">
 
         </activity>
+        
         <activity
-            android:name=".ActividadAbrirCuestionarioPaciente"
-=======
             android:name=".SuperAdminSecondActivity"
->>>>>>> escri2Rama
+
 
             android:exported="true">
 
         </activity>
-
         <activity
             android:name=".AcercaDeActivity"
             android:label="Acerca de ..."/>
