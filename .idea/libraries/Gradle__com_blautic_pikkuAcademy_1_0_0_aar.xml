@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.blautic:pikkuAcademy:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fafd222bb9ede13c8fc299ac6adc3ee3/transformed/jetified-pikkuAcademy-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fafd222bb9ede13c8fc299ac6adc3ee3/transformed/jetified-pikkuAcademy-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fafd222bb9ede13c8fc299ac6adc3ee3/transformed/jetified-pikkuAcademy-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.blautic/pikkuAcademy/1.0.0/3da22638d10281bbb08b1367556c9fe3b4f1ab24/pikkuAcademy-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
