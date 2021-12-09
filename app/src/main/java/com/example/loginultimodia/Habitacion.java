@@ -12,7 +12,6 @@ public class Habitacion {
          this.numHab =num;
          this.DNI = DNI;
          this.ocupacion = ocupacion;
-
      }
 
      public Habitacion(){
