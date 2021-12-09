@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
@@ -10,6 +11,18 @@
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_formarecycler.xml.flat",
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\formarecycler.xml"
+=======
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_aplicacion_medica.png.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\aplicacion_medica.png"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+>>>>>>> EscribanoDeveloper
     },
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_habitacion.xml.flat",
@@ -72,8 +85,17 @@
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_med.jpeg.flat",
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\med.jpeg"
+=======
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_formarecyclerdosis.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable-v24\\formarecyclerdosis.xml"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_elemento_aviso.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_aviso.xml"
+>>>>>>> EscribanoDeveloper
     },
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -144,8 +166,17 @@
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_dosis.xml.flat",
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_dosis.xml"
+=======
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_botonesredondos.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\botonesredondos.xml"
+    },
+    {
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_basura.xml.flat",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\icono_basura.xml"
+>>>>>>> EscribanoDeveloper
     },
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_doctor_habitaciones.xml.flat",
