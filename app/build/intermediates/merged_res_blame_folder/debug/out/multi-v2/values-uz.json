@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz\\values-uz.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\af7e085656cc0436846770d551829765\\transformed\\navigation-ui-2.3.5\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,156",
+                        "endColumns": "100,121",
+                        "endOffsets": "151,273"
+                    },
+                    "to": {
+                        "startLines": "110,111",
+                        "startColumns": "4,4",
+                        "startOffsets": "10092,10193",
+                        "endColumns": "100,121",
+                        "endOffsets": "10188,10310"
+                    }
+                },
+                {
                     "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\d54d5a4448cd99be44c2671f0beb7e83\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-uz\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -52,23 +69,6 @@
                         "startOffsets": "5664,6042,6151,6261",
                         "endColumns": "117,108,109,105",
                         "endOffsets": "5777,6146,6256,6362"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\7aa23ecbc7784f5c1c6ec9c165775e96\\transformed\\navigation-ui-2.3.4\\res\\values-uz\\values-uz.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,156",
-                        "endColumns": "100,121",
-                        "endOffsets": "151,273"
-                    },
-                    "to": {
-                        "startLines": "110,111",
-                        "startColumns": "4,4",
-                        "startOffsets": "10092,10193",
-                        "endColumns": "100,121",
-                        "endOffsets": "10188,10310"
                     }
                 },
                 {

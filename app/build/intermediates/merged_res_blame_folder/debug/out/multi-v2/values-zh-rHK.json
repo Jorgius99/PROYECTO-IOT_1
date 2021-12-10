@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\7aa23ecbc7784f5c1c6ec9c165775e96\\transformed\\navigation-ui-2.3.4\\res\\values-zh-rHK\\values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,154",
-                        "endColumns": "98,99",
-                        "endOffsets": "149,249"
-                    },
-                    "to": {
-                        "startLines": "200,201",
-                        "startColumns": "4,4",
-                        "startOffsets": "15410,15509",
-                        "endColumns": "98,99",
-                        "endOffsets": "15504,15604"
-                    }
-                },
-                {
                     "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\919b1e91a07ddbf34272a620f8cba519\\transformed\\core-1.7.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2",
@@ -139,6 +122,23 @@
                         "startOffsets": "5220,5524,5616,5717",
                         "endColumns": "82,91,100,92",
                         "endOffsets": "5298,5611,5712,5805"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\af7e085656cc0436846770d551829765\\transformed\\navigation-ui-2.3.5\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,154",
+                        "endColumns": "98,99",
+                        "endOffsets": "149,249"
+                    },
+                    "to": {
+                        "startLines": "200,201",
+                        "startColumns": "4,4",
+                        "startOffsets": "15410,15509",
+                        "endColumns": "98,99",
+                        "endOffsets": "15504,15604"
                     }
                 },
                 {

@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\af7e085656cc0436846770d551829765\\transformed\\navigation-ui-2.3.5\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,162",
+                        "endColumns": "106,118",
+                        "endOffsets": "157,276"
+                    },
+                    "to": {
+                        "startLines": "110,111",
+                        "startColumns": "4,4",
+                        "startOffsets": "9990,10097",
+                        "endColumns": "106,118",
+                        "endOffsets": "10092,10211"
+                    }
+                },
+                {
                     "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\919b1e91a07ddbf34272a620f8cba519\\transformed\\core-1.7.0\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2",
@@ -122,23 +139,6 @@
                         "endLines": "5,33,34,35,36,57,59,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,113",
                         "endColumns": "12,79,95,115,79,63,93,67,58,94,63,58,66,62,53,114,57,61,53,70,131,83,79,103,75,75,83,66,65,69,77,82,69,75,77,70,85,82,92,92,72,71,93,53,66,83,87,63,64,63,101,96,95,96,79",
                         "endOffsets": "265,3053,3149,3265,3345,5825,6014,6397,6456,6551,6615,6674,6741,6804,6858,6973,7031,7093,7147,7218,7350,7434,7514,7618,7694,7770,7854,7921,7987,8057,8135,8218,8288,8364,8442,8513,8599,8682,8775,8868,8941,9013,9107,9161,9228,9312,9400,9464,9529,9593,9695,9792,9888,9985,10369"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\7aa23ecbc7784f5c1c6ec9c165775e96\\transformed\\navigation-ui-2.3.4\\res\\values-az\\values-az.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,162",
-                        "endColumns": "106,118",
-                        "endOffsets": "157,276"
-                    },
-                    "to": {
-                        "startLines": "110,111",
-                        "startColumns": "4,4",
-                        "startOffsets": "9990,10097",
-                        "endColumns": "106,118",
-                        "endOffsets": "10092,10211"
                     }
                 }
             ]

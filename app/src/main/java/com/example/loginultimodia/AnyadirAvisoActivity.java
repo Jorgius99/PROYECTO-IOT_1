@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -55,6 +56,7 @@ public class AnyadirAvisoActivity extends AppCompatActivity {
             db= FirebaseFirestore.getInstance();
             db.collection("avisos").document().set(aviso);
             //db.collection("pacientes").document(nombreApellido).collection("doctor").add(doctor);
+        Toast.makeText(AnyadirAvisoActivity.this, "Se ha añadido correctamente", Toast.LENGTH_SHORT).show();
     }
 
 }

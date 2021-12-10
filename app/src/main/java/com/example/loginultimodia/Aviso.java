@@ -45,6 +45,7 @@ public class Aviso {
         return habitacion;
     }
 
+
     //-------------------------SETTERS---------------------------------
     public void setFechaHora(Date fechaHora) {
         this.fechaHora = fechaHora;

@@ -2,6 +2,7 @@ package com.example.loginultimodia;
 
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -32,5 +33,6 @@ public class AbrirEliminarActivity extends AppCompatActivity{
         db= FirebaseFirestore.getInstance();
         db.collection("pacientes").document(nombreApellido).delete();
         //db.collection("pacientes").document(nombreApellido).collection("doctor").add(doctor);
+        Toast.makeText(AbrirEliminarActivity.this, "Se ha eliminado correctamente", Toast.LENGTH_SHORT).show();
     }
 }
