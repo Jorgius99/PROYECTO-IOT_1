@@ -11,7 +11,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-//import com.example.loginultimodia.ControladorDoctor.PagerControler;
+import com.example.loginultimodia.ControladorDoctor.PagerControler;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Sun Dec 12 12:33:38 CET 2021
 =======
 <<<<<<< HEAD
@@ -7,6 +8,9 @@
 #Thu Dec 09 22:58:51 CET 2021
 >>>>>>> escri5Rama
 >>>>>>> parent of 7fd2f3c (vamosssssssssssschavalesssssssss)
+=======
+#Fri Dec 10 09:13:45 CET 2021
+>>>>>>> parent of cea88f9 (pikku avisosDoctor llama y SOS)
 path.4=14/classes.dex
 path.3=13/classes.dex
 path.2=11/classes.dex
