@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\b02dba28f75de41b4c0931eec3c69679\\transformed\\jetified-firebase-ui-auth-8.0.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+=======
+            "outputFile": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\b02dba28f75de41b4c0931eec3c69679\\transformed\\jetified-firebase-ui-auth-8.0.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+>>>>>>> parent of 7fd2f3c (vamosssssssssssschavalesssssssss)
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

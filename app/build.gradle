@@ -51,9 +51,13 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'com.firebaseui:firebase-ui-firestore:8.0.0'
+<<<<<<< HEAD
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.preference:preference:1.1.1'
     implementation 'com.google.android.gms:play-services-maps:18.0.1'
+=======
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+>>>>>>> parent of 7fd2f3c (vamosssssssssssschavalesssssssss)
 
 }
