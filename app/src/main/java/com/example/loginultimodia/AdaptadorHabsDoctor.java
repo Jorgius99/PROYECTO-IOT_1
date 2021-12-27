@@ -31,6 +31,24 @@ public class AdaptadorHabsDoctor extends
         this.context = context;
 
     }
+
+    @Override
+    protected void onBindViewHolder(@NonNull ViewHolder holder, int position,
+                                    @NonNull Habitacion hab) {
+        holder.personaliza(hab);
+
+    }
+
+
+/*
+    @Override
+    protected void onBindViewHolder(@NonNull AdaptadorHabsDoctor
+            .ViewHolder holder, int position, @NonNull Habitacion hab) {
+        holder.personaliza(hab);
+    }
+
+ */
+
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView numHab;
@@ -62,11 +80,7 @@ public class AdaptadorHabsDoctor extends
         return new AdaptadorHabsDoctor.ViewHolder(v);
     }
 
-    @Override
-    protected void onBindViewHolder(@NonNull AdaptadorHabsDoctor
-            .ViewHolder holder, int position, @NonNull Habitacion hab) {
-        holder.personaliza(hab);
-    }
+
 
     public void setOnItemClickListener(View.OnClickListener onClick) {
         onClickListener = onClick;
