@@ -30,6 +30,7 @@ import com.blautic.pikkuAcademyLib.ScanInfo;
 import com.blautic.pikkuAcademyLib.ble.gatt.ConnectionState;
 import com.blautic.pikkuAcademyLib.callback.ConnectionCallback;
 import com.blautic.pikkuAcademyLib.callback.ScanCallback;
+import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
 
 
@@ -167,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
             return true;
         }
         if (id == R.id.btnLogout){
-            lanzarLogOut(null);
+            AuthUI.getInstance().signOut(this);
             return true;
         }
 

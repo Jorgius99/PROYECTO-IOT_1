@@ -21,6 +21,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.blautic.pikkuAcademyLib.PikkuAcademy;
 import com.example.loginultimodia.ControladorDoctor.PagerControler;
+import com.firebase.ui.auth.AuthUI;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 //holaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -122,7 +123,7 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
             return true;
         }
         if (id == R.id.btnLogout){
-            lanzarLogOut(null);
+            AuthUI.getInstance().signOut(this);
             return true;
         }
 

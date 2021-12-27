@@ -14,6 +14,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
@@ -122,7 +123,7 @@ public class LoginActivity extends AppCompatActivity {
             return true;
         }
         if (id == R.id.btnLogout){
-            lanzarLogOut(null);
+            AuthUI.getInstance().signOut(this);
             return true;
 
         }

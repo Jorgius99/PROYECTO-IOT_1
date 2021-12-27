@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 //import com.example.loginultimodia.ControladorDoctor.PagerControler;
+import com.firebase.ui.auth.AuthUI;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
@@ -84,7 +85,7 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
             return true;
         }
         if (id == R.id.btnLogout){
-            lanzarLogOut(null);
+            AuthUI.getInstance().signOut(this);
             return true;
 
         }
