@@ -79,14 +79,15 @@ public class Dosis extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+        //View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+        binding = FragmentDoctorDosisBinding.inflate(getLayoutInflater());
 
-        View botonHab0 = v.findViewById(R.id.imageView01);
-        botonHab0.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+        binding.imageView01.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(getContext(), MasDosisActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
-        binding = FragmentDoctorDosisBinding.inflate(getLayoutInflater());
+
+
         Query query = FirebaseFirestore.getInstance()
                 .collection("habitaciones");
                 //.whereEqualTo("numHab", "1");
@@ -96,10 +97,9 @@ public class Dosis extends Fragment {
         System.out.println(getContext());
         binding.recyclerView.setAdapter(adaptador);
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-
         // Inflate the layout for this fragment
-        //return binding.getRoot();
-        return v;
+        return binding.getRoot();
+        //return v;
 
 
     }

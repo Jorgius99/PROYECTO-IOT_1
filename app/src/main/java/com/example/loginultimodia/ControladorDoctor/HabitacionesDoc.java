@@ -107,10 +107,15 @@ public class HabitacionesDoc extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
         binding = FragmentDoctorHabitacionesBinding.inflate(getLayoutInflater());
         Query query = FirebaseFirestore.getInstance()
                 .collection("habitaciones");
                 //.whereEqualTo("numHab", "1");
+
+
         FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
         adaptador = new AdaptadorHabsDoctor(opciones, getContext());
@@ -118,6 +123,8 @@ public class HabitacionesDoc extends Fragment {
         binding.recyclerView.setAdapter(adaptador);
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         // Inflate the layout for this fragment
+
+
         return binding.getRoot();
     }
     @Override

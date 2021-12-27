@@ -84,7 +84,7 @@ public class RegisterActivity extends AppCompatActivity {
                 }
             });
             db= FirebaseFirestore.getInstance();
-            db.collection("pacientes").document(nombreApellido).set(usuario);
+            db.collection("pacientes").document(dni).set(usuario);
             //db.collection("pacientes").document(nombreApellido).collection("doctor").add(doctor);
         }
     }
