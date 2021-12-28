@@ -30,11 +30,20 @@ import com.blautic.pikkuAcademyLib.ScanInfo;
 import com.blautic.pikkuAcademyLib.ble.gatt.ConnectionState;
 import com.blautic.pikkuAcademyLib.callback.ConnectionCallback;
 import com.blautic.pikkuAcademyLib.callback.ScanCallback;
+import com.example.loginultimodia.Controlador.Dosis;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
+import com.google.firebase.firestore.QuerySnapshot;
 
 
 public class MainActivity extends AppCompatActivity implements pikkuFuncion.MovementListener {
+
     private PikkuAcademy pikku;
     private pikkuFuncion detectorCaidas;
     private NotificationManager notificationManager;
@@ -170,7 +179,6 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
             lanzarLogOut(null);
             return true;
         }
-
         if (id == R.id.buttonMConnect){
             lanzarConectarPikku(null);
             return true;

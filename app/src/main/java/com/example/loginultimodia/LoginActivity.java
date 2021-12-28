@@ -4,6 +4,7 @@ package com.example.loginultimodia;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,12 +15,17 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.loginultimodia.Controlador.Dosis;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
+import com.google.firebase.firestore.QuerySnapshot;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -82,7 +88,15 @@ public class LoginActivity extends AppCompatActivity {
                     if (task.isSuccessful()) {
                         Toast.makeText(LoginActivity.this, "User logged in successfully", Toast.LENGTH_SHORT).show();
                         FirebaseUser usuario = FirebaseAuth.getInstance().getCurrentUser();
-
+                        String emailAver = usuario.getEmail();
+                     Dosis.sacaDatos(emailAver);
+                    //QuerySnapshot nuevoUSUS=  MainActivity.sacaDatos(emailAver);
+                        //Log.d("WEBO", ""+nuevoUSUS.toString());
+                        /*Query query = FirebaseFirestore.getInstance()
+                                .collection("pacientes")
+                                .whereEqualTo("email", usuario.getEmail());
+                        FirestoreRecyclerOptions<Usuario> opciones = new FirestoreRecyclerOptions
+                                .Builder<Usuario>().setQuery(query, Usuario.class).build();*/
                         if (usuario.getEmail().equals("admins@gmail.com")) {
                             startActivity(new Intent(LoginActivity.this, SuperAdminSecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
                         }
