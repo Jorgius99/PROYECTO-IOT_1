@@ -30,10 +30,13 @@ import com.blautic.pikkuAcademyLib.ScanInfo;
 import com.blautic.pikkuAcademyLib.ble.gatt.ConnectionState;
 import com.blautic.pikkuAcademyLib.callback.ConnectionCallback;
 import com.blautic.pikkuAcademyLib.callback.ScanCallback;
+<<<<<<< HEAD
 import com.firebase.ui.auth.AuthUI;
+=======
 import com.example.loginultimodia.Controlador.Dosis;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.Task;
+>>>>>>> inicioSesionYDatosXevii
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
