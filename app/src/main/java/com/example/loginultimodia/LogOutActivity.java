@@ -14,11 +14,10 @@ public class LogOutActivity extends AppCompatActivity {
     @Override public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-<<<<<<< HEAD
-=======
+
         mAuth = FirebaseAuth.getInstance();
         mAuth.signOut();
->>>>>>> inicioSesionYDatosXevii
+
     }
 }
 

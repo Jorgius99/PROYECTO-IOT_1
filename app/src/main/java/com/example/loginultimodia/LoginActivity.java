@@ -15,12 +15,12 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-<<<<<<< HEAD
+
 import com.firebase.ui.auth.AuthUI;
-=======
+
 import com.example.loginultimodia.Controlador.Dosis;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
->>>>>>> inicioSesionYDatosXevii
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
