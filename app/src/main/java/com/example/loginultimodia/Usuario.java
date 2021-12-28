@@ -8,13 +8,17 @@ public class Usuario {
     private String DNI;
     private String DNIDOCTOR;
     private String NumHabitacion;
+    private String email;
 
-    public Usuario(String dni, String nombreApellido, String tipoUsuario,String dnidoctor, String numhabitacion  ) {
+
+    public Usuario(){ }
+    public Usuario(String dni, String nombreApellido, String tipoUsuario,String dnidoctor, String numhabitacion, String mail ) {
         this.DNI=dni;
         this.nombreApellido= nombreApellido;
         this.tipoUser= tipoUsuario;
         this.DNIDOCTOR= dnidoctor;
         this.NumHabitacion= numhabitacion;
+        this.email=mail;
 
     }
 
@@ -35,6 +39,9 @@ public class Usuario {
         return DNIDOCTOR;
     }
 
+    public String getEmail() {
+        return email;
+    }
 
     public String getNumHabitacion() {
         return NumHabitacion;
@@ -57,7 +64,23 @@ public class Usuario {
         this.DNIDOCTOR = DNIDOCTOR;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public void setNumHabitacion(String numHabitacion) {
         NumHabitacion = numHabitacion;
+    }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nombreApellido='" + nombreApellido + '\'' +
+                ", tipoUser='" + tipoUser + '\'' +
+                ", DNI='" + DNI + '\'' +
+                ", DNIDOCTOR='" + DNIDOCTOR + '\'' +
+                ", NumHabitacion='" + NumHabitacion + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
