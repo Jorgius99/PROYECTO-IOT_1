@@ -70,7 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
             etRegPassword.setError("Password cannot be empty");
             etRegPassword.requestFocus();
         }else{
-            Usuario usuario = new Usuario(dni, nombreApellido,"paciente",dniDoc, NumHab, email);
+            Usuario usuario = new Usuario(dni, nombreApellido,"paciente",dniDoc, NumHab);
             //Usuario doctor = new Usuario("74743318K", "Paco Boluda", "doctor");
             mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override

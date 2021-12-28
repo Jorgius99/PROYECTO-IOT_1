@@ -1,7 +1,6 @@
 package com.example.loginultimodia.Controlador;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,16 +10,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 
 import com.example.loginultimodia.AdaptadorDosis;
-import com.example.loginultimodia.Usuario;
 import com.example.loginultimodia.objetoDosis;
 import com.example.loginultimodia.R;
 
 import com.example.loginultimodia.databinding.FragmentDosisBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
-import com.google.firebase.firestore.QuerySnapshot;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -28,8 +24,6 @@ import com.google.firebase.firestore.QuerySnapshot;
  * create an instance of this fragment.
  */
 public class Dosis extends Fragment {
-    private static Usuario usuarioConDatos;
-
     private FragmentDosisBinding binding; //si no está
     public static AdaptadorDosis adaptador;
     // TODO: Rename parameter arguments, choose names that match
@@ -70,49 +64,6 @@ public class Dosis extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
-    }
-    public static void sacaDatos(String email){
-
-        final Usuario[] usuarioSacado = {new Usuario()};
-
-        //Usuario nuevoUser = new Usuario();
-       /* Query query = FirebaseFirestore.getInstance()
-                .collection("pacientes")
-                .whereEqualTo("email", usuario.getEmail());*/
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
-       /* Task nuevoUser = db.collection("pacientes").whereEqualTo("email",email).get();
-
-        if(nuevoUser.isComplete()){
-            rellenarUsuario(nuevoUser);
-        }*/
-        db.collection("pacientes").whereEqualTo("email",email).get().addOnCompleteListener(task ->  {
-            if (task.isSuccessful()) {
-                QuerySnapshot document = task.getResult();
-                DocumentSnapshot docOC = document.getDocuments().get(0);
-
-                if (document != null) {
-                    usuarioSacado[0] = docOC.toObject(Usuario.class);// here
-                    Log.d("USUARIOSACAD0",""+ usuarioSacado[0].getEmail());
-
-                    rellenarUsuario(usuarioSacado[0]);
-
-                   /* nuevoUser.setEmail(usuarioSacado[0].getEmail());
-                    nuevoUser.setDNI(usuarioSacado[0].getDNI());
-                    nuevoUser.setTipoUser(usuarioSacado[0].getTipoUser());
-                    nuevoUser.setDNIDOCTOR(usuarioSacado[0].getDNIDOCTOR());
-                    nuevoUser.setNombreApellido(usuarioSacado[0].getNombreApellido());
-                    nuevoUser.setNumHabitacion(usuarioSacado[0].getNumHabitacion());
-                    Log.d("NUEVOUSEREEE", ""+nuevoUser);*/
-                }
-            }
-        });
-        // Log.d("NUEVOUSER", ""+nuevoUser);
-    }
-    public static Usuario rellenarUsuario(Usuario ussus)  {
-        usuarioConDatos  = ussus;
-        Log.d("FAFA", ""+usuarioConDatos);
-        return usuarioConDatos;
     }
 /*
     @Override
@@ -128,7 +79,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
     binding = FragmentDosisBinding.inflate(getLayoutInflater());
     Query query = FirebaseFirestore.getInstance()
             .collection("dosis")
-            .whereEqualTo("dni", usuarioConDatos.getDNI());
+            .whereEqualTo("dni", "44896786g");
     FirestoreRecyclerOptions<objetoDosis> opciones = new FirestoreRecyclerOptions
             .Builder<objetoDosis>().setQuery(query, objetoDosis.class).build();
     adaptador = new AdaptadorDosis(opciones, getContext());
