@@ -94,8 +94,8 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
             .Builder<Aviso>().setQuery(query, Aviso.class).build();
     adaptador = new AdaptadorAvisos(opciones, getContext());
     System.out.println(getContext());
-    binding.recyclerView.setAdapter(adaptador);
-    binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+    binding.recyclerView1.setAdapter(adaptador);
+    binding.recyclerView1.setLayoutManager(new LinearLayoutManager(getContext()));
     // Inflate the layout for this fragment
     return binding.getRoot();
 }

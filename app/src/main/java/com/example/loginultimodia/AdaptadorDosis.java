@@ -10,7 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.loginultimodia.databinding.ElementoAvisoBinding;
 import com.example.loginultimodia.databinding.ElementoDosisBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -18,8 +17,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.Query;
 
+import java.security.AccessControlContext;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -33,7 +32,7 @@ public class AdaptadorDosis extends
     public AdaptadorDosis(
             @NonNull FirestoreRecyclerOptions<objetoDosis> options, Context context){
         super(options);
-        this.context = context;
+        this.context = context.getApplicationContext();
 
     }
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
@@ -61,7 +60,7 @@ public class AdaptadorDosis extends
 
     @Override
     public AdaptadorDosis.ViewHolder onCreateViewHolder(
-            ViewGroup parent, int viewType) {
+            @NonNull ViewGroup parent, int viewType) {
         ElementoDosisBinding v = ElementoDosisBinding.inflate(
                 LayoutInflater.from(parent.getContext()), parent, false);
         v.getRoot().setOnClickListener(onClickListener);

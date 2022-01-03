@@ -120,8 +120,8 @@ public class HabitacionesDoc extends Fragment {
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
         adaptador = new AdaptadorHabsDoctor(opciones, getContext());
         System.out.println(getContext());
-        binding.recyclerView.setAdapter(adaptador);
-        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        binding.recyclerView1.setAdapter(adaptador);
+        binding.recyclerView1.setLayoutManager(new LinearLayoutManager(getContext()));
         // Inflate the layout for this fragment
 
 

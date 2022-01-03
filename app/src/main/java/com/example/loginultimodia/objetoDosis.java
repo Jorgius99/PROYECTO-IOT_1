@@ -8,15 +8,17 @@ public class objetoDosis {
     private String NumPastillas;
     private Date HoraFecha;
     private int Frecuencia;
+    private String dni;
 
 
     //-------------------------CONSTRUCTOR-----------------------------
 
-    public objetoDosis(String med, String num, int freq){
+    public objetoDosis(String med, String num, int freq, String dni){
             this.Medicamento = med;
             this.NumPastillas = num;
             this.HoraFecha = new Date();
             this.Frecuencia = freq;
+            this.dni = dni;
     }
 
     public objetoDosis(){
@@ -24,7 +26,7 @@ public class objetoDosis {
         this.NumPastillas= "7";
         this.HoraFecha = new Date();
         this.Frecuencia = 8;
-
+        this.dni="24567753N";
     }
     //-------------------------GETTERS---------------------------------
 
@@ -44,8 +46,16 @@ public class objetoDosis {
         return Frecuencia;
     }
 
+    public String getDni() {
+        return dni;
+    }
 
-    //-------------------------SETTERS---------------------------------
+//-------------------------SETTERS---------------------------------
+
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
 
     public void setMedicamento(String medicamento) {
         Medicamento = medicamento;

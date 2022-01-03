@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "965957292289",
+    "firebase_url": "https://asincronaejercicio-default-rtdb.firebaseio.com",
     "project_id": "asincronaejercicio",
     "storage_bucket": "asincronaejercicio.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:965957292289:android:83d8a7fff29b15c9b44b00",
+        "mobilesdk_app_id": "1:965957292289:android:2bb652704215a57fb44b00",
         "android_client_info": {
-          "package_name": "com.example.asincronaejercicio"
+          "package_name": "com.budyfriend.logindatabase_realtime"
         }
       },
       "oauth_client": [
@@ -42,6 +43,22 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "965957292289-hjmskp0s5f5dd4fvd4qnuctu36rk800j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginultimodia",
+            "certificate_hash": "ac9f1e2504bdef5f789775ebe3d6a49edd0bb7f3"
+          }
+        },
+        {
+          "client_id": "965957292289-mscbumh78c2cfd8aah8f0m5hj4gej1u0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginultimodia",
+            "certificate_hash": "e201be2570f4442b940e4361ff900ac309a6aafe"
+          }
+        },
         {
           "client_id": "965957292289-u8qi0j7qsl4p32kc7dfnrguhavdma3nt.apps.googleusercontent.com",
           "client_type": 3

@@ -66,7 +66,10 @@ public class AdaptadorDosisDoc extends
     protected void onBindViewHolder(@NonNull AdaptadorDosisDoc
             .ViewHolder holder, int position, @NonNull Habitacion hab) {
         holder.personaliza(hab);
+        holder.itemView.setTag(hab.getNumHab());
     }
+
+
 
     public void setOnItemClickListener(View.OnClickListener onClick) {
         onClickListener = onClick;

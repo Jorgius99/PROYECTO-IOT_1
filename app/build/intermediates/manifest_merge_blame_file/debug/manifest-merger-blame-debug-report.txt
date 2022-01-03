@@ -123,31 +123,31 @@
 69        </activity>
 70        <activity
 70-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:57:9-62:20
-71            android:name="com.example.loginultimodia.SecondActivity"
-71-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:58:13-43
+71            android:name="com.example.loginultimodia.IniciarDosisDocPaciente"
+71-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:58:13-52
 72            android:exported="true" >
 72-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:60:13-36
 73        </activity>
 74        <activity
 74-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:63:9-68:20
-75            android:name="com.example.loginultimodia.DoctorSecondActivity"
-75-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:64:13-49
+75            android:name="com.example.loginultimodia.SecondActivity"
+75-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:64:13-43
 76            android:exported="true" >
 76-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:66:13-36
 77        </activity>
 78        <activity
-78-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:70:9-75:20
-79            android:name="com.example.loginultimodia.HabitacionesActivity"
-79-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:71:13-49
+78-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:69:9-74:20
+79            android:name="com.example.loginultimodia.DoctorSecondActivity"
+79-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:70:13-49
 80            android:exported="true" >
-80-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:73:13-36
+80-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:72:13-36
 81        </activity>
 82        <activity
-82-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:38:9-43:20
-83            android:name="com.example.loginultimodia.RegisterActivity"
-83-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:39:13-45
+82-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:76:9-81:20
+83            android:name="com.example.loginultimodia.HabitacionesActivity"
+83-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:77:13-49
 84            android:exported="true" >
-84-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:41:13-36
+84-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:79:13-36
 85        </activity>
 86        <activity
 86-->C:\Users\xegea\OneDrive\Escritorio\XAVI UNIVERSIDAD\Segundo Curso\Proyecto IoT\Git\PROYECTO-IOT_1\app\src\main\AndroidManifest.xml:83:9-88:20

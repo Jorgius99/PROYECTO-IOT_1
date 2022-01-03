@@ -25,17 +25,17 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
   public final ImageView imageView01;
 
   @NonNull
-  public final RecyclerView recyclerView;
+  public final RecyclerView recyclerView1;
 
   @NonNull
   public final TextView textView8;
 
   private FragmentDoctorDosisBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView01, @NonNull RecyclerView recyclerView,
+      @NonNull ImageView imageView01, @NonNull RecyclerView recyclerView1,
       @NonNull TextView textView8) {
     this.rootView = rootView;
     this.imageView01 = imageView01;
-    this.recyclerView = recyclerView;
+    this.recyclerView1 = recyclerView1;
     this.textView8 = textView8;
   }
 
@@ -72,9 +72,9 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerView == null) {
+      id = R.id.recyclerView1;
+      RecyclerView recyclerView1 = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView1 == null) {
         break missingId;
       }
 
@@ -84,7 +84,7 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, imageView01, recyclerView,
+      return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, imageView01, recyclerView1,
           textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);

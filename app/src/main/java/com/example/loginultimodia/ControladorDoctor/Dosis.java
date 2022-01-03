@@ -2,21 +2,29 @@ package com.example.loginultimodia.ControladorDoctor;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.loginultimodia.AdaptadorDosisDoc;
+import com.example.loginultimodia.Controlador.PagerControler;
+import com.example.loginultimodia.DosisActivity;
 import com.example.loginultimodia.Habitacion;
+import com.example.loginultimodia.IniciarDosisDocPaciente;
 import com.example.loginultimodia.MasDosisActivity;
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.Usuario;
 import com.example.loginultimodia.databinding.FragmentDoctorDosisBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
+import com.google.firebase.firestore.QuerySnapshot;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,6 +32,8 @@ import com.google.firebase.firestore.Query;
  * create an instance of this fragment.
  */
 public class Dosis extends Fragment {
+    private String correoHab;
+    private static Usuario usuarioConDatos;
     private FragmentDoctorDosisBinding binding; //si no está
     public static AdaptadorDosisDoc adaptador;
     // TODO: Rename parameter arguments, choose names that match
@@ -80,6 +90,7 @@ public class Dosis extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         //View v = inflater.inflate(R.layout.fragment_doctor_dosis, container, false);
+
         binding = FragmentDoctorDosisBinding.inflate(getLayoutInflater());
 
         binding.imageView01.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
@@ -95,13 +106,61 @@ public class Dosis extends Fragment {
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
         adaptador = new AdaptadorDosisDoc(opciones, getContext());
         System.out.println(getContext());
-        binding.recyclerView.setAdapter(adaptador);
-        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        // Inflate the layout for this fragment
+        binding.recyclerView1.setAdapter(adaptador);
+        binding.recyclerView1.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        adaptador.setOnItemClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //startActivity(new Intent(getContext(), PagerControler.class));
+                // int pos = binding.recyclerView.getChildAdapterPosition(v);
+                final Usuario[] correoSacado = {new Usuario()};
+
+                String habitacion = (String) (v.getTag());
+                Toast.makeText(getContext(), "" + habitacion, Toast.LENGTH_SHORT).show();
+                FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+                db.collection("pacientes").whereEqualTo("numHabitacion",habitacion).get().addOnCompleteListener(task ->  {
+                    if (task.isSuccessful()) {
+                        QuerySnapshot document = task.getResult();
+                        DocumentSnapshot docOC = document.getDocuments().get(0);
+                        if (document != null) {
+                            correoSacado[0] = docOC.toObject(Usuario.class);// here
+                            //Log.d("USUARIOSACAD0",""+ correoSacado[0].getEmail());
+                            rellenarUsuario(correoSacado[0]);
+
+                            IniciarDosisDocPaciente.sacaDatos(usuarioConDatos.getEmail());
+                            Log.d("EWEWEWEWEW",""+correoSacado[0]);
+                            obtenerCorreoDeHabitacion(correoSacado[0].getEmail());
+                        }else{
+
+                                Log.d("ERRORhfjhfkjshkdf", "Error getting documents: ", task.getException());
+
+                        }
+                        {
+                            startActivity(new Intent(getContext(), IniciarDosisDocPaciente.class));
+
+                        }
+                    }
+                });
+
+               /* {
+                    //com.example.loginultimodia.Controlador.Dosis.sacaDatos(correoHab);
+
+
+                }*/
+            }
+        });
         return binding.getRoot();
         //return v;
-
-
+    }
+    public static Usuario rellenarUsuario(Usuario ussus)  {
+        usuarioConDatos  = ussus;
+        Log.d("FAFA", ""+usuarioConDatos);
+        return usuarioConDatos;
+    }
+    public void obtenerCorreoDeHabitacion(String correuu){
+    correoHab = correuu;
     }
 /*
     @Override
