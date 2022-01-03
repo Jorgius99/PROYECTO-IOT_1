@@ -30,13 +30,17 @@ public final class CuestionarioEliminarBinding implements ViewBinding {
   @NonNull
   public final TextInputLayout userEliminar;
 
+  @NonNull
+  public final TextView volverAcasa2;
+
   private CuestionarioEliminarBinding(@NonNull ConstraintLayout rootView,
       @NonNull MaterialButton botoneliminar, @NonNull TextView textView2,
-      @NonNull TextInputLayout userEliminar) {
+      @NonNull TextInputLayout userEliminar, @NonNull TextView volverAcasa2) {
     this.rootView = rootView;
     this.botoneliminar = botoneliminar;
     this.textView2 = textView2;
     this.userEliminar = userEliminar;
+    this.volverAcasa2 = volverAcasa2;
   }
 
   @Override
@@ -84,8 +88,14 @@ public final class CuestionarioEliminarBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.volverAcasa2;
+      TextView volverAcasa2 = ViewBindings.findChildViewById(rootView, id);
+      if (volverAcasa2 == null) {
+        break missingId;
+      }
+
       return new CuestionarioEliminarBinding((ConstraintLayout) rootView, botoneliminar, textView2,
-          userEliminar);
+          userEliminar, volverAcasa2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
