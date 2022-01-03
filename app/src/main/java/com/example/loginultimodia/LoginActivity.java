@@ -93,7 +93,7 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this, "User logged in successfully", Toast.LENGTH_SHORT).show();
                         FirebaseUser usuario = FirebaseAuth.getInstance().getCurrentUser();
                         String emailAver = usuario.getEmail();
-                     Dosis.sacaDatos(emailAver);
+
                     //QuerySnapshot nuevoUSUS=  MainActivity.sacaDatos(emailAver);
                         //Log.d("WEBO", ""+nuevoUSUS.toString());
                         /*Query query = FirebaseFirestore.getInstance()
@@ -109,7 +109,8 @@ public class LoginActivity extends AppCompatActivity {
                             startActivity(new Intent(LoginActivity.this, DoctorSecondActivity .class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 
                         }else {
-                            startActivity(new Intent(LoginActivity.this, SecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                            Dosis.sacaDatos(emailAver);
+                            startActivity(new Intent(LoginActivity.this, SecondActivity.class));
                         }
                     } else {
                         Toast.makeText(LoginActivity.this, "Error : " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();

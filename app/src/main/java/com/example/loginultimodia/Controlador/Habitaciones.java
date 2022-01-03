@@ -6,8 +6,18 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.loginultimodia.AdaptadorAvisos;
+import com.example.loginultimodia.AdaptadorTempHum;
+import com.example.loginultimodia.Aviso;
+import com.example.loginultimodia.Habitacion;
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.databinding.FragmentAvisosBinding;
+import com.example.loginultimodia.databinding.FragmentHabitacionesBinding;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -15,7 +25,8 @@ import com.example.loginultimodia.R;
  * create an instance of this fragment.
  */
 public class Habitaciones extends Fragment {
-
+    private FragmentHabitacionesBinding binding; //si no está
+    public static AdaptadorTempHum adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -55,12 +66,41 @@ public class Habitaciones extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
+/*
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_habitaciones, container, false);
+    }
+*/
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        binding = FragmentHabitacionesBinding.inflate(getLayoutInflater());
+        Query query = FirebaseFirestore.getInstance()
+                .collection("habitaciones")
+                .whereEqualTo("DNI", "24567753N");
+        FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
+                .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
+        adaptador = new AdaptadorTempHum(opciones, getContext());
+        System.out.println(getContext());
+        binding.recyclerView.setAdapter(adaptador);
+        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        // Inflate the layout for this fragment
+        return binding.getRoot();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        adaptador.startListening();
+    }
+    @Override
+    public void onStop() {
+        super.onStop();
+        adaptador.stopListening();
     }
 
 

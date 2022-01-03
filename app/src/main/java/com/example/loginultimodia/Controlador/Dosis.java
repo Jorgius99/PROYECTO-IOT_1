@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
@@ -30,7 +31,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class Dosis extends Fragment {
     private static Usuario usuarioConDatos;
 
-    private FragmentDosisBinding binding; //si no está
+    private FragmentDosisBinding binding; //si no estÃ¡
     public static AdaptadorDosis adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -76,34 +77,16 @@ public class Dosis extends Fragment {
 
         final Usuario[] usuarioSacado = {new Usuario()};
 
-        //Usuario nuevoUser = new Usuario();
-       /* Query query = FirebaseFirestore.getInstance()
-                .collection("pacientes")
-                .whereEqualTo("email", usuario.getEmail());*/
         FirebaseFirestore db = FirebaseFirestore.getInstance();
-       /* Task nuevoUser = db.collection("pacientes").whereEqualTo("email",email).get();
 
-        if(nuevoUser.isComplete()){
-            rellenarUsuario(nuevoUser);
-        }*/
         db.collection("pacientes").whereEqualTo("email",email).get().addOnCompleteListener(task ->  {
             if (task.isSuccessful()) {
                 QuerySnapshot document = task.getResult();
                 DocumentSnapshot docOC = document.getDocuments().get(0);
-
                 if (document != null) {
                     usuarioSacado[0] = docOC.toObject(Usuario.class);// here
                     Log.d("USUARIOSACAD0",""+ usuarioSacado[0].getEmail());
-
                     rellenarUsuario(usuarioSacado[0]);
-
-                   /* nuevoUser.setEmail(usuarioSacado[0].getEmail());
-                    nuevoUser.setDNI(usuarioSacado[0].getDNI());
-                    nuevoUser.setTipoUser(usuarioSacado[0].getTipoUser());
-                    nuevoUser.setDNIDOCTOR(usuarioSacado[0].getDNIDOCTOR());
-                    nuevoUser.setNombreApellido(usuarioSacado[0].getNombreApellido());
-                    nuevoUser.setNumHabitacion(usuarioSacado[0].getNumHabitacion());
-                    Log.d("NUEVOUSEREEE", ""+nuevoUser);*/
                 }
             }
         });
@@ -114,30 +97,31 @@ public class Dosis extends Fragment {
         Log.d("FAFA", ""+usuarioConDatos);
         return usuarioConDatos;
     }
-/*
+    /*
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            // Inflate the layout for this fragment
+            return inflater.inflate(R.layout.fragment_dosis, container, false);
+        }
+     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        binding = FragmentDosisBinding.inflate(getLayoutInflater());
+        Query query = FirebaseFirestore.getInstance()
+                .collection("dosis")
+                .whereEqualTo("dni", usuarioConDatos.getDNI());
+        FirestoreRecyclerOptions<objetoDosis> opciones = new FirestoreRecyclerOptions
+                .Builder<objetoDosis>().setQuery(query, objetoDosis.class).build();
+        Log.d("OPCIONEESESSSS22222",""+opciones.getSnapshots());
+        adaptador = new AdaptadorDosis(opciones, getContext());
+        System.out.println(getContext());
+        binding.recyclerView.setAdapter(adaptador);
+        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_dosis, container, false);
+        return binding.getRoot();
     }
- */
-@Override
-public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                         Bundle savedInstanceState) {
-    binding = FragmentDosisBinding.inflate(getLayoutInflater());
-    Query query = FirebaseFirestore.getInstance()
-            .collection("dosis")
-            .whereEqualTo("dni", usuarioConDatos.getDNI());
-    FirestoreRecyclerOptions<objetoDosis> opciones = new FirestoreRecyclerOptions
-            .Builder<objetoDosis>().setQuery(query, objetoDosis.class).build();
-    adaptador = new AdaptadorDosis(opciones, getContext());
-    System.out.println(getContext());
-    binding.recyclerView.setAdapter(adaptador);
-    binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-    // Inflate the layout for this fragment
-    return binding.getRoot();
-}
     @Override
     public void onStart() {
         super.onStart();

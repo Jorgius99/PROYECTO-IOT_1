@@ -2073,7 +2073,6 @@ id CTRL
 id FUNCTION
 id HoraSolo
 id HoraSolo1
-id Humedad
 id META
 id NO_DEBUG
 id Nombre2
@@ -2324,7 +2323,7 @@ id frost
 id ghost_view
 id ghost_view_holder
 id gone
-id grados
+id grados2
 id graph
 id graph_wrap
 id group_divider
@@ -2340,6 +2339,8 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hum
+id humedad
 id hybrid
 id icon
 id icon_frame
@@ -2351,8 +2352,7 @@ id ignoreRequest
 id image
 id imageView01
 id imageView11
-id imageView2
-id imageView6
+id imageView3
 id immediateStop
 id included
 id info
@@ -2595,7 +2595,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
-id temp
+id temp2
+id temperatura
 id terrain
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
@@ -2620,6 +2621,7 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView7
 id textView8
 id text_input_end_icon
 id text_input_error_icon
@@ -2786,6 +2788,7 @@ layout elemento_aviso
 layout elemento_dosis
 layout elemento_dosis_doc
 layout elemento_habs_doctor
+layout elemento_habs_temphum
 layout expand_button
 layout fragment_avisos
 layout fragment_doctor_avisos
