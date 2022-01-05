@@ -22,33 +22,33 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final MaterialButton enviaravi;
+  public final MaterialButton enviarDosis;
+
+  @NonNull
+  public final TextInputEditText etRegCanti;
 
   @NonNull
   public final TextInputEditText etRegDni;
 
   @NonNull
-  public final TextInputEditText etRegHabi;
+  public final TextInputEditText etRegFechaYH;
 
   @NonNull
-  public final TextInputEditText etRegMoti;
-
-  @NonNull
-  public final TextInputEditText etRegPrio;
+  public final TextInputEditText etRegMedicam;
 
   @NonNull
   public final TextView volverAcasa;
 
   private CuestionarioAvisosBinding(@NonNull LinearLayout rootView,
-      @NonNull MaterialButton enviaravi, @NonNull TextInputEditText etRegDni,
-      @NonNull TextInputEditText etRegHabi, @NonNull TextInputEditText etRegMoti,
-      @NonNull TextInputEditText etRegPrio, @NonNull TextView volverAcasa) {
+      @NonNull MaterialButton enviarDosis, @NonNull TextInputEditText etRegCanti,
+      @NonNull TextInputEditText etRegDni, @NonNull TextInputEditText etRegFechaYH,
+      @NonNull TextInputEditText etRegMedicam, @NonNull TextView volverAcasa) {
     this.rootView = rootView;
-    this.enviaravi = enviaravi;
+    this.enviarDosis = enviarDosis;
+    this.etRegCanti = etRegCanti;
     this.etRegDni = etRegDni;
-    this.etRegHabi = etRegHabi;
-    this.etRegMoti = etRegMoti;
-    this.etRegPrio = etRegPrio;
+    this.etRegFechaYH = etRegFechaYH;
+    this.etRegMedicam = etRegMedicam;
     this.volverAcasa = volverAcasa;
   }
 
@@ -79,9 +79,15 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.enviaravi;
-      MaterialButton enviaravi = ViewBindings.findChildViewById(rootView, id);
-      if (enviaravi == null) {
+      id = R.id.enviarDosis;
+      MaterialButton enviarDosis = ViewBindings.findChildViewById(rootView, id);
+      if (enviarDosis == null) {
+        break missingId;
+      }
+
+      id = R.id.etRegCanti;
+      TextInputEditText etRegCanti = ViewBindings.findChildViewById(rootView, id);
+      if (etRegCanti == null) {
         break missingId;
       }
 
@@ -91,21 +97,15 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.etRegHabi;
-      TextInputEditText etRegHabi = ViewBindings.findChildViewById(rootView, id);
-      if (etRegHabi == null) {
+      id = R.id.etRegFechaYH;
+      TextInputEditText etRegFechaYH = ViewBindings.findChildViewById(rootView, id);
+      if (etRegFechaYH == null) {
         break missingId;
       }
 
-      id = R.id.etRegMoti;
-      TextInputEditText etRegMoti = ViewBindings.findChildViewById(rootView, id);
-      if (etRegMoti == null) {
-        break missingId;
-      }
-
-      id = R.id.etRegPrio;
-      TextInputEditText etRegPrio = ViewBindings.findChildViewById(rootView, id);
-      if (etRegPrio == null) {
+      id = R.id.etRegMedicam;
+      TextInputEditText etRegMedicam = ViewBindings.findChildViewById(rootView, id);
+      if (etRegMedicam == null) {
         break missingId;
       }
 
@@ -115,8 +115,8 @@ public final class CuestionarioAvisosBinding implements ViewBinding {
         break missingId;
       }
 
-      return new CuestionarioAvisosBinding((LinearLayout) rootView, enviaravi, etRegDni, etRegHabi,
-          etRegMoti, etRegPrio, volverAcasa);
+      return new CuestionarioAvisosBinding((LinearLayout) rootView, enviarDosis, etRegCanti,
+          etRegDni, etRegFechaYH, etRegMedicam, volverAcasa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

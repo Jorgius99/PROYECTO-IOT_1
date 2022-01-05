@@ -10,9 +10,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.loginultimodia.AdaptadorDosisDoc;
+import com.example.loginultimodia.AnyadirDosisActivity;
 import com.example.loginultimodia.Habitacion;
-import com.example.loginultimodia.MasDosisActivity;
-import com.example.loginultimodia.R;
 import com.example.loginultimodia.databinding.FragmentDoctorDosisBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -83,7 +82,7 @@ public class Dosis extends Fragment {
         binding = FragmentDoctorDosisBinding.inflate(getLayoutInflater());
 
         binding.imageView01.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), MasDosisActivity.class));
+            startActivity(new Intent(getContext(), AnyadirDosisActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
 

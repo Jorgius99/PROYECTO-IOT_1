@@ -16,7 +16,6 @@ import com.firebase.ui.auth.AuthUI;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
-//holaaaaaaaaaaaaaaaaaaaaaaaaa
 public class SuperAdminSecondActivity extends AppCompatActivity {
     //Button tvRegisterHere;//aquiiiiiiiiiiiiiiiiiiii
     //TextView tvRegisterHere;//aquiiiiiiiiiiiiiiiiiiii
@@ -37,8 +36,8 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
         BotonAviso = findViewById(R.id.btAvisos);
         BotonAviso.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(SuperAdminSecondActivity.this, AnyadirAvisoActivity.class);
+            public void onClick(View view) {//                                           aviso--->
+                Intent intent = new Intent(SuperAdminSecondActivity.this, AnyadirDosisActivity.class);
                 startActivity(intent);
             }
         });

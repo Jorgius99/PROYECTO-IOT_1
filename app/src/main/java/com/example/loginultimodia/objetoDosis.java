@@ -5,25 +5,28 @@ import java.util.Date;
 public class objetoDosis {
 
     private String Medicamento;
-    private String NumPastillas;
+    private String Cantidad;
+    private String DNI;
     private Date HoraFecha;
-    private int Frecuencia;
+    private String Frecuencia;
 
 
     //-------------------------CONSTRUCTOR-----------------------------
 
-    public objetoDosis(String med, String num, int freq){
+    public objetoDosis(String med, String canti, String dni, String freq, Date fecha){
             this.Medicamento = med;
-            this.NumPastillas = num;
-            this.HoraFecha = new Date();
+            this.Cantidad = canti;
+            this.DNI = dni;
+            this.HoraFecha= fecha;
             this.Frecuencia = freq;
     }
 
     public objetoDosis(){
         this.Medicamento = "Ibus";
-        this.NumPastillas= "7";
+        this.Cantidad= "7";
+        this.DNI = "24567753N";
         this.HoraFecha = new Date();
-        this.Frecuencia = 8;
+        this.Frecuencia = "8";
 
     }
     //-------------------------GETTERS---------------------------------
@@ -32,36 +35,41 @@ public class objetoDosis {
         return Medicamento;
     }
 
-    public String getNumPastillas() {
-        return NumPastillas;
+    public String getCantidad() {
+        return Cantidad;
+    }
+
+    public String getDNI() {
+        return DNI;
     }
 
     public Date getHoraFecha() {
         return HoraFecha;
     }
 
-    public int getFrecuencia() {
+    public String getFrecuencia() {
         return Frecuencia;
     }
 
-
-    //-------------------------SETTERS---------------------------------
+//-------------------------SETTERS---------------------------------
 
     public void setMedicamento(String medicamento) {
         Medicamento = medicamento;
     }
 
-    public void setNumPastillas(String numPastillas) {
-        NumPastillas = numPastillas;
+    public void setCantidad(String Cantidad) {
+        Cantidad = Cantidad;
+    }
+
+    public void setDNI(String DNI) {
+        this.DNI = DNI;
     }
 
     public void setHoraFecha(Date horaFecha) {
         HoraFecha = horaFecha;
     }
 
-    public void setFrecuencia(int frecuencia) {
+    public void setFrecuencia(String frecuencia) {
         Frecuencia = frecuencia;
     }
-
-
 }
