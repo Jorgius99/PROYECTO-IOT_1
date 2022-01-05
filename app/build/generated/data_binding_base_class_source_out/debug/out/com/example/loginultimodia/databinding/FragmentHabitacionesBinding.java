@@ -5,10 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.loginultimodia.R;
@@ -21,37 +20,12 @@ public final class FragmentHabitacionesBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final TextView Humedad;
+  public final RecyclerView recyclerView;
 
-  @NonNull
-  public final TextView grados;
-
-  @NonNull
-  public final ImageView imageView2;
-
-  @NonNull
-  public final ImageView imageView6;
-
-  @NonNull
-  public final TextView temp;
-
-  @NonNull
-  public final TextView textView3;
-
-  @NonNull
-  public final TextView textView5;
-
-  private FragmentHabitacionesBinding(@NonNull FrameLayout rootView, @NonNull TextView Humedad,
-      @NonNull TextView grados, @NonNull ImageView imageView2, @NonNull ImageView imageView6,
-      @NonNull TextView temp, @NonNull TextView textView3, @NonNull TextView textView5) {
+  private FragmentHabitacionesBinding(@NonNull FrameLayout rootView,
+      @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
-    this.Humedad = Humedad;
-    this.grados = grados;
-    this.imageView2 = imageView2;
-    this.imageView6 = imageView6;
-    this.temp = temp;
-    this.textView3 = textView3;
-    this.textView5 = textView5;
+    this.recyclerView = recyclerView;
   }
 
   @Override
@@ -81,50 +55,13 @@ public final class FragmentHabitacionesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Humedad;
-      TextView Humedad = ViewBindings.findChildViewById(rootView, id);
-      if (Humedad == null) {
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
         break missingId;
       }
 
-      id = R.id.grados;
-      TextView grados = ViewBindings.findChildViewById(rootView, id);
-      if (grados == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6;
-      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView6 == null) {
-        break missingId;
-      }
-
-      id = R.id.temp;
-      TextView temp = ViewBindings.findChildViewById(rootView, id);
-      if (temp == null) {
-        break missingId;
-      }
-
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
-      return new FragmentHabitacionesBinding((FrameLayout) rootView, Humedad, grados, imageView2,
-          imageView6, temp, textView3, textView5);
+      return new FragmentHabitacionesBinding((FrameLayout) rootView, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -21,9 +21,9 @@ import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 
 public class IniciarDosisDocPaciente extends AppCompatActivity {
-    private static Usuario usuarioConDatos = new Usuario();
+    private static Usuario usuarioConDatos;
 
-   // private FragmentDosisBinding binding; //si no está
+    private FragmentDosisBinding binding; //si no está
     private AdaptadorDosis adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -37,15 +37,12 @@ public class IniciarDosisDocPaciente extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //usuarioConDatos.setDNI("24567753N");
 
-        RecyclerView recyclerView = findViewById(R.id.recyclerViewD);
-//        recyclerView.setHasFixedSize(true);
         FirebaseFirestore db = FirebaseFirestore.getInstance();
-        //binding = FragmentDosisBinding.inflate(getLayoutInflater());
+
         Query query = db.collection("dosis")
-                .whereEqualTo("dni","24567753N");
-query.addSnapshotListener(new EventListener<QuerySnapshot>() {
+                .whereEqualTo("dni",usuarioConDatos.getDNI());
+        query.addSnapshotListener(new EventListener<QuerySnapshot>() {
     @Override
     public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
 
@@ -56,25 +53,22 @@ query.addSnapshotListener(new EventListener<QuerySnapshot>() {
             Log.d("OPCIONESSSSSSSSS",""+query.get().isComplete());
             Log.d("APPLICATIONNNNNNN",""+getApplicationContext().toString());
             adaptador = new AdaptadorDosis(opciones, getApplicationContext());
-            Log.d("ADAPTADOORRR",""+adaptador.getSnapshots());
-            recyclerView.setAdapter(adaptador);
-            adaptador.startListening();
-            recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
 
+            binding = FragmentDosisBinding.inflate(getLayoutInflater());
+            setContentView(binding.getRoot());
+
+            RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+            binding.recyclerViewD.setLayoutManager(layoutManager);
+
+            binding.recyclerViewD.setAdapter(adaptador);
+
+            adaptador.startListening();
 
         }
 
     }
 });
 
-
-
-
-
-        //System.out.println(getContext());
-       // binding.recyclerView1.setAdapter(adaptador);
-        //binding.recyclerView1.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        // Inflate the layout for this fragment
 
     }
 
@@ -97,10 +91,10 @@ query.addSnapshotListener(new EventListener<QuerySnapshot>() {
         });
         // Log.d("NUEVOUSER", ""+nuevoUser);
     }
-    public static Usuario rellenarUsuario(Usuario ussus)  {
+    public static void rellenarUsuario(Usuario ussus)  {
         usuarioConDatos  = ussus;
         Log.d("FAFA", ""+usuarioConDatos);
-        return usuarioConDatos;
+       // return usuarioConDatos;
     }
 /*
     @Override

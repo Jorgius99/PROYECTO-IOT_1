@@ -113,7 +113,6 @@ public class HabitacionesDoc extends Fragment {
         binding = FragmentDoctorHabitacionesBinding.inflate(getLayoutInflater());
         Query query = FirebaseFirestore.getInstance()
                 .collection("habitaciones");
-                //.whereEqualTo("numHab", "1");
 
 
         FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions

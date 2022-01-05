@@ -20,6 +20,7 @@ import com.example.loginultimodia.MasDosisActivity;
 import com.example.loginultimodia.R;
 import com.example.loginultimodia.Usuario;
 import com.example.loginultimodia.databinding.FragmentDoctorDosisBinding;
+import com.example.loginultimodia.databinding.FragmentDosisBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -34,7 +35,9 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class Dosis extends Fragment {
     private String correoHab;
     private static Usuario usuarioConDatos;
-    private FragmentDoctorDosisBinding binding; //si no está
+    private FragmentDosisBinding bindingDosisPaciente ; //si no estÃ¡
+
+    private FragmentDoctorDosisBinding binding ; //si no está
     public static AdaptadorDosisDoc adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -102,6 +105,7 @@ public class Dosis extends Fragment {
         Query query = FirebaseFirestore.getInstance()
                 .collection("habitaciones");
                 //.whereEqualTo("numHab", "1");
+
         FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
         adaptador = new AdaptadorDosisDoc(opciones, getContext());
@@ -129,7 +133,7 @@ public class Dosis extends Fragment {
                             //Log.d("USUARIOSACAD0",""+ correoSacado[0].getEmail());
                             rellenarUsuario(correoSacado[0]);
 
-                            IniciarDosisDocPaciente.sacaDatos(usuarioConDatos.getEmail());
+                            IniciarDosisDocPaciente.rellenarUsuario(usuarioConDatos);
                             Log.d("EWEWEWEWEW",""+correoSacado[0]);
                             obtenerCorreoDeHabitacion(correoSacado[0].getEmail());
                         }else{

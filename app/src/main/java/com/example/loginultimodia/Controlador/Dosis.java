@@ -5,6 +5,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -31,7 +32,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class Dosis extends Fragment {
     private static Usuario usuarioConDatos;
 
-    private FragmentDosisBinding binding; //si no está
+    private FragmentDosisBinding binding; //si no estÃ¡
     public static AdaptadorDosis adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -67,6 +68,7 @@ public class Dosis extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -97,24 +99,26 @@ public class Dosis extends Fragment {
         Log.d("FAFA", ""+usuarioConDatos);
         return usuarioConDatos;
     }
-/*
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_dosis, container, false);
-    }
- */
+    /*
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            // Inflate the layout for this fragment
+            return inflater.inflate(R.layout.fragment_dosis, container, false);
+        }
+     */
+
 @Override
 public View onCreateView(LayoutInflater inflater, ViewGroup container,
                          Bundle savedInstanceState) {
+
     binding = FragmentDosisBinding.inflate(getLayoutInflater());
     Query query = FirebaseFirestore.getInstance()
             .collection("dosis")
             .whereEqualTo("dni", usuarioConDatos.getDNI());
     FirestoreRecyclerOptions<objetoDosis> opciones = new FirestoreRecyclerOptions
             .Builder<objetoDosis>().setQuery(query, objetoDosis.class).build();
-    Log.d("OPCIONEESESSSS22222",""+opciones.getSnapshots());
+    Log.d("Weonao",""+opciones.getSnapshots());
     adaptador = new AdaptadorDosis(opciones, getContext());
     System.out.println(getContext());
     binding.recyclerViewD.setAdapter(adaptador);
