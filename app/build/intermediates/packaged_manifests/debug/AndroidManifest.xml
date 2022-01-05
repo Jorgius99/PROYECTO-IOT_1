@@ -92,15 +92,15 @@
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.MasDosisActivity"
-            android:exported="true" >
-        </activity>
-        <activity
             android:name="com.example.loginultimodia.EliminarPacienteActivity"
             android:exported="true" >
         </activity>
         <activity
             android:name="com.example.loginultimodia.AbrirEliminarActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.loginultimodia.AnyadirDosisActivity"
             android:exported="true" >
         </activity>
         <activity

@@ -5,28 +5,44 @@ import java.util.Date;
 public class objetoDosis {
 
     private String Medicamento;
-    private String NumPastillas;
+    private String Cantidad;
+    private String DNI;
     private Date HoraFecha;
+<<<<<<< HEAD
     private int Frecuencia;
     private String dni;
+=======
+    private String Frecuencia;
+>>>>>>> develop
 
 
     //-------------------------CONSTRUCTOR-----------------------------
 
+<<<<<<< HEAD
     public objetoDosis(String med, String num, int freq, String dni){
+=======
+    public objetoDosis(String med, String canti, String dni, String freq, Date fecha){
+>>>>>>> develop
             this.Medicamento = med;
-            this.NumPastillas = num;
-            this.HoraFecha = new Date();
+            this.Cantidad = canti;
+            this.DNI = dni;
+            this.HoraFecha= fecha;
             this.Frecuencia = freq;
             this.dni = dni;
     }
 
     public objetoDosis(){
         this.Medicamento = "Ibus";
-        this.NumPastillas= "7";
+        this.Cantidad= "7";
+        this.DNI = "24567753N";
         this.HoraFecha = new Date();
+<<<<<<< HEAD
         this.Frecuencia = 8;
         this.dni="24567753N";
+=======
+        this.Frecuencia = "8";
+
+>>>>>>> develop
     }
     //-------------------------GETTERS---------------------------------
 
@@ -34,18 +50,23 @@ public class objetoDosis {
         return Medicamento;
     }
 
-    public String getNumPastillas() {
-        return NumPastillas;
+    public String getCantidad() {
+        return Cantidad;
+    }
+
+    public String getDNI() {
+        return DNI;
     }
 
     public Date getHoraFecha() {
         return HoraFecha;
     }
 
-    public int getFrecuencia() {
+    public String getFrecuencia() {
         return Frecuencia;
     }
 
+<<<<<<< HEAD
     public String getDni() {
         return dni;
     }
@@ -56,22 +77,27 @@ public class objetoDosis {
     public void setDni(String dni) {
         this.dni = dni;
     }
+=======
+//-------------------------SETTERS---------------------------------
+>>>>>>> develop
 
     public void setMedicamento(String medicamento) {
         Medicamento = medicamento;
     }
 
-    public void setNumPastillas(String numPastillas) {
-        NumPastillas = numPastillas;
+    public void setCantidad(String Cantidad) {
+        Cantidad = Cantidad;
+    }
+
+    public void setDNI(String DNI) {
+        this.DNI = DNI;
     }
 
     public void setHoraFecha(Date horaFecha) {
         HoraFecha = horaFecha;
     }
 
-    public void setFrecuencia(int frecuencia) {
+    public void setFrecuencia(String frecuencia) {
         Frecuencia = frecuencia;
     }
-
-
 }

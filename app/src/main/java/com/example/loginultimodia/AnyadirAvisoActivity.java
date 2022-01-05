@@ -28,12 +28,12 @@ public class AnyadirAvisoActivity extends AppCompatActivity {
         setContentView(R.layout.cuestionario_avisos);
 
 
-        etRegMotivo=findViewById(R.id.etRegMoti);
-        etRegPrioridad=findViewById(R.id.etRegPrio);
+        etRegMotivo=findViewById(R.id.etRegMedicam);
+        etRegPrioridad=findViewById(R.id.etRegFechaYH);
         etRegDni=findViewById(R.id.etRegDni);
-        etRegHabitacion=findViewById(R.id.etRegHabi);
+        etRegHabitacion=findViewById(R.id.etRegCanti);
         tvLoginHere = findViewById(R.id.volverAcasa);
-        btnRegister = findViewById(R.id.enviaravi);
+        btnRegister = findViewById(R.id.enviarDosis);
 
 
         btnRegister.setOnClickListener(view ->{

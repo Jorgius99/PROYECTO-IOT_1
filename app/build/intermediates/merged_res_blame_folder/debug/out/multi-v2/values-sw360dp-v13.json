@@ -1,10 +1,27 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\b02dba28f75de41b4c0931eec3c69679\\transformed\\jetified-firebase-ui-auth-8.0.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+=======
+            "outputFile": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Álvaro Escribano\\.gradle\\caches\\transforms-3\\3a2ef2d9f153060eaba5a3edae26c702\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Álvaro Escribano\\.gradle\\caches\\transforms-3\\b02dba28f75de41b4c0931eec3c69679\\transformed\\jetified-firebase-ui-auth-8.0.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+>>>>>>> develop
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -19,6 +36,7 @@
                         "endColumns": "69,60,60,54,53,57,56",
                         "endOffsets": "192,253,314,369,423,481,538"
                     }
+<<<<<<< HEAD
                 },
                 {
                     "source": "C:\\Users\\xegea\\.gradle\\caches\\transforms-3\\3a2ef2d9f153060eaba5a3edae26c702\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
@@ -29,6 +47,8 @@
                         "endColumns": "71",
                         "endOffsets": "122"
                     }
+=======
+>>>>>>> develop
                 }
             ]
         }

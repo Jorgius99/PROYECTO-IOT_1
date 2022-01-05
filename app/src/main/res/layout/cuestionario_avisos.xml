@@ -32,7 +32,7 @@
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etRegMoti"
+                android:id="@+id/etRegMedicam"
                 android:layout_width="match_parent"
                 android:layout_height="108dp"
                 android:hint="Motivo"
@@ -61,7 +61,7 @@
             android:layout_marginTop="12dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etRegHabi"
+                android:id="@+id/etRegCanti"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Habitación"
@@ -75,7 +75,7 @@
             android:layout_marginTop="12dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etRegPrio"
+                android:id="@+id/etRegFechaYH"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Importancia"
@@ -84,7 +84,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/enviaravi"
+            android:id="@+id/enviarDosis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
