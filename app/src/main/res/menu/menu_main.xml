@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/acercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Acerca de..." />
+    <item
+        android:id="@+id/buttonMConnect"
+        android:title="Conectar Pikku" />
+    <item
+        android:id="@+id/btnLogout"
+        android:title="Cerrar sesión" />
+
+</menu>
