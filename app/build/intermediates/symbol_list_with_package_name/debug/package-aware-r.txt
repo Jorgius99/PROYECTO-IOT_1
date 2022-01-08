@@ -1965,6 +1965,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable btn_redondeado_blue
 drawable calor
+drawable cama
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2075,7 +2076,6 @@ id HoraSolo
 id HoraSolo1
 id META
 id NO_DEBUG
-id Nombre2
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2351,8 +2351,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id imageView01
 id imageView11
+id imageView2
 id imageView3
 id immediateStop
 id included

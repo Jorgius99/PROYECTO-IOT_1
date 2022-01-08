@@ -9,9 +9,12 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.common.util.concurrent.SimpleTimeLimiter;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.SimpleTimeZone;
 
 public class AnyadirDosisActivity extends AppCompatActivity {
 
@@ -55,14 +58,24 @@ public class AnyadirDosisActivity extends AppCompatActivity {
         String Dni = etRegDni.getText().toString();
         String Frecuencia = etRegFrecuencia.getText().toString();
         //String FechaYHora = etRegFechaYHora.getText().toString();
-        Date FechaYHora = new Date();
 
-        objetoDosis objetodosis = new objetoDosis(Medicamento, Cantidad, Dni, Frecuencia, FechaYHora);
-        //String motiv, Date fecha, String prior, String dni, String habitacion)
+        try{
+            Date datee = new SimpleDateFormat("dd/MM/yyyy, ").parse(etRegFechaYHora.getText().toString());
+            //Date hora = new SimpleTimeLimiter()
+
+            objetoDosis objetodosis = new objetoDosis(Medicamento, Cantidad, Dni, Frecuencia, datee);
+            //String motiv, Date fecha, String prior, String dni, String habitacion)
             db= FirebaseFirestore.getInstance();
             db.collection("dosis").document().set(objetodosis);
             //db.collection("pacientes").document(nombreApellido).collection("doctor").add(doctor);
-        Toast.makeText(AnyadirDosisActivity.this, "Se ha añadido correctamente", Toast.LENGTH_SHORT).show();
+            Toast.makeText(AnyadirDosisActivity.this, "Se ha añadido correctamente", Toast.LENGTH_SHORT).show();
+
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        //Date FechaYHora = new Date();
+
+
     }
 
 }
