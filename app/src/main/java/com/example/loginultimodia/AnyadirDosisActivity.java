@@ -9,12 +9,11 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputEditText;
-import com.google.common.util.concurrent.SimpleTimeLimiter;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
-import java.util.SimpleTimeZone;
 
 public class AnyadirDosisActivity extends AppCompatActivity {
 
@@ -60,10 +59,12 @@ public class AnyadirDosisActivity extends AppCompatActivity {
         //String FechaYHora = etRegFechaYHora.getText().toString();
 
         try{
-            Date datee = new SimpleDateFormat("dd/MM/yyyy, ").parse(etRegFechaYHora.getText().toString());
+            Date datee = new SimpleDateFormat("dd/MM/yyyy, hh:mm").parse(etRegFechaYHora.getText().toString());
             //Date hora = new SimpleTimeLimiter()
 
-            objetoDosis objetodosis = new objetoDosis(Medicamento, Cantidad, Dni, Frecuencia, datee);
+            //datee.setHours(16);
+            //datee.setMinutes(23);
+            ObjetoDosis objetodosis = new ObjetoDosis(Medicamento, Cantidad, Dni, Frecuencia, datee);
             //String motiv, Date fecha, String prior, String dni, String habitacion)
             db= FirebaseFirestore.getInstance();
             db.collection("dosis").document().set(objetodosis);

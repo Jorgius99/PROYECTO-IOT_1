@@ -6,15 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 
 import com.example.loginultimodia.AdaptadorDosis;
 import com.example.loginultimodia.Usuario;
-import com.example.loginultimodia.objetoDosis;
-import com.example.loginultimodia.R;
+import com.example.loginultimodia.ObjetoDosis;
 
 import com.example.loginultimodia.databinding.FragmentDosisBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -112,8 +110,8 @@ public class Dosis extends Fragment {
         Query query = FirebaseFirestore.getInstance()
                 .collection("dosis")
                 .whereEqualTo("dni", usuarioConDatos.getDNI());
-        FirestoreRecyclerOptions<objetoDosis> opciones = new FirestoreRecyclerOptions
-                .Builder<objetoDosis>().setQuery(query, objetoDosis.class).build();
+        FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
+                .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
         Log.d("OPCIONEESESSSS22222",""+opciones.getSnapshots());
         adaptador = new AdaptadorDosis(opciones, getContext());
         System.out.println(getContext());
