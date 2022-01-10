@@ -48,8 +48,8 @@ public class IniciarDosisDocPaciente extends AppCompatActivity {
 
         if(value!=null){
 
-            FirestoreRecyclerOptions<objetoDosis> opciones = new FirestoreRecyclerOptions
-                    .Builder<objetoDosis>().setQuery(query, objetoDosis.class).build();
+            FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
+                    .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
             Log.d("OPCIONESSSSSSSSS",""+query.get().isComplete());
             Log.d("APPLICATIONNNNNNN",""+getApplicationContext().toString());
             adaptador = new AdaptadorDosis(opciones, getApplicationContext());

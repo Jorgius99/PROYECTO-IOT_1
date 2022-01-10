@@ -14,7 +14,7 @@ import com.example.loginultimodia.Controlador.PagerControler;
 import com.example.loginultimodia.DosisActivity;
 import com.example.loginultimodia.Habitacion;
 import com.example.loginultimodia.IniciarDosisDocPaciente;
-import com.example.loginultimodia.MasDosisActivity;
+//import com.example.loginultimodia.MasDosisActivity;
 import com.example.loginultimodia.R;
 import com.example.loginultimodia.Usuario;
 import com.example.loginultimodia.AnyadirDosisActivity;

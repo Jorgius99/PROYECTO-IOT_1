@@ -105,7 +105,6 @@ public class Dosis extends Fragment {
             return inflater.inflate(R.layout.fragment_dosis, container, false);
         }
      */
-<<<<<<< HEAD
 
 @Override
 public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -115,8 +114,8 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
     Query query = FirebaseFirestore.getInstance()
             .collection("dosis")
             .whereEqualTo("dni", usuarioConDatos.getDNI());
-    FirestoreRecyclerOptions<objetoDosis> opciones = new FirestoreRecyclerOptions
-            .Builder<objetoDosis>().setQuery(query, objetoDosis.class).build();
+    FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
+            .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
     Log.d("Weonao",""+opciones.getSnapshots());
     adaptador = new AdaptadorDosis(opciones, getContext());
     System.out.println(getContext());
@@ -125,25 +124,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
     // Inflate the layout for this fragment
     return binding.getRoot();
 }
-=======
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        binding = FragmentDosisBinding.inflate(getLayoutInflater());
-        Query query = FirebaseFirestore.getInstance()
-                .collection("dosis")
-                .whereEqualTo("dni", usuarioConDatos.getDNI());
-        FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
-                .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
-        Log.d("OPCIONEESESSSS22222",""+opciones.getSnapshots());
-        adaptador = new AdaptadorDosis(opciones, getContext());
-        System.out.println(getContext());
-        binding.recyclerView.setAdapter(adaptador);
-        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        // Inflate the layout for this fragment
-        return binding.getRoot();
-    }
->>>>>>> develop
+
     @Override
     public void onStart() {
         super.onStart();

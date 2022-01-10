@@ -111,7 +111,6 @@ public class LoginActivity extends AppCompatActivity {
                         }else {
                             Dosis.sacaDatos(emailAver);
                             startActivity(new Intent(LoginActivity.this, SecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-                            startActivity(new Intent(LoginActivity.this, SecondActivity.class));
                         }
                     } else {
                         Toast.makeText(LoginActivity.this, "Error : " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
