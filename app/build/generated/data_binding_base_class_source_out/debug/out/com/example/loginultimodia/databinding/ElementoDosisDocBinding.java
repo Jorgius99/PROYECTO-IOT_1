@@ -4,6 +4,7 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,15 +21,15 @@ public final class ElementoDosisDocBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView Nombre2;
+  public final ImageView imageView2;
 
   @NonNull
   public final TextView numHab;
 
-  private ElementoDosisDocBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Nombre2,
+  private ElementoDosisDocBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
       @NonNull TextView numHab) {
     this.rootView = rootView;
-    this.Nombre2 = Nombre2;
+    this.imageView2 = imageView2;
     this.numHab = numHab;
   }
 
@@ -59,9 +60,9 @@ public final class ElementoDosisDocBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Nombre2;
-      TextView Nombre2 = ViewBindings.findChildViewById(rootView, id);
-      if (Nombre2 == null) {
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
         break missingId;
       }
 
@@ -71,7 +72,7 @@ public final class ElementoDosisDocBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ElementoDosisDocBinding((ConstraintLayout) rootView, Nombre2, numHab);
+      return new ElementoDosisDocBinding((ConstraintLayout) rootView, imageView2, numHab);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

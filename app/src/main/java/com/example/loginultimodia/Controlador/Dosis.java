@@ -7,15 +7,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 
 import com.example.loginultimodia.AdaptadorDosis;
 import com.example.loginultimodia.Usuario;
-import com.example.loginultimodia.objetoDosis;
-import com.example.loginultimodia.R;
+import com.example.loginultimodia.ObjetoDosis;
 
 import com.example.loginultimodia.databinding.FragmentDosisBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -107,6 +105,7 @@ public class Dosis extends Fragment {
             return inflater.inflate(R.layout.fragment_dosis, container, false);
         }
      */
+<<<<<<< HEAD
 
 @Override
 public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -126,6 +125,25 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
     // Inflate the layout for this fragment
     return binding.getRoot();
 }
+=======
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        binding = FragmentDosisBinding.inflate(getLayoutInflater());
+        Query query = FirebaseFirestore.getInstance()
+                .collection("dosis")
+                .whereEqualTo("dni", usuarioConDatos.getDNI());
+        FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
+                .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
+        Log.d("OPCIONEESESSSS22222",""+opciones.getSnapshots());
+        adaptador = new AdaptadorDosis(opciones, getContext());
+        System.out.println(getContext());
+        binding.recyclerView.setAdapter(adaptador);
+        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        // Inflate the layout for this fragment
+        return binding.getRoot();
+    }
+>>>>>>> develop
     @Override
     public void onStart() {
         super.onStart();

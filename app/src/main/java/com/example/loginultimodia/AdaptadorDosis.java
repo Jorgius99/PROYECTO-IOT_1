@@ -24,13 +24,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class AdaptadorDosis extends
-        FirestoreRecyclerAdapter<objetoDosis, AdaptadorDosis.ViewHolder> {
+        FirestoreRecyclerAdapter<ObjetoDosis, AdaptadorDosis.ViewHolder> {
     protected View.OnClickListener onClickListener;
     protected Context context;
     protected  static CollectionReference pacientes;
 
     public AdaptadorDosis(
-            @NonNull FirestoreRecyclerOptions<objetoDosis> options, Context context){
+            @NonNull FirestoreRecyclerOptions<ObjetoDosis> options, Context context){
         super(options);
         this.context = context.getApplicationContext();
 
@@ -46,7 +46,7 @@ public class AdaptadorDosis extends
             fecha = itemView.fecha1;
         }
         // Personalizamos un ViewHolder a partir de un lugar
-        public void personaliza(objetoDosis dosis) {
+        public void personaliza(ObjetoDosis dosis) {
 
             FirebaseFirestore db = FirebaseFirestore.getInstance();
             pacientes = db.collection("dosis");
@@ -69,7 +69,7 @@ public class AdaptadorDosis extends
 
     @Override
     protected void onBindViewHolder(@NonNull AdaptadorDosis
-            .ViewHolder holder, int position, @NonNull objetoDosis dosis) {
+            .ViewHolder holder, int position, @NonNull ObjetoDosis dosis) {
         holder.personaliza(dosis);
     }
 

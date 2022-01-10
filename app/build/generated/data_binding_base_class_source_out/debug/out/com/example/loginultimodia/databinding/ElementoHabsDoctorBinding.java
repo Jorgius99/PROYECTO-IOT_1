@@ -4,6 +4,7 @@ package com.example.loginultimodia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,19 +21,19 @@ public final class ElementoHabsDoctorBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView Nombre2;
+  public final ConstraintLayout dosis1;
 
   @NonNull
-  public final ConstraintLayout dosis1;
+  public final ImageView imageView;
 
   @NonNull
   public final TextView numHab;
 
-  private ElementoHabsDoctorBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Nombre2,
-      @NonNull ConstraintLayout dosis1, @NonNull TextView numHab) {
+  private ElementoHabsDoctorBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout dosis1, @NonNull ImageView imageView, @NonNull TextView numHab) {
     this.rootView = rootView;
-    this.Nombre2 = Nombre2;
     this.dosis1 = dosis1;
+    this.imageView = imageView;
     this.numHab = numHab;
   }
 
@@ -63,13 +64,13 @@ public final class ElementoHabsDoctorBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Nombre2;
-      TextView Nombre2 = ViewBindings.findChildViewById(rootView, id);
-      if (Nombre2 == null) {
+      ConstraintLayout dosis1 = (ConstraintLayout) rootView;
+
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
         break missingId;
       }
-
-      ConstraintLayout dosis1 = (ConstraintLayout) rootView;
 
       id = R.id.num_hab;
       TextView numHab = ViewBindings.findChildViewById(rootView, id);
@@ -77,7 +78,7 @@ public final class ElementoHabsDoctorBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ElementoHabsDoctorBinding((ConstraintLayout) rootView, Nombre2, dosis1, numHab);
+      return new ElementoHabsDoctorBinding((ConstraintLayout) rootView, dosis1, imageView, numHab);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

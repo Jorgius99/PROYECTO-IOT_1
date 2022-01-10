@@ -2,7 +2,7 @@ package com.example.loginultimodia;
 
 import java.util.Date;
 
-public class objetoDosis {
+public class ObjetoDosis {
 
     private String Medicamento;
     private String Cantidad;
@@ -18,11 +18,15 @@ public class objetoDosis {
 
     //-------------------------CONSTRUCTOR-----------------------------
 
+<<<<<<< HEAD:app/src/main/java/com/example/loginultimodia/objetoDosis.java
 <<<<<<< HEAD
     public objetoDosis(String med, String num, int freq, String dni){
 =======
     public objetoDosis(String med, String canti, String dni, String freq, Date fecha){
 >>>>>>> develop
+=======
+    public ObjetoDosis(String med, String canti, String dni, String freq, Date fecha){
+>>>>>>> develop:app/src/main/java/com/example/loginultimodia/ObjetoDosis.java
             this.Medicamento = med;
             this.Cantidad = canti;
             this.DNI = dni;
@@ -31,7 +35,7 @@ public class objetoDosis {
             this.dni = dni;
     }
 
-    public objetoDosis(){
+    public ObjetoDosis(){
         this.Medicamento = "Ibus";
         this.Cantidad= "7";
         this.DNI = "24567753N";

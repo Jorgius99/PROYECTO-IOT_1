@@ -1,11 +1,16 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_dosis.xml",
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_dosis.xml"
     },
     {
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_avisos.xml",
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_avisos.xml"
+=======
+        "merged": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_avisos.xml",
+        "source": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_avisos.xml"
+>>>>>>> develop
     },
     {
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_doctor_dosis.xml",
