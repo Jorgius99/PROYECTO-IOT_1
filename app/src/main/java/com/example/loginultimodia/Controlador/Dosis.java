@@ -21,6 +21,8 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import java.util.Date;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link Dosis#newInstance} factory method to
@@ -103,13 +105,17 @@ public class Dosis extends Fragment {
             return inflater.inflate(R.layout.fragment_dosis, container, false);
         }
      */
+    
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        Date datee = new Date();
+        Log.d("perra", String.valueOf(datee));
+
         binding = FragmentDosisBinding.inflate(getLayoutInflater());
         Query query = FirebaseFirestore.getInstance()
                 .collection("dosis")
-                .whereEqualTo("dni", usuarioConDatos.getDNI());
+                .whereEqualTo("dni", usuarioConDatos.getDNI()).whereLessThan("fecha", datee);
         FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
                 .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
         Log.d("OPCIONEESESSSS22222",""+opciones.getSnapshots());
