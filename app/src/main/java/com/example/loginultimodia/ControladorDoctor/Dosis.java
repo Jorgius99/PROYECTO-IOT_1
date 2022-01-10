@@ -7,12 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
-
 import com.example.loginultimodia.AdaptadorDosisDoc;
-<<<<<<< HEAD
 import com.example.loginultimodia.Controlador.PagerControler;
 import com.example.loginultimodia.DosisActivity;
 import com.example.loginultimodia.Habitacion;
@@ -20,10 +17,8 @@ import com.example.loginultimodia.IniciarDosisDocPaciente;
 import com.example.loginultimodia.MasDosisActivity;
 import com.example.loginultimodia.R;
 import com.example.loginultimodia.Usuario;
-=======
 import com.example.loginultimodia.AnyadirDosisActivity;
 import com.example.loginultimodia.Habitacion;
->>>>>>> develop
 import com.example.loginultimodia.databinding.FragmentDoctorDosisBinding;
 import com.example.loginultimodia.databinding.FragmentDosisBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
