@@ -36,7 +36,7 @@ public class ServicioPikku extends Service {
         }
         NotificationCompat.Builder notificacion =
                 new NotificationCompat.Builder(this, CANAL_ID)
-                        .setSmallIcon(R.mipmap.ic_launcher_round)
+                        .setSmallIcon(R.mipmap.ic_launcher)
                         .setContentTitle("EMERGENCIA")
                         .setContentText("Se ha producido una CAIDA en la habitación A");
         PendingIntent intencionPendiente = PendingIntent.getActivity(

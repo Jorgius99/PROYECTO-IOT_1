@@ -162,7 +162,7 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
 
         NotificationCompat.Builder notificacion =
                 new NotificationCompat.Builder(this, CANAL_ID)
-                        .setSmallIcon(R.mipmap.ic_launcher_round)
+                        .setSmallIcon(R.mipmap.ic_launcher)
                         .setContentTitle("Título")
                         .setContentText("Texto de la notificación.");
         PendingIntent intencionPendiente = PendingIntent.getActivity(
