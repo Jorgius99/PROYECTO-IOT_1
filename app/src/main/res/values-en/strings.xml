@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bienvenido</string>
+    <string name="descrp">Control and Administrationof pacientients</string>
+    <string name="temp">Temperature</string>
+    <string name="btnCancelar">Cancel</string>
+    <string name="btnIngresar">Sing in</string>
+    <string name="txtUsername">User</string>
+    <string name="txtPassword">Password</string>
+    <string name="tabavisos">Advertisements</string>
+    <string name="tabhabitacion">Room</string>
+    <string name="tabdosis">Dose</string>
+    <string name="nombpa">Patient name</string>
+    <string name="motivo">reason</string>
+    <string name="medicamento">medicine</string>
+    <string name="Hora">Date and Time</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="textoDoctor">Doctor Name</string>
+    <string name="textoAviso">This is a message</string>
+    <string name="habs">Your Rooms</string>
+    <string name="Nombre1">Room number</string>
+    <string name="HoraSolo">Time</string>
+    <string name="Humedad">Humedity</string>
+</resources>
