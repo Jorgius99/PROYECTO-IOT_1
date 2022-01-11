@@ -43,5 +43,6 @@ public class EliminarPacienteActivity extends AppCompatActivity {
             db.collection("pacientes").document(nombreApellido).delete();
             //db.collection("pacientes").document(nombreApellido).collection("doctor").add(doctor);
     }
+
 }
 

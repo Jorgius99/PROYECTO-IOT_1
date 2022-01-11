@@ -133,7 +133,6 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
         }
 
 
-
         return super.onOptionsItemSelected(item);
     }
     public void lanzarConectarPikku(View view){
@@ -146,6 +145,10 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
     }
     public void lanzarLogOut(View view) {
         Intent i = new Intent(this, LogOutActivity.class);
+        startActivity(i);
+    }
+    public void lanzarMedicamento(View view) {
+        Intent i = new Intent(this, MedicamentosActivity.class);
         startActivity(i);
     }
 

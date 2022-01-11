@@ -145,12 +145,21 @@ public class LoginActivity extends AppCompatActivity {
             return true;
 
         }
+        if (id == R.id.listadoMedicamentos){
+            lanzarMedicamento(null);
+            return true;
+
+        }
 
 
         return super.onOptionsItemSelected(item);
     }
     public void lanzarAcercaDe(View view){
         Intent i = new Intent(this, AcercaDeActivity.class);
+        startActivity(i);
+    }
+    public void lanzarMedicamento(View view){
+        Intent i = new Intent(this, MedicamentosActivity.class);
         startActivity(i);
     }
 

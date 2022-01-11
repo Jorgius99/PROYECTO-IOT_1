@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
+            "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Pablo Chova\\.gradle\\caches\\transforms-3\\3a2ef2d9f153060eaba5a3edae26c702\\transformed\\preference-1.1.1\\res\\values-my\\values-my.xml",

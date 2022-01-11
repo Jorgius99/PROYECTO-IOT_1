@@ -41,6 +41,14 @@
             android:exported="true">
 
         </activity>
+
+        <activity
+            android:name=".MedicamentosActivity"
+
+            android:exported="true">
+
+        </activity>
+
         <activity
             android:name=".ConectarPikkuActivity"
 

@@ -60,6 +60,10 @@
             android:exported="true" >
         </activity>
         <activity
+            android:name="com.example.loginultimodia.MedicamentosActivity"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.example.loginultimodia.ConectarPikkuActivity"
             android:exported="true" >
         </activity>

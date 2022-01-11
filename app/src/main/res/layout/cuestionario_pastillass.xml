@@ -106,6 +106,15 @@
             android:background="@drawable/botonesredondos"
             android:text="Enviar" />
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/listadoMedicamentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/botonesredondos"
+            android:onClick="lanzarMedicamentos"
+            android:text="Medicamentos frecuentes" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

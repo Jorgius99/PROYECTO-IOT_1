@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn\\values-mn.xml",
+            "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn\\values-mn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Pablo Chova\\.gradle\\caches\\transforms-3\\3c9eb5accf48c58e86651cd5a65fb6e3\\transformed\\jetified-play-services-base-18.0.0\\res\\values-mn\\values.xml",

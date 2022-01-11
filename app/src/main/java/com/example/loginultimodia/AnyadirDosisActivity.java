@@ -2,6 +2,7 @@ package com.example.loginultimodia;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,14 +25,14 @@ public class AnyadirDosisActivity extends AppCompatActivity {
     TextInputEditText etRegFechaYHora;
 
     TextView tvLoginHere;
-    Button btnRegister;
+    Button btnRegister,btnlistado;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cuestionario_pastillass);
 
-
+        btnlistado=findViewById(R.id.listadoMedicamentos);
         etRegMedicamento=findViewById(R.id.etRegMedicam);
         etRegCantidad=findViewById(R.id.etRegCanti);
         etRegDni=findViewById(R.id.etRegDni);
@@ -48,6 +49,9 @@ public class AnyadirDosisActivity extends AppCompatActivity {
 
         tvLoginHere.setOnClickListener(view ->{
             startActivity(new Intent(AnyadirDosisActivity.this, DoctorSecondActivity.class));
+        });
+        btnlistado.setOnClickListener(view ->{
+            startActivity(new Intent(AnyadirDosisActivity.this, MedicamentosActivity.class));
         });
     }
 
@@ -78,5 +82,6 @@ public class AnyadirDosisActivity extends AppCompatActivity {
 
 
     }
+
 
 }

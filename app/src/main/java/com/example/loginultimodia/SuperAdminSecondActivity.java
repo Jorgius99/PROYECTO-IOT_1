@@ -79,18 +79,26 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
 
-        if (id == R.id.acercaDe){
+        if (id == R.id.acercaDe) {
             lanzarAcercaDe(null);
             return true;
         }
-        if (id == R.id.btnLogout){
+        if (id == R.id.btnLogout) {
             AuthUI.getInstance().signOut(this);
             return true;
+        }
+            if (id == R.id.listadoMedicamentos) {
+                lanzarMedicamentos(null);
+                return true;
 
         }
 
 
         return super.onOptionsItemSelected(item);
+    }
+    public void lanzarMedicamentos(View view){
+        Intent i = new Intent(this, AcercaDeActivity.class);
+        startActivity(i);
     }
     public void lanzarAcercaDe(View view){
         Intent i = new Intent(this, AcercaDeActivity.class);
