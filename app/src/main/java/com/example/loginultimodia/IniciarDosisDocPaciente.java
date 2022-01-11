@@ -27,11 +27,11 @@ public class IniciarDosisDocPaciente extends AppCompatActivity {
     private AdaptadorDosis adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-  //  private static final String ARG_PARAM1 = "param1";
+    //  private static final String ARG_PARAM1 = "param1";
     //private static final String ARG_PARAM2 = "param2";
 
     // TODO: Rename and change types of parameters
-   // private String mParam1;
+    // private String mParam1;
     //private String mParam2;
 
     @Override
@@ -41,60 +41,60 @@ public class IniciarDosisDocPaciente extends AppCompatActivity {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
         Query query = db.collection("dosis")
-                .whereEqualTo("dni",usuarioConDatos.getDNI());
+                .whereEqualTo("dni", usuarioConDatos.getDNI());
         query.addSnapshotListener(new EventListener<QuerySnapshot>() {
-    @Override
-    public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
+            @Override
+            public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
 
-        if(value!=null){
+                if (value != null) {
 
-            FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
-                    .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
-            Log.d("OPCIONESSSSSSSSS",""+query.get().isComplete());
-            Log.d("APPLICATIONNNNNNN",""+getApplicationContext().toString());
-            adaptador = new AdaptadorDosis(opciones, getApplicationContext());
+                    FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
+                            .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
 
-            binding = FragmentDosisBinding.inflate(getLayoutInflater());
-            setContentView(binding.getRoot());
+                    adaptador = new AdaptadorDosis(opciones, getApplicationContext());
 
-            RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-            binding.recyclerViewD.setLayoutManager(layoutManager);
+                    binding = FragmentDosisBinding.inflate(getLayoutInflater());
+                    setContentView(binding.getRoot());
 
-            binding.recyclerViewD.setAdapter(adaptador);
+                    RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+                    binding.recyclerViewD.setLayoutManager(layoutManager);
 
-            adaptador.startListening();
+                    binding.recyclerViewD.setAdapter(adaptador);
 
-        }
+                    adaptador.startListening();
+
+                }
+
+            }
+        });
+
 
     }
-});
 
-
-    }
-
-    public static void sacaDatos(String email){
+    public static void sacaDatos(String email) {
 
         final Usuario[] usuarioSacado = {new Usuario()};
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
-        db.collection("pacientes").whereEqualTo("email",email).get().addOnCompleteListener(task ->  {
+        db.collection("pacientes").whereEqualTo("email", email).get().addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
                 QuerySnapshot document = task.getResult();
                 DocumentSnapshot docOC = document.getDocuments().get(0);
                 if (document != null) {
                     usuarioSacado[0] = docOC.toObject(Usuario.class);// here
-                    Log.d("USUARIOSACAD0",""+ usuarioSacado[0].getEmail());
+                    Log.d("USUARIOSACAD0", "" + usuarioSacado[0].getEmail());
                     rellenarUsuario(usuarioSacado[0]);
                 }
             }
         });
         // Log.d("NUEVOUSER", ""+nuevoUser);
     }
-    public static void rellenarUsuario(Usuario ussus)  {
-        usuarioConDatos  = ussus;
-        Log.d("FAFA", ""+usuarioConDatos);
-       // return usuarioConDatos;
+
+    public static void rellenarUsuario(Usuario ussus) {
+        usuarioConDatos = ussus;
+        Log.d("FAFA", "" + usuarioConDatos);
+        // return usuarioConDatos;
     }
 /*
     @Override

@@ -76,6 +76,10 @@
             android:exported="true" >
         </activity>
         <activity
+            android:name="com.example.loginultimodia.iniciarHabsDocPaciente"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.example.loginultimodia.SecondActivity"
             android:exported="true" >
         </activity>
