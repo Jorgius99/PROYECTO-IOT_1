@@ -1992,6 +1992,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable doctor_photoroom
+drawable enentyum
 drawable formarecycler
 drawable formarecyclerdosis
 drawable formarecyclerhabitacion
@@ -2048,6 +2049,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nolotil
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2060,6 +2062,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable paracetamol
 drawable preference_list_divider_material
 drawable telefono
 drawable test_custom_background
@@ -2317,6 +2320,7 @@ id fixed
 id flip
 id floating
 id forever
+id foto
 id fragment_container_view_tag
 id fragment_phone
 id fragment_register_email
@@ -2381,6 +2385,7 @@ id line3
 id linear
 id listMode
 id list_item
+id listadoMedicamentos
 id logo
 id main_tos_and_pp
 id mapa
@@ -2407,6 +2412,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id medicamento
 id message
 id middle
 id mini
@@ -2788,6 +2794,7 @@ layout elemento_dosis
 layout elemento_dosis_doc
 layout elemento_habs_doctor
 layout elemento_habs_temphum
+layout elemento_medicamentos
 layout expand_button
 layout fragment_avisos
 layout fragment_doctor_avisos
@@ -2795,6 +2802,7 @@ layout fragment_doctor_dosis
 layout fragment_doctor_habitaciones
 layout fragment_dosis
 layout fragment_habitaciones
+layout fragment_medicamentos
 layout fui_activity_invisible
 layout fui_activity_register_email
 layout fui_activity_register_phone

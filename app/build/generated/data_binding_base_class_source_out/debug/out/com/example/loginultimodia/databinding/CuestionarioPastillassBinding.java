@@ -40,13 +40,16 @@ public final class CuestionarioPastillassBinding implements ViewBinding {
   public final TextInputEditText etRegMedicam;
 
   @NonNull
+  public final MaterialButton listadoMedicamentos;
+
+  @NonNull
   public final TextView volverAcasa;
 
   private CuestionarioPastillassBinding(@NonNull LinearLayout rootView,
       @NonNull MaterialButton enviarDosis, @NonNull TextInputEditText etRegCanti,
       @NonNull TextInputEditText etRegDni, @NonNull TextInputEditText etRegFechaYH,
       @NonNull TextInputEditText etRegFrecue, @NonNull TextInputEditText etRegMedicam,
-      @NonNull TextView volverAcasa) {
+      @NonNull MaterialButton listadoMedicamentos, @NonNull TextView volverAcasa) {
     this.rootView = rootView;
     this.enviarDosis = enviarDosis;
     this.etRegCanti = etRegCanti;
@@ -54,6 +57,7 @@ public final class CuestionarioPastillassBinding implements ViewBinding {
     this.etRegFechaYH = etRegFechaYH;
     this.etRegFrecue = etRegFrecue;
     this.etRegMedicam = etRegMedicam;
+    this.listadoMedicamentos = listadoMedicamentos;
     this.volverAcasa = volverAcasa;
   }
 
@@ -120,6 +124,12 @@ public final class CuestionarioPastillassBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.listadoMedicamentos;
+      MaterialButton listadoMedicamentos = ViewBindings.findChildViewById(rootView, id);
+      if (listadoMedicamentos == null) {
+        break missingId;
+      }
+
       id = R.id.volverAcasa;
       TextView volverAcasa = ViewBindings.findChildViewById(rootView, id);
       if (volverAcasa == null) {
@@ -127,7 +137,7 @@ public final class CuestionarioPastillassBinding implements ViewBinding {
       }
 
       return new CuestionarioPastillassBinding((LinearLayout) rootView, enviarDosis, etRegCanti,
-          etRegDni, etRegFechaYH, etRegFrecue, etRegMedicam, volverAcasa);
+          etRegDni, etRegFechaYH, etRegFrecue, etRegMedicam, listadoMedicamentos, volverAcasa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

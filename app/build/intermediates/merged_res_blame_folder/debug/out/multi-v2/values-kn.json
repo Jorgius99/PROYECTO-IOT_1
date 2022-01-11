@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+=======
+            "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+>>>>>>> pruba33333333
             "map": [
                 {
                     "source": "C:\\Users\\Álvaro Escribano\\.gradle\\caches\\transforms-3\\8a7a06036e0c4f4e613a8bbc02ac21f5\\transformed\\material-1.4.0\\res\\values-kn\\values-kn.xml",

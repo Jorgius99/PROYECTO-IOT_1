@@ -96,9 +96,16 @@ public class SecondActivity extends AppCompatActivity {
             AuthUI.getInstance().signOut(this);
             return true;
         }
-
+        if (id == R.id.listadoMedicamentos){
+            lanzarMedicamentos(null);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void lanzarMedicamentos(View view){
+        Intent i = new Intent(this, AcercaDeActivity.class);
+        startActivity(i);
     }
     public void lanzarAcercaDe(View view){
         Intent i = new Intent(this, AcercaDeActivity.class);
