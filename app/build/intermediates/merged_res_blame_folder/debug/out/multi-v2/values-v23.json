@@ -1,11 +1,7 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
-=======
-            "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
->>>>>>> pruba33333333
             "map": [
                 {
                     "source": "C:\\Users\\Álvaro Escribano\\.gradle\\caches\\transforms-3\\322f31ab066b2cf9d72df833b3df8ea3\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
