@@ -28,7 +28,7 @@
             android:text="Pastilla"
             android:textColor="@color/blueoscuro"
             android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/HoraSolo"
+            app:layout_constraintEnd_toStartOf="@+id/HoraSolo1"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
