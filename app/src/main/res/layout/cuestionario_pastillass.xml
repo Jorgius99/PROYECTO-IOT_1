@@ -93,7 +93,7 @@
                 android:id="@+id/etRegFechaYH"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Fecha y hora"
+                android:hint="dd/MM/yyyy, hh:mm"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>

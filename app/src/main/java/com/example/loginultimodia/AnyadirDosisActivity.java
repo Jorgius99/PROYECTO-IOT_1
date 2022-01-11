@@ -61,10 +61,10 @@ public class AnyadirDosisActivity extends AppCompatActivity {
         try{
             Date datee = new SimpleDateFormat("dd/MM/yyyy, hh:mm").parse(etRegFechaYHora.getText().toString());
             //Date hora = new SimpleTimeLimiter()
-
+            long milis = datee.getTime();
             //datee.setHours(16);
             //datee.setMinutes(23);
-            ObjetoDosis objetodosis = new ObjetoDosis(Medicamento, Cantidad, Dni, Frecuencia, datee);
+            ObjetoDosis objetodosis = new ObjetoDosis(Medicamento, Cantidad, Dni, Frecuencia, datee, milis);
             //String motiv, Date fecha, String prior, String dni, String habitacion)
             db= FirebaseFirestore.getInstance();
             db.collection("dosis").document().set(objetodosis);

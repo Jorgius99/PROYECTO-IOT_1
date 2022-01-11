@@ -9,17 +9,20 @@ public class ObjetoDosis {
     private Date HoraFecha;
     private String dni;
     private String frecuencia;
+    private long Milis;
 
 
     //-------------------------CONSTRUCTOR-----------------------------
 
 
-    public ObjetoDosis(String med, String canti, String dni, String freq, Date fecha){
+    public ObjetoDosis(String med, String canti, String dni, String freq, Date fecha, long milsec){
             this.Medicamento = med;
             this.Cantidad = canti;
             this.HoraFecha= fecha;
             this.frecuencia = freq;
             this.dni = dni;
+            this.Milis = milsec;
+
     }
 
     public ObjetoDosis(){
@@ -28,6 +31,8 @@ public class ObjetoDosis {
         this.HoraFecha = new Date();
         this.dni="24567753N";
         this.frecuencia = "8";
+        this.Milis = 1641835675;
+
 
     }
     //-------------------------GETTERS---------------------------------
@@ -54,7 +59,10 @@ public class ObjetoDosis {
         return dni;
     }
 
-//-------------------------SETTERS---------------------------------
+    public long getMilis() {
+        return Milis;
+    }
+    //-------------------------SETTERS---------------------------------
 
 
     public void setDni(String dni) {
@@ -77,5 +85,9 @@ public class ObjetoDosis {
 
     public void setFrecuencia(String frecuencia) {
         this.frecuencia = frecuencia;
+    }
+
+    public void setMilis(long milis) {
+        Milis = milis;
     }
 }
