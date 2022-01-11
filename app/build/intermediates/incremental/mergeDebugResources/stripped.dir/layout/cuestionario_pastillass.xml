@@ -93,11 +93,7 @@
                 android:id="@+id/etRegFechaYH"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-<<<<<<< HEAD
                 android:hint="dd/MM/yyyy, hh:mm"
-=======
-                android:hint="Fecha y hora"
->>>>>>> pollafinal2
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
