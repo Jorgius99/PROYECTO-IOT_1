@@ -35,7 +35,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class Dosis extends Fragment {
     private String correoHab;
     private static Usuario usuarioConDatos;
-    private FragmentDosisBinding bindingDosisPaciente ; //si no estÃ¡
+   // private FragmentDosisBinding bindingDosisPaciente ; //si no estÃ¡
 
     private FragmentDoctorDosisBinding binding ; //si no está
     public static AdaptadorDosisDoc adaptador;
@@ -132,7 +132,6 @@ public class Dosis extends Fragment {
                             correoSacado[0] = docOC.toObject(Usuario.class);// here
                             //Log.d("USUARIOSACAD0",""+ correoSacado[0].getEmail());
                             rellenarUsuario(correoSacado[0]);
-
                             IniciarDosisDocPaciente.rellenarUsuario(usuarioConDatos);
                             Log.d("EWEWEWEWEW",""+correoSacado[0]);
                             obtenerCorreoDeHabitacion(correoSacado[0].getEmail());

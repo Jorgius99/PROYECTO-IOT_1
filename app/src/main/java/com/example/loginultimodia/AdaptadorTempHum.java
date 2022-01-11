@@ -64,7 +64,7 @@ public class AdaptadorTempHum extends
 
     @Override
     public AdaptadorTempHum.ViewHolder onCreateViewHolder(
-            ViewGroup parent, int viewType) {
+          @NonNull  ViewGroup parent, int viewType) {
         ElementoHabsTemphumBinding v = ElementoHabsTemphumBinding.inflate(
                 LayoutInflater.from(parent.getContext()), parent, false);
         v.getRoot().setOnClickListener(onClickListener);

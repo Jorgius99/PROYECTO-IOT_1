@@ -2498,9 +2498,9 @@ id radio
 id ratio
 id rectangles
 id recuperarBoton
-id recyclerView
 id recyclerView1
 id recyclerViewD
+id recyclerViewH
 id recycler_view
 id resend_barrier
 id resend_code

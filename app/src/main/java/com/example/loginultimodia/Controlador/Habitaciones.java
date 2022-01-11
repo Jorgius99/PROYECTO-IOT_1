@@ -86,8 +86,8 @@ public class Habitaciones extends Fragment {
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
         adaptador = new AdaptadorTempHum(opciones, getContext());
         System.out.println(getContext());
-        binding.recyclerView.setAdapter(adaptador);
-        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        binding.recyclerViewH.setAdapter(adaptador);
+        binding.recyclerViewH.setLayoutManager(new LinearLayoutManager(getContext()));
         // Inflate the layout for this fragment
         return binding.getRoot();
     }

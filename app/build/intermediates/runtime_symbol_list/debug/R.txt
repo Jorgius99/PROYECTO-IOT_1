@@ -2497,9 +2497,9 @@ int id radio 0x7f0801ab
 int id ratio 0x7f0801ac
 int id rectangles 0x7f0801ad
 int id recuperarBoton 0x7f0801ae
-int id recyclerView 0x7f0801af
-int id recyclerView1 0x7f0801b0
-int id recyclerViewD 0x7f0801b1
+int id recyclerView1 0x7f0801af
+int id recyclerViewD 0x7f0801b0
+int id recyclerViewH 0x7f0801b1
 int id recycler_view 0x7f0801b2
 int id resend_barrier 0x7f0801b3
 int id resend_code 0x7f0801b4
