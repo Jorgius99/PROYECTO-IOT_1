@@ -28,16 +28,16 @@
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_elemento_aviso.xml.flat",
-        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_aviso.xml"
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_cuestionario_avisos.xml.flat",
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_avisos.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_elemento_aviso.xml.flat",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_aviso.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_elemento_dosis.xml.flat",
@@ -86,6 +86,10 @@
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_boy.jpg.flat",
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\boy.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_logoupv.jpg.flat",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\logoupv.jpg"
     },
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_temperatura2_background.xml.flat",
@@ -138,6 +142,10 @@
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_whatsapp_image_2021_10_14_at_13_50_00.jpeg.flat",
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\whatsapp_image_2021_10_14_at_13_50_00.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_o_city_logo.png.flat",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\o_city_logo.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
@@ -238,6 +246,10 @@
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_campana.xml.flat",
         "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\drawable\\icono_campana.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\layout_acercade_real.xml.flat",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\acercade_real.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",

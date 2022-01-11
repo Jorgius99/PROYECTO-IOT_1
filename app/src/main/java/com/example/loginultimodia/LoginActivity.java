@@ -140,6 +140,10 @@ public class LoginActivity extends AppCompatActivity {
             lanzarAcercaDe(null);
             return true;
         }
+        if (id == R.id.acercadebien){
+            lanzarAcercaDeBien(null);
+            return true;
+        }
         if (id == R.id.btnLogout){
             AuthUI.getInstance().signOut(this);
             return true;
@@ -151,6 +155,10 @@ public class LoginActivity extends AppCompatActivity {
     }
     public void lanzarAcercaDe(View view){
         Intent i = new Intent(this, AcercaDeActivity.class);
+        startActivity(i);
+    }
+    public void lanzarAcercaDeBien(View view){
+        Intent i = new Intent(this, AcercaDeActivityREAL.class);
         startActivity(i);
     }
 

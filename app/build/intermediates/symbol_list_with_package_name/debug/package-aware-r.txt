@@ -2025,6 +2025,7 @@ drawable icono_habitacion
 drawable icono_temperatura2_background
 drawable icono_temperatura_background
 drawable login
+drawable logoupv
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2060,6 +2061,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable o_city_logo
 drawable preference_list_divider_material
 drawable telefono
 drawable test_custom_background
@@ -2081,6 +2083,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id TITULOACERCADE
 id TOP_END
 id TOP_START
 id accelerate
@@ -2118,6 +2121,7 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id acercaDe
+id acercadebien
 id action0
 id actionDown
 id actionDownUp
@@ -2356,6 +2360,8 @@ id imageView01
 id imageView11
 id imageView2
 id imageView3
+id imageView4
+id imageView5
 id immediateStop
 id included
 id info
@@ -2617,10 +2623,22 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
+id textView12
+id textView13
+id textView14
 id textView15
+id textView16
+id textView17
+id textView18
 id textView2
+id textView4
+id textView5
+id textView6
 id textView7
 id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2756,6 +2774,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout acercade
+layout acercade_real
 layout activity_conectar_pikku
 layout activity_forgot_password
 layout activity_login

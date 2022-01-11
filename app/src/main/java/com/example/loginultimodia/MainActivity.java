@@ -184,6 +184,10 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
             lanzarConectarPikku(null);
             return true;
         }
+        if (id == R.id.acercadebien){
+            lanzarAcercaDeBien(null);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -199,7 +203,10 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
         Intent i = new Intent(this, LogOutActivity.class);
         startActivity(i);
     }
-
+    public void lanzarAcercaDeBien(View view){
+        Intent i = new Intent(this, AcercaDeActivityREAL.class);
+        startActivity(i);
+    }
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
