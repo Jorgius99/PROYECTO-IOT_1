@@ -142,6 +142,10 @@ public class LoginActivity extends AppCompatActivity {
             lanzarAcercaDe(null);
             return true;
         }
+        if (id == R.id.acercadebien){
+            lanzarAcercaDeBien(null);
+            return true;
+        }
         if (id == R.id.btnLogout){
             AuthUI.getInstance().signOut(this);
             return true;
@@ -160,8 +164,13 @@ public class LoginActivity extends AppCompatActivity {
         Intent i = new Intent(this, AcercaDeActivity.class);
         startActivity(i);
     }
+<<<<<<< HEAD
     public void lanzarMedicamento(View view){
         Intent i = new Intent(this, MedicamentosActivity.class);
+=======
+    public void lanzarAcercaDeBien(View view){
+        Intent i = new Intent(this, AcercaDeActivityREAL.class);
+>>>>>>> origin/jorgerama20
         startActivity(i);
     }
 

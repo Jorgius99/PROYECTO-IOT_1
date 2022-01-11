@@ -55,6 +55,9 @@ public class AcercaDeActivity extends FragmentActivity implements
         SupportMapFragment mapFragment = (SupportMapFragment)
                 getSupportFragmentManager().findFragmentById(R.id.mapa);
         mapFragment.getMapAsync(this);
+        solicitarPermiso(Manifest.permission.ACCESS_FINE_LOCATION, "Sin este permiso no podra disfrutar de todas las funcionalidades."
+                        ,
+                SOLICITUD_PERMISO_WRITE_CALL_LOG, this);
       
     }
 
@@ -101,7 +104,7 @@ public class AcercaDeActivity extends FragmentActivity implements
                 mapa.addMarker(new MarkerOptions()
                         .position(location)
                         .title(name)
-                        .snippet("https://ocityplatform.webs.upv.es/ocityws/public/index.php/auxCity/"+id)
+                        .snippet("Pulse para más información.")
                 );
 
             }

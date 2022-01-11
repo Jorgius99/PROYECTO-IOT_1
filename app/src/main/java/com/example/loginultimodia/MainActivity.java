@@ -193,6 +193,10 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
             lanzarConectarPikku(null);
             return true;
         }
+        if (id == R.id.acercadebien){
+            lanzarAcercaDeBien(null);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -208,8 +212,13 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
         Intent i = new Intent(this, LogOutActivity.class);
         startActivity(i);
     }
+<<<<<<< HEAD
     public void lanzarMedicamentos(View view){
         Intent i = new Intent(this, MedicamentosActivity.class);
+=======
+    public void lanzarAcercaDeBien(View view){
+        Intent i = new Intent(this, AcercaDeActivityREAL.class);
+>>>>>>> origin/jorgerama20
         startActivity(i);
     }
 

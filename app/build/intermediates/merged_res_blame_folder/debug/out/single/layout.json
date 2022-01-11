@@ -8,6 +8,7 @@
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_dosis.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_avisos.xml",
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_avisos.xml"
 >>>>>>> xeviTrabajóAquí
@@ -19,6 +20,18 @@
     {
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cuestionario_eliminar.xml",
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_eliminar.xml"
+=======
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cuestionario_avisos.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_avisos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_avisos.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_avisos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_habs_doctor.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_habs_doctor.xml"
+>>>>>>> origin/jorgerama20
     },
     {
 <<<<<<< HEAD
@@ -74,8 +87,17 @@
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_avisos.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_dosis_doc.xml",
         "source": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_dosis_doc.xml"
+=======
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acercade_real.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\acercade_real.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acercade.xml",
+        "source": "C:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\acercade.xml"
+>>>>>>> origin/jorgerama20
     },
     {
         "merged": "C:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tabmain.xml",

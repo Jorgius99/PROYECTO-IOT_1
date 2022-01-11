@@ -14,12 +14,15 @@ com/example/loginultimodia/HabitacionesActivity.java
 com/example/loginultimodia/AdaptadorTempHum.java
  com.example.loginultimodia.AdaptadorTempHum
  com.example.loginultimodia.AdaptadorTempHum$ViewHolder
+<<<<<<< HEAD
 com/example/loginultimodia/databinding/ElementoMedicamentosBinding.java
  com.example.loginultimodia.databinding.ElementoMedicamentosBinding
 =======
 com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
 >>>>>>> xeviTrabajóAquí
+=======
+>>>>>>> origin/jorgerama20
 com/example/loginultimodia/SuperAdminSecondActivity.java
  com.example.loginultimodia.SuperAdminSecondActivity
  com.example.loginultimodia.SuperAdminSecondActivity$1
@@ -28,8 +31,11 @@ com/example/loginultimodia/SuperAdminSecondActivity.java
 com/example/loginultimodia/AcercaDeActivity.java
  com.example.loginultimodia.AcercaDeActivity
  com.example.loginultimodia.AcercaDeActivity$1
+<<<<<<< HEAD
 com/example/loginultimodia/databinding/ActivitySignUpBinding.java
  com.example.loginultimodia.databinding.ActivitySignUpBinding
+=======
+>>>>>>> origin/jorgerama20
 com/example/loginultimodia/pikkuFuncion.java
  com.example.loginultimodia.pikkuFuncion
  com.example.loginultimodia.pikkuFuncion$MovementListener
@@ -53,8 +59,11 @@ com/example/loginultimodia/Controlador/Dosis.java
 com/example/loginultimodia/DoctorSecondActivity.java
  com.example.loginultimodia.DoctorSecondActivity
  com.example.loginultimodia.DoctorSecondActivity$1
+<<<<<<< HEAD
 com/example/loginultimodia/Registro.java
  com.example.loginultimodia.Registro
+=======
+>>>>>>> origin/jorgerama20
 com/example/loginultimodia/LogOutActivity.java
  com.example.loginultimodia.LogOutActivity
 com/example/loginultimodia/ControladorDoctor/Dosis.java
@@ -74,6 +83,8 @@ com/example/loginultimodia/databinding/ElementoDosisBinding.java
  com.example.loginultimodia.databinding.ElementoDosisBinding
 com/example/loginultimodia/Aviso.java
  com.example.loginultimodia.Aviso
+com/example/loginultimodia/AcercaDeActivityREAL.java
+ com.example.loginultimodia.AcercaDeActivityREAL
 com/example/loginultimodia/AbrirEliminarActivity.java
  com.example.loginultimodia.AbrirEliminarActivity
 com/example/loginultimodia/databinding/ActivityMainBinding.java
@@ -85,6 +96,9 @@ com/example/loginultimodia/LoginActivity.java
  com.example.loginultimodia.LoginActivity$1
  com.example.loginultimodia.LoginActivity$2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/jorgerama20
 com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
  com.example.loginultimodia.ControladorDoctor.HabitacionesDoc
 =======
@@ -148,6 +162,8 @@ com/example/loginultimodia/databinding/ActivityTabmainBinding.java
  com.example.loginultimodia.databinding.ActivityTabmainBinding
 com/example/loginultimodia/ServicioPikku.java
  com.example.loginultimodia.ServicioPikku
+com/example/loginultimodia/databinding/AcercadeRealBinding.java
+ com.example.loginultimodia.databinding.AcercadeRealBinding
 com/example/loginultimodia/BuildConfig.java
  com.example.loginultimodia.BuildConfig
 com/example/loginultimodia/databinding/ElementoAvisoBinding.java
@@ -175,6 +191,9 @@ com/example/loginultimodia/ConectarPikkuActivity.java
  com.example.loginultimodia.ConectarPikkuActivity$4
  com.example.loginultimodia.ConectarPikkuActivity$5
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/jorgerama20
 com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
 com/example/loginultimodia/AdaptadorDosis.java
@@ -185,6 +204,7 @@ com/example/loginultimodia/databinding/ActivitySignUpBinding.java
 com/example/loginultimodia/AdaptadorHabsDoctor.java
  com.example.loginultimodia.AdaptadorHabsDoctor
  com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+<<<<<<< HEAD
 =======
 com/example/loginultimodia/Doctor.java
  com.example.loginultimodia.Doctor
@@ -200,3 +220,5 @@ com/example/loginultimodia/iniciarHabsDocPaciente.java
  com.example.loginultimodia.iniciarHabsDocPaciente
  com.example.loginultimodia.iniciarHabsDocPaciente$1
 >>>>>>> xeviTrabajóAquí
+=======
+>>>>>>> origin/jorgerama20
