@@ -2063,11 +2063,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-<<<<<<< HEAD
-drawable paracetamol
-=======
 drawable o_city_logo
->>>>>>> origin/jorgerama20
+drawable paracetamol
 drawable preference_list_divider_material
 drawable telefono
 drawable test_custom_background
@@ -2513,6 +2510,7 @@ id radio
 id ratio
 id rectangles
 id recuperarBoton
+id recyclerView
 id recyclerView1
 id recyclerViewD
 id recyclerViewH

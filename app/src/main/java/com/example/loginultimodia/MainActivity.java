@@ -212,16 +212,14 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
         Intent i = new Intent(this, LogOutActivity.class);
         startActivity(i);
     }
-<<<<<<< HEAD
     public void lanzarMedicamentos(View view){
         Intent i = new Intent(this, MedicamentosActivity.class);
-=======
-    public void lanzarAcercaDeBien(View view){
-        Intent i = new Intent(this, AcercaDeActivityREAL.class);
->>>>>>> origin/jorgerama20
-        startActivity(i);
-    }
 
+    }
+    public void lanzarAcercaDeBien(View view) {
+        Intent i = new Intent(this, AcercaDeActivityREAL.class);
+        startActivity(i);
+    } 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onCaida(int caida) {
