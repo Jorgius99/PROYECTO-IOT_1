@@ -38,7 +38,6 @@ dependencies {
     implementation 'com.jakewharton.timber:timber:5.0.1'
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
-    implementation 'com.firebaseui:firebase-ui-firestore:8.0.0'
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.google.firebase:firebase-firestore:24.0.0'
     implementation 'com.firebaseui:firebase-ui-auth:8.0.0'
