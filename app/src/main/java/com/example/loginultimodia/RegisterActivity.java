@@ -65,9 +65,14 @@ public class RegisterActivity extends AppCompatActivity {
         tvLoginHere.setOnClickListener(view ->{
             startActivity(new Intent(RegisterActivity.this, SuperAdminSecondActivity.class));
         });
+<<<<<<< HEAD
 /*
 
         //7 y 8.-RecyclerView
+=======
+
+/* //7 y 8.-RecyclerView
+>>>>>>> 2dd5ac27d27badb0bfbeebd95bf185b1f3f8dde4
         Button button3 = findViewById(R.id.listadoMedicamentos);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,9 +80,14 @@ public class RegisterActivity extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(), MedicamentosActivity.class);
                 startActivity(i);
             }
+<<<<<<< HEAD
         });*/
 
 
+=======
+        });
+*/
+>>>>>>> 2dd5ac27d27badb0bfbeebd95bf185b1f3f8dde4
     }
 
     private void createUser(){
@@ -110,6 +120,7 @@ public class RegisterActivity extends AppCompatActivity {
             });
             db= FirebaseFirestore.getInstance();
             db.collection("pacientes").document(dni).set(usuario);
+            db.collection("habitaciones").document(NumHab).update("ocupacion",true);
             //db.collection("pacientes").document(nombreApellido).collection("doctor").add(doctor);
         }
     }

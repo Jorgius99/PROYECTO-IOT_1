@@ -78,11 +78,7 @@ public final class ElementoDosisBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.dosis3;
-      ConstraintLayout dosis3 = ViewBindings.findChildViewById(rootView, id);
-      if (dosis3 == null) {
-        break missingId;
-      }
+      ConstraintLayout dosis3 = (ConstraintLayout) rootView;
 
       id = R.id.fecha1;
       TextView fecha1 = ViewBindings.findChildViewById(rootView, id);

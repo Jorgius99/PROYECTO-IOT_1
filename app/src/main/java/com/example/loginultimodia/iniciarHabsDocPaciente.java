@@ -4,6 +4,7 @@ import static java.security.AccessController.getContext;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,6 +27,8 @@ public class iniciarHabsDocPaciente extends AppCompatActivity {
 
     private FragmentHabitacionesBinding binding; //si no está
     private AdaptadorTempHum adaptador;
+    TextView tvLoginHere;// volverrrrrrrrrrrrrrrrrrrrrrr
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     //  private static final String ARG_PARAM1 = "param1";
@@ -38,11 +41,28 @@ public class iniciarHabsDocPaciente extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        binding = FragmentHabitacionesBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
         Query query = db.collection("habitaciones")
                 .whereEqualTo("DNI", usuarioConDatos.getDNI());
+
+        FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions
+                .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
+
+        adaptador = new AdaptadorTempHum(opciones, getApplicationContext());
+
+
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+        binding.recyclerViewH.setLayoutManager(layoutManager);
+
+        binding.recyclerViewH.setAdapter(adaptador);
+
+        adaptador.startListening();
+
+        /*
         query.addSnapshotListener(new EventListener<QuerySnapshot>() {
             @Override
             public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
@@ -69,6 +89,8 @@ public class iniciarHabsDocPaciente extends AppCompatActivity {
             }
         });
 
+
+         */
 
     }
 
@@ -102,12 +124,12 @@ public class iniciarHabsDocPaciente extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         adaptador.startListening();
-    }
+    }*/
     @Override
     public void onStop() {
         super.onStop();
         adaptador.stopListening();
-    }*/
+    }
 }
 
 

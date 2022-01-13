@@ -16,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import com.example.loginultimodia.Controlador.Avisos;
 import com.example.loginultimodia.ControladorDoctor.HabitacionesDoc;
 import com.firebase.ui.auth.AuthUI;
 
@@ -106,9 +107,10 @@ public class LoginActivity extends AppCompatActivity {
                         } else if (usuario.getEmail().equals("admin@gmail.com")) {
                             //HabitacionesDoc.sacaDatos("admin@gmail.com");
                             startActivity(new Intent(LoginActivity.this, DoctorSecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-
                         } else {
-                            Dosis.sacaDatos(emailAver);
+                            //SecondActivity.sacaDatos(emailAver);
+                            SecondActivity.rellenaCorreoPUTA(emailAver);
+                            //Dosis.sacaDatos(emailAver);
                             startActivity(new Intent(LoginActivity.this, SecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
                         }
                     } else {

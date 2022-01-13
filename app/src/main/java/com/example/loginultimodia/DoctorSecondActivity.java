@@ -81,15 +81,7 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
                 }
             });
             viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
-
-
-
-
-
-
-
-/*
+            /*
         nuevooo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

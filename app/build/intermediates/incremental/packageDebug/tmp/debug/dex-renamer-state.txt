@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Thu Jan 13 18:56:03 CET 2022
+=======
+#Thu Jan 13 18:04:37 CET 2022
+>>>>>>> 2dd5ac27d27badb0bfbeebd95bf185b1f3f8dde4
 path.4=14/classes.dex
 path.3=13/classes.dex
 path.2=11/classes.dex
