@@ -76,8 +76,6 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 */
-
-
     }
 
     private void createUser(){
@@ -110,6 +108,7 @@ public class RegisterActivity extends AppCompatActivity {
             });
             db= FirebaseFirestore.getInstance();
             db.collection("pacientes").document(dni).set(usuario);
+            db.collection("habitaciones").document(NumHab).update("ocupacion",true);
             //db.collection("pacientes").document(nombreApellido).collection("doctor").add(doctor);
         }
     }

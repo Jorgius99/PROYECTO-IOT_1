@@ -153,7 +153,8 @@ public static void sacaDatos(String email){
         binding = FragmentDoctorHabitacionesBinding.inflate(getLayoutInflater());
 
         Query query = FirebaseFirestore.getInstance()
-                .collection("habitaciones");
+                .collection("habitaciones")
+                .whereEqualTo("ocupacion",true);
         //.whereEqualTo("numHab", "1");
 
         FirestoreRecyclerOptions<Habitacion> opciones = new FirestoreRecyclerOptions

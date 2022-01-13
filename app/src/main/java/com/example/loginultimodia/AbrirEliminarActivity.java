@@ -13,7 +13,7 @@ import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class AbrirEliminarActivity extends AppCompatActivity{
-    TextInputLayout etRegNombreApellido;
+    TextInputLayout etRegNombreApellido,numHab;
     Button btneliminar;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     TextView tvLoginHere;
@@ -22,6 +22,7 @@ public class AbrirEliminarActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cuestionario_eliminar);
         etRegNombreApellido = findViewById(R.id.userEliminar);
+        numHab=findViewById(R.id.userHab);
         btneliminar = findViewById(R.id.botoneliminar);
         tvLoginHere = findViewById(R.id.volverAcasa2);
 
@@ -35,9 +36,10 @@ public class AbrirEliminarActivity extends AppCompatActivity{
     }
     private void deleteUser(){
         String nombreApellido = etRegNombreApellido.getEditText().getText().toString();
-
+        String habitacion=numHab.getEditText().getText().toString();
         db= FirebaseFirestore.getInstance();
         db.collection("pacientes").document(nombreApellido).delete();
+        db.collection("habitaciones").document(habitacion).update("ocupacion",false);
         //db.collection("pacientes").document(nombreApellido).collection("doctor").add(doctor);
         Toast.makeText(AbrirEliminarActivity.this, "Se ha eliminado correctamente", Toast.LENGTH_SHORT).show();
     }
