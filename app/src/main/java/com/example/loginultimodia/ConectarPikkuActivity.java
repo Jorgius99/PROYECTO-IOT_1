@@ -33,6 +33,7 @@ import java.util.Date;
 
 public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuFuncion.MovementListener{
 
+    private static Usuario usuarioConDatos;
     private ActivityConectarPikkuBinding binding;
     private PikkuAcademy pikku;
     private static final int SOLICITUD_PERMISO_WRITE_CALL_LOG = 0;
@@ -56,7 +57,8 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
         Button arrancar = findViewById(R.id.biniciarPikku);
         arrancar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-
+                //startService(new Intent(ConectarPikkuActivity.this, ServicioPikku.class));
+                pikku.enableReportSensors(true);
 
                 pikku.readAccelerometer(new AccelerometerCallback() {
                     @Override
@@ -73,16 +75,15 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
                 });
 
                 pikku.readButtons((nButton, pressed, duration) -> {
-
                         llamarTelefono();
-                    });
+                });
 
             }
         });
         Button detener = findViewById(R.id.pararPikku);
         detener.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                pikku.enableReportSensors(false);
+                //pikku.enableReportSensors(false);
 
                 stopService(new Intent(ConectarPikkuActivity.this,
                         ServicioPikku.class));
@@ -156,16 +157,21 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
             binding.buttonScan.setEnabled(true);
         }
     }//onClickConnect()
-
+    public static Usuario rellenarUsuario(Usuario ussus)  {
+        usuarioConDatos  = ussus;
+        Log.d("FAFA", ""+usuarioConDatos);
+        return usuarioConDatos;
+    }
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onCaida(int caida) {
         startService(new Intent(ConectarPikkuActivity.this,
                 ServicioPikku.class));
-        String hab = "201";
+        Log.d("CAIDAAAAA","CAIDA DETECTADA");
+        String hab = usuarioConDatos.getNumHabitacion();
         String motiv = "Caida detectada en habitación "+hab;
         Date date = new Date();
-        String dni = "20940459p";
+        String dni = "32456215H";
         Aviso avisoPikku = new Aviso(motiv, date, "0", dni, hab);
         db.collection("avisos").document().set(avisoPikku);
     }
@@ -173,7 +179,7 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission
                 .CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
             Intent intent = new Intent(Intent.ACTION_CALL,
-                    Uri.parse("tel:634448125"));
+                    Uri.parse("tel:655564961"));
             startActivity(intent);
         }else {
             solicitarPermiso(Manifest.permission.CALL_PHONE, "Sin el permiso"+

@@ -1,7 +1,11 @@
 package com.example.loginultimodia;
 
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -9,9 +13,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
 import androidx.viewpager.widget.ViewPager;
 
+import com.blautic.pikkuAcademyLib.PikkuAcademy;
 import com.example.loginultimodia.Controlador.Avisos;
 import com.example.loginultimodia.Controlador.Dosis;
 import com.example.loginultimodia.Controlador.PagerControler;
@@ -22,7 +29,12 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 
-public class SecondActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity implements pikkuFuncion.MovementListener{
+    private PikkuAcademy pikku;
+    private pikkuFuncion detectorCaidas;
+    private NotificationManager notificationManager;
+    static final String CANAL_ID = "mi_canal";
+    static final int NOTIFICACION_ID = 1;
     TabLayout tabLayout;
     ViewPager viewPager;
     TabItem tab1, tab2, tab3;
@@ -53,7 +65,7 @@ public class SecondActivity extends AppCompatActivity {
         // Log.d("NUEVOUSER", ""+nuevoUser);
     }*/
 
-    public static void rellenaCorreoPUTA(String correo){
+    public static void rellenaCorreo(String correo){
         correoWaporro=correo;
     }
     @Override
@@ -75,6 +87,7 @@ public class SecondActivity extends AppCompatActivity {
                     Log.d("USUARIOSACAD0",""+ usuarioSacado[0].getEmail());
                     Avisos.rellenarUsuario(usuarioSacado[0]);
                     Dosis.rellenarUsuario(usuarioSacado[0]);
+                    ConectarPikkuActivity.rellenarUsuario(usuarioSacado[0]);
                     setContentView(R.layout.activity_tabmain);
                     tabLayout = findViewById(R.id.tablayout);
                     viewPager = findViewById(R.id.viewpager);
@@ -155,7 +168,16 @@ public class SecondActivity extends AppCompatActivity {
             return true;
         }
 
+        if (id == R.id.buttonMConnect){
+            lanzarConectarPikku(null);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
+    }
+    public void lanzarConectarPikku(View view){
+        Intent i = new Intent(this, ConectarPikkuActivity.class);
+        startActivity(i);
     }
     public void lanzarMedicamentos(View view){
         Intent i = new Intent(this, AcercaDeActivity.class);
@@ -168,5 +190,48 @@ public class SecondActivity extends AppCompatActivity {
     public void lanzarLogOut(View view) {
         Intent i = new Intent(this, LogOutActivity.class);
         startActivity(i);
+    }
+
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    @Override
+    public void onCaida(int caida) {
+        notificationManager = (NotificationManager)
+                getSystemService(NOTIFICATION_SERVICE);
+        NotificationChannel notificationChannel = new NotificationChannel(
+                CANAL_ID, "Mis Notificaciones",
+                NotificationManager.IMPORTANCE_DEFAULT);notificationChannel.setDescription("Descripcion del canal");
+        notificationManager.createNotificationChannel(notificationChannel);
+
+        NotificationCompat.Builder notificacion =
+                new NotificationCompat.Builder(this, CANAL_ID)
+                        .setSmallIcon(R.mipmap.ic_launcher_round)
+                        .setContentTitle("Título")
+                        .setContentText("Texto de la notificación.");
+        PendingIntent intencionPendiente = PendingIntent.getActivity(
+                this, 0, new Intent(this, MainActivity.class), 0);
+        notificacion.setContentIntent(intencionPendiente);
+
+        notificationManager.notify(NOTIFICACION_ID, notificacion.build());
+    }
+
+    @Override
+    public void onAccelX(float accelX) {
+
+    }
+
+    @Override
+    public void onAccelY(float accelY) {
+
+    }
+
+    @Override
+    public void onAccelZ(float accelZ) {
+
+    }
+
+    @Override
+    public void onRest() {
+
     }
 }

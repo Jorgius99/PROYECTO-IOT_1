@@ -37,7 +37,6 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
     ViewPager viewPager;
     TabItem tab1, tab2, tab3;
     //Button  nuevooo;
-
     PagerControler pagerAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
