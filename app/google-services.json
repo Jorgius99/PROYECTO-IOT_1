@@ -39,7 +39,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:965957292289:android:900d986a863d57c2b44b00",
         "android_client_info": {
-          "package_name": "com.example.loginultimodia"
+          "package_name": "com.proyecto.loginultimodia"
         }
       },
       "oauth_client": [
@@ -47,7 +47,7 @@
           "client_id": "965957292289-hjmskp0s5f5dd4fvd4qnuctu36rk800j.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.loginultimodia",
+            "package_name": "com.proyecto.loginultimodia",
             "certificate_hash": "ac9f1e2504bdef5f789775ebe3d6a49edd0bb7f3"
           }
         },
@@ -55,7 +55,7 @@
           "client_id": "965957292289-mscbumh78c2cfd8aah8f0m5hj4gej1u0.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.loginultimodia",
+            "package_name": "com.proyecto.loginultimodia",
             "certificate_hash": "e201be2570f4442b940e4361ff900ac309a6aafe"
           }
         },

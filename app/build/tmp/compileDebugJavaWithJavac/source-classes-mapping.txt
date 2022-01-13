@@ -1,168 +1,168 @@
-com/example/loginultimodia/ControladorDoctor/PagerControler.java
- com.example.loginultimodia.ControladorDoctor.PagerControler
-com/example/loginultimodia/databinding/AcercadeBinding.java
- com.example.loginultimodia.databinding.AcercadeBinding
-com/example/loginultimodia/Usuario.java
- com.example.loginultimodia.Usuario
-com/example/loginultimodia/ObjetoDosis.java
- com.example.loginultimodia.ObjetoDosis
-com/example/loginultimodia/databinding/CuestionarioPastillassBinding.java
- com.example.loginultimodia.databinding.CuestionarioPastillassBinding
-com/example/loginultimodia/HabitacionesActivity.java
- com.example.loginultimodia.HabitacionesActivity
-com/example/loginultimodia/AdaptadorTempHum.java
- com.example.loginultimodia.AdaptadorTempHum
- com.example.loginultimodia.AdaptadorTempHum$ViewHolder
-com/example/loginultimodia/databinding/ElementoMedicamentosBinding.java
- com.example.loginultimodia.databinding.ElementoMedicamentosBinding
-com/example/loginultimodia/SuperAdminSecondActivity.java
- com.example.loginultimodia.SuperAdminSecondActivity
- com.example.loginultimodia.SuperAdminSecondActivity$1
- com.example.loginultimodia.SuperAdminSecondActivity$2
- com.example.loginultimodia.SuperAdminSecondActivity$3
-com/example/loginultimodia/AcercaDeActivity.java
- com.example.loginultimodia.AcercaDeActivity
- com.example.loginultimodia.AcercaDeActivity$1
-com/example/loginultimodia/iniciarHabsDocPaciente.java
- com.example.loginultimodia.iniciarHabsDocPaciente
- com.example.loginultimodia.iniciarHabsDocPaciente$1
-com/example/loginultimodia/pikkuFuncion.java
- com.example.loginultimodia.pikkuFuncion
- com.example.loginultimodia.pikkuFuncion$MovementListener
-com/example/loginultimodia/MainActivity.java
- com.example.loginultimodia.MainActivity
- com.example.loginultimodia.MainActivity$1
- com.example.loginultimodia.MainActivity$2
- com.example.loginultimodia.MainActivity$3
-com/example/loginultimodia/databinding/ElementoDosisDocBinding.java
- com.example.loginultimodia.databinding.ElementoDosisDocBinding
-com/example/loginultimodia/AdaptadorDosisDoc.java
- com.example.loginultimodia.AdaptadorDosisDoc
- com.example.loginultimodia.AdaptadorDosisDoc$ViewHolder
-com/example/loginultimodia/MedicamentosActivity.java
- com.example.loginultimodia.MedicamentosActivity
-com/example/loginultimodia/Controlador/Dosis.java
- com.example.loginultimodia.Controlador.Dosis
-com/example/loginultimodia/DoctorSecondActivity.java
- com.example.loginultimodia.DoctorSecondActivity
- com.example.loginultimodia.DoctorSecondActivity$1
-com/example/loginultimodia/Registro.java
- com.example.loginultimodia.Registro
-com/example/loginultimodia/LogOutActivity.java
- com.example.loginultimodia.LogOutActivity
-com/example/loginultimodia/ControladorDoctor/Dosis.java
- com.example.loginultimodia.ControladorDoctor.Dosis
- com.example.loginultimodia.ControladorDoctor.Dosis$1
-com/example/loginultimodia/databinding/MenuAdministradorBinding.java
- com.example.loginultimodia.databinding.MenuAdministradorBinding
-com/example/loginultimodia/Controlador/PagerControler.java
- com.example.loginultimodia.Controlador.PagerControler
-com/example/loginultimodia/databinding/ActivityLoginBinding.java
- com.example.loginultimodia.databinding.ActivityLoginBinding
-com/example/loginultimodia/EliminarPacienteActivity.java
- com.example.loginultimodia.EliminarPacienteActivity
-com/example/loginultimodia/databinding/FragmentAvisosBinding.java
- com.example.loginultimodia.databinding.FragmentAvisosBinding
-com/example/loginultimodia/databinding/ElementoDosisBinding.java
- com.example.loginultimodia.databinding.ElementoDosisBinding
-com/example/loginultimodia/Aviso.java
- com.example.loginultimodia.Aviso
-com/example/loginultimodia/AcercaDeActivityREAL.java
- com.example.loginultimodia.AcercaDeActivityREAL
-com/example/loginultimodia/AbrirEliminarActivity.java
- com.example.loginultimodia.AbrirEliminarActivity
-com/example/loginultimodia/databinding/ActivityMainBinding.java
- com.example.loginultimodia.databinding.ActivityMainBinding
-com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
- com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
-com/example/loginultimodia/LoginActivity.java
- com.example.loginultimodia.LoginActivity
- com.example.loginultimodia.LoginActivity$1
- com.example.loginultimodia.LoginActivity$2
-com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
- com.example.loginultimodia.ControladorDoctor.HabitacionesDoc
- com.example.loginultimodia.ControladorDoctor.HabitacionesDoc$1
-com/example/loginultimodia/databinding/ElementoHabsTemphumBinding.java
- com.example.loginultimodia.databinding.ElementoHabsTemphumBinding
-com/example/loginultimodia/databinding/ActivityForgotPasswordBinding.java
- com.example.loginultimodia.databinding.ActivityForgotPasswordBinding
-com/example/loginultimodia/AnyadirAvisoActivity.java
- com.example.loginultimodia.AnyadirAvisoActivity
-com/example/loginultimodia/databinding/FragmentHabitacionesBinding.java
- com.example.loginultimodia.databinding.FragmentHabitacionesBinding
-com/example/loginultimodia/databinding/CuestionarioAvisosBinding.java
- com.example.loginultimodia.databinding.CuestionarioAvisosBinding
-com/example/loginultimodia/RegisterActivity.java
- com.example.loginultimodia.RegisterActivity
- com.example.loginultimodia.RegisterActivity$1
- com.example.loginultimodia.RegisterActivity$2
-com/example/loginultimodia/databinding/FragmentDosisBinding.java
- com.example.loginultimodia.databinding.FragmentDosisBinding
-com/example/loginultimodia/Controlador/Avisos.java
- com.example.loginultimodia.Controlador.Avisos
-com/example/loginultimodia/DosisActivity.java
- com.example.loginultimodia.DosisActivity
-com/example/loginultimodia/databinding/FragmentMedicamentosBinding.java
- com.example.loginultimodia.databinding.FragmentMedicamentosBinding
-com/example/loginultimodia/databinding/CuestionarioEliminarBinding.java
- com.example.loginultimodia.databinding.CuestionarioEliminarBinding
-com/example/loginultimodia/ControladorDoctor/Avisos.java
- com.example.loginultimodia.ControladorDoctor.Avisos
-com/example/loginultimodia/databinding/ActivityConectarPikkuBinding.java
- com.example.loginultimodia.databinding.ActivityConectarPikkuBinding
-com/example/loginultimodia/databinding/ElementoHabsDoctorBinding.java
- com.example.loginultimodia.databinding.ElementoHabsDoctorBinding
-com/example/loginultimodia/IniciarDosisDocPaciente.java
- com.example.loginultimodia.IniciarDosisDocPaciente
- com.example.loginultimodia.IniciarDosisDocPaciente$1
-com/example/loginultimodia/Controlador/Habitaciones.java
- com.example.loginultimodia.Controlador.Habitaciones
-com/example/loginultimodia/AdaptadorAvisos.java
- com.example.loginultimodia.AdaptadorAvisos
- com.example.loginultimodia.AdaptadorAvisos$ViewHolder
-com/example/loginultimodia/Habitacion.java
- com.example.loginultimodia.Habitacion
-com/example/loginultimodia/SecondActivity.java
- com.example.loginultimodia.SecondActivity
- com.example.loginultimodia.SecondActivity$1
-com/example/loginultimodia/databinding/ActivityTabmainBinding.java
- com.example.loginultimodia.databinding.ActivityTabmainBinding
-com/example/loginultimodia/ServicioPikku.java
- com.example.loginultimodia.ServicioPikku
-com/example/loginultimodia/databinding/AcercadeRealBinding.java
- com.example.loginultimodia.databinding.AcercadeRealBinding
-com/example/loginultimodia/BuildConfig.java
- com.example.loginultimodia.BuildConfig
-com/example/loginultimodia/databinding/ElementoAvisoBinding.java
- com.example.loginultimodia.databinding.ElementoAvisoBinding
-com/example/loginultimodia/Adaptador.java
- com.example.loginultimodia.Adaptador
- com.example.loginultimodia.Adaptador$ViewHolder
-com/example/loginultimodia/AnyadirDosisActivity.java
- com.example.loginultimodia.AnyadirDosisActivity
-com/example/loginultimodia/databinding/FragmentDoctorAvisosBinding.java
- com.example.loginultimodia.databinding.FragmentDoctorAvisosBinding
-com/example/loginultimodia/ForgotPassword.java
- com.example.loginultimodia.ForgotPassword
- com.example.loginultimodia.ForgotPassword$1
- com.example.loginultimodia.ForgotPassword$2
-com/example/loginultimodia/ConectarPikkuActivity.java
- com.example.loginultimodia.ConectarPikkuActivity
- com.example.loginultimodia.ConectarPikkuActivity$1
- com.example.loginultimodia.ConectarPikkuActivity$1$1
- com.example.loginultimodia.ConectarPikkuActivity$2
- com.example.loginultimodia.ConectarPikkuActivity$3
- com.example.loginultimodia.ConectarPikkuActivity$4
- com.example.loginultimodia.ConectarPikkuActivity$5
-com/example/loginultimodia/Doctor.java
- com.example.loginultimodia.Doctor
-com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
- com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
-com/example/loginultimodia/AdaptadorDosis.java
- com.example.loginultimodia.AdaptadorDosis
- com.example.loginultimodia.AdaptadorDosis$ViewHolder
-com/example/loginultimodia/databinding/ActivitySignUpBinding.java
- com.example.loginultimodia.databinding.ActivitySignUpBinding
-com/example/loginultimodia/AdaptadorHabsDoctor.java
- com.example.loginultimodia.AdaptadorHabsDoctor
- com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+com/proyecto/loginultimodia/databinding/ElementoDosisDocBinding.java
+ com.proyecto.loginultimodia.databinding.ElementoDosisDocBinding
+com/proyecto/loginultimodia/MedicamentosActivity.java
+ com.proyecto.loginultimodia.MedicamentosActivity
+com/proyecto/loginultimodia/AbrirEliminarActivity.java
+ com.proyecto.loginultimodia.AbrirEliminarActivity
+com/proyecto/loginultimodia/BuildConfig.java
+ com.proyecto.loginultimodia.BuildConfig
+com/proyecto/loginultimodia/AdaptadorDosis.java
+ com.proyecto.loginultimodia.AdaptadorDosis
+ com.proyecto.loginultimodia.AdaptadorDosis$ViewHolder
+com/proyecto/loginultimodia/databinding/FragmentDosisBinding.java
+ com.proyecto.loginultimodia.databinding.FragmentDosisBinding
+com/proyecto/loginultimodia/databinding/ElementoHabsDoctorBinding.java
+ com.proyecto.loginultimodia.databinding.ElementoHabsDoctorBinding
+com/proyecto/loginultimodia/databinding/ActivityForgotPasswordBinding.java
+ com.proyecto.loginultimodia.databinding.ActivityForgotPasswordBinding
+com/proyecto/loginultimodia/Aviso.java
+ com.proyecto.loginultimodia.Aviso
+com/proyecto/loginultimodia/ServicioPikku.java
+ com.proyecto.loginultimodia.ServicioPikku
+com/proyecto/loginultimodia/databinding/FragmentDoctorDosisBinding.java
+ com.proyecto.loginultimodia.databinding.FragmentDoctorDosisBinding
+com/proyecto/loginultimodia/ConectarPikkuActivity.java
+ com.proyecto.loginultimodia.ConectarPikkuActivity
+ com.proyecto.loginultimodia.ConectarPikkuActivity$1
+ com.proyecto.loginultimodia.ConectarPikkuActivity$1$1
+ com.proyecto.loginultimodia.ConectarPikkuActivity$2
+ com.proyecto.loginultimodia.ConectarPikkuActivity$3
+ com.proyecto.loginultimodia.ConectarPikkuActivity$4
+ com.proyecto.loginultimodia.ConectarPikkuActivity$5
+com/proyecto/loginultimodia/AcercaDeActivity.java
+ com.proyecto.loginultimodia.AcercaDeActivity
+ com.proyecto.loginultimodia.AcercaDeActivity$1
+com/proyecto/loginultimodia/HabitacionesActivity.java
+ com.proyecto.loginultimodia.HabitacionesActivity
+com/proyecto/loginultimodia/databinding/CuestionarioAvisosBinding.java
+ com.proyecto.loginultimodia.databinding.CuestionarioAvisosBinding
+com/proyecto/loginultimodia/DosisActivity.java
+ com.proyecto.loginultimodia.DosisActivity
+com/proyecto/loginultimodia/Habitacion.java
+ com.proyecto.loginultimodia.Habitacion
+com/proyecto/loginultimodia/databinding/ActivityTabmainBinding.java
+ com.proyecto.loginultimodia.databinding.ActivityTabmainBinding
+com/proyecto/loginultimodia/Controlador/Dosis.java
+ com.proyecto.loginultimodia.Controlador.Dosis
+com/proyecto/loginultimodia/Adaptador.java
+ com.proyecto.loginultimodia.Adaptador
+ com.proyecto.loginultimodia.Adaptador$ViewHolder
+com/proyecto/loginultimodia/databinding/ElementoDosisBinding.java
+ com.proyecto.loginultimodia.databinding.ElementoDosisBinding
+com/proyecto/loginultimodia/SuperAdminSecondActivity.java
+ com.proyecto.loginultimodia.SuperAdminSecondActivity
+ com.proyecto.loginultimodia.SuperAdminSecondActivity$1
+ com.proyecto.loginultimodia.SuperAdminSecondActivity$2
+ com.proyecto.loginultimodia.SuperAdminSecondActivity$3
+com/proyecto/loginultimodia/databinding/FragmentMedicamentosBinding.java
+ com.proyecto.loginultimodia.databinding.FragmentMedicamentosBinding
+com/proyecto/loginultimodia/Controlador/PagerControler.java
+ com.proyecto.loginultimodia.Controlador.PagerControler
+com/proyecto/loginultimodia/databinding/ElementoMedicamentosBinding.java
+ com.proyecto.loginultimodia.databinding.ElementoMedicamentosBinding
+com/proyecto/loginultimodia/databinding/ElementoHabsTemphumBinding.java
+ com.proyecto.loginultimodia.databinding.ElementoHabsTemphumBinding
+com/proyecto/loginultimodia/ObjetoDosis.java
+ com.proyecto.loginultimodia.ObjetoDosis
+com/proyecto/loginultimodia/AdaptadorDosisDoc.java
+ com.proyecto.loginultimodia.AdaptadorDosisDoc
+ com.proyecto.loginultimodia.AdaptadorDosisDoc$ViewHolder
+com/proyecto/loginultimodia/AnyadirDosisActivity.java
+ com.proyecto.loginultimodia.AnyadirDosisActivity
+com/proyecto/loginultimodia/MainActivity.java
+ com.proyecto.loginultimodia.MainActivity
+ com.proyecto.loginultimodia.MainActivity$1
+ com.proyecto.loginultimodia.MainActivity$2
+ com.proyecto.loginultimodia.MainActivity$3
+com/proyecto/loginultimodia/pikkuFuncion.java
+ com.proyecto.loginultimodia.pikkuFuncion
+ com.proyecto.loginultimodia.pikkuFuncion$MovementListener
+com/proyecto/loginultimodia/Doctor.java
+ com.proyecto.loginultimodia.Doctor
+com/proyecto/loginultimodia/databinding/ActivityMainBinding.java
+ com.proyecto.loginultimodia.databinding.ActivityMainBinding
+com/proyecto/loginultimodia/Controlador/Avisos.java
+ com.proyecto.loginultimodia.Controlador.Avisos
+com/proyecto/loginultimodia/iniciarHabsDocPaciente.java
+ com.proyecto.loginultimodia.iniciarHabsDocPaciente
+ com.proyecto.loginultimodia.iniciarHabsDocPaciente$1
+com/proyecto/loginultimodia/IniciarDosisDocPaciente.java
+ com.proyecto.loginultimodia.IniciarDosisDocPaciente
+ com.proyecto.loginultimodia.IniciarDosisDocPaciente$1
+com/proyecto/loginultimodia/AdaptadorHabsDoctor.java
+ com.proyecto.loginultimodia.AdaptadorHabsDoctor
+ com.proyecto.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+com/proyecto/loginultimodia/databinding/MenuAdministradorBinding.java
+ com.proyecto.loginultimodia.databinding.MenuAdministradorBinding
+com/proyecto/loginultimodia/databinding/ActivityLoginBinding.java
+ com.proyecto.loginultimodia.databinding.ActivityLoginBinding
+com/proyecto/loginultimodia/SecondActivity.java
+ com.proyecto.loginultimodia.SecondActivity
+ com.proyecto.loginultimodia.SecondActivity$1
+com/proyecto/loginultimodia/databinding/ElementoAvisoBinding.java
+ com.proyecto.loginultimodia.databinding.ElementoAvisoBinding
+com/proyecto/loginultimodia/LogOutActivity.java
+ com.proyecto.loginultimodia.LogOutActivity
+com/proyecto/loginultimodia/databinding/ActivityConectarPikkuBinding.java
+ com.proyecto.loginultimodia.databinding.ActivityConectarPikkuBinding
+com/proyecto/loginultimodia/ControladorDoctor/Dosis.java
+ com.proyecto.loginultimodia.ControladorDoctor.Dosis
+ com.proyecto.loginultimodia.ControladorDoctor.Dosis$1
+com/proyecto/loginultimodia/LoginActivity.java
+ com.proyecto.loginultimodia.LoginActivity
+ com.proyecto.loginultimodia.LoginActivity$1
+ com.proyecto.loginultimodia.LoginActivity$2
+com/proyecto/loginultimodia/databinding/ActivitySignUpBinding.java
+ com.proyecto.loginultimodia.databinding.ActivitySignUpBinding
+com/proyecto/loginultimodia/Registro.java
+ com.proyecto.loginultimodia.Registro
+com/proyecto/loginultimodia/ControladorDoctor/Avisos.java
+ com.proyecto.loginultimodia.ControladorDoctor.Avisos
+com/proyecto/loginultimodia/Usuario.java
+ com.proyecto.loginultimodia.Usuario
+com/proyecto/loginultimodia/AdaptadorTempHum.java
+ com.proyecto.loginultimodia.AdaptadorTempHum
+ com.proyecto.loginultimodia.AdaptadorTempHum$ViewHolder
+com/proyecto/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
+ com.proyecto.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
+com/proyecto/loginultimodia/databinding/FragmentAvisosBinding.java
+ com.proyecto.loginultimodia.databinding.FragmentAvisosBinding
+com/proyecto/loginultimodia/AdaptadorAvisos.java
+ com.proyecto.loginultimodia.AdaptadorAvisos
+ com.proyecto.loginultimodia.AdaptadorAvisos$ViewHolder
+com/proyecto/loginultimodia/AnyadirAvisoActivity.java
+ com.proyecto.loginultimodia.AnyadirAvisoActivity
+com/proyecto/loginultimodia/databinding/FragmentDoctorAvisosBinding.java
+ com.proyecto.loginultimodia.databinding.FragmentDoctorAvisosBinding
+com/proyecto/loginultimodia/RegisterActivity.java
+ com.proyecto.loginultimodia.RegisterActivity
+ com.proyecto.loginultimodia.RegisterActivity$1
+ com.proyecto.loginultimodia.RegisterActivity$2
+com/proyecto/loginultimodia/Controlador/Habitaciones.java
+ com.proyecto.loginultimodia.Controlador.Habitaciones
+com/proyecto/loginultimodia/AcercaDeActivityREAL.java
+ com.proyecto.loginultimodia.AcercaDeActivityREAL
+com/proyecto/loginultimodia/databinding/AcercadeRealBinding.java
+ com.proyecto.loginultimodia.databinding.AcercadeRealBinding
+com/proyecto/loginultimodia/ForgotPassword.java
+ com.proyecto.loginultimodia.ForgotPassword
+ com.proyecto.loginultimodia.ForgotPassword$1
+ com.proyecto.loginultimodia.ForgotPassword$2
+com/proyecto/loginultimodia/ControladorDoctor/HabitacionesDoc.java
+ com.proyecto.loginultimodia.ControladorDoctor.HabitacionesDoc
+ com.proyecto.loginultimodia.ControladorDoctor.HabitacionesDoc$1
+com/proyecto/loginultimodia/databinding/CuestionarioPastillassBinding.java
+ com.proyecto.loginultimodia.databinding.CuestionarioPastillassBinding
+com/proyecto/loginultimodia/ControladorDoctor/PagerControler.java
+ com.proyecto.loginultimodia.ControladorDoctor.PagerControler
+com/proyecto/loginultimodia/databinding/FragmentHabitacionesBinding.java
+ com.proyecto.loginultimodia.databinding.FragmentHabitacionesBinding
+com/proyecto/loginultimodia/databinding/CuestionarioEliminarBinding.java
+ com.proyecto.loginultimodia.databinding.CuestionarioEliminarBinding
+com/proyecto/loginultimodia/DoctorSecondActivity.java
+ com.proyecto.loginultimodia.DoctorSecondActivity
+ com.proyecto.loginultimodia.DoctorSecondActivity$1
+com/proyecto/loginultimodia/databinding/AcercadeBinding.java
+ com.proyecto.loginultimodia.databinding.AcercadeBinding
+com/proyecto/loginultimodia/EliminarPacienteActivity.java
+ com.proyecto.loginultimodia.EliminarPacienteActivity

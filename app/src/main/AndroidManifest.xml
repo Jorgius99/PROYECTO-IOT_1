@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.loginultimodia">
+    package="com.proyecto.loginultimodia">
 
 
 
@@ -15,9 +15,9 @@
         android:icon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginUltimoDia">
-        <service android:name=".ServicioPikku" />
+        <service android:name="com.proyecto.loginultimodia.ServicioPikku" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.proyecto.loginultimodia.MainActivity"
 
             android:exported="true">
 
@@ -26,7 +26,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".LoginActivity"
+            android:name="com.proyecto.loginultimodia.LoginActivity"
 
             android:exported="true">
             <intent-filter>
@@ -36,116 +36,120 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.proyecto.loginultimodia.RegisterActivity"
 
             android:exported="true">
 
         </activity>
 
         <activity
-            android:name=".MedicamentosActivity"
+            android:name="com.proyecto.loginultimodia.MedicamentosActivity"
 
             android:exported="true">
 
         </activity>
 
         <activity
-            android:name=".ConectarPikkuActivity"
+            android:name="com.proyecto.loginultimodia.ConectarPikkuActivity"
 
             android:exported="true">
 
         </activity>
         <activity
 
-            android:name=".ForgotPassword"
+            android:name="com.proyecto.loginultimodia.ForgotPassword"
 
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".IniciarDosisDocPaciente"
+            android:name="com.proyecto.loginultimodia.IniciarDosisDocPaciente"
 
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".iniciarHabsDocPaciente"
+            android:name="com.proyecto.loginultimodia.iniciarHabsDocPaciente"
 
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".SecondActivity"
+            android:name="com.proyecto.loginultimodia.SecondActivity"
 
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".AcercaDeActivityREAL"
+            android:name="com.proyecto.loginultimodia.AcercaDeActivityREAL"
 
             android:exported="true">
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
 
         </activity>
         <activity
-            android:name=".DoctorSecondActivity"
-
-            android:exported="true">
-
-        </activity>
-
-        <activity
-            android:name=".HabitacionesActivity"
+            android:name="com.proyecto.loginultimodia.DoctorSecondActivity"
 
             android:exported="true">
 
         </activity>
 
         <activity
-            android:name=".AnyadirAvisoActivity"
-
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".DosisActivity"
+            android:name="com.proyecto.loginultimodia.HabitacionesActivity"
 
             android:exported="true">
 
         </activity>
 
         <activity
+            android:name="com.proyecto.loginultimodia.AnyadirAvisoActivity"
 
-            android:name=".EliminarPacienteActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.proyecto.loginultimodia.DosisActivity"
 
             android:exported="true">
 
         </activity>
 
         <activity
-            android:name=".AbrirEliminarActivity"
+
+            android:name="com.proyecto.loginultimodia.EliminarPacienteActivity"
 
             android:exported="true">
 
         </activity>
 
         <activity
-            android:name=".AnyadirDosisActivity"
+            android:name="com.proyecto.loginultimodia.AbrirEliminarActivity"
 
             android:exported="true">
 
         </activity>
 
         <activity
-            android:name=".SuperAdminSecondActivity"
+            android:name="com.proyecto.loginultimodia.AnyadirDosisActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name="com.proyecto.loginultimodia.SuperAdminSecondActivity"
 
 
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".AcercaDeActivity"
+            android:name="com.proyecto.loginultimodia.AcercaDeActivity"
             android:label="Acerca de ..."/>
-        <activity android:name=".LogOutActivity"
+
+
+
+        <activity android:name="com.proyecto.loginultimodia.LogOutActivity"
             android:label="Cerrar sesión"/>
 
     </application>

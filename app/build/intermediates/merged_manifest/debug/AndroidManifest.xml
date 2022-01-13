@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.loginultimodia"
+    package="com.proyecto.loginultimodia"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -13,8 +13,8 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -35,10 +35,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.LoginUltimoDia" >
-        <service android:name="com.example.loginultimodia.ServicioPikku" />
+        <service android:name="com.proyecto.loginultimodia.ServicioPikku" />
 
         <activity
-            android:name="com.example.loginultimodia.MainActivity"
+            android:name="com.proyecto.loginultimodia.MainActivity"
             android:exported="true" >
         </activity>
 
@@ -47,7 +47,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.example.loginultimodia.LoginActivity"
+            android:name="com.proyecto.loginultimodia.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,74 +56,77 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.loginultimodia.RegisterActivity"
+            android:name="com.proyecto.loginultimodia.RegisterActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.MedicamentosActivity"
+            android:name="com.proyecto.loginultimodia.MedicamentosActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.ConectarPikkuActivity"
+            android:name="com.proyecto.loginultimodia.ConectarPikkuActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.ForgotPassword"
+            android:name="com.proyecto.loginultimodia.ForgotPassword"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.IniciarDosisDocPaciente"
+            android:name="com.proyecto.loginultimodia.IniciarDosisDocPaciente"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.iniciarHabsDocPaciente"
+            android:name="com.proyecto.loginultimodia.iniciarHabsDocPaciente"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.SecondActivity"
+            android:name="com.proyecto.loginultimodia.SecondActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.AcercaDeActivityREAL"
+            android:name="com.proyecto.loginultimodia.AcercaDeActivityREAL"
+            android:exported="true" >
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:name="com.proyecto.loginultimodia.DoctorSecondActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.DoctorSecondActivity"
+            android:name="com.proyecto.loginultimodia.HabitacionesActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.HabitacionesActivity"
+            android:name="com.proyecto.loginultimodia.AnyadirAvisoActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.AnyadirAvisoActivity"
+            android:name="com.proyecto.loginultimodia.DosisActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.DosisActivity"
+            android:name="com.proyecto.loginultimodia.EliminarPacienteActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.EliminarPacienteActivity"
+            android:name="com.proyecto.loginultimodia.AbrirEliminarActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.AbrirEliminarActivity"
+            android:name="com.proyecto.loginultimodia.AnyadirDosisActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.AnyadirDosisActivity"
+            android:name="com.proyecto.loginultimodia.SuperAdminSecondActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.loginultimodia.SuperAdminSecondActivity"
-            android:exported="true" >
-        </activity>
-        <activity
-            android:name="com.example.loginultimodia.AcercaDeActivity"
+            android:name="com.proyecto.loginultimodia.AcercaDeActivity"
             android:label="Acerca de ..." />
         <activity
-            android:name="com.example.loginultimodia.LogOutActivity"
+            android:name="com.proyecto.loginultimodia.LogOutActivity"
             android:label="Cerrar sesión" />
 
         <meta-data
@@ -212,7 +215,7 @@
 
         <provider
             android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
-            android:authorities="com.example.loginultimodia.authuiinitprovider"
+            android:authorities="com.proyecto.loginultimodia.authuiinitprovider"
             android:exported="false"
             android:initOrder="90" />
 
@@ -284,7 +287,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.loginultimodia.firebaseinitprovider"
+            android:authorities="com.proyecto.loginultimodia.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -311,7 +314,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.loginultimodia.androidx-startup"
+            android:authorities="com.proyecto.loginultimodia.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
