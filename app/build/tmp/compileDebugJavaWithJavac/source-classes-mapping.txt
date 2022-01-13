@@ -40,8 +40,8 @@ com/example/loginultimodia/AdaptadorDosisDoc.java
  com.example.loginultimodia.AdaptadorDosisDoc$ViewHolder
 com/example/loginultimodia/MedicamentosActivity.java
  com.example.loginultimodia.MedicamentosActivity
-com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
- com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
+com/example/loginultimodia/Controlador/Dosis.java
+ com.example.loginultimodia.Controlador.Dosis
 com/example/loginultimodia/DoctorSecondActivity.java
  com.example.loginultimodia.DoctorSecondActivity
  com.example.loginultimodia.DoctorSecondActivity$1
@@ -54,18 +54,16 @@ com/example/loginultimodia/ControladorDoctor/Dosis.java
  com.example.loginultimodia.ControladorDoctor.Dosis$1
 com/example/loginultimodia/databinding/MenuAdministradorBinding.java
  com.example.loginultimodia.databinding.MenuAdministradorBinding
-com/example/loginultimodia/AdaptadorHabsDoctor.java
- com.example.loginultimodia.AdaptadorHabsDoctor
- com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+com/example/loginultimodia/Controlador/PagerControler.java
+ com.example.loginultimodia.Controlador.PagerControler
 com/example/loginultimodia/databinding/ActivityLoginBinding.java
  com.example.loginultimodia.databinding.ActivityLoginBinding
 com/example/loginultimodia/EliminarPacienteActivity.java
  com.example.loginultimodia.EliminarPacienteActivity
 com/example/loginultimodia/databinding/FragmentAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentAvisosBinding
-com/example/loginultimodia/AdaptadorHabsDoctor.java
- com.example.loginultimodia.AdaptadorHabsDoctor
- com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+com/example/loginultimodia/databinding/ElementoDosisBinding.java
+ com.example.loginultimodia.databinding.ElementoDosisBinding
 com/example/loginultimodia/Aviso.java
  com.example.loginultimodia.Aviso
 com/example/loginultimodia/AcercaDeActivityREAL.java
@@ -76,8 +74,10 @@ com/example/loginultimodia/databinding/ActivityMainBinding.java
  com.example.loginultimodia.databinding.ActivityMainBinding
 com/example/loginultimodia/databinding/FragmentDoctorDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorDosisBinding
-com/example/loginultimodia/Doctor.java
- com.example.loginultimodia.Doctor
+com/example/loginultimodia/LoginActivity.java
+ com.example.loginultimodia.LoginActivity
+ com.example.loginultimodia.LoginActivity$1
+ com.example.loginultimodia.LoginActivity$2
 com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
  com.example.loginultimodia.ControladorDoctor.HabitacionesDoc
  com.example.loginultimodia.ControladorDoctor.HabitacionesDoc$1
@@ -91,13 +91,13 @@ com/example/loginultimodia/databinding/FragmentHabitacionesBinding.java
  com.example.loginultimodia.databinding.FragmentHabitacionesBinding
 com/example/loginultimodia/databinding/CuestionarioAvisosBinding.java
  com.example.loginultimodia.databinding.CuestionarioAvisosBinding
-com/example/loginultimodia/AdaptadorDosis.java
- com.example.loginultimodia.AdaptadorDosis
- com.example.loginultimodia.AdaptadorDosis$ViewHolder
+com/example/loginultimodia/RegisterActivity.java
+ com.example.loginultimodia.RegisterActivity
+ com.example.loginultimodia.RegisterActivity$1
 com/example/loginultimodia/databinding/FragmentDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDosisBinding
-com/example/loginultimodia/databinding/ActivitySignUpBinding.java
- com.example.loginultimodia.databinding.ActivitySignUpBinding
+com/example/loginultimodia/Controlador/Avisos.java
+ com.example.loginultimodia.Controlador.Avisos
 com/example/loginultimodia/DosisActivity.java
  com.example.loginultimodia.DosisActivity
 com/example/loginultimodia/databinding/FragmentMedicamentosBinding.java
@@ -120,14 +120,9 @@ com/example/loginultimodia/AdaptadorAvisos.java
  com.example.loginultimodia.AdaptadorAvisos$ViewHolder
 com/example/loginultimodia/Habitacion.java
  com.example.loginultimodia.Habitacion
-com/example/loginultimodia/ConectarPikkuActivity.java
- com.example.loginultimodia.ConectarPikkuActivity
- com.example.loginultimodia.ConectarPikkuActivity$1
- com.example.loginultimodia.ConectarPikkuActivity$1$1
- com.example.loginultimodia.ConectarPikkuActivity$2
- com.example.loginultimodia.ConectarPikkuActivity$3
- com.example.loginultimodia.ConectarPikkuActivity$4
- com.example.loginultimodia.ConectarPikkuActivity$5
+com/example/loginultimodia/SecondActivity.java
+ com.example.loginultimodia.SecondActivity
+ com.example.loginultimodia.SecondActivity$1
 com/example/loginultimodia/databinding/ActivityTabmainBinding.java
  com.example.loginultimodia.databinding.ActivityTabmainBinding
 com/example/loginultimodia/ServicioPikku.java
@@ -145,28 +140,10 @@ com/example/loginultimodia/AnyadirDosisActivity.java
  com.example.loginultimodia.AnyadirDosisActivity
 com/example/loginultimodia/databinding/FragmentDoctorAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorAvisosBinding
-com/example/loginultimodia/Controlador/Dosis.java
- com.example.loginultimodia.Controlador.Dosis
-com/example/loginultimodia/Controlador/Avisos.java
- com.example.loginultimodia.Controlador.Avisos
-com/example/loginultimodia/Controlador/PagerControler.java
- com.example.loginultimodia.Controlador.PagerControler
 com/example/loginultimodia/ForgotPassword.java
  com.example.loginultimodia.ForgotPassword
  com.example.loginultimodia.ForgotPassword$1
  com.example.loginultimodia.ForgotPassword$2
-<<<<<<< HEAD
-com/example/loginultimodia/RegisterActivity.java
- com.example.loginultimodia.RegisterActivity
- com.example.loginultimodia.RegisterActivity$1
-com/example/loginultimodia/SecondActivity.java
- com.example.loginultimodia.SecondActivity
- com.example.loginultimodia.SecondActivity$1
-com/example/loginultimodia/LoginActivity.java
- com.example.loginultimodia.LoginActivity
- com.example.loginultimodia.LoginActivity$1
- com.example.loginultimodia.LoginActivity$2
-=======
 com/example/loginultimodia/ConectarPikkuActivity.java
  com.example.loginultimodia.ConectarPikkuActivity
  com.example.loginultimodia.ConectarPikkuActivity$1
@@ -179,11 +156,11 @@ com/example/loginultimodia/Doctor.java
  com.example.loginultimodia.Doctor
 com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
  com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
-com/example/loginultimodia/databinding/ActivitySignUpBinding.java
- com.example.loginultimodia.databinding.ActivitySignUpBinding
-com/example/loginultimodia/databinding/ElementoDosisBinding.java
- com.example.loginultimodia.databinding.ElementoDosisBinding
 com/example/loginultimodia/AdaptadorDosis.java
  com.example.loginultimodia.AdaptadorDosis
  com.example.loginultimodia.AdaptadorDosis$ViewHolder
->>>>>>> 8f6492c55540a3987fef38fd61f5c0787d263fa0
+com/example/loginultimodia/databinding/ActivitySignUpBinding.java
+ com.example.loginultimodia.databinding.ActivitySignUpBinding
+com/example/loginultimodia/AdaptadorHabsDoctor.java
+ com.example.loginultimodia.AdaptadorHabsDoctor
+ com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder

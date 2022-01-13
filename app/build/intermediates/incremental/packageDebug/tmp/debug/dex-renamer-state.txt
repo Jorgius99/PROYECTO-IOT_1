@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Thu Jan 13 14:27:22 CET 2022
-=======
-#Thu Jan 13 13:22:58 CET 2022
->>>>>>> 8f6492c55540a3987fef38fd61f5c0787d263fa0
+#Thu Jan 13 14:44:49 CET 2022
 path.4=14/classes.dex
 path.3=13/classes.dex
 path.2=11/classes.dex
@@ -11,19 +7,19 @@ path.7=classes3.dex
 path.6=classes2.dex
 path.5=9/classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=C\:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.2=C\:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.1=C\:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=C\:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=C\:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.2=C\:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.1=C\:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.7=classes8.dex
 renamed.6=classes7.dex
-base.7=C\:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.7=C\:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 renamed.5=classes6.dex
-base.6=C\:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.6=C\:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 renamed.4=classes5.dex
-base.5=C\:\\Users\\Usuario\\OneDrive - UPV\\SEGUNDO\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.5=C\:\\Users\\xegea\\OneDrive\\Escritorio\\XAVI UNIVERSIDAD\\Segundo Curso\\Proyecto IoT\\Git\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
