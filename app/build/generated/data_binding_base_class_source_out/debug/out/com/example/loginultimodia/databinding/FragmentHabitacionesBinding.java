@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,10 +23,14 @@ public final class FragmentHabitacionesBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recyclerViewH;
 
+  @NonNull
+  public final TextView textView3;
+
   private FragmentHabitacionesBinding(@NonNull FrameLayout rootView,
-      @NonNull RecyclerView recyclerViewH) {
+      @NonNull RecyclerView recyclerViewH, @NonNull TextView textView3) {
     this.rootView = rootView;
     this.recyclerViewH = recyclerViewH;
+    this.textView3 = textView3;
   }
 
   @Override
@@ -61,7 +66,13 @@ public final class FragmentHabitacionesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHabitacionesBinding((FrameLayout) rootView, recyclerViewH);
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      return new FragmentHabitacionesBinding((FrameLayout) rootView, recyclerViewH, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

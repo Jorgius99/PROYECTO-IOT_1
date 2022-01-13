@@ -32,7 +32,7 @@ public class RegisterActivity extends AppCompatActivity {
     TextInputEditText etRegDniDoctor;
     TextInputEditText etRegNumHabitacion;
 
-    TextView tvLoginHere;
+    TextView tvLoginHere;//volverrrrrrrrrrrrrrrrrrrrrrrrrr
     Button btnRegister;
     FirebaseAuth mAuth;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -53,7 +53,7 @@ public class RegisterActivity extends AppCompatActivity {
         etRegDni=findViewById(R.id.etRegDni);
         etRegDniDoctor=findViewById(R.id.etRegDniDoc);
         etRegNumHabitacion=findViewById(R.id.etRegNumHab);
-        tvLoginHere = findViewById(R.id.tvLoginHere);
+        tvLoginHere = findViewById(R.id.tvLoginHere);//volverrrrrrrrrrrrrrrrrrrrrrrrrr
         btnRegister = findViewById(R.id.ppp);
 
         mAuth = FirebaseAuth.getInstance();
@@ -62,7 +62,7 @@ public class RegisterActivity extends AppCompatActivity {
             createUser();
         });
 
-        tvLoginHere.setOnClickListener(view ->{
+        tvLoginHere.setOnClickListener(view ->{         //volverrrrrrrrrrrrrrrrrrrrrrrrrr
             startActivity(new Intent(RegisterActivity.this, SuperAdminSecondActivity.class));
         });
 

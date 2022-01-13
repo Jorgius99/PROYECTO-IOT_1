@@ -137,7 +137,7 @@ public class Dosis extends Fragment {
                             obtenerCorreoDeHabitacion(correoSacado[0].getEmail());
                         }else{
 
-                                Log.d("ERRORhfjhfkjshkdf", "Error getting documents: ", task.getException());
+                                Log.d("ERROR", "Error getting documents: ", task.getException());
 
                         }
                         {

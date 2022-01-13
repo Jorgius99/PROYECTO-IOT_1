@@ -60,6 +60,8 @@ com/example/loginultimodia/databinding/ActivityLoginBinding.java
  com.example.loginultimodia.databinding.ActivityLoginBinding
 com/example/loginultimodia/EliminarPacienteActivity.java
  com.example.loginultimodia.EliminarPacienteActivity
+com/example/loginultimodia/databinding/FragmentDosisdoctorvolverBinding.java
+ com.example.loginultimodia.databinding.FragmentDosisdoctorvolverBinding
 com/example/loginultimodia/databinding/FragmentAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentAvisosBinding
 com/example/loginultimodia/databinding/ElementoDosisBinding.java
@@ -83,6 +85,8 @@ com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
  com.example.loginultimodia.ControladorDoctor.HabitacionesDoc$1
 com/example/loginultimodia/databinding/ElementoHabsTemphumBinding.java
  com.example.loginultimodia.databinding.ElementoHabsTemphumBinding
+com/example/loginultimodia/databinding/FragmentHabitacionesvolverBinding.java
+ com.example.loginultimodia.databinding.FragmentHabitacionesvolverBinding
 com/example/loginultimodia/databinding/ActivityForgotPasswordBinding.java
  com.example.loginultimodia.databinding.ActivityForgotPasswordBinding
 com/example/loginultimodia/AnyadirAvisoActivity.java

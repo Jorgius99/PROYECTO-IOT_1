@@ -2,8 +2,10 @@ package com.example.loginultimodia;
 
 import static java.security.AccessController.getContext;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.loginultimodia.Controlador.Dosis;
 import com.example.loginultimodia.databinding.FragmentDosisBinding;
+import com.example.loginultimodia.databinding.FragmentDosisdoctorvolverBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -22,8 +25,9 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 public class IniciarDosisDocPaciente extends AppCompatActivity {
     private static Usuario usuarioConDatos;
+    TextView tvLoginHere;//volverrrrrrrrrrrrrrrrrrrrrrrrrr
 
-    private FragmentDosisBinding binding; //si no está
+    private FragmentDosisdoctorvolverBinding binding; //si no está
     private AdaptadorDosis adaptador;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -45,16 +49,13 @@ public class IniciarDosisDocPaciente extends AppCompatActivity {
         query.addSnapshotListener(new EventListener<QuerySnapshot>() {
             @Override
             public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
-
                 if (value != null) {
-
                     FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
                             .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
-
                     adaptador = new AdaptadorDosis(opciones, getApplicationContext());
-
-                    binding = FragmentDosisBinding.inflate(getLayoutInflater());
+                    binding = FragmentDosisdoctorvolverBinding.inflate(getLayoutInflater());
                     setContentView(binding.getRoot());
+                    tvLoginHere = findViewById(R.id.volvertext);//volverrrrrrrrrrrrrrrrrrrrrrrrrr
 
                     RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
                     binding.recyclerViewD.setLayoutManager(layoutManager);
@@ -62,7 +63,9 @@ public class IniciarDosisDocPaciente extends AppCompatActivity {
                     binding.recyclerViewD.setAdapter(adaptador);
 
                     adaptador.startListening();
-
+                    tvLoginHere.setOnClickListener(view ->{         //volverrrrrrrrrrrrrrrrrrrrrrrrrr
+                        startActivity(new Intent(IniciarDosisDocPaciente.this, DoctorSecondActivity.class));
+                    });
                 }
 
             }

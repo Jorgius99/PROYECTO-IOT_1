@@ -2641,10 +2641,10 @@ id textView16
 id textView17
 id textView18
 id textView2
+id textView3
 id textView4
 id textView5
 id textView6
-id textView7
 id textView8
 id textView9
 id text_input_end_icon
@@ -2697,6 +2697,8 @@ id visible
 id visible_removing_fragment_view_tag
 id volverAcasa
 id volverAcasa2
+id volverbotonhabit
+id volvertext
 id welcome_back_email_link_body
 id welcome_back_idp_button
 id welcome_back_idp_prompt
@@ -2822,7 +2824,9 @@ layout fragment_doctor_avisos
 layout fragment_doctor_dosis
 layout fragment_doctor_habitaciones
 layout fragment_dosis
+layout fragment_dosisdoctorvolver
 layout fragment_habitaciones
+layout fragment_habitacionesvolver
 layout fragment_medicamentos
 layout fui_activity_invisible
 layout fui_activity_register_email
