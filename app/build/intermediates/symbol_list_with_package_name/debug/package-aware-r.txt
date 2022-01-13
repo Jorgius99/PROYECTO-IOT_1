@@ -2325,13 +2325,13 @@ id fixed
 id flip
 id floating
 id forever
+id foto
 id fragment_container_view_tag
 id fragment_phone
 id fragment_register_email
 id frost
 id ghost_view
 id ghost_view_holder
-id glide_custom_view_target_tag
 id gone
 id grados2
 id graph
@@ -2362,7 +2362,6 @@ id ignoreRequest
 id image
 id imageView
 id imageView01
-id imageView1
 id imageView11
 id imageView2
 id imageView3
@@ -2420,6 +2419,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id medicamento
 id message
 id middle
 id mini
@@ -2631,7 +2631,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView1
 id textView10
 id textView11
 id textView12

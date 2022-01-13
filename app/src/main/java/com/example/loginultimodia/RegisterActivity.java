@@ -66,7 +66,11 @@ public class RegisterActivity extends AppCompatActivity {
             startActivity(new Intent(RegisterActivity.this, SuperAdminSecondActivity.class));
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
+=======
+
+>>>>>>> parent of fe92b131 (firestore pablo)
 
         //7 y 8.-RecyclerView
 =======
@@ -81,7 +85,11 @@ public class RegisterActivity extends AppCompatActivity {
                 startActivity(i);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
         });*/
+=======
+        });
+>>>>>>> parent of fe92b131 (firestore pablo)
 
 
 =======
