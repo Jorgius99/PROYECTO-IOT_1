@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Pablo Chova\\.gradle\\caches\\transforms-3\\ef5983ccacd794f2a4f24534465d11ab\\transformed\\jetified-play-services-auth-19.0.0\\res\\values-watch-v20\\values.xml",
+=======
+            "outputFile": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Álvaro Escribano\\.gradle\\caches\\transforms-3\\ef5983ccacd794f2a4f24534465d11ab\\transformed\\jetified-play-services-auth-19.0.0\\res\\values-watch-v20\\values.xml",
+>>>>>>> esperanzas
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +28,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Pablo Chova\\.gradle\\caches\\transforms-3\\8f8dfbea7461eb4b096b7a7771e0ff80\\transformed\\appcompat-1.4.0\\res\\values-watch-v20\\values-watch-v20.xml",
+=======
+                    "source": "C:\\Users\\Álvaro Escribano\\.gradle\\caches\\transforms-3\\8f8dfbea7461eb4b096b7a7771e0ff80\\transformed\\appcompat-1.4.0\\res\\values-watch-v20\\values-watch-v20.xml",
+>>>>>>> esperanzas
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

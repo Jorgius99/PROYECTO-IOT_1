@@ -2,6 +2,7 @@ package com.example.loginultimodia;
 
 import static java.security.AccessController.getContext;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
@@ -14,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.loginultimodia.Controlador.Dosis;
 import com.example.loginultimodia.databinding.FragmentDosisBinding;
 import com.example.loginultimodia.databinding.FragmentHabitacionesBinding;
+import com.example.loginultimodia.databinding.FragmentHabitacionesvolverBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -25,7 +27,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class iniciarHabsDocPaciente extends AppCompatActivity {
     private static Usuario usuarioConDatos;
 
-    private FragmentHabitacionesBinding binding; //si no está
+    private FragmentHabitacionesvolverBinding binding; //si no está
     private AdaptadorTempHum adaptador;
     TextView tvLoginHere;// volverrrrrrrrrrrrrrrrrrrrrrr
 
@@ -41,7 +43,7 @@ public class iniciarHabsDocPaciente extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = FragmentHabitacionesBinding.inflate(getLayoutInflater());
+        binding = FragmentHabitacionesvolverBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -53,13 +55,16 @@ public class iniciarHabsDocPaciente extends AppCompatActivity {
                 .Builder<Habitacion>().setQuery(query, Habitacion.class).build();
 
         adaptador = new AdaptadorTempHum(opciones, getApplicationContext());
+        tvLoginHere = findViewById(R.id.volverbotonhabit);//volverrrrrrrrrrrrrrrrrrrrrrrrrr
 
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         binding.recyclerViewH.setLayoutManager(layoutManager);
 
         binding.recyclerViewH.setAdapter(adaptador);
-
+        tvLoginHere.setOnClickListener(view ->{         //volverrrrrrrrrrrrrrrrrrrrrrrrrr
+            startActivity(new Intent(iniciarHabsDocPaciente.this, DoctorSecondActivity.class));
+        });
         adaptador.startListening();
 
         /*
