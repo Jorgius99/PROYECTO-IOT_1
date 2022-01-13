@@ -98,6 +98,9 @@ public class pikkuFuncion {
         }
     }
 
+    public void onCaidaServicio(){
+
+    }
 
     private void setLinearAcceleration(float x, float y, float z) {
         final float alpha = 0.8f;
