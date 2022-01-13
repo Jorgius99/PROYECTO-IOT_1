@@ -15,7 +15,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.example.loginultimodia.databinding.FragmentMedicamentosBinding;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
 
 import java.util.Map;
 
@@ -25,35 +29,32 @@ public class MedicamentosActivity extends AppCompatActivity {
 
 
     private RecyclerView recyclerView;
-    public Adaptador adaptador;
+
     FragmentMedicamentosBinding binding;
-    //7 y 8.-RecyclerView
-    static public Map<Integer,Registro> mapa ;
+    private AdaptadorImagenes adaptador;// quiza es private o public
 
-    // 5 a) Colecciones
-
-    static public String  MEDICAMENTOS[]={"nolotil","enantyum","paracetamol"};
-    ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = FragmentMedicamentosBinding.inflate(getLayoutInflater());
         setContentView(R.layout.fragment_medicamentos);
-        setContentView(binding.getRoot());
-        mapa=creaMapa(MEDICAMENTOS);
-        adaptador = new Adaptador(mapa);
-        recyclerView = binding.recyclerView;
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        Query query = FirebaseFirestore.getInstance()
+                .collection("foto");
+        FirestoreRecyclerOptions<Imagen> opciones = new FirestoreRecyclerOptions
+                .Builder<Imagen>().setQuery(query, Imagen.class).build();
+        adaptador = new AdaptadorImagenes(this, opciones);
         recyclerView.setAdapter(adaptador);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+            }
 
-
+@Override public void onStart() {
+    super.onStart();
+    adaptador.startListening();
+}
+    @Override public void onStop() {
+        super.onStop();
+        adaptador.stopListening();
     }
-/*
-    public void lanzarMedicamentos(View view) {
-        Intent i = new Intent(this, MedicamentosActivity.class);
-        startActivity(i);
 
-
-    }*/
 }

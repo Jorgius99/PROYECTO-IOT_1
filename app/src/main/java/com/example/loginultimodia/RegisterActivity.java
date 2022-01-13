@@ -65,7 +65,7 @@ public class RegisterActivity extends AppCompatActivity {
         tvLoginHere.setOnClickListener(view ->{
             startActivity(new Intent(RegisterActivity.this, SuperAdminSecondActivity.class));
         });
-
+/*
 
         //7 y 8.-RecyclerView
         Button button3 = findViewById(R.id.listadoMedicamentos);
@@ -75,7 +75,7 @@ public class RegisterActivity extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(), MedicamentosActivity.class);
                 startActivity(i);
             }
-        });
+        });*/
 
 
     }
