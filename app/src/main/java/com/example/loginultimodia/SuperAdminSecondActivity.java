@@ -37,7 +37,7 @@ public class SuperAdminSecondActivity extends AppCompatActivity {
         BotonAviso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {//                                           aviso--->
-                Intent intent = new Intent(SuperAdminSecondActivity.this, AnyadirDosisActivity.class);
+                Intent intent = new Intent(SuperAdminSecondActivity.this, AnyadirAvisoActivity.class);
                 startActivity(intent);
             }
         });
