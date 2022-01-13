@@ -63,8 +63,9 @@ com/example/loginultimodia/EliminarPacienteActivity.java
  com.example.loginultimodia.EliminarPacienteActivity
 com/example/loginultimodia/databinding/FragmentAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentAvisosBinding
-com/example/loginultimodia/databinding/ElementoDosisBinding.java
- com.example.loginultimodia.databinding.ElementoDosisBinding
+com/example/loginultimodia/AdaptadorHabsDoctor.java
+ com.example.loginultimodia.AdaptadorHabsDoctor
+ com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
 com/example/loginultimodia/Aviso.java
  com.example.loginultimodia.Aviso
 com/example/loginultimodia/AcercaDeActivityREAL.java
@@ -154,6 +155,7 @@ com/example/loginultimodia/ForgotPassword.java
  com.example.loginultimodia.ForgotPassword
  com.example.loginultimodia.ForgotPassword$1
  com.example.loginultimodia.ForgotPassword$2
+<<<<<<< HEAD
 com/example/loginultimodia/RegisterActivity.java
  com.example.loginultimodia.RegisterActivity
  com.example.loginultimodia.RegisterActivity$1
@@ -164,3 +166,24 @@ com/example/loginultimodia/LoginActivity.java
  com.example.loginultimodia.LoginActivity
  com.example.loginultimodia.LoginActivity$1
  com.example.loginultimodia.LoginActivity$2
+=======
+com/example/loginultimodia/ConectarPikkuActivity.java
+ com.example.loginultimodia.ConectarPikkuActivity
+ com.example.loginultimodia.ConectarPikkuActivity$1
+ com.example.loginultimodia.ConectarPikkuActivity$1$1
+ com.example.loginultimodia.ConectarPikkuActivity$2
+ com.example.loginultimodia.ConectarPikkuActivity$3
+ com.example.loginultimodia.ConectarPikkuActivity$4
+ com.example.loginultimodia.ConectarPikkuActivity$5
+com/example/loginultimodia/Doctor.java
+ com.example.loginultimodia.Doctor
+com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
+ com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
+com/example/loginultimodia/databinding/ActivitySignUpBinding.java
+ com.example.loginultimodia.databinding.ActivitySignUpBinding
+com/example/loginultimodia/databinding/ElementoDosisBinding.java
+ com.example.loginultimodia.databinding.ElementoDosisBinding
+com/example/loginultimodia/AdaptadorDosis.java
+ com.example.loginultimodia.AdaptadorDosis
+ com.example.loginultimodia.AdaptadorDosis$ViewHolder
+>>>>>>> 8f6492c55540a3987fef38fd61f5c0787d263fa0
