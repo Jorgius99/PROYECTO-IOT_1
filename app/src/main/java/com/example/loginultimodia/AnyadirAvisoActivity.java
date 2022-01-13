@@ -19,7 +19,7 @@ public class AnyadirAvisoActivity extends AppCompatActivity {
     TextInputEditText etRegPrioridad;
     TextInputEditText etRegDni;
     TextInputEditText etRegHabitacion;
-    TextView tvLoginHere;
+    TextView tvLoginHere;// volverrrrrrrrrrrrrrrrrrrrrrr
     Button btnRegister;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     @Override
@@ -32,7 +32,7 @@ public class AnyadirAvisoActivity extends AppCompatActivity {
         etRegPrioridad=findViewById(R.id.etRegFechaYH);
         etRegDni=findViewById(R.id.etRegDni);
         etRegHabitacion=findViewById(R.id.etRegCanti);
-        tvLoginHere = findViewById(R.id.volverAcasa);
+        tvLoginHere = findViewById(R.id.volverAcasa);// volverrrrrrrrrrrrrrrrrrrrrrr
         btnRegister = findViewById(R.id.enviarDosis);
 
 
@@ -40,7 +40,7 @@ public class AnyadirAvisoActivity extends AppCompatActivity {
             createUser();
         });
 
-        tvLoginHere.setOnClickListener(view ->{
+        tvLoginHere.setOnClickListener(view ->{     // volverrrrrrrrrrrrrrrrrrrrrrr
             startActivity(new Intent(AnyadirAvisoActivity.this, SuperAdminSecondActivity.class));
         });
     }

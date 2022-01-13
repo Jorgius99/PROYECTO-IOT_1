@@ -75,6 +75,7 @@ public class Dosis extends Fragment {
         }
 
     }
+    /*
     public static void sacaDatos(String email){
 
         final Usuario[] usuarioSacado = {new Usuario()};
@@ -93,7 +94,7 @@ public class Dosis extends Fragment {
             }
         });
         // Log.d("NUEVOUSER", ""+nuevoUser);
-    }
+    }*/
     public static Usuario rellenarUsuario(Usuario ussus)  {
         usuarioConDatos  = ussus;
         Log.d("FAFA", ""+usuarioConDatos);
@@ -121,10 +122,6 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
     FirestoreRecyclerOptions<ObjetoDosis> opciones = new FirestoreRecyclerOptions
 
             .Builder<ObjetoDosis>().setQuery(query, ObjetoDosis.class).build();
-    Log.d("caca", String.valueOf(datee));
-    Log.d("lele", String.valueOf(milisss));
-
-    Log.d("Weonao",""+opciones.getSnapshots());
     adaptador = new AdaptadorDosis(opciones, getContext());
     System.out.println(getContext());
     binding.recyclerViewD.setAdapter(adaptador);

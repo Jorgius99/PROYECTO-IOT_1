@@ -66,8 +66,7 @@ public class RegisterActivity extends AppCompatActivity {
             startActivity(new Intent(RegisterActivity.this, SuperAdminSecondActivity.class));
         });
 
-
-        //7 y 8.-RecyclerView
+/* //7 y 8.-RecyclerView
         Button button3 = findViewById(R.id.listadoMedicamentos);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +75,7 @@ public class RegisterActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+*/
 
 
     }

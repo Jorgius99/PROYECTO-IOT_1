@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.loginultimodia.AcercaDeActivity;
 import com.example.loginultimodia.AdaptadorDosisDoc;
 import com.example.loginultimodia.AdaptadorHabsDoctor;
 import com.example.loginultimodia.AnyadirDosisActivity;
@@ -40,7 +41,6 @@ public class HabitacionesDoc extends Fragment {
     private String correoHab;
 
 
-
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -53,8 +53,6 @@ public class HabitacionesDoc extends Fragment {
     public HabitacionesDoc() {
         // Required empty public constructor
     }
-
-
 
 
     public static HabitacionesDoc newInstance(String param1, String param2) {
@@ -79,47 +77,48 @@ public class HabitacionesDoc extends Fragment {
 
         //boton = (Button) findViewById(R.id.buttonRegistrar);
     }
-/*
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
 
-        View v = inflater.inflate(R.layout.fragment_doctor_habitaciones, container, false);
+    /*
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+
+            View v = inflater.inflate(R.layout.fragment_doctor_habitaciones, container, false);
 
 
-        View tvRegisterHere = v.findViewById(R.id.imageView8);
-        tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), RegisterActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
+            View tvRegisterHere = v.findViewById(R.id.imageView8);
+            tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+                startActivity(new Intent(getContext(), RegisterActivity.class));
+                //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+            });
 
-        View botonHab1 = v.findViewById(R.id.dosis1);
-        botonHab1.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), HabitacionesActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
+            View botonHab1 = v.findViewById(R.id.dosis1);
+            botonHab1.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+                startActivity(new Intent(getContext(), HabitacionesActivity.class));
+                //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+            });
 
-        View botonHab2 = v.findViewById(R.id.dosis2);
-        botonHab2.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), HabitacionesActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
+            View botonHab2 = v.findViewById(R.id.dosis2);
+            botonHab2.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+                startActivity(new Intent(getContext(), HabitacionesActivity.class));
+                //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+            });
 
-        View botonHab3 = v.findViewById(R.id.dosis3);
-        botonHab3.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), HabitacionesActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
+            View botonHab3 = v.findViewById(R.id.dosis3);
+            botonHab3.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+                startActivity(new Intent(getContext(), HabitacionesActivity.class));
+                //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+            });
 
-        View botonHab4 = v.findViewById(R.id.dosis4);
-        botonHab4.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
-            startActivity(new Intent(getContext(), HabitacionesActivity.class));
-            //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
-        });
-        return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
+            View botonHab4 = v.findViewById(R.id.dosis4);
+            botonHab4.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+                startActivity(new Intent(getContext(), HabitacionesActivity.class));
+                //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
+            });
+            return v;//------------------------------------------------------- ud 2 ultimo punto getContext()
 
-    }
-*/ /*
+        }
+    */ /*
 public static void sacaDatos(String email){
     final Doctor[] usuarioSacado = {new Doctor()};
 
@@ -140,11 +139,12 @@ public static void sacaDatos(String email){
     });
     // Log.d("NUEVOUSER", ""+nuevoUser);
 }*/
-    public static Usuario rellenarUsuario(Usuario ussus)  {
-        usuarioConDatos  = ussus;
-        Log.d("FAFA", ""+usuarioConDatos);
+    public static Usuario rellenarUsuario(Usuario ussus) {
+        usuarioConDatos = ussus;
+        Log.d("FAFA", "" + usuarioConDatos);
         return usuarioConDatos;
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -174,7 +174,8 @@ public static void sacaDatos(String email){
                 Toast.makeText(getContext(), "" + habitacion, Toast.LENGTH_SHORT).show();
                 FirebaseFirestore db = FirebaseFirestore.getInstance();
 
-                db.collection("pacientes").whereEqualTo("numHabitacion",habitacion).get().addOnCompleteListener(task ->  {
+                db.collection("pacientes").whereEqualTo("numHabitacion",
+                        habitacion).get().addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
                         QuerySnapshot document = task.getResult();
                         DocumentSnapshot docOC = document.getDocuments().get(0);
@@ -183,43 +184,37 @@ public static void sacaDatos(String email){
                             //Log.d("USUARIOSACAD0",""+ correoSacado[0].getEmail());
                             rellenarUsuario(correoSacado[0]);
                             iniciarHabsDocPaciente.rellenarUsuario(usuarioConDatos);
-                            Log.d("EWEWEWEWEW",""+correoSacado[0]);
+                            Log.d("EWEWEWEWEW", "" + correoSacado[0]);
                             obtenerCorreoDeHabitacion(correoSacado[0].getEmail());
-                        }else{
-
+                        } else {
                             Log.d("ERRORhfjhfkjshkdf", "Error getting documents: ", task.getException());
-
                         }
-                        {
-                            startActivity(new Intent(getContext(), iniciarHabsDocPaciente.class));
-
-                        }
+                        startActivity(new Intent(getContext(), iniciarHabsDocPaciente.class));
+                       // startActivity(new Intent(getContext(), AcercaDeActivity.class));
                     }
                 });
-
-               /* {
-                    //com.example.loginultimodia.Controlador.Dosis.sacaDatos(correoHab);
-
-
-                }*/
             }
         });
+        adaptador.startListening();
+
         return binding.getRoot();
         //return v;
     }
-    public void obtenerCorreoDeHabitacion(String correuu){
+
+    public void obtenerCorreoDeHabitacion(String correuu) {
         correoHab = correuu;
     }
 
-
+/*
     @Override
     public void onStart() {
         super.onStart();
         adaptador.startListening();
     }
+
     @Override
     public void onStop() {
         super.onStop();
         adaptador.stopListening();
-    }
+    }*/
 }
