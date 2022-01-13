@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Pablo Chova\\.gradle\\caches\\transforms-3\\6baf5fc9b880c6513445d8fe1e652e89\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
-=======
             "outputFile": "C:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Álvaro Escribano\\.gradle\\caches\\transforms-3\\6baf5fc9b880c6513445d8fe1e652e89\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
->>>>>>> esperanzas
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -28,11 +21,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\Pablo Chova\\.gradle\\caches\\transforms-3\\8f8dfbea7461eb4b096b7a7771e0ff80\\transformed\\appcompat-1.4.0\\res\\values-v24\\values-v24.xml",
-=======
                     "source": "C:\\Users\\Álvaro Escribano\\.gradle\\caches\\transforms-3\\8f8dfbea7461eb4b096b7a7771e0ff80\\transformed\\appcompat-1.4.0\\res\\values-v24\\values-v24.xml",
->>>>>>> esperanzas
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

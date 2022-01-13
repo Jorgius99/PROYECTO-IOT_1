@@ -1,10 +1,7 @@
 com/example/loginultimodia/ControladorDoctor/PagerControler.java
  com.example.loginultimodia.ControladorDoctor.PagerControler
-<<<<<<< HEAD
 com/example/loginultimodia/Imagen.java
  com.example.loginultimodia.Imagen
-=======
->>>>>>> esperanzas
 com/example/loginultimodia/databinding/AcercadeBinding.java
  com.example.loginultimodia.databinding.AcercadeBinding
 com/example/loginultimodia/Usuario.java
@@ -47,19 +44,11 @@ com/example/loginultimodia/MedicamentosActivity.java
  com.example.loginultimodia.MedicamentosActivity
 com/example/loginultimodia/Controlador/Dosis.java
  com.example.loginultimodia.Controlador.Dosis
-<<<<<<< HEAD
 com/example/loginultimodia/Registro.java
  com.example.loginultimodia.Registro
 com/example/loginultimodia/DoctorSecondActivity.java
  com.example.loginultimodia.DoctorSecondActivity
  com.example.loginultimodia.DoctorSecondActivity$1
-=======
-com/example/loginultimodia/DoctorSecondActivity.java
- com.example.loginultimodia.DoctorSecondActivity
- com.example.loginultimodia.DoctorSecondActivity$1
-com/example/loginultimodia/Registro.java
- com.example.loginultimodia.Registro
->>>>>>> esperanzas
 com/example/loginultimodia/LogOutActivity.java
  com.example.loginultimodia.LogOutActivity
 com/example/loginultimodia/ControladorDoctor/Dosis.java
@@ -73,11 +62,8 @@ com/example/loginultimodia/databinding/ActivityLoginBinding.java
  com.example.loginultimodia.databinding.ActivityLoginBinding
 com/example/loginultimodia/EliminarPacienteActivity.java
  com.example.loginultimodia.EliminarPacienteActivity
-<<<<<<< HEAD
-=======
 com/example/loginultimodia/databinding/FragmentDosisdoctorvolverBinding.java
  com.example.loginultimodia.databinding.FragmentDosisdoctorvolverBinding
->>>>>>> esperanzas
 com/example/loginultimodia/databinding/FragmentAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentAvisosBinding
 com/example/loginultimodia/databinding/ElementoDosisBinding.java
@@ -101,11 +87,8 @@ com/example/loginultimodia/ControladorDoctor/HabitacionesDoc.java
  com.example.loginultimodia.ControladorDoctor.HabitacionesDoc$1
 com/example/loginultimodia/databinding/ElementoHabsTemphumBinding.java
  com.example.loginultimodia.databinding.ElementoHabsTemphumBinding
-<<<<<<< HEAD
-=======
 com/example/loginultimodia/databinding/FragmentHabitacionesvolverBinding.java
  com.example.loginultimodia.databinding.FragmentHabitacionesvolverBinding
->>>>>>> esperanzas
 com/example/loginultimodia/databinding/ActivityForgotPasswordBinding.java
  com.example.loginultimodia.databinding.ActivityForgotPasswordBinding
 com/example/loginultimodia/AnyadirAvisoActivity.java
@@ -156,12 +139,6 @@ com/example/loginultimodia/BuildConfig.java
  com.example.loginultimodia.BuildConfig
 com/example/loginultimodia/databinding/ElementoAvisoBinding.java
  com.example.loginultimodia.databinding.ElementoAvisoBinding
-<<<<<<< HEAD
-=======
-com/example/loginultimodia/Adaptador.java
- com.example.loginultimodia.Adaptador
- com.example.loginultimodia.Adaptador$ViewHolder
->>>>>>> esperanzas
 com/example/loginultimodia/AnyadirDosisActivity.java
  com.example.loginultimodia.AnyadirDosisActivity
 com/example/loginultimodia/databinding/FragmentDoctorAvisosBinding.java
@@ -178,12 +155,9 @@ com/example/loginultimodia/ConectarPikkuActivity.java
  com.example.loginultimodia.ConectarPikkuActivity$3
  com.example.loginultimodia.ConectarPikkuActivity$4
  com.example.loginultimodia.ConectarPikkuActivity$5
-<<<<<<< HEAD
 com/example/loginultimodia/AdaptadorImagenes.java
  com.example.loginultimodia.AdaptadorImagenes
  com.example.loginultimodia.AdaptadorImagenes$ViewHolder
-=======
->>>>>>> esperanzas
 com/example/loginultimodia/Doctor.java
  com.example.loginultimodia.Doctor
 com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
@@ -191,11 +165,8 @@ com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
 com/example/loginultimodia/AdaptadorDosis.java
  com.example.loginultimodia.AdaptadorDosis
  com.example.loginultimodia.AdaptadorDosis$ViewHolder
-<<<<<<< HEAD
 com/example/loginultimodia/GlideModule.java
  com.example.loginultimodia.GlideModule
-=======
->>>>>>> esperanzas
 com/example/loginultimodia/databinding/ActivitySignUpBinding.java
  com.example.loginultimodia.databinding.ActivitySignUpBinding
 com/example/loginultimodia/AdaptadorHabsDoctor.java

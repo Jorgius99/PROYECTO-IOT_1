@@ -35,14 +35,14 @@
 
         <TextView
             android:id="@+id/volvertext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
             android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
             android:text="Volver"
-            android:textSize="34sp"
-            app:layout_constraintBottom_toBottomOf="@+id/tabdosis"
-            app:layout_constraintStart_toEndOf="@+id/tabdosis"
-            app:layout_constraintTop_toTopOf="@+id/tabdosis" />
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

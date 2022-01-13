@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Thu Jan 13 20:32:52 CET 2022
-=======
-#Thu Jan 13 20:24:40 CET 2022
->>>>>>> esperanzas
+#Fri Jan 14 00:06:30 CET 2022
 path.4=14/classes.dex
 path.3=13/classes.dex
 path.2=11/classes.dex
@@ -13,36 +9,20 @@ path.7=classes2.dex
 path.6=9/classes.dex
 path.5=4/classes.dex
 path.0=classes.dex
-<<<<<<< HEAD
-base.4=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.2=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.1=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-=======
 base.4=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
 base.3=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 base.2=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 base.1=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.0=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
->>>>>>> esperanzas
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.7=classes8.dex
-base.8=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.8=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 renamed.6=classes7.dex
-<<<<<<< HEAD
-base.7=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.7=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 renamed.5=classes6.dex
-base.6=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.6=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 renamed.4=classes5.dex
-base.5=C\:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-=======
-base.7=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
-renamed.5=classes6.dex
-base.6=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-renamed.4=classes5.dex
-base.5=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
->>>>>>> esperanzas
+base.5=C\:\\AllProyectos\\PROYECTO-IOT_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
