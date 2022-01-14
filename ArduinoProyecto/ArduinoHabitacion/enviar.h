@@ -2,7 +2,7 @@
 AsyncUDP udp;
 
 const char * ssid = "@_daniiceba_";
-const char * password = "memide25cm";
+const char * password = "danimola";
 
 void iniciarWifiEnvio(){
    WiFi.mode(WIFI_STA);
