@@ -187,6 +187,8 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
 
         if (id == R.id.btnLogout){
             AuthUI.getInstance().signOut(this);
+            //lanzarLogOut(null);
+
             return true;
         }
         if (id == R.id.buttonMConnect){
@@ -194,7 +196,7 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
             return true;
         }
         if (id == R.id.acercadebien){
-            lanzarAcercaDeBien(null);
+           // lanzarAcercaDeBien(null);
             return true;
         }
 

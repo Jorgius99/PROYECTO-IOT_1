@@ -54,7 +54,7 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center_horizontal"
         android:text="Eliminar Paciente"
-        android:textColor="@color/gris"
+        android:textColor="@color/red"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

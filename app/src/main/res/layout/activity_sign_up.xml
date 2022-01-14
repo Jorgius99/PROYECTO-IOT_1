@@ -22,7 +22,7 @@
             android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
             android:text="Crear Paciente"
-            android:textColor="@color/gris"
+            android:textColor="@color/blueoscuro"
             android:textSize="30sp"
             android:textStyle="bold" />
 

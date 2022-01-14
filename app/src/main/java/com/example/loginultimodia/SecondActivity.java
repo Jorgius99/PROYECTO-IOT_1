@@ -160,9 +160,11 @@ public class SecondActivity extends AppCompatActivity implements pikkuFuncion.Mo
             return true;
         }
         if (id == R.id.btnLogout){
-            AuthUI.getInstance().signOut(this);
+            lanzarLogOut(null);
+            //AuthUI.getInstance().signOut(this);
             return true;
         }
+
         if (id == R.id.listadoMedicamentos){
             lanzarMedicamentos(null);
             return true;
