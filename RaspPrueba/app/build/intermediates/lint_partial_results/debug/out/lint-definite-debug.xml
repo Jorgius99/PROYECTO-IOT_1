@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.4" type="incidents">
+
+    <incident
+        id="GradleDynamicVersion"
+        severity="warning"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (junit:junit:4.+)">
+        <fix-data coordinate="junit:junit:4.+"/>
+        <location
+            file="$APP/build.gradle"
+            line="36"
+            column="24"
+            startOffset="997"
+            endLine="36"
+            endColumn="41"
+            endOffset="1014"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.eclipse.paho:org.eclipse.paho.client.mqttv3 than 1.1.1 is available: 1.2.5">
+        <fix-replace
+            description="Change to 1.2.5"
+            family="Update versions"
+            oldString="1.1.1"
+            replacement="1.2.5"/>
+        <location
+            file="$APP/build.gradle"
+            line="31"
+            column="20"
+            startOffset="680"
+            endLine="31"
+            endColumn="75"
+            endOffset="735"/>
+    </incident>
+
+</incidents>
