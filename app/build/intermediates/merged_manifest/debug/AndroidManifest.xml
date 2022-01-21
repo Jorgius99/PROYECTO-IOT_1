@@ -30,7 +30,7 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher_foreground"
+        android:icon="@mipmap/ic_launcher"
         android:label="CAPH"
         android:supportsRtl="true"
         android:testOnly="true"
