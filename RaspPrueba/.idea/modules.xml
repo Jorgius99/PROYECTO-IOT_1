@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RaspPrueba.iml" filepath="$PROJECT_DIR$/.idea/modules/RaspPrueba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RaspPrueba.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RaspPrueba.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/raspPrueba/RaspPrueba.raspPrueba.iml" filepath="$PROJECT_DIR$/.idea/modules/raspPrueba/RaspPrueba.raspPrueba.iml" />
+    </modules>
+  </component>
+</project>

@@ -37,7 +37,6 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
     ViewPager viewPager;
     TabItem tab1, tab2, tab3;
     //Button  nuevooo;
-
     PagerControler pagerAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,15 +80,7 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
                 }
             });
             viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
-
-
-
-
-
-
-
-/*
+            /*
         nuevooo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -133,7 +124,6 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
         }
 
 
-
         return super.onOptionsItemSelected(item);
     }
     public void lanzarConectarPikku(View view){
@@ -146,6 +136,10 @@ public class DoctorSecondActivity extends AppCompatActivity implements pikkuFunc
     }
     public void lanzarLogOut(View view) {
         Intent i = new Intent(this, LogOutActivity.class);
+        startActivity(i);
+    }
+    public void lanzarMedicamento(View view) {
+        Intent i = new Intent(this, MedicamentosActivity.class);
         startActivity(i);
     }
 

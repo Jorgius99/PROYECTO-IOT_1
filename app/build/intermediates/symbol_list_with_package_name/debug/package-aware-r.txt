@@ -1214,6 +1214,7 @@ color background_material_light
 color black
 color blue
 color blueoscuro
+color bluetab
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1992,6 +1993,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable doctor_photoroom
+drawable enentyum
 drawable formarecycler
 drawable formarecyclerdosis
 drawable formarecyclerhabitacion
@@ -2025,6 +2027,7 @@ drawable icono_habitacion
 drawable icono_temperatura2_background
 drawable icono_temperatura_background
 drawable login
+drawable logoupv
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2048,6 +2051,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nolotil
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2060,6 +2064,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable o_city_logo
+drawable paracetamol
 drawable preference_list_divider_material
 drawable telefono
 drawable test_custom_background
@@ -2081,6 +2087,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id TITULOACERCADE
 id TOP_END
 id TOP_START
 id accelerate
@@ -2118,6 +2125,7 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id acercaDe
+id acercadebien
 id action0
 id actionDown
 id actionDownUp
@@ -2323,6 +2331,7 @@ id fragment_register_email
 id frost
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id grados2
 id graph
@@ -2353,9 +2362,12 @@ id ignoreRequest
 id image
 id imageView
 id imageView01
+id imageView1
 id imageView11
 id imageView2
 id imageView3
+id imageView4
+id imageView5
 id immediateStop
 id included
 id info
@@ -2381,6 +2393,7 @@ id line3
 id linear
 id listMode
 id list_item
+id listadoMedicamentos
 id logo
 id main_tos_and_pp
 id mapa
@@ -2499,6 +2512,9 @@ id ratio
 id rectangles
 id recuperarBoton
 id recyclerView
+id recyclerView1
+id recyclerViewD
+id recyclerViewH
 id recycler_view
 id resend_barrier
 id resend_code
@@ -2615,10 +2631,23 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView1
+id textView10
+id textView11
+id textView12
+id textView13
+id textView14
 id textView15
+id textView16
+id textView17
+id textView18
 id textView2
-id textView7
+id textView3
+id textView4
+id textView5
+id textView6
 id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2658,6 +2687,7 @@ id unlabeled
 id up
 id useLogo
 id userEliminar
+id userHab
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -2669,6 +2699,8 @@ id visible
 id visible_removing_fragment_view_tag
 id volverAcasa
 id volverAcasa2
+id volverbotonhabit
+id volvertext
 id welcome_back_email_link_body
 id welcome_back_idp_button
 id welcome_back_idp_prompt
@@ -2754,6 +2786,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout acercade
+layout acercade_real
 layout activity_conectar_pikku
 layout activity_forgot_password
 layout activity_login
@@ -2786,13 +2819,17 @@ layout elemento_dosis
 layout elemento_dosis_doc
 layout elemento_habs_doctor
 layout elemento_habs_temphum
+layout elemento_medicamentos
 layout expand_button
 layout fragment_avisos
 layout fragment_doctor_avisos
 layout fragment_doctor_dosis
 layout fragment_doctor_habitaciones
 layout fragment_dosis
+layout fragment_dosisdoctorvolver
 layout fragment_habitaciones
+layout fragment_habitacionesvolver
+layout fragment_medicamentos
 layout fui_activity_invisible
 layout fui_activity_register_email
 layout fui_activity_register_phone

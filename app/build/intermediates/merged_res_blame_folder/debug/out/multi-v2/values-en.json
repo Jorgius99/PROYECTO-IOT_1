@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\src\\main\\res\\values-en\\strings.xml",
+=======
+            "outputFile": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\values-en\\strings.xml",
+>>>>>>> esperanzas
                     "from": {
                         "startLines": "-1,-1,-1,-1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
                         "startColumns": "-1,-1,-1,-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",

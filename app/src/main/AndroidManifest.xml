@@ -41,6 +41,14 @@
             android:exported="true">
 
         </activity>
+
+        <activity
+            android:name=".MedicamentosActivity"
+
+            android:exported="true">
+
+        </activity>
+
         <activity
             android:name=".ConectarPikkuActivity"
 
@@ -55,7 +63,25 @@
 
         </activity>
         <activity
+            android:name=".IniciarDosisDocPaciente"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".iniciarHabsDocPaciente"
+
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".SecondActivity"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".AcercaDeActivityREAL"
 
             android:exported="true">
 
@@ -70,11 +96,8 @@
         <activity
             android:name=".HabitacionesActivity"
 
-            android:exported="true">
 
         </activity>
-
-
 
 
         <activity

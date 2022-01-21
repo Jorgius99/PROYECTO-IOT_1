@@ -1,0 +1,32 @@
+plugins {
+    id 'application'
+}
+
+
+application {
+    mainClass = 'com.example.dmesmun_upv.raspprueba.RaspPrueba'
+}
+
+jar {
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes 'Main-Class' : 'com.example.dmesmun_upv.raspprueba.RaspPrueba'
+    }
+    from {
+        configurations.compileClasspath.filter {it.exists()}.collect
+                {it.isDirectory() ? it : zipTree(it)}
+    }
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+
+    implementation 'com.google.firebase:firebase-admin:6.13.0'//8.1.0 no va
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5'
+
+}
+apply plugin: 'com.google.gms.google-services'

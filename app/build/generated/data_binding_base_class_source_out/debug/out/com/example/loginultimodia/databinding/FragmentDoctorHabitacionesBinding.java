@@ -21,15 +21,15 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final RecyclerView recyclerView;
+  public final RecyclerView recyclerView1;
 
   @NonNull
   public final TextView tusHabs;
 
   private FragmentDoctorHabitacionesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView recyclerView, @NonNull TextView tusHabs) {
+      @NonNull RecyclerView recyclerView1, @NonNull TextView tusHabs) {
     this.rootView = rootView;
-    this.recyclerView = recyclerView;
+    this.recyclerView1 = recyclerView1;
     this.tusHabs = tusHabs;
   }
 
@@ -60,9 +60,9 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerView == null) {
+      id = R.id.recyclerView1;
+      RecyclerView recyclerView1 = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView1 == null) {
         break missingId;
       }
 
@@ -72,7 +72,7 @@ public final class FragmentDoctorHabitacionesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDoctorHabitacionesBinding((ConstraintLayout) rootView, recyclerView,
+      return new FragmentDoctorHabitacionesBinding((ConstraintLayout) rootView, recyclerView1,
           tusHabs);
     }
     String missingId = rootView.getResources().getResourceName(id);

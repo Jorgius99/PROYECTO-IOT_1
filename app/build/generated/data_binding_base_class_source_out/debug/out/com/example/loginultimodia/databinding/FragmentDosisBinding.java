@@ -21,15 +21,15 @@ public final class FragmentDosisBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final RecyclerView recyclerView;
+  public final RecyclerView recyclerViewD;
 
   @NonNull
   public final TextView tabdosis;
 
-  private FragmentDosisBinding(@NonNull FrameLayout rootView, @NonNull RecyclerView recyclerView,
+  private FragmentDosisBinding(@NonNull FrameLayout rootView, @NonNull RecyclerView recyclerViewD,
       @NonNull TextView tabdosis) {
     this.rootView = rootView;
-    this.recyclerView = recyclerView;
+    this.recyclerViewD = recyclerViewD;
     this.tabdosis = tabdosis;
   }
 
@@ -60,9 +60,9 @@ public final class FragmentDosisBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerView == null) {
+      id = R.id.recyclerViewD;
+      RecyclerView recyclerViewD = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewD == null) {
         break missingId;
       }
 
@@ -72,7 +72,7 @@ public final class FragmentDosisBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDosisBinding((FrameLayout) rootView, recyclerView, tabdosis);
+      return new FragmentDosisBinding((FrameLayout) rootView, recyclerViewD, tabdosis);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -2,6 +2,7 @@ package com.example.loginultimodia;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,14 +25,14 @@ public class AnyadirDosisActivity extends AppCompatActivity {
     TextInputEditText etRegFechaYHora;
 
     TextView tvLoginHere;
-    Button btnRegister;
+    Button btnRegister,btnlistado;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cuestionario_pastillass);
 
-
+        btnlistado=findViewById(R.id.listadoMedicamentos);
         etRegMedicamento=findViewById(R.id.etRegMedicam);
         etRegCantidad=findViewById(R.id.etRegCanti);
         etRegDni=findViewById(R.id.etRegDni);
@@ -49,6 +50,9 @@ public class AnyadirDosisActivity extends AppCompatActivity {
         tvLoginHere.setOnClickListener(view ->{
             startActivity(new Intent(AnyadirDosisActivity.this, DoctorSecondActivity.class));
         });
+        btnlistado.setOnClickListener(view ->{
+            startActivity(new Intent(AnyadirDosisActivity.this, MedicamentosActivity.class));
+        });
     }
 
     private void createDosis(){
@@ -61,10 +65,10 @@ public class AnyadirDosisActivity extends AppCompatActivity {
         try{
             Date datee = new SimpleDateFormat("dd/MM/yyyy, hh:mm").parse(etRegFechaYHora.getText().toString());
             //Date hora = new SimpleTimeLimiter()
-
+            long milis = datee.getTime();
             //datee.setHours(16);
             //datee.setMinutes(23);
-            ObjetoDosis objetodosis = new ObjetoDosis(Medicamento, Cantidad, Dni, Frecuencia, datee);
+            ObjetoDosis objetodosis = new ObjetoDosis(Medicamento, Cantidad, Dni, Frecuencia, datee, milis);
             //String motiv, Date fecha, String prior, String dni, String habitacion)
             db= FirebaseFirestore.getInstance();
             db.collection("dosis").document().set(objetodosis);
@@ -78,5 +82,6 @@ public class AnyadirDosisActivity extends AppCompatActivity {
 
 
     }
+
 
 }

@@ -42,6 +42,8 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import java.util.Map;
+
 
 public class MainActivity extends AppCompatActivity implements pikkuFuncion.MovementListener {
 
@@ -65,12 +67,23 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
     //MenuItem btnLogOut;
     FirebaseAuth mAuth;
 
+
+/*
+    //7 y 8.-RecyclerView
+    static public Map<Integer,Registro> mapa;
+
+    // 5 a) Colecciones
+
+    static public String  MEDICAMENTOS[]={"nolotil","enantyum","paracetamol"};
+    ;
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //tvRegisterHere = findViewById(R.id.textView16);//aquiiiiiiiiiiiiiiiiiiii
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 /*
         tvRegisterHere.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
             startActivity(new Intent(MainActivity.this, RegisterActivity.class));
@@ -172,16 +185,18 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
 
         //noinspection SimplifiableIfStatement
 
-        if (id == R.id.acercaDe){
-            lanzarAcercaDe(null);
-            return true;
-        }
         if (id == R.id.btnLogout){
             AuthUI.getInstance().signOut(this);
+            //lanzarLogOut(null);
+
             return true;
         }
         if (id == R.id.buttonMConnect){
             lanzarConectarPikku(null);
+            return true;
+        }
+        if (id == R.id.acercadebien){
+           // lanzarAcercaDeBien(null);
             return true;
         }
 
@@ -199,8 +214,14 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
         Intent i = new Intent(this, LogOutActivity.class);
         startActivity(i);
     }
+    public void lanzarMedicamentos(View view){
+        Intent i = new Intent(this, MedicamentosActivity.class);
 
-
+    }
+    public void lanzarAcercaDeBien(View view) {
+        Intent i = new Intent(this, AcercaDeActivityREAL.class);
+        startActivity(i);
+    } 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onCaida(int caida) {

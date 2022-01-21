@@ -21,15 +21,15 @@ public final class FragmentAvisosBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final RecyclerView recyclerView;
+  public final RecyclerView recyclerView1;
 
   @NonNull
   public final TextView tabdosis;
 
-  private FragmentAvisosBinding(@NonNull FrameLayout rootView, @NonNull RecyclerView recyclerView,
+  private FragmentAvisosBinding(@NonNull FrameLayout rootView, @NonNull RecyclerView recyclerView1,
       @NonNull TextView tabdosis) {
     this.rootView = rootView;
-    this.recyclerView = recyclerView;
+    this.recyclerView1 = recyclerView1;
     this.tabdosis = tabdosis;
   }
 
@@ -60,9 +60,9 @@ public final class FragmentAvisosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerView == null) {
+      id = R.id.recyclerView1;
+      RecyclerView recyclerView1 = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView1 == null) {
         break missingId;
       }
 
@@ -72,7 +72,7 @@ public final class FragmentAvisosBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAvisosBinding((FrameLayout) rootView, recyclerView, tabdosis);
+      return new FragmentAvisosBinding((FrameLayout) rootView, recyclerView1, tabdosis);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -6,27 +6,33 @@ public class ObjetoDosis {
 
     private String Medicamento;
     private String Cantidad;
-    private String DNI;
     private Date HoraFecha;
-    private String Frecuencia;
+    private String dni;
+    private String frecuencia;
+    private long Milis;
 
 
     //-------------------------CONSTRUCTOR-----------------------------
 
-    public ObjetoDosis(String med, String canti, String dni, String freq, Date fecha){
+
+    public ObjetoDosis(String med, String canti, String dni, String freq, Date fecha, long milsec){
             this.Medicamento = med;
             this.Cantidad = canti;
-            this.DNI = dni;
             this.HoraFecha= fecha;
-            this.Frecuencia = freq;
+            this.frecuencia = freq;
+            this.dni = dni;
+            this.Milis = milsec;
+
     }
 
     public ObjetoDosis(){
         this.Medicamento = "Ibus";
         this.Cantidad= "7";
-        this.DNI = "24567753N";
         this.HoraFecha = new Date();
-        this.Frecuencia = "8";
+        this.dni="24567753N";
+        this.frecuencia = "8";
+        this.Milis = 1641835675;
+
 
     }
     //-------------------------GETTERS---------------------------------
@@ -39,19 +45,30 @@ public class ObjetoDosis {
         return Cantidad;
     }
 
-    public String getDNI() {
-        return DNI;
-    }
+
 
     public Date getHoraFecha() {
         return HoraFecha;
     }
 
     public String getFrecuencia() {
-        return Frecuencia;
+        return frecuencia;
     }
 
-//-------------------------SETTERS---------------------------------
+    public String getDni() {
+        return dni;
+    }
+
+    public long getMilis() {
+        return Milis;
+    }
+    //-------------------------SETTERS---------------------------------
+
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
 
     public void setMedicamento(String medicamento) {
         Medicamento = medicamento;
@@ -61,15 +78,16 @@ public class ObjetoDosis {
         Cantidad = Cantidad;
     }
 
-    public void setDNI(String DNI) {
-        this.DNI = DNI;
-    }
 
     public void setHoraFecha(Date horaFecha) {
         HoraFecha = horaFecha;
     }
 
     public void setFrecuencia(String frecuencia) {
-        Frecuencia = frecuencia;
+        this.frecuencia = frecuencia;
+    }
+
+    public void setMilis(long milis) {
+        Milis = milis;
     }
 }

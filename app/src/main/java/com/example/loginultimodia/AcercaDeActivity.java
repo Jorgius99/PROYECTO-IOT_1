@@ -4,7 +4,9 @@ import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.JsonReader;
 import android.util.Log;
@@ -19,6 +21,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 
@@ -39,7 +42,7 @@ import java.net.URL;
 import io.grpc.internal.JsonParser;
 
 public class AcercaDeActivity extends FragmentActivity implements
-        OnMapReadyCallback, GoogleMap.OnMapClickListener {
+        OnMapReadyCallback, GoogleMap.OnMapClickListener, GoogleMap.OnInfoWindowClickListener {
     private static final String filePath = "ocity.json";
     private GoogleMap mapa;
     private final LatLng UPV = new LatLng(39.159911, -0.418471);
@@ -52,6 +55,9 @@ public class AcercaDeActivity extends FragmentActivity implements
         SupportMapFragment mapFragment = (SupportMapFragment)
                 getSupportFragmentManager().findFragmentById(R.id.mapa);
         mapFragment.getMapAsync(this);
+        solicitarPermiso(Manifest.permission.ACCESS_FINE_LOCATION, "Sin este permiso no podra disfrutar de todas las funcionalidades."
+                        ,
+                SOLICITUD_PERMISO_WRITE_CALL_LOG, this);
       
     }
 
@@ -69,7 +75,6 @@ public class AcercaDeActivity extends FragmentActivity implements
         try {
             InputStream is = getAssets().open("ocity.json");
             BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-
             try {
                 String line;
                 while ((line = reader.readLine()) != null) {
@@ -78,10 +83,7 @@ public class AcercaDeActivity extends FragmentActivity implements
             } finally {
                 reader.close();
             }
-
             //Log.v("test " , json);
-
-
             JSONParser jsonParser = new JSONParser();
             Object obj = jsonParser.parse(json);
 
@@ -102,7 +104,7 @@ public class AcercaDeActivity extends FragmentActivity implements
                 mapa.addMarker(new MarkerOptions()
                         .position(location)
                         .title(name)
-                        .snippet("https://ocityplatform.webs.upv.es/ocityws/public/index.php/auxCity/"+id)
+                        .snippet("Pulse para más información.")
                 );
 
             }
@@ -114,13 +116,13 @@ public class AcercaDeActivity extends FragmentActivity implements
         Log.v("test " , "" + name);
 
  */
-        mapa.addMarker(new MarkerOptions()
+        /*mapa.addMarker(new MarkerOptions()
                 .position(UPV)
                 .title("Hospital1")
                 .snippet("Hospital Universitario de la Ribera")
                 .icon(BitmapDescriptorFactory
                         .fromResource(android.R.drawable.ic_menu_compass))
-                .anchor(0.5f, 0.5f));
+                .anchor(0.5f, 0.5f));*/
         mapa.setOnMapClickListener(this);
         if (ActivityCompat.checkSelfPermission(this,
                 android.Manifest.permission.ACCESS_FINE_LOCATION) ==
@@ -128,6 +130,7 @@ public class AcercaDeActivity extends FragmentActivity implements
             mapa.setMyLocationEnabled(true);
             mapa.getUiSettings().setCompassEnabled(true);
         }
+        mapa.setOnInfoWindowClickListener(this);
     }
 
 
@@ -153,6 +156,48 @@ public class AcercaDeActivity extends FragmentActivity implements
         } else {
             ActivityCompat.requestPermissions(actividad,
                     new String[]{permiso}, requestCode);
+        }
+    }
+
+
+    @Override public void onInfoWindowClick(Marker marker) {
+        String json = "";
+        String id = "0";
+        String name = null;
+        String latitud;
+        try {
+            InputStream is = getAssets().open("ocity.json");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+            try {
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    json += line.trim();
+                }
+            } finally {
+                reader.close();
+            }
+            //Log.v("test " , json);
+            JSONParser jsonParser = new JSONParser();
+            Object obj = jsonParser.parse(json);
+
+            JSONObject jsonObject = (JSONObject) obj;
+            JSONArray dataArray = (JSONArray) jsonObject.get("data");
+
+            for (int i = 0; i < dataArray.size(); i++) {
+                JSONObject item = (JSONObject) dataArray.get(i);
+
+                id = item.get("id").toString();
+                name = item.get("manifestation_name").toString();
+
+                //Log.v("test" , "" + location);
+                if (name.equals(marker.getTitle())){
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://ocityplatform.webs.upv.es/ocityws/public/index.php/auxCity/"+id));
+                    startActivity(intent);
+                    break;
+                }
+            }
+        } catch (IOException | ParseException e) {
+            e.printStackTrace();
         }
     }
 

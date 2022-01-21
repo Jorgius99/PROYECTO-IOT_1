@@ -32,12 +32,6 @@ public class AdaptadorHabsDoctor extends
 
     }
 
-    @Override
-    protected void onBindViewHolder(@NonNull ViewHolder holder, int position,
-                                    @NonNull Habitacion hab) {
-        holder.personaliza(hab);
-
-    }
 
 
 /*
@@ -80,6 +74,13 @@ public class AdaptadorHabsDoctor extends
         return new AdaptadorHabsDoctor.ViewHolder(v);
     }
 
+    @Override
+    protected void onBindViewHolder(@NonNull ViewHolder holder, int position,
+                                    @NonNull Habitacion hab) {
+        holder.personaliza(hab);
+        holder.itemView.setTag(hab.getNumHab());
+
+    }
 
 
     public void setOnItemClickListener(View.OnClickListener onClick) {

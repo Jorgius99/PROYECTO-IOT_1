@@ -4,12 +4,10 @@ package com.example.loginultimodia;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -18,25 +16,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.firebase.ui.auth.AuthUI;
 
-import com.example.loginultimodia.Controlador.Dosis;
-import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.Query;
-import com.google.firebase.firestore.QuerySnapshot;
 
 public class LoginActivity extends AppCompatActivity {
 
     TextInputEditText etLoginEmail;
     TextInputEditText etLoginPassword;
     //TextView tvRegisterHere;//aquiiiiiiiiiiiiiiiiiiii
-    Button  olvidasteContrasena;
+    Button olvidasteContrasena;
     Button btnLogin;
 
     FirebaseAuth mAuth;
@@ -62,7 +54,6 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
         });
 */
-
 
 
         olvidasteContrasena.setOnClickListener(new View.OnClickListener() {
@@ -94,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
                         FirebaseUser usuario = FirebaseAuth.getInstance().getCurrentUser();
                         String emailAver = usuario.getEmail();
 
-                    //QuerySnapshot nuevoUSUS=  MainActivity.sacaDatos(emailAver);
+                        //QuerySnapshot nuevoUSUS=  MainActivity.sacaDatos(emailAver);
                         //Log.d("WEBO", ""+nuevoUSUS.toString());
                         /*Query query = FirebaseFirestore.getInstance()
                                 .collection("pacientes")
@@ -103,14 +94,14 @@ public class LoginActivity extends AppCompatActivity {
                                 .Builder<Usuario>().setQuery(query, Usuario.class).build();*/
                         if (usuario.getEmail().equals("admins@gmail.com")) {
                             startActivity(new Intent(LoginActivity.this, SuperAdminSecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-                        }
-
-                        else if (usuario.getEmail().equals("admin@gmail.com")) {
-                            startActivity(new Intent(LoginActivity.this, DoctorSecondActivity .class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-
-                        }else {
-                            Dosis.sacaDatos(emailAver);
-                            startActivity(new Intent(LoginActivity.this, SecondActivity.class));
+                        } else if (usuario.getEmail().equals("admin@gmail.com")) {
+                            //HabitacionesDoc.sacaDatos("admin@gmail.com");
+                            startActivity(new Intent(LoginActivity.this, DoctorSecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                        } else {
+                            //SecondActivity.sacaDatos(emailAver);
+                            SecondActivity.rellenaCorreo(emailAver);
+                            //Dosis.sacaDatos(emailAver);
+                            startActivity(new Intent(LoginActivity.this, SecondActivity.class));// AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
                         }
                     } else {
                         Toast.makeText(LoginActivity.this, "Error : " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
@@ -127,6 +118,7 @@ public class LoginActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -136,12 +128,21 @@ public class LoginActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
 
-        if (id == R.id.acercaDe){
+        if (id == R.id.acercaDe) {
             lanzarAcercaDe(null);
             return true;
         }
-        if (id == R.id.btnLogout){
+        if (id == R.id.acercadebien) {
+            lanzarAcercaDeBien(null);
+            return true;
+        }
+        if (id == R.id.btnLogout) {
             AuthUI.getInstance().signOut(this);
+            return true;
+
+        }
+        if (id == R.id.listadoMedicamentos) {
+            lanzarMedicamento(null);
             return true;
 
         }
@@ -149,12 +150,22 @@ public class LoginActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void lanzarAcercaDe(View view){
+
+    public void lanzarAcercaDe(View view) {
         Intent i = new Intent(this, AcercaDeActivity.class);
         startActivity(i);
     }
 
-    public void lanzarLogOut(View view) {
+    public void lanzarMedicamento(View view) {
+        Intent i = new Intent(this, MedicamentosActivity.class);
+
+    }
+    public void lanzarAcercaDeBien (View view){
+        Intent i = new Intent(this, AcercaDeActivityREAL.class);
+        startActivity(i);
+    }
+
+    public void lanzarLogOut (View view){
         Intent i = new Intent(this, LogOutActivity.class);
         startActivity(i);
 

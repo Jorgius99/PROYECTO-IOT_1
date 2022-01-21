@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
         "source": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
@@ -86,5 +87,113 @@
     {
         "merged": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
         "source": "C:\\Users\\Pablo Chova\\Documents\\GitHub\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_login.xml"
+=======
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_doctor_habitaciones.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_doctor_habitaciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_aviso.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_aviso.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_dosis_doc.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_dosis_doc.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_conectar_pikku.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_conectar_pikku.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_medicamentos.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_medicamentos.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_habs_doctor.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_habs_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_habitacionesvolver.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_habitacionesvolver.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_medicamentos.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_medicamentos.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_avisos.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_avisos.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cuestionario_avisos.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_avisos.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dosis.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_dosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_doctor_avisos.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_doctor_avisos.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_dosis.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_dosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acercade.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\acercade.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\elemento_habs_temphum.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\elemento_habs_temphum.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_habitaciones.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_habitaciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tabmain.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_tabmain.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dosisdoctorvolver.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_dosisdoctorvolver.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\menu_administrador.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\menu_administrador.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_doctor_dosis.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\fragment_doctor_dosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cuestionario_eliminar.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_eliminar.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cuestionario_pastillass.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\cuestionario_pastillass.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acercade_real.xml",
+        "source": "C:\\Users\\danny\\OneDrive - UPV\\Escritorio\\PROYECTO-IOT_1\\app\\src\\main\\res\\layout\\acercade_real.xml"
+>>>>>>> esperanzas
     }
 ]

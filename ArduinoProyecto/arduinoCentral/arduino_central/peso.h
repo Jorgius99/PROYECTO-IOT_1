@@ -1,6 +1,5 @@
+
 #include "HX711.h"
-
-
 
 const int DOUT = 5;
 const int CLK = 2;
@@ -12,14 +11,15 @@ float getpeso() {
 }
 
 int cuantas_hay() {
-  return getpeso() / 0.0053;
+  return getpeso() / 0.55;
 }
 
 void iniciar_peso(){
   balanza.begin(DOUT, CLK);
-  balanza.set_scale(785000); // Establecemos la escala
+  balanza.set_scale(3500); // Establecemos la escala
   balanza.tare(20);  //El peso actual es considerado Tara.
 }
+
 /*
  * montaje:
  * 

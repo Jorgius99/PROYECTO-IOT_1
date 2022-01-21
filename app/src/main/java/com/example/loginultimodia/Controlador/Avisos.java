@@ -1,6 +1,7 @@
 package com.example.loginultimodia.Controlador;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,10 +12,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.example.loginultimodia.AdaptadorAvisos;
 import com.example.loginultimodia.Aviso;
 import com.example.loginultimodia.R;
+import com.example.loginultimodia.Usuario;
 import com.example.loginultimodia.databinding.FragmentAvisosBinding;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
+import com.google.firebase.firestore.QuerySnapshot;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,6 +28,8 @@ import com.google.firebase.firestore.Query;
 public class Avisos extends Fragment {
     private FragmentAvisosBinding binding; //si no está
     public static AdaptadorAvisos adaptador;
+    private static Usuario usuarioConDatos;
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -62,34 +68,57 @@ public class Avisos extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+    }/*
+    public static void sacaDatos(String email){
+
+        final Usuario[] usuarioSacado = {new Usuario()};
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        db.collection("pacientes").whereEqualTo("email",email).get().addOnCompleteListener(task ->  {
+            if (task.isSuccessful()) {
+                QuerySnapshot document = task.getResult();
+                DocumentSnapshot docOC = document.getDocuments().get(0);
+                if (document != null) {
+                    usuarioSacado[0] = docOC.toObject(Usuario.class);// here
+                    Log.d("USUARIOSACAD034",""+ usuarioSacado[0].getEmail());
+                    rellenarUsuario(usuarioSacado[0]);
+                }
+            }
+        });
+        // Log.d("NUEVOUSER", ""+nuevoUser);
+    }*/
+    public static Usuario rellenarUsuario(Usuario ussus)  {
+        usuarioConDatos  = ussus;
+        Log.d("FAFA", ""+usuarioConDatos);
+        return usuarioConDatos;
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        binding = FragmentAvisosBinding.inflate(getLayoutInflater());
-        Query query = FirebaseFirestore.getInstance()
-                .collection("avisos")
-                .whereEqualTo("dni", "44896786g");
-        FirestoreRecyclerOptions<Aviso> opciones = new FirestoreRecyclerOptions
-                .Builder<Aviso>().setQuery(query, Aviso.class).build();
-        adaptador = new AdaptadorAvisos(opciones, getContext());
-        System.out.println(getContext());
-        binding.recyclerView.setAdapter(adaptador);
-        binding.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        // Inflate the layout for this fragment
-           return binding.getRoot();
+            binding = FragmentAvisosBinding.inflate(getLayoutInflater());
+            //Log.d("AVERSISTA", "" + usuarioConDatos);
+            Query query = FirebaseFirestore.getInstance()
+                    .collection("avisos")
+                    .whereEqualTo("dni", usuarioConDatos.getDNI()).limit(4);
+            FirestoreRecyclerOptions<Aviso> opciones = new FirestoreRecyclerOptions
+                    .Builder<Aviso>().setQuery(query, Aviso.class).build();
+            adaptador = new AdaptadorAvisos(opciones, getContext());
+            System.out.println(getContext());
+            binding.recyclerView1.setAdapter(adaptador);
+            binding.recyclerView1.setLayoutManager(new LinearLayoutManager(getContext()));
+            // Inflate the layout for this fragment
+            adaptador.startListening();
+            return binding.getRoot();
     }
-
+/*
     @Override
     public void onStart() {
         super.onStart();
-        adaptador.startListening();
     }
     @Override
     public void onStop() {
         super.onStop();
         adaptador.stopListening();
-    }
+    }*/
 
 }

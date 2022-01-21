@@ -39,6 +39,7 @@ public class ServicioPikku extends Service {
                         .setSmallIcon(R.mipmap.ic_launcher)
                         .setContentTitle("EMERGENCIA")
                         .setContentText("Se ha producido una CAIDA en la habitación A");
+
         PendingIntent intencionPendiente = PendingIntent.getActivity(
                 this, 0, new Intent(this, MainActivity.class), 0);
         notificacion.setContentIntent(intencionPendiente);

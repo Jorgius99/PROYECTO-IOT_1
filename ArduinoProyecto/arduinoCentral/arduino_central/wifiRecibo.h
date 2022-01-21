@@ -1,7 +1,5 @@
-
-
 const char * ssid = "@_daniiceba_";
-const char * password = "memide25cm";
+const char * password = "danimola";
 AsyncUDP udp;
 char texto[200];
 boolean rec = 0;

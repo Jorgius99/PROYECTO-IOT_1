@@ -21,7 +21,7 @@
             android:layout_marginVertical="16dp"
             android:gravity="center_horizontal"
             android:text="Crear Dosis"
-            android:textColor="@color/gris"
+            android:textColor="@color/blueoscuro"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -93,7 +93,7 @@
                 android:id="@+id/etRegFechaYH"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Fecha y hora"
+                android:hint="dd/MM/yyyy, hh:mm"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -105,6 +105,15 @@
             android:layout_marginTop="24dp"
             android:background="@drawable/botonesredondos"
             android:text="Enviar" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/listadoMedicamentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/botonesredondos"
+            android:onClick="lanzarMedicamentos"
+            android:text="Medicamentos frecuentes" />
 
         <LinearLayout
             android:layout_width="match_parent"

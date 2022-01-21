@@ -38,12 +38,9 @@ public final class ElementoHabsTemphumBinding implements ViewBinding {
   @NonNull
   public final ImageView temperatura;
 
-  @NonNull
-  public final TextView textView7;
-
   private ElementoHabsTemphumBinding(@NonNull ConstraintLayout rootView, @NonNull TextView grados2,
       @NonNull TextView hum, @NonNull TextView humedad, @NonNull ImageView imageView3,
-      @NonNull TextView temp2, @NonNull ImageView temperatura, @NonNull TextView textView7) {
+      @NonNull TextView temp2, @NonNull ImageView temperatura) {
     this.rootView = rootView;
     this.grados2 = grados2;
     this.hum = hum;
@@ -51,7 +48,6 @@ public final class ElementoHabsTemphumBinding implements ViewBinding {
     this.imageView3 = imageView3;
     this.temp2 = temp2;
     this.temperatura = temperatura;
-    this.textView7 = textView7;
   }
 
   @Override
@@ -117,14 +113,8 @@ public final class ElementoHabsTemphumBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView7;
-      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
-      if (textView7 == null) {
-        break missingId;
-      }
-
       return new ElementoHabsTemphumBinding((ConstraintLayout) rootView, grados2, hum, humedad,
-          imageView3, temp2, temperatura, textView7);
+          imageView3, temp2, temperatura);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -18,6 +18,7 @@ import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.security.AccessControlContext;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -31,7 +32,7 @@ public class AdaptadorDosis extends
     public AdaptadorDosis(
             @NonNull FirestoreRecyclerOptions<ObjetoDosis> options, Context context){
         super(options);
-        this.context = context;
+        this.context = context.getApplicationContext();
 
     }
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
@@ -59,7 +60,7 @@ public class AdaptadorDosis extends
 
     @Override
     public AdaptadorDosis.ViewHolder onCreateViewHolder(
-            ViewGroup parent, int viewType) {
+            @NonNull ViewGroup parent, int viewType) {
         ElementoDosisBinding v = ElementoDosisBinding.inflate(
                 LayoutInflater.from(parent.getContext()), parent, false);
         v.getRoot().setOnClickListener(onClickListener);
