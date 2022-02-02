@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dosis3"
+    android:layout_width="308dp"
+    android:layout_height="93dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/formarecyclerdosis"
+    android:bottomRightRadius="20dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/txtUsername1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Pastilla"
+        android:textColor="@color/blueoscuro"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/HoraSolo1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pastilla"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="xxx"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtUsername1"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsername1" />
+
+    <TextView
+        android:id="@+id/fecha1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="16:00"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/HoraSolo1"
+        app:layout_constraintTop_toBottomOf="@+id/HoraSolo1" />
+
+    <TextView
+        android:id="@+id/HoraSolo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hora"
+        android:textColor="@color/blueoscuro"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
