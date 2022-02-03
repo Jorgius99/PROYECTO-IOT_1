@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dmesmun_upv.raspprueba"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
+13-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:14:5-67
+14-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:14:22-64
+15
+16    <application
+16-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:5:5-17:19
+17        android:allowBackup="true"
+17-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\danny\.gradle\caches\transforms-3\5d7e9805c1598c386852f5837eb6d20d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:10:9-35
+23        android:theme="@style/Theme.RaspPrueba" >
+23-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:11:9-48
+24        <activity
+24-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:12:9-16:20
+25            android:name="com.example.dmesmun_upv.raspprueba.MainActivity"
+25-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:13:13-41
+26            android:exported="true" >
+26-->C:\Users\danny\AndroidStudioProjects\RaspPrueba\app\src\main\AndroidManifest.xml:14:13-36
+27        </activity>
+28
+29        <service
+29-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19
+30            android:name="com.google.firebase.components.ComponentDiscoveryService"
+30-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:18:13-84
+31            android:directBootAware="true"
+31-->[com.google.firebase:firebase-common:20.0.0] C:\Users\danny\.gradle\caches\transforms-3\c94d8f5b5b16ec3c4404fc8ee312346f\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+32            android:exported="false" >
+32-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:19:13-37
+33            <meta-data
+33-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+34                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+34-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+35                android:value="com.google.firebase.components.ComponentRegistrar" />
+35-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\danny\.gradle\caches\transforms-3\86883d62a2032d45a66ff543a4812805\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+36        </service>
+37
+38        <provider
+38-->[com.google.firebase:firebase-common:20.0.0] C:\Users\danny\.gradle\caches\transforms-3\c94d8f5b5b16ec3c4404fc8ee312346f\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+39            android:name="com.google.firebase.provider.FirebaseInitProvider"
+39-->[com.google.firebase:firebase-common:20.0.0] C:\Users\danny\.gradle\caches\transforms-3\c94d8f5b5b16ec3c4404fc8ee312346f\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+40            android:authorities="com.example.dmesmun_upv.raspprueba.firebaseinitprovider"
+40-->[com.google.firebase:firebase-common:20.0.0] C:\Users\danny\.gradle\caches\transforms-3\c94d8f5b5b16ec3c4404fc8ee312346f\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:20.0.0] C:\Users\danny\.gradle\caches\transforms-3\c94d8f5b5b16ec3c4404fc8ee312346f\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+42            android:exported="false"
+42-->[com.google.firebase:firebase-common:20.0.0] C:\Users\danny\.gradle\caches\transforms-3\c94d8f5b5b16ec3c4404fc8ee312346f\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+43            android:initOrder="100" />
+43-->[com.google.firebase:firebase-common:20.0.0] C:\Users\danny\.gradle\caches\transforms-3\c94d8f5b5b16ec3c4404fc8ee312346f\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+44
+45        <activity
+45-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\danny\.gradle\caches\transforms-3\be3ebd7740cc7240efafcf6544c7ef0d\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+46-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\danny\.gradle\caches\transforms-3\be3ebd7740cc7240efafcf6544c7ef0d\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\danny\.gradle\caches\transforms-3\be3ebd7740cc7240efafcf6544c7ef0d\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\danny\.gradle\caches\transforms-3\be3ebd7740cc7240efafcf6544c7ef0d\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+49
+50        <meta-data
+50-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\danny\.gradle\caches\transforms-3\35bc5d9ed0134afef1e816cc3395a757\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+51            android:name="com.google.android.gms.version"
+51-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\danny\.gradle\caches\transforms-3\35bc5d9ed0134afef1e816cc3395a757\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\danny\.gradle\caches\transforms-3\35bc5d9ed0134afef1e816cc3395a757\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\danny\.gradle\caches\transforms-3\e5e99a20992f9a9400cd458af99a0ce7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\danny\.gradle\caches\transforms-3\e5e99a20992f9a9400cd458af99a0ce7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+56            android:authorities="com.example.dmesmun_upv.raspprueba.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\danny\.gradle\caches\transforms-3\e5e99a20992f9a9400cd458af99a0ce7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\danny\.gradle\caches\transforms-3\e5e99a20992f9a9400cd458af99a0ce7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\danny\.gradle\caches\transforms-3\e5e99a20992f9a9400cd458af99a0ce7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\danny\.gradle\caches\transforms-3\e5e99a20992f9a9400cd458af99a0ce7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\danny\.gradle\caches\transforms-3\e5e99a20992f9a9400cd458af99a0ce7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\danny\.gradle\caches\transforms-3\98cbfbfd0603a727a7a03c9712cf2a87\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\danny\.gradle\caches\transforms-3\98cbfbfd0603a727a7a03c9712cf2a87\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\danny\.gradle\caches\transforms-3\98cbfbfd0603a727a7a03c9712cf2a87\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>

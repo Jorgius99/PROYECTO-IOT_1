@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dmesmun_upv.raspprueba.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-07T10:48:17" hostname="DESKTOP-4G4B2MJ" time="0.002">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.example.dmesmun_upv.raspprueba.ExampleUnitTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
