@@ -1,6 +1,8 @@
 package com.example.loginultimodia;
 
 
+import android.util.Log;
+
 import timber.log.Timber;
 
 public class pikkuFuncion {
@@ -86,13 +88,14 @@ public class pikkuFuncion {
         }
 
         float delta = accelCurrent - EWMA;
-        if (delta > thresholdStep && !isOverThreshold && (System.currentTimeMillis() - lastTimeMovementDetected) > thresholdTime) {
+        if (delta > thresholdStep /* && !isOverThreshold */&& (System.currentTimeMillis() - lastTimeMovementDetected) > thresholdTime) {
             isOverThreshold = true;
             lastTimeMovementDetected = System.currentTimeMillis();
             isMoving = true;
             if (delta > thresholdCaida) {
                 thresholdTime = 1000f;
                 caidas++;
+                Log.d("CAIDAASSSSS", ""+caidas);
                 movementListener.onCaida(caidas);
             }
         }

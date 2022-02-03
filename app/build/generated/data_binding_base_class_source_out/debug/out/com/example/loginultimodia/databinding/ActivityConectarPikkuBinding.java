@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -33,6 +34,9 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
   public final Button pararPikku;
 
   @NonNull
+  public final Switch switchLecturaPikku;
+
+  @NonNull
   public final TextView textConnect;
 
   @NonNull
@@ -40,12 +44,14 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
 
   private ActivityConectarPikkuBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button biniciarPikku, @NonNull Button buttonConnect, @NonNull Button buttonScan,
-      @NonNull Button pararPikku, @NonNull TextView textConnect, @NonNull TextView textScan) {
+      @NonNull Button pararPikku, @NonNull Switch switchLecturaPikku, @NonNull TextView textConnect,
+      @NonNull TextView textScan) {
     this.rootView = rootView;
     this.biniciarPikku = biniciarPikku;
     this.buttonConnect = buttonConnect;
     this.buttonScan = buttonScan;
     this.pararPikku = pararPikku;
+    this.switchLecturaPikku = switchLecturaPikku;
     this.textConnect = textConnect;
     this.textScan = textScan;
   }
@@ -101,6 +107,12 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.switchLecturaPikku;
+      Switch switchLecturaPikku = ViewBindings.findChildViewById(rootView, id);
+      if (switchLecturaPikku == null) {
+        break missingId;
+      }
+
       id = R.id.textConnect;
       TextView textConnect = ViewBindings.findChildViewById(rootView, id);
       if (textConnect == null) {
@@ -114,7 +126,7 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
       }
 
       return new ActivityConectarPikkuBinding((ConstraintLayout) rootView, biniciarPikku,
-          buttonConnect, buttonScan, pararPikku, textConnect, textScan);
+          buttonConnect, buttonScan, pararPikku, switchLecturaPikku, textConnect, textScan);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

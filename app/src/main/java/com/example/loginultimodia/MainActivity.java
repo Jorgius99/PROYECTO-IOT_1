@@ -45,7 +45,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.util.Map;
 
 
-public class MainActivity extends AppCompatActivity implements pikkuFuncion.MovementListener {
+public class MainActivity extends AppCompatActivity  {
 
     private PikkuAcademy pikku;
     private pikkuFuncion detectorCaidas;
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
         */
         pikku = PikkuAcademy.getInstance(this);
         pikku.enableLog();
-        detectorCaidas = new pikkuFuncion(this);
+      //  detectorCaidas = new pikkuFuncion(this);
 
 
     }
@@ -221,46 +221,6 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
     public void lanzarAcercaDeBien(View view) {
         Intent i = new Intent(this, AcercaDeActivityREAL.class);
         startActivity(i);
-    } 
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    @Override
-    public void onCaida(int caida) {
-        notificationManager = (NotificationManager)
-                getSystemService(NOTIFICATION_SERVICE);
-        NotificationChannel notificationChannel = new NotificationChannel(
-                CANAL_ID, "Mis Notificaciones",
-                NotificationManager.IMPORTANCE_DEFAULT);notificationChannel.setDescription("Descripcion del canal");
-        notificationManager.createNotificationChannel(notificationChannel);
-
-        NotificationCompat.Builder notificacion =
-                new NotificationCompat.Builder(this, CANAL_ID)
-                        .setSmallIcon(R.mipmap.ic_launcher)
-                        .setContentTitle("Título")
-                        .setContentText("Texto de la notificación.");
-        PendingIntent intencionPendiente = PendingIntent.getActivity(
-                this, 0, new Intent(this, MainActivity.class), 0);
-        notificacion.setContentIntent(intencionPendiente);
-
-        notificationManager.notify(NOTIFICACION_ID, notificacion.build());
     }
 
-    @Override
-    public void onAccelX(float accelX) {
-
-    }
-
-    @Override
-    public void onAccelY(float accelY) {
-
-    }
-
-    @Override
-    public void onAccelZ(float accelZ) {
-
-    }
-
-    @Override
-    public void onRest() {
-
-    }
 }

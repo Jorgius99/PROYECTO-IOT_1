@@ -150,7 +150,6 @@ com/example/loginultimodia/ForgotPassword.java
 com/example/loginultimodia/ConectarPikkuActivity.java
  com.example.loginultimodia.ConectarPikkuActivity
  com.example.loginultimodia.ConectarPikkuActivity$1
- com.example.loginultimodia.ConectarPikkuActivity$1$1
  com.example.loginultimodia.ConectarPikkuActivity$2
  com.example.loginultimodia.ConectarPikkuActivity$3
  com.example.loginultimodia.ConectarPikkuActivity$4

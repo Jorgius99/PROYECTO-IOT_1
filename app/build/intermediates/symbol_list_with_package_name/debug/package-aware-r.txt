@@ -2595,6 +2595,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchLecturaPikku
 id switchWidget
 id tabMode
 id tabavisos

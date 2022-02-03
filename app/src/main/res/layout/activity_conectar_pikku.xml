@@ -69,4 +69,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/biniciarPikku" />
 
+    <Switch
+        android:id="@+id/switchLecturaPikku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="62dp"
+        android:text="Habilitar Lectura Pikku"
+        app:layout_constraintBottom_toTopOf="@+id/biniciarPikku"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonConnect" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -50,6 +50,7 @@ public class ServicioPikku extends Service {
 
         return START_STICKY;
     }
+
     @Override public void onDestroy() {
         Toast.makeText(this,"Servicio detenido",
                 Toast.LENGTH_SHORT).show();
