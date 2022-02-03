@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loginultimodia">
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    
+    <application
+        android:allowBackup="true"
+        android:label="CAPH"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginUltimoDia">
+        <service android:name=".ServicioPikku" />
+        <activity
+            android:name=".MainActivity"
+
+            android:exported="true">
+
+        </activity>
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".LoginActivity"
+
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".MedicamentosActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".ConectarPikkuActivity"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+
+            android:name=".ForgotPassword"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".IniciarDosisDocPaciente"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".iniciarHabsDocPaciente"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".AcercaDeActivityREAL"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".DoctorSecondActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".HabitacionesActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".AnyadirAvisoActivity"
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".DosisActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+
+            android:name=".EliminarPacienteActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".AbrirEliminarActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".AnyadirDosisActivity"
+
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".SuperAdminSecondActivity"
+
+
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".AcercaDeActivity"
+            android:label="Acerca de ..."/>
+        <activity android:name=".LogOutActivity"
+            android:label="Cerrar sesión"/>
+
+    </application>
+
+</manifest>

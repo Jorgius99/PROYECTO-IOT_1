@@ -9,20 +9,30 @@ public class Aviso {
     private String habitacion;
     private Date fechaHora;
     private String prioridad;
+<<<<<<< HEAD
     private String estado;
+=======
+>>>>>>> weonao
 
     public Aviso (){
         this.motivo="Jorge es bobo";
         this.fechaHora= new Date();
         this.prioridad="";
     }
+<<<<<<< HEAD
     public Aviso(String motiv, Date fecha, String prior, String dni, String habitacion, String estado){
+=======
+    public Aviso(String motiv, Date fecha, String prior, String dni, String habitacion){
+>>>>>>> weonao
         this.motivo=motiv;
         this.fechaHora=fecha;
         this.prioridad=prior;
         this.dni=dni;
         this.habitacion = habitacion;
+<<<<<<< HEAD
         this.estado=estado;
+=======
+>>>>>>> weonao
 
     }
 

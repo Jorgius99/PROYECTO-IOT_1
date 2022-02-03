@@ -2,8 +2,13 @@
   <library name="Gradle: androidx.paging:paging-rxjava3:3.0.0@aar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cce6e5a06573287c47e99df163d03696/transformed/jetified-paging-rxjava3-3.0.0/jars/classes.jar!/" />
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cce6e5a06573287c47e99df163d03696/transformed/jetified-paging-rxjava3-3.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cce6e5a06573287c47e99df163d03696/transformed/jetified-paging-rxjava3-3.0.0/res" />
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cce6e5a06573287c47e99df163d03696/transformed/jetified-paging-rxjava3-3.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cce6e5a06573287c47e99df163d03696/transformed/jetified-paging-rxjava3-3.0.0/AndroidManifest.xml" />
+>>>>>>> weonao
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,9 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.blautic:pikkuAcademy:1.0.1@aar">
     <CLASSES>
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e760e8a6aff51210f195d2c27cdc295/transformed/jetified-pikkuAcademy-1.0.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f19ba737f2ed38dbf86261637d164677/transformed/jetified-pikkuAcademy-1.0.1/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3e760e8a6aff51210f195d2c27cdc295/transformed/jetified-pikkuAcademy-1.0.1/jars/classes.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3e760e8a6aff51210f195d2c27cdc295/transformed/jetified-pikkuAcademy-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e760e8a6aff51210f195d2c27cdc295/transformed/jetified-pikkuAcademy-1.0.1/res" />
+>>>>>>> weonao
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e760e8a6aff51210f195d2c27cdc295/transformed/jetified-pikkuAcademy-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Wed Feb 02 22:37:43 CET 2022
+=======
+#Thu Feb 03 03:28:11 CET 2022
+>>>>>>> weonao
 path.4=14/classes.dex
 path.3=13/classes.dex
 path.2=11/classes.dex

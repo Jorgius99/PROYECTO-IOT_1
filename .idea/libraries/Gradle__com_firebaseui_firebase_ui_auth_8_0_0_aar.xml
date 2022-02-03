@@ -5,8 +5,13 @@
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b02dba28f75de41b4c0931eec3c69679/transformed/jetified-firebase-ui-auth-8.0.0/jars/classes.jar!/" />
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b02dba28f75de41b4c0931eec3c69679/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b02dba28f75de41b4c0931eec3c69679/transformed/jetified-firebase-ui-auth-8.0.0/res" />
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b02dba28f75de41b4c0931eec3c69679/transformed/jetified-firebase-ui-auth-8.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b02dba28f75de41b4c0931eec3c69679/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml" />
+>>>>>>> weonao
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-auth/8.0.0/16e7539931ec5dbc9b6aee5b6b5e868be5be99cb/firebase-ui-auth-8.0.0-javadoc.jar!/" />

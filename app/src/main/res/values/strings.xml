@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bienvenido</string>
+    <string name="descrp">Control y Administración de pacientes</string>
+    <string name="temp">Temperatura</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="txtUsername">Usuario</string>
+    <string name="txtPassword">Contraseña</string>
+    <string name="tabavisos">Avisos</string>
+    <string name="tabhabitacion">Habitacion</string>
+    <string name="tabdosis">Dosis</string>
+    <string name="motivo">motivo</string>
+    <string name="medicamento">medicamento</string>
+    <string name="Hora">Fecha y Hora</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="textoDoctor">Nombre Doctor</string>
+    <string name="textoAviso">Esto es un mensaje</string>
+    <string name="habs">Tus Habitaciones</string>
+    <string name="Nombre1">Numero Habitacion</string>
+    <string name="nombpa">Nombre del paciente</string>
+    <string name="HoraSolo">Hora</string>
+    <string name="Humedad">Humedad</string>
+
+
+
+</resources>

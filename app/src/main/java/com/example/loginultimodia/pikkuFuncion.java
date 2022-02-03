@@ -88,14 +88,22 @@ public class pikkuFuncion {
         }
 
         float delta = accelCurrent - EWMA;
+<<<<<<< HEAD
         if (delta > thresholdStep && !isOverThreshold && (System.currentTimeMillis() - lastTimeMovementDetected) > thresholdTime) {
+=======
+        if (delta > thresholdStep /* && !isOverThreshold */&& (System.currentTimeMillis() - lastTimeMovementDetected) > thresholdTime) {
+>>>>>>> weonao
             isOverThreshold = true;
             lastTimeMovementDetected = System.currentTimeMillis();
             isMoving = true;
             if (delta > thresholdCaida) {
                 thresholdTime = 1000f;
                 caidas++;
+<<<<<<< HEAD
                 Log.d("CAIDASCONTADAS", ""+caidas);
+=======
+                Log.d("CAIDAASSSSS", ""+caidas);
+>>>>>>> weonao
                 movementListener.onCaida(caidas);
             }
         }
