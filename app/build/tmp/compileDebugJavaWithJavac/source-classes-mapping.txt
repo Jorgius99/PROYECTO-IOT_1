@@ -33,8 +33,6 @@ com/example/loginultimodia/pikkuFuncion.java
 com/example/loginultimodia/MainActivity.java
  com.example.loginultimodia.MainActivity
  com.example.loginultimodia.MainActivity$1
- com.example.loginultimodia.MainActivity$2
- com.example.loginultimodia.MainActivity$3
 com/example/loginultimodia/databinding/ElementoDosisDocBinding.java
  com.example.loginultimodia.databinding.ElementoDosisDocBinding
 com/example/loginultimodia/AdaptadorDosisDoc.java

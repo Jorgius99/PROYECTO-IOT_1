@@ -89,69 +89,12 @@ public class MainActivity extends AppCompatActivity  {
             startActivity(new Intent(MainActivity.this, RegisterActivity.class));
         });
         */
-        pikku = PikkuAcademy.getInstance(this);
-        pikku.enableLog();
+
       //  detectorCaidas = new pikkuFuncion(this);
 
 
     }
-    public void onClickScan(View view) {
-        Log.d("Pikku", "ooooooooooooooooooooooooooooooooo");
-
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission
-                .BLUETOOTH_SCAN) == PackageManager.PERMISSION_GRANTED) {
-            Toast.makeText(getParent(), "Pulsa el botón Pikku 1 para ser scaneado",
-                    Toast.LENGTH_SHORT).show();
-            Log.d("Pikku", "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
-
-            pikku.scan(true, new ScanCallback() {
-                @Override
-                public void onScan(ScanInfo scanInfo) {
-                    pikku.saveDevice(scanInfo);
-                    // guardar dispositivo para futuras conexiones
-                    Log.d("Pikku", scanInfo.toString());
-                    Toast.makeText(getParent().getParent(), "Encontrado: "+pikku.getAddressDevice(),
-                            Toast.LENGTH_SHORT).show();
-
-                    buttonConnect.setEnabled(true);
-                }
-            });
-        }else {
-            solicitarPermiso(Manifest.permission.BLUETOOTH_SCAN, "Sin el permiso"+
-                            " BLUETOOTH no puedo escanear la Pikku",
-                    SOLICITUD_PERMISO_WRITE_CALL_LOG, this);
-        }
-
-    }//onClickScan()
-
-    public void onClickConnect(View view) {
-        if (buttonConnect.getText().equals("Conectar") ) {
-            Toast.makeText(getParent(), "Conectando...",
-                    Toast.LENGTH_SHORT).show();
-
-            pikku.connect(new ConnectionCallback() {
-                @SuppressLint("SetTextI18n")
-                @Override
-                public void onConnect(ConnectionState state) {
-                    if (state == ConnectionState.CONNECTED) {
-                        buttonConnect.setText("Desconectar");
-                        Toast.makeText(getParent(), "Conectado: " + pikku.getAddressDevice(),
-                                Toast.LENGTH_SHORT).show();
-                        buttonScan.setEnabled(false);
-
-                    }
-                }
-
-            });
-        }
-        else if (buttonConnect.getText().equals("Desconectar")){
-            pikku.disconnect();
-            buttonConnect.setText("Conectar");
-            Toast.makeText(getParent(), "Desconectado",
-                    Toast.LENGTH_SHORT).show();
-            buttonScan.setEnabled(true);
-        }
-    }//onClickConnect()
+    
     public static void solicitarPermiso(final String permiso, String
             justificacion, final int requestCode, final Activity actividad) {
         if (ActivityCompat.shouldShowRequestPermissionRationale(actividad,

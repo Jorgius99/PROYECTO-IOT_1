@@ -39,6 +39,9 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
     private static Usuario usuarioConDatos;
     private ActivityConectarPikkuBinding binding;
     private PikkuAcademy pikku;
+    private final int TIME_PRESS_BUTTON = 3000;
+    private boolean call;
+
     private static final int SOLICITUD_PERMISO_WRITE_CALL_LOG = 0;
     private pikkuFuncion detectorCaidas;
     private NotificationManager notificationManager;
@@ -69,6 +72,13 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
                     public void onReadAngles(float xy, float zy, float xz) {
                         //  Timber.d("xy: " + xy +"zy: " + zy +"xz: " + xz);
                         detectorCaidas.setDataAngles(xy, zy, xz);
+                    }
+
+                });
+                pikku.readButtons((nButton, pressed, duration) -> {
+                    if (isChecked && binding.switchLecturaPikku.isChecked() && pressed && duration > TIME_PRESS_BUTTON && !call) {
+                        call = true;
+                        llamarTelefono();
                     }
 
                 });
@@ -233,6 +243,18 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
     @Override
     public void onRest() {
 
+    }
+
+    @Override public void onStop(){
+        super.onStop();
+        stopService(new Intent(ConectarPikkuActivity.this,
+                ServicioPikku.class));
+    }
+    @Override public void onDestroy() {
+
+        super.onDestroy();
+        stopService(new Intent(ConectarPikkuActivity.this,
+                ServicioPikku.class));
     }
 
 }
