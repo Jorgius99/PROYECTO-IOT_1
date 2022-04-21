@@ -26,13 +26,24 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
+import static com.example.jmarzoz.izquierda.Mqtt.*;
+
+import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
+import org.eclipse.paho.client.mqttv3.MqttCallback;
+import org.eclipse.paho.client.mqttv3.MqttClient;
+import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
+import org.eclipse.paho.client.mqttv3.MqttException;
+import org.eclipse.paho.client.mqttv3.MqttMessage;
+import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link Dosis#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Dosis extends Fragment {
+public class Dosis extends Fragment implements MqttCallback {
+    private static MqttClient client;
     private String correoHab;
     private static Usuario usuarioConDatos;
    // private FragmentDosisBinding bindingDosisPaciente ; //si no estÃ¡
@@ -78,7 +89,7 @@ public class Dosis extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
+        conectarMqtt();
     }
 /*
     @Override
@@ -100,7 +111,21 @@ public class Dosis extends Fragment {
             startActivity(new Intent(getContext(), AnyadirDosisActivity.class));
             //Toast.makeText(getContext(), "pulsado", Toast.LENGTH_SHORT).show();
         });
+        /*
+        empieza
+         */
 
+        binding.izquierda.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+           publicarMqtt("DIRECCION","i");
+        });
+        binding.derecha.setOnClickListener(view -> {//aquiiiiiiiiiiiiiiiiiiii
+            publicarMqtt("DIRECCION","d");
+        });
+
+
+/*
+fin
+ */
 
         Query query = FirebaseFirestore.getInstance()
                 .collection("habitaciones")
@@ -199,6 +224,44 @@ public class Dosis extends Fragment {
             return v;
     }
   */
+public static void conectarMqtt() {
+    try {
+        Log.i(TAG, "Conectando al broker " + broker);
+        client = new MqttClient(broker, clientId, new MemoryPersistence());
+        MqttConnectOptions connOpts = new MqttConnectOptions();
+        connOpts.setCleanSession(true);
+        connOpts.setKeepAliveInterval(60);
+        connOpts.setWill(topicRoot+"WillTopic","App desconectada".getBytes(),
+                qos, false);
+        client.connect(connOpts);
+    } catch (MqttException e) {
+        Log.e(TAG, "Error al conectar.", e);
+    }
+}
+    public static void publicarMqtt(String topic, String mensageStr) {
+        try {
+            MqttMessage message = new MqttMessage(mensageStr.getBytes());
+            message.setQos(qos);
+            message.setRetained(false);
+            client.publish(topicRoot + topic, message);
+            Log.i(TAG, "Publicando mensaje: " + topic+ "->"+mensageStr);
+        } catch (MqttException e) {
+            Log.e(TAG, "Error al publicar." + e);
+        }
+    }
+    public static void deconectarMqtt() {
+        try {
+            client.disconnect();
+            Log.i(TAG, "Desconectado");
+        } catch (MqttException e) {
+            Log.e(TAG, "Error al desconectar.", e);
+        }
+    }
+    @Override
+    public void onDestroy() {
+        deconectarMqtt();
+        super.onDestroy();
+    }
     @Override
     public void onStart() {
         super.onStart();
@@ -208,5 +271,17 @@ public class Dosis extends Fragment {
     public void onStop() {
         super.onStop();
         adaptador.stopListening();
+    }
+
+    @Override public void connectionLost(Throwable cause) {
+        Log.d(TAG, "Conexión perdida");
+    }
+    @Override public void deliveryComplete(IMqttDeliveryToken token) {
+        Log.d(TAG, "Entrega completa");
+    }
+    @Override public void messageArrived(String topic, MqttMessage message)
+            throws Exception {
+        String payload = new String(message.getPayload());
+        Log.d(TAG, "Recibiendo: " + topic + "->" + payload);
     }
 }

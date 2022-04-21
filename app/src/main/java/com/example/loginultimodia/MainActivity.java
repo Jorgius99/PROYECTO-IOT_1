@@ -45,7 +45,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.util.Map;
 
 
-public class MainActivity extends AppCompatActivity implements pikkuFuncion.MovementListener {
+public class MainActivity extends AppCompatActivity  {
 
     private PikkuAcademy pikku;
     private pikkuFuncion detectorCaidas;
@@ -68,15 +68,15 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
     FirebaseAuth mAuth;
 
 
-/*
-    //7 y 8.-RecyclerView
-    static public Map<Integer,Registro> mapa;
+    /*
+        //7 y 8.-RecyclerView
+        static public Map<Integer,Registro> mapa;
 
-    // 5 a) Colecciones
+        // 5 a) Colecciones
 
-    static public String  MEDICAMENTOS[]={"nolotil","enantyum","paracetamol"};
-    ;
-*/
+        static public String  MEDICAMENTOS[]={"nolotil","enantyum","paracetamol"};
+        ;
+    */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //tvRegisterHere = findViewById(R.id.textView16);//aquiiiiiiiiiiiiiiiiiiii
@@ -89,69 +89,12 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
             startActivity(new Intent(MainActivity.this, RegisterActivity.class));
         });
         */
-        pikku = PikkuAcademy.getInstance(this);
-        pikku.enableLog();
-        detectorCaidas = new pikkuFuncion(this);
+
+        //  detectorCaidas = new pikkuFuncion(this);
 
 
     }
-    public void onClickScan(View view) {
-        Log.d("Pikku", "ooooooooooooooooooooooooooooooooo");
 
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission
-                .BLUETOOTH_SCAN) == PackageManager.PERMISSION_GRANTED) {
-            Toast.makeText(getParent(), "Pulsa el botón Pikku 1 para ser scaneado",
-                    Toast.LENGTH_SHORT).show();
-            Log.d("Pikku", "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
-
-            pikku.scan(true, new ScanCallback() {
-                @Override
-                public void onScan(ScanInfo scanInfo) {
-                    pikku.saveDevice(scanInfo);
-                    // guardar dispositivo para futuras conexiones
-                    Log.d("Pikku", scanInfo.toString());
-                    Toast.makeText(getParent().getParent(), "Encontrado: "+pikku.getAddressDevice(),
-                            Toast.LENGTH_SHORT).show();
-
-                    buttonConnect.setEnabled(true);
-                }
-            });
-        }else {
-            solicitarPermiso(Manifest.permission.BLUETOOTH_SCAN, "Sin el permiso"+
-                            " BLUETOOTH no puedo escanear la Pikku",
-                    SOLICITUD_PERMISO_WRITE_CALL_LOG, this);
-        }
-
-    }//onClickScan()
-
-    public void onClickConnect(View view) {
-        if (buttonConnect.getText().equals("Conectar") ) {
-            Toast.makeText(getParent(), "Conectando...",
-                    Toast.LENGTH_SHORT).show();
-
-            pikku.connect(new ConnectionCallback() {
-                @SuppressLint("SetTextI18n")
-                @Override
-                public void onConnect(ConnectionState state) {
-                    if (state == ConnectionState.CONNECTED) {
-                        buttonConnect.setText("Desconectar");
-                        Toast.makeText(getParent(), "Conectado: " + pikku.getAddressDevice(),
-                                Toast.LENGTH_SHORT).show();
-                        buttonScan.setEnabled(false);
-
-                    }
-                }
-
-            });
-        }
-        else if (buttonConnect.getText().equals("Desconectar")){
-            pikku.disconnect();
-            buttonConnect.setText("Conectar");
-            Toast.makeText(getParent(), "Desconectado",
-                    Toast.LENGTH_SHORT).show();
-            buttonScan.setEnabled(true);
-        }
-    }//onClickConnect()
     public static void solicitarPermiso(final String permiso, String
             justificacion, final int requestCode, final Activity actividad) {
         if (ActivityCompat.shouldShowRequestPermissionRationale(actividad,
@@ -196,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
             return true;
         }
         if (id == R.id.acercadebien){
-           // lanzarAcercaDeBien(null);
+            // lanzarAcercaDeBien(null);
             return true;
         }
 
@@ -221,46 +164,6 @@ public class MainActivity extends AppCompatActivity implements pikkuFuncion.Move
     public void lanzarAcercaDeBien(View view) {
         Intent i = new Intent(this, AcercaDeActivityREAL.class);
         startActivity(i);
-    } 
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    @Override
-    public void onCaida(int caida) {
-        notificationManager = (NotificationManager)
-                getSystemService(NOTIFICATION_SERVICE);
-        NotificationChannel notificationChannel = new NotificationChannel(
-                CANAL_ID, "Mis Notificaciones",
-                NotificationManager.IMPORTANCE_DEFAULT);notificationChannel.setDescription("Descripcion del canal");
-        notificationManager.createNotificationChannel(notificationChannel);
-
-        NotificationCompat.Builder notificacion =
-                new NotificationCompat.Builder(this, CANAL_ID)
-                        .setSmallIcon(R.mipmap.ic_launcher)
-                        .setContentTitle("Título")
-                        .setContentText("Texto de la notificación.");
-        PendingIntent intencionPendiente = PendingIntent.getActivity(
-                this, 0, new Intent(this, MainActivity.class), 0);
-        notificacion.setContentIntent(intencionPendiente);
-
-        notificationManager.notify(NOTIFICACION_ID, notificacion.build());
     }
 
-    @Override
-    public void onAccelX(float accelX) {
-
-    }
-
-    @Override
-    public void onAccelY(float accelY) {
-
-    }
-
-    @Override
-    public void onAccelZ(float accelZ) {
-
-    }
-
-    @Override
-    public void onRest() {
-
-    }
 }

@@ -22,7 +22,7 @@ public class ServicioPikku extends Service {
     @Override public void onCreate() {
         Toast.makeText(this,"Servicio creado",
                 Toast.LENGTH_SHORT).show();
-       // reproductor = MediaPlayer.create(this, R.raw.audio);
+        // reproductor = MediaPlayer.create(this, R.raw.audio);
     }
     @Override
     public int onStartCommand(Intent intenc, int flags, int idArranque) {
@@ -50,6 +50,7 @@ public class ServicioPikku extends Service {
 
         return START_STICKY;
     }
+
     @Override public void onDestroy() {
         Toast.makeText(this,"Servicio detenido",
                 Toast.LENGTH_SHORT).show();

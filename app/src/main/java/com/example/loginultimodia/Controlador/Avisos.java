@@ -99,7 +99,7 @@ public class Avisos extends Fragment {
             //Log.d("AVERSISTA", "" + usuarioConDatos);
             Query query = FirebaseFirestore.getInstance()
                     .collection("avisos")
-                    .whereEqualTo("dni", usuarioConDatos.getDNI()).limit(4);
+                    .whereEqualTo("dni", usuarioConDatos.getDNI()).whereEqualTo("estado", "true").limit(4);
             FirestoreRecyclerOptions<Aviso> opciones = new FirestoreRecyclerOptions
                     .Builder<Aviso>().setQuery(query, Aviso.class).build();
             adaptador = new AdaptadorAvisos(opciones, getContext());

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,9 +22,6 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button biniciarPikku;
-
-  @NonNull
   public final Button buttonConnect;
 
   @NonNull
@@ -33,19 +31,23 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
   public final Button pararPikku;
 
   @NonNull
+  public final Switch switchLecturaPikku;
+
+  @NonNull
   public final TextView textConnect;
 
   @NonNull
   public final TextView textScan;
 
   private ActivityConectarPikkuBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button biniciarPikku, @NonNull Button buttonConnect, @NonNull Button buttonScan,
-      @NonNull Button pararPikku, @NonNull TextView textConnect, @NonNull TextView textScan) {
+      @NonNull Button buttonConnect, @NonNull Button buttonScan, @NonNull Button pararPikku,
+      @NonNull Switch switchLecturaPikku, @NonNull TextView textConnect,
+      @NonNull TextView textScan) {
     this.rootView = rootView;
-    this.biniciarPikku = biniciarPikku;
     this.buttonConnect = buttonConnect;
     this.buttonScan = buttonScan;
     this.pararPikku = pararPikku;
+    this.switchLecturaPikku = switchLecturaPikku;
     this.textConnect = textConnect;
     this.textScan = textScan;
   }
@@ -77,12 +79,6 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.biniciarPikku;
-      Button biniciarPikku = ViewBindings.findChildViewById(rootView, id);
-      if (biniciarPikku == null) {
-        break missingId;
-      }
-
       id = R.id.buttonConnect;
       Button buttonConnect = ViewBindings.findChildViewById(rootView, id);
       if (buttonConnect == null) {
@@ -101,6 +97,12 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.switchLecturaPikku;
+      Switch switchLecturaPikku = ViewBindings.findChildViewById(rootView, id);
+      if (switchLecturaPikku == null) {
+        break missingId;
+      }
+
       id = R.id.textConnect;
       TextView textConnect = ViewBindings.findChildViewById(rootView, id);
       if (textConnect == null) {
@@ -113,8 +115,8 @@ public final class ActivityConectarPikkuBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityConectarPikkuBinding((ConstraintLayout) rootView, biniciarPikku,
-          buttonConnect, buttonScan, pararPikku, textConnect, textScan);
+      return new ActivityConectarPikkuBinding((ConstraintLayout) rootView, buttonConnect,
+          buttonScan, pararPikku, switchLecturaPikku, textConnect, textScan);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

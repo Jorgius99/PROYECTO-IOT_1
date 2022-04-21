@@ -51,7 +51,7 @@ public class AnyadirAvisoActivity extends AppCompatActivity {
         String dni = etRegDni.getText().toString();
         String NumHab = etRegHabitacion.getText().toString();
         Date fecha = new Date();
-            Aviso aviso = new Aviso(motivo, fecha, prioridad, dni, NumHab);
+            Aviso aviso = new Aviso(motivo, fecha, prioridad, dni, NumHab, "true");
         //String motiv, Date fecha, String prior, String dni, String habitacion)
             db= FirebaseFirestore.getInstance();
             db.collection("avisos").document().set(aviso);

@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "loginUltimoDia"
 include ':app'
+include ':izquierda'

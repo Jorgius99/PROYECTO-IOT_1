@@ -10,7 +10,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/habs"
         android:textColor="@color/blueoscuro"
@@ -19,12 +19,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/izquierda"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha_izquierda" />
+
+    <ImageView
+        android:id="@+id/derecha"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toEndOf="@+id/izquierda"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha_correcta" />
+
     <androidx.recyclerview.widget.RecyclerView
 
         android:id="@+id/recyclerView1"
         android:layout_width="409dp"
         android:layout_height="574dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,10 +50,10 @@
 
     <ImageView
         android:id="@+id/imageView01"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="46dp"
+        android:layout_height="38dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/anyadirazul" />

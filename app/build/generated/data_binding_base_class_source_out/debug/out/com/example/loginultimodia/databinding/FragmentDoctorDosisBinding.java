@@ -22,7 +22,13 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView derecha;
+
+  @NonNull
   public final ImageView imageView01;
+
+  @NonNull
+  public final ImageView izquierda;
 
   @NonNull
   public final RecyclerView recyclerView1;
@@ -30,11 +36,13 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
   @NonNull
   public final TextView textView8;
 
-  private FragmentDoctorDosisBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView01, @NonNull RecyclerView recyclerView1,
-      @NonNull TextView textView8) {
+  private FragmentDoctorDosisBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView derecha,
+      @NonNull ImageView imageView01, @NonNull ImageView izquierda,
+      @NonNull RecyclerView recyclerView1, @NonNull TextView textView8) {
     this.rootView = rootView;
+    this.derecha = derecha;
     this.imageView01 = imageView01;
+    this.izquierda = izquierda;
     this.recyclerView1 = recyclerView1;
     this.textView8 = textView8;
   }
@@ -66,9 +74,21 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.derecha;
+      ImageView derecha = ViewBindings.findChildViewById(rootView, id);
+      if (derecha == null) {
+        break missingId;
+      }
+
       id = R.id.imageView01;
       ImageView imageView01 = ViewBindings.findChildViewById(rootView, id);
       if (imageView01 == null) {
+        break missingId;
+      }
+
+      id = R.id.izquierda;
+      ImageView izquierda = ViewBindings.findChildViewById(rootView, id);
+      if (izquierda == null) {
         break missingId;
       }
 
@@ -84,8 +104,8 @@ public final class FragmentDoctorDosisBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, imageView01, recyclerView1,
-          textView8);
+      return new FragmentDoctorDosisBinding((ConstraintLayout) rootView, derecha, imageView01,
+          izquierda, recyclerView1, textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

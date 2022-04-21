@@ -89,7 +89,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
     binding = FragmentAvisosBinding.inflate(getLayoutInflater());
     Query query = FirebaseFirestore.getInstance()
             .collection("avisos")
-            .whereEqualTo("dni", "32456215H");
+            .whereEqualTo("dni", "32456215H").whereEqualTo("estado", "true");
     FirestoreRecyclerOptions<Aviso> opciones = new FirestoreRecyclerOptions
             .Builder<Aviso>().setQuery(query, Aviso.class).build();
     adaptador = new AdaptadorAvisos(opciones, getContext());

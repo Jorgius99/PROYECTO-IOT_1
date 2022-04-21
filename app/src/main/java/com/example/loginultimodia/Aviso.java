@@ -9,19 +9,29 @@ public class Aviso {
     private String habitacion;
     private Date fechaHora;
     private String prioridad;
+    private String estado;
 
     public Aviso (){
         this.motivo="Jorge es bobo";
         this.fechaHora= new Date();
         this.prioridad="";
     }
-    public Aviso(String motiv, Date fecha, String prior, String dni, String habitacion){
+    public Aviso(String motiv, Date fecha, String prior, String dni, String habitacion, String estado){
         this.motivo=motiv;
         this.fechaHora=fecha;
         this.prioridad=prior;
         this.dni=dni;
         this.habitacion = habitacion;
+        this.estado=estado;
 
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 
     //-------------------------GETTERS---------------------------------

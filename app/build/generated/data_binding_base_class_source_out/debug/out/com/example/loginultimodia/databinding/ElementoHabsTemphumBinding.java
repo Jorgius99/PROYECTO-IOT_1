@@ -21,6 +21,9 @@ public final class ElementoHabsTemphumBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ConstraintLayout constraintLayout;
+
+  @NonNull
   public final TextView grados2;
 
   @NonNull
@@ -38,10 +41,12 @@ public final class ElementoHabsTemphumBinding implements ViewBinding {
   @NonNull
   public final ImageView temperatura;
 
-  private ElementoHabsTemphumBinding(@NonNull ConstraintLayout rootView, @NonNull TextView grados2,
-      @NonNull TextView hum, @NonNull TextView humedad, @NonNull ImageView imageView3,
-      @NonNull TextView temp2, @NonNull ImageView temperatura) {
+  private ElementoHabsTemphumBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout constraintLayout, @NonNull TextView grados2, @NonNull TextView hum,
+      @NonNull TextView humedad, @NonNull ImageView imageView3, @NonNull TextView temp2,
+      @NonNull ImageView temperatura) {
     this.rootView = rootView;
+    this.constraintLayout = constraintLayout;
     this.grados2 = grados2;
     this.hum = hum;
     this.humedad = humedad;
@@ -77,6 +82,12 @@ public final class ElementoHabsTemphumBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
       id = R.id.grados2;
       TextView grados2 = ViewBindings.findChildViewById(rootView, id);
       if (grados2 == null) {
@@ -113,8 +124,8 @@ public final class ElementoHabsTemphumBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ElementoHabsTemphumBinding((ConstraintLayout) rootView, grados2, hum, humedad,
-          imageView3, temp2, temperatura);
+      return new ElementoHabsTemphumBinding((ConstraintLayout) rootView, constraintLayout, grados2,
+          hum, humedad, imageView3, temp2, temperatura);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

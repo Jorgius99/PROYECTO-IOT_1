@@ -98,6 +98,7 @@
     <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.10.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5" level="project" />
     <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:7.0.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.firebaseui:firebase-ui-firestore:8.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-firestore:24.0.0@aar" level="project" />
@@ -172,5 +173,6 @@
     <orderEntry type="library" name="Gradle: androidx.multidex:multidex:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:protolite-well-known-types:18.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-android:1.41.0@aar" level="project" />
+    <orderEntry type="module" module-name="loginUltimoDia.izquierda" />
   </component>
 </module>

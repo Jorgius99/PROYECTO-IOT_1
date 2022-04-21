@@ -26,16 +26,22 @@ import com.blautic.pikkuAcademyLib.callback.AccelerometerCallback;
 import com.blautic.pikkuAcademyLib.callback.ConnectionCallback;
 import com.blautic.pikkuAcademyLib.callback.ScanCallback;
 import com.example.loginultimodia.databinding.ActivityConectarPikkuBinding;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.Date;
+
+import timber.log.Timber;
 
 public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuFuncion.MovementListener{
 
     private static Usuario usuarioConDatos;
     private ActivityConectarPikkuBinding binding;
     private PikkuAcademy pikku;
+    private final int TIME_PRESS_BUTTON = 3000;
+    private boolean call;
+
     private static final int SOLICITUD_PERMISO_WRITE_CALL_LOG = 0;
     private pikkuFuncion detectorCaidas;
     private NotificationManager notificationManager;
@@ -54,6 +60,33 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
         pikku.enableLog();
         detectorCaidas = new pikkuFuncion(this);
 
+        binding.switchLecturaPikku.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                pikku.readAccelerometer(new AccelerometerCallback() {
+                    @Override
+                    public void onReadSuccess(float x, float y, float z) {
+                        detectorCaidas.setDataAccelerometer(x, y, z);
+                    }
+
+                    @Override
+                    public void onReadAngles(float xy, float zy, float xz) {
+                        //  Timber.d("xy: " + xy +"zy: " + zy +"xz: " + xz);
+                        detectorCaidas.setDataAngles(xy, zy, xz);
+                    }
+
+                });
+                pikku.readButtons((nButton, pressed, duration) -> {
+                    if (isChecked && binding.switchLecturaPikku.isChecked() && pressed && duration > TIME_PRESS_BUTTON && !call) {
+                        call = true;
+                        llamarTelefono();
+                    }
+
+                });
+            } else {
+                pikku.enableReportSensors(false);
+            }
+        });
+/*
         Button arrancar = findViewById(R.id.biniciarPikku);
         arrancar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -79,7 +112,7 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
                 });
 
             }
-        });
+        });*/
         Button detener = findViewById(R.id.pararPikku);
         detener.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -150,11 +183,14 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
             });
         }
         else if (binding.buttonConnect.getText().equals("Desconectar")){
-            pikku.disconnect();
+            // pikku.disconnect();
+
+            pikku.turnOffDevice();
             binding.buttonConnect.setText("Conectar");
             binding.textConnect.setText("No conectado");
             binding.textScan.setText("Desconectado");
             binding.buttonScan.setEnabled(true);
+
         }
     }//onClickConnect()
     public static Usuario rellenarUsuario(Usuario ussus)  {
@@ -162,17 +198,18 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
         Log.d("FAFA", ""+usuarioConDatos);
         return usuarioConDatos;
     }
+
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onCaida(int caida) {
-        startService(new Intent(ConectarPikkuActivity.this,
-                ServicioPikku.class));
-        Log.d("CAIDAAAAA","CAIDA DETECTADA");
+        Timber.d("CAIDA DETECTADA");
         String hab = usuarioConDatos.getNumHabitacion();
         String motiv = "Caida detectada en habitación "+hab;
         Date date = new Date();
         String dni = "32456215H";
-        Aviso avisoPikku = new Aviso(motiv, date, "0", dni, hab);
+        startService(new Intent(ConectarPikkuActivity.this,
+                ServicioPikku.class));
+        Aviso avisoPikku = new Aviso(motiv, date, "4", dni, hab, "true");
         db.collection("avisos").document().set(avisoPikku);
     }
     public void llamarTelefono() {
@@ -206,6 +243,18 @@ public class ConectarPikkuActivity  extends  AppCompatActivity implements pikkuF
     @Override
     public void onRest() {
 
+    }
+
+    @Override public void onStop(){
+        super.onStop();
+        stopService(new Intent(ConectarPikkuActivity.this,
+                ServicioPikku.class));
+    }
+    @Override public void onDestroy() {
+
+        super.onDestroy();
+        stopService(new Intent(ConectarPikkuActivity.this,
+                ServicioPikku.class));
     }
 
 }

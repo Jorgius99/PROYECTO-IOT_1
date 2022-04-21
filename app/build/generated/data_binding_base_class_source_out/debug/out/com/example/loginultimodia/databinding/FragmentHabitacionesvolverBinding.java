@@ -24,17 +24,12 @@ public final class FragmentHabitacionesvolverBinding implements ViewBinding {
   public final RecyclerView recyclerViewH;
 
   @NonNull
-  public final TextView textView3;
-
-  @NonNull
   public final TextView volverbotonhabit;
 
   private FragmentHabitacionesvolverBinding(@NonNull FrameLayout rootView,
-      @NonNull RecyclerView recyclerViewH, @NonNull TextView textView3,
-      @NonNull TextView volverbotonhabit) {
+      @NonNull RecyclerView recyclerViewH, @NonNull TextView volverbotonhabit) {
     this.rootView = rootView;
     this.recyclerViewH = recyclerViewH;
-    this.textView3 = textView3;
     this.volverbotonhabit = volverbotonhabit;
   }
 
@@ -71,19 +66,13 @@ public final class FragmentHabitacionesvolverBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
-        break missingId;
-      }
-
       id = R.id.volverbotonhabit;
       TextView volverbotonhabit = ViewBindings.findChildViewById(rootView, id);
       if (volverbotonhabit == null) {
         break missingId;
       }
 
-      return new FragmentHabitacionesvolverBinding((FrameLayout) rootView, recyclerViewH, textView3,
+      return new FragmentHabitacionesvolverBinding((FrameLayout) rootView, recyclerViewH,
           volverbotonhabit);
     }
     String missingId = rootView.getResources().getResourceName(id);

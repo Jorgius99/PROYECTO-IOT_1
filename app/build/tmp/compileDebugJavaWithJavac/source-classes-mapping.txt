@@ -33,8 +33,6 @@ com/example/loginultimodia/pikkuFuncion.java
 com/example/loginultimodia/MainActivity.java
  com.example.loginultimodia.MainActivity
  com.example.loginultimodia.MainActivity$1
- com.example.loginultimodia.MainActivity$2
- com.example.loginultimodia.MainActivity$3
 com/example/loginultimodia/databinding/ElementoDosisDocBinding.java
  com.example.loginultimodia.databinding.ElementoDosisDocBinding
 com/example/loginultimodia/AdaptadorDosisDoc.java
@@ -68,8 +66,8 @@ com/example/loginultimodia/databinding/FragmentAvisosBinding.java
  com.example.loginultimodia.databinding.FragmentAvisosBinding
 com/example/loginultimodia/databinding/ElementoDosisBinding.java
  com.example.loginultimodia.databinding.ElementoDosisBinding
-com/example/loginultimodia/Aviso.java
- com.example.loginultimodia.Aviso
+com/example/loginultimodia/GlideModule.java
+ com.example.loginultimodia.GlideModule
 com/example/loginultimodia/AcercaDeActivityREAL.java
  com.example.loginultimodia.AcercaDeActivityREAL
 com/example/loginultimodia/AbrirEliminarActivity.java
@@ -91,8 +89,9 @@ com/example/loginultimodia/databinding/FragmentHabitacionesvolverBinding.java
  com.example.loginultimodia.databinding.FragmentHabitacionesvolverBinding
 com/example/loginultimodia/databinding/ActivityForgotPasswordBinding.java
  com.example.loginultimodia.databinding.ActivityForgotPasswordBinding
-com/example/loginultimodia/AnyadirAvisoActivity.java
- com.example.loginultimodia.AnyadirAvisoActivity
+com/example/loginultimodia/AdaptadorDosis.java
+ com.example.loginultimodia.AdaptadorDosis
+ com.example.loginultimodia.AdaptadorDosis$ViewHolder
 com/example/loginultimodia/databinding/FragmentHabitacionesBinding.java
  com.example.loginultimodia.databinding.FragmentHabitacionesBinding
 com/example/loginultimodia/databinding/CuestionarioAvisosBinding.java
@@ -102,16 +101,16 @@ com/example/loginultimodia/RegisterActivity.java
  com.example.loginultimodia.RegisterActivity$1
 com/example/loginultimodia/databinding/FragmentDosisBinding.java
  com.example.loginultimodia.databinding.FragmentDosisBinding
-com/example/loginultimodia/Controlador/Avisos.java
- com.example.loginultimodia.Controlador.Avisos
+com/example/loginultimodia/Doctor.java
+ com.example.loginultimodia.Doctor
 com/example/loginultimodia/DosisActivity.java
  com.example.loginultimodia.DosisActivity
 com/example/loginultimodia/databinding/FragmentMedicamentosBinding.java
  com.example.loginultimodia.databinding.FragmentMedicamentosBinding
 com/example/loginultimodia/databinding/CuestionarioEliminarBinding.java
  com.example.loginultimodia.databinding.CuestionarioEliminarBinding
-com/example/loginultimodia/ControladorDoctor/Avisos.java
- com.example.loginultimodia.ControladorDoctor.Avisos
+com/example/loginultimodia/databinding/ActivitySignUpBinding.java
+ com.example.loginultimodia.databinding.ActivitySignUpBinding
 com/example/loginultimodia/databinding/ActivityConectarPikkuBinding.java
  com.example.loginultimodia.databinding.ActivityConectarPikkuBinding
 com/example/loginultimodia/databinding/ElementoHabsDoctorBinding.java
@@ -121,9 +120,8 @@ com/example/loginultimodia/IniciarDosisDocPaciente.java
  com.example.loginultimodia.IniciarDosisDocPaciente$1
 com/example/loginultimodia/Controlador/Habitaciones.java
  com.example.loginultimodia.Controlador.Habitaciones
-com/example/loginultimodia/AdaptadorAvisos.java
- com.example.loginultimodia.AdaptadorAvisos
- com.example.loginultimodia.AdaptadorAvisos$ViewHolder
+com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
+ com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
 com/example/loginultimodia/Habitacion.java
  com.example.loginultimodia.Habitacion
 com/example/loginultimodia/SecondActivity.java
@@ -147,28 +145,27 @@ com/example/loginultimodia/ForgotPassword.java
  com.example.loginultimodia.ForgotPassword
  com.example.loginultimodia.ForgotPassword$1
  com.example.loginultimodia.ForgotPassword$2
+com/example/loginultimodia/AdaptadorHabsDoctor.java
+ com.example.loginultimodia.AdaptadorHabsDoctor
+ com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+com/example/loginultimodia/AdaptadorImagenes.java
+ com.example.loginultimodia.AdaptadorImagenes
+ com.example.loginultimodia.AdaptadorImagenes$ViewHolder
 com/example/loginultimodia/ConectarPikkuActivity.java
  com.example.loginultimodia.ConectarPikkuActivity
  com.example.loginultimodia.ConectarPikkuActivity$1
- com.example.loginultimodia.ConectarPikkuActivity$1$1
  com.example.loginultimodia.ConectarPikkuActivity$2
  com.example.loginultimodia.ConectarPikkuActivity$3
  com.example.loginultimodia.ConectarPikkuActivity$4
  com.example.loginultimodia.ConectarPikkuActivity$5
-com/example/loginultimodia/AdaptadorImagenes.java
- com.example.loginultimodia.AdaptadorImagenes
- com.example.loginultimodia.AdaptadorImagenes$ViewHolder
-com/example/loginultimodia/Doctor.java
- com.example.loginultimodia.Doctor
-com/example/loginultimodia/databinding/FragmentDoctorHabitacionesBinding.java
- com.example.loginultimodia.databinding.FragmentDoctorHabitacionesBinding
-com/example/loginultimodia/AdaptadorDosis.java
- com.example.loginultimodia.AdaptadorDosis
- com.example.loginultimodia.AdaptadorDosis$ViewHolder
-com/example/loginultimodia/GlideModule.java
- com.example.loginultimodia.GlideModule
-com/example/loginultimodia/databinding/ActivitySignUpBinding.java
- com.example.loginultimodia.databinding.ActivitySignUpBinding
-com/example/loginultimodia/AdaptadorHabsDoctor.java
- com.example.loginultimodia.AdaptadorHabsDoctor
- com.example.loginultimodia.AdaptadorHabsDoctor$ViewHolder
+com/example/loginultimodia/ControladorDoctor/Avisos.java
+ com.example.loginultimodia.ControladorDoctor.Avisos
+com/example/loginultimodia/Aviso.java
+ com.example.loginultimodia.Aviso
+com/example/loginultimodia/AnyadirAvisoActivity.java
+ com.example.loginultimodia.AnyadirAvisoActivity
+com/example/loginultimodia/AdaptadorAvisos.java
+ com.example.loginultimodia.AdaptadorAvisos
+ com.example.loginultimodia.AdaptadorAvisos$ViewHolder
+com/example/loginultimodia/Controlador/Avisos.java
+ com.example.loginultimodia.Controlador.Avisos
